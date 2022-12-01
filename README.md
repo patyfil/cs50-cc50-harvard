@@ -38,7 +38,7 @@ Inglês: [Exercício 1 - Scratch](https://cs50.harvard.edu/x/2022/psets/0/scratc
 ## Week 1's (Módulo 1 - C)  
 ### Vídeo Aulas - C
 [Aula 1 - C](https://www.youtube.com/watch?v=rCTePooJP_s&t=283s) (Link da Fundação Estudar na Prática)  
-CS50 2021 in HDR - Lecture 1 – C - [Link da Harvard](https://www.youtube.com/watch?v=URrzmoIyqLw&t=1s)  
+[Aula 1 - CS50 2021 in HDR - Lecture 1 – C](https://www.youtube.com/watch?v=URrzmoIyqLw&t=1s) (Link da Harvard)  
 
 [Aula 2 - Data Types - CS50 Shorts](https://www.youtube.com/watch?v=Fc9htmvVZ9U&t=63s)  
 [Aula 3 - Operators - CS50 Shorts](https://www.youtube.com/watch?v=f1xZf4iJDWE&t=1s)  
