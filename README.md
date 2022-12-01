@@ -11,8 +11,8 @@ CS50 IDE: https: https://ide.cs50.io/
 Visual Studio Code for CS50 - Codespaces: https://code.cs50.io/ (Abre o VsCode no Computador ou o VsCode Online pela aba do navegador)
 
 # Grade do Curso:
-[Introdução](https://github.com/me50/patyfil/blob/cs50/problems/2021/x/hello/Introducao.md)  
-Week 0's (Módulo 0 - Scratch)  
+[Introdução](https://github.com/patyfil/CS50-CC50-Harvard/blob/main/introducao.md)  
+[Week 0's (Módulo 0 - Scratch)](https://github.com/patyfil/CS50-CC50-Harvard/blob/main/1-Scratch.md)  
 Week 1's (Módulo 1 - C)  
 Week 2's (Módulo - Arrays)  
 Week 3's (Módulo - Algortimos)  
