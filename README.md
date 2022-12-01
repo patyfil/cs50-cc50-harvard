@@ -25,26 +25,11 @@ Week 9's (Módulo 9 - Flask)
 Week 10's (Módulo 10 - Ética)  
 Encerramento do Curso  
 
+
 ## Week 0's (Módulo 0 - Scratch)  
-CC50: Módulo 0 – Scratch – [Link da Fundação Estudar na Prática](https://www.youtube.com/watch?v=9iPsnGJ3kVE&t=55s)  
+### [Aula Scratch](https://www.youtube.com/watch?v=9iPsnGJ3kVE&t=55s) : CC50: Módulo 0 – Scratch 
 
 ### Exercício 1 - [Scratch](https://cs50.harvard.edu/x/2022/psets/0/scratch/)  
-Como enviar
-Certifique-se de concluir as duas etapas abaixo, em ordem!
-* Passo 1 de 2
-Envie este [formulário](https://docs.google.com/forms/d/e/1FAIpQLSdBmbMB8IeqJjzTnE-dUG6T5uwYxkWULSoB9gVrhWrVwXLQuQ/viewform)  
-
-* Passo 2 de 2
-Esta etapa pressupõe que você baixou seu projeto Scratch como um arquivo cujo nome termina em .sb3.   
-E esta etapa também pressupõe que você se inscreveu em uma conta do GitHub, de acordo com o formulário acima.
-1.	Visite este [link](https://submit.cs50.io/), faça login com sua conta do GitHub e clique em Autorizar cs50.
-2.	Marque a caixa que indica que você deseja conceder à equipe do curso acesso aos seus envios e clique em Ingressar no curso .
-3.	Acesse submit.cs50.io/upload/cs50/problems/2022/x/scratch .
-4.	Clique em “Escolher arquivo” e escolha seu .sb3arquivo. Clique em Enviar .
-É isso! Depois que o envio for carregado, você deve ser redirecionado para a página de envio. Clique no link de envio e, em seguida, no link check50 para ver quais requisitos seu projeto atendeu. 
-
-obs: Você pode reenviar quantas vezes quiser (antes do prazo)! Observe que, se você carregar um arquivo cujo tamanho seja maior que 10 MB (o que é muito grande para um projeto Scratch), check50 pode haver dificuldade para processá-lo. Melhor garantir que seu arquivo seja menor que esse limite.
-Para ver seu progresso atual no curso, visite o livro de notas do curso em cs50.me/cs50x !
 
 
 
@@ -58,7 +43,7 @@ CS50 2021 in HDR - Lecture 1 – C - [Link da Harvard](https://www.youtube.com/w
 [Loops - CS50 Shorts](https://www.youtube.com/watch?v=WgX8e_O7eG8)  
 [Command Line - CS50 Shorts](https://www.youtube.com/watch?v=BnJ013X02b8)  
 
-## Exercícios - C
+### Exercícios - C
 Os exercícios deste módulo são:  
 [•	Exercício 0: Hello](https://cs50.harvard.edu/x/2022/psets/1/hello/)  
 [•	Exercício 1: Mario versão fácil](https://cs50.harvard.edu/x/2022/psets/1/mario/less/)  
