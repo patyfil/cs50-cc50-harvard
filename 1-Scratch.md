@@ -6,6 +6,8 @@
 [CC50: Módulo 0 – Scratch](https://www.youtube.com/watch?v=9iPsnGJ3kVE&t=55s) (Link da Fundação Estudar na Prática)  
 
 ## Exercício 1 - [Scratch](https://cs50.harvard.edu/x/2022/psets/0/scratch/)  
+#### Descritivo do Exercício 1 - Scratch:
+Inglês: [Exercise 1 - Scratch](https://cs50.harvard.edu/x/2022/psets/0/scratch/)  
 
 É hora de escolher sua própria aventura! Sua tarefa, é implementar no Scratch qualquer projeto de sua escolha, seja uma história interativa,   
 jogo, animação ou qualquer outra coisa, sujeito apenas aos seguintes requisitos:  
