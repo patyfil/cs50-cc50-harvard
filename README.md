@@ -27,9 +27,11 @@ Encerramento do Curso
 
 
 ## Week 0's (Módulo 0 - Scratch)  
-### [Aula Scratch](https://www.youtube.com/watch?v=9iPsnGJ3kVE&t=55s) : CC50: Módulo 0 – Scratch 
+### [Aula Scratch: CC50: Módulo 0 – Scratch](https://www.youtube.com/watch?v=9iPsnGJ3kVE&t=55s) 
 
-### Exercício 1 - [Scratch](https://cs50.harvard.edu/x/2022/psets/0/scratch/)  
+#### Descritivo do Exercício 1 - Scratch:
+Português: [Exercício 1 - Scratch](https://github.com/patyfil/CS50-CC50-Harvard/blob/main/1-Scratch.md)  
+Inglês: [Exercício 1 - Scratch](https://cs50.harvard.edu/x/2022/psets/0/scratch/)  
 
 
 
