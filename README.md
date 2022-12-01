@@ -36,17 +36,18 @@ Inglês: [Exercício 1 - Scratch](https://cs50.harvard.edu/x/2022/psets/0/scratc
 
 
 ## Week 1's (Módulo 1 - C)  
-CC50: Módulo 1 – C – [Link da Fundação Estudar na Prática](https://www.youtube.com/watch?v=rCTePooJP_s&t=283s)  
+### Vídeo Aulas - C
+[Aula 1 - C](https://www.youtube.com/watch?v=rCTePooJP_s&t=283s) (Link da Fundação Estudar na Prática) 
 CS50 2021 in HDR - Lecture 1 – C - [Link da Harvard](https://www.youtube.com/watch?v=URrzmoIyqLw&t=1s)  
 
-[Data Types - CS50 Shorts](https://www.youtube.com/watch?v=Fc9htmvVZ9U&t=63s)  
-[Operators - CS50 Shorts](https://www.youtube.com/watch?v=f1xZf4iJDWE&t=1s)  
-[Conditional Statements - CS50 Shorts](https://www.youtube.com/watch?v=1wsaV5nVC7g)  
-[Loops - CS50 Shorts](https://www.youtube.com/watch?v=WgX8e_O7eG8)  
-[Command Line - CS50 Shorts](https://www.youtube.com/watch?v=BnJ013X02b8)  
+[Aula 2 - Data Types - CS50 Shorts](https://www.youtube.com/watch?v=Fc9htmvVZ9U&t=63s)  
+[Aula 3 - Operators - CS50 Shorts](https://www.youtube.com/watch?v=f1xZf4iJDWE&t=1s)  
+[Aula 4 - Conditional Statements - CS50 Shorts](https://www.youtube.com/watch?v=1wsaV5nVC7g)  
+[Aula 5 - Loops - CS50 Shorts](https://www.youtube.com/watch?v=WgX8e_O7eG8)  
+[Aula 6 - Command Line - CS50 Shorts](https://www.youtube.com/watch?v=BnJ013X02b8)  
 
 ### Exercícios - C
-Os exercícios deste módulo são:  
+#### Descritivo dos Exercícios: 
 [•	Exercício 0: Hello](https://cs50.harvard.edu/x/2022/psets/1/hello/)  
 [•	Exercício 1: Mario versão fácil](https://cs50.harvard.edu/x/2022/psets/1/mario/less/)  
 [•	Exercício 2: Mario versão difícil](https://cs50.harvard.edu/x/2022/psets/1/mario/more/)  
