@@ -25,10 +25,9 @@ Para ver seu progresso no curso da Harvard: https://cs50.me/cs50x
 <a href="https://discord.gg/rhdVEp7u"><img src="https://img.shields.io/static/v1?logo=discord&label=&message=Discord&color=36393f&style=for-the-badge" alt="Discord CC50 Fundação Estudar"></a> da CC50 Fundação Estudar na Prática
 </p>
 
-<a href="https://ide.cs50.io/"><img src="https://img.shields.io/static/v1?logo=&label=&message=IDE-CS50&color=36393f&style=for-the-badge" alt="IDE CS50"></a> IDE Online  
-<a href="https://code.cs50.io/"><img src="https://img.shields.io/static/v1?logo=vscode&label=&message=Codespace&color=36393f&style=for-the-badge" alt="Codespaces VsCode"></a> 
+<a href="https://ide.cs50.io/"><img src="https://img.shields.io/static/v1?logo=&label=&message=IDE-CS50&color=655BE1&style=for-the-badge" alt="IDE CS50"></a> IDE Online  
 <a href="https://code.cs50.io/" title="Codespace - Visual Studio Code"><img src="icons/vscode.png" /></a>
-(Abre o VsCode no Computador ou o VsCode Online pela aba do navegador)  
+<a href="https://code.cs50.io/"><img src="https://img.shields.io/static/v1?logo=vscode&label=&message=Codespace&color=655BE1&style=for-the-badge" alt="Codespaces VsCode"></a>  (Abre o VsCode no Computador ou o VsCode Online pela aba do navegador)  
 
 
 # Grade do Curso:
