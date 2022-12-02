@@ -27,7 +27,7 @@ Encerramento do Curso
 
 
 ## Week 0's (Módulo 0 - Scratch)  
-### [Aula Scratch: CC50: Módulo 0 – Scratch](https://www.youtube.com/watch?v=9iPsnGJ3kVE&t=55s) 
+### [Videoaula Scratch: CC50: Módulo 0 – Scratch](https://www.youtube.com/watch?v=9iPsnGJ3kVE&t=55s) 
 
 #### Descritivo do Exercício 1 - Scratch:
 Português: [Exercício 1 - Scratch](https://github.com/patyfil/CS50-CC50-Harvard/blob/main/1-Scratch.md)  
@@ -36,15 +36,15 @@ Inglês: [Exercício 1 - Scratch](https://cs50.harvard.edu/x/2022/psets/0/scratc
 
 
 ## Week 1's (Módulo 1 - C)  
-### Vídeo Aulas - C
-[Aula 1 - C](https://www.youtube.com/watch?v=rCTePooJP_s&t=283s) (Link da Fundação Estudar na Prática)  
-[Aula 1 - CS50 2021 in HDR - Lecture 1 – C](https://www.youtube.com/watch?v=URrzmoIyqLw&t=1s) (Link da Harvard)  
+### Videoaula - C
+[Videoaula 1 - C](https://www.youtube.com/watch?v=rCTePooJP_s&t=283s) (Link da Fundação Estudar na Prática)  
+[Videoaula 1 - CS50 2021 in HDR - Lecture 1 – C](https://www.youtube.com/watch?v=URrzmoIyqLw&t=1s) (Link da Harvard)  
 
-[Aula 2 - Data Types - CS50 Shorts](https://www.youtube.com/watch?v=Fc9htmvVZ9U&t=63s)  
-[Aula 3 - Operators - CS50 Shorts](https://www.youtube.com/watch?v=f1xZf4iJDWE&t=1s)  
-[Aula 4 - Conditional Statements - CS50 Shorts](https://www.youtube.com/watch?v=1wsaV5nVC7g)  
-[Aula 5 - Loops - CS50 Shorts](https://www.youtube.com/watch?v=WgX8e_O7eG8)  
-[Aula 6 - Command Line - CS50 Shorts](https://www.youtube.com/watch?v=BnJ013X02b8)  
+[Videoaula 2 - Data Types - CS50 Shorts](https://www.youtube.com/watch?v=Fc9htmvVZ9U&t=63s)  
+[Videoaula 3 - Operators - CS50 Shorts](https://www.youtube.com/watch?v=f1xZf4iJDWE&t=1s)  
+[Videoaula 4 - Conditional Statements - CS50 Shorts](https://www.youtube.com/watch?v=1wsaV5nVC7g)  
+[Videoaula 5 - Loops - CS50 Shorts](https://www.youtube.com/watch?v=WgX8e_O7eG8)  
+[Videoaula 6 - Command Line - CS50 Shorts](https://www.youtube.com/watch?v=BnJ013X02b8)  
 
 ### Exercícios - C
 #### Descritivo dos Exercícios: 
