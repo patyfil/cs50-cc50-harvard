@@ -1,14 +1,20 @@
-## [CC50 - O Curso de Ciência da Computação de Harvard](https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home)
-DISCORD DA CS50 HARVARD: https://discord.gg/cs50
+## [CC50 - O Curso de Ciência da Computação de Harvard](https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home) - Material de apoio
+<p align="left">
+<a href="https://discord.gg/cs50"><img src="https://img.shields.io/static/v1?logo=discord&label=&message=Discord&color=36393f&style=for-the-badge" alt="Discord da CS50 Harvard"></a> da CS50 Harvard
+</p>
 
 Para ver seu progresso no curso da Harvard: https://cs50.me/cs50x
 
 ## [Fundação Estudar na Prática](https://ead.napratica.org.br/)  
-DISCORD DA CC50 FUNDAÇÃO ESTUDAR NA PRÁTICA: https://discord.gg/rhdVEp7u
+<p align="left">
+<a href="https://discord.gg/rhdVEp7u"><img src="https://img.shields.io/static/v1?logo=discord&label=&message=Discord&color=36393f&style=for-the-badge" alt="Discord CC50 Fundação Estudar"></a> da CC50 Fundação Estudar na Prática
+</p>
 
+<a href="https://ide.cs50.io/"><img src="https://img.shields.io/static/v1?logo=&label=&message=IDE-CS50&color=36393f&style=for-the-badge" alt="IDE CS50"></a> IDE Online  
+<a href="https://code.cs50.io/"><img src="https://img.shields.io/static/v1?logo=vscode&label=&message=Codespace&color=36393f&style=for-the-badge" alt="Codespaces VsCode"></a> 
+<a href="https://code.cs50.io/" title="Codespace - Visual Studio Code"><img src="icons/vscode.png" /></a>
+(Abre o VsCode no Computador ou o VsCode Online pela aba do navegador)  
 
-CS50 IDE: https: https://ide.cs50.io/  
-Visual Studio Code for CS50 - Codespaces: https://code.cs50.io/ (Abre o VsCode no Computador ou o VsCode Online pela aba do navegador)
 
 # Grade do Curso:
 [Introdução](https://github.com/patyfil/CS50-CC50-Harvard/blob/main/introducao.md)  
