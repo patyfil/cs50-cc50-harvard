@@ -2,7 +2,7 @@
    <a href="https://github.com/patyfil/CS50-CC50-Harvard/blob/main/README.md">Voltar ao README</a>
 </p>
 
-## Vídeo Aula:
+## Videoaula:
 [CC50: Módulo 0 – Scratch](https://www.youtube.com/watch?v=9iPsnGJ3kVE&t=55s) (Link da Fundação Estudar na Prática)  
 
 ## Exercício 1 - [Scratch] - Traduzido 
