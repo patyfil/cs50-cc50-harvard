@@ -1,4 +1,19 @@
-## [CC50 - O Curso de Ciência da Computação de Harvard](https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home) - Material de apoio
+## [CC50 - O Curso de Ciência da Computação de Harvard](https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home) - Material de apoio   
+
+### 12 semanas - 6 a 18 horas por semana  
+**Instituição:** HarvardX  
+**Assunto:** Ciência da Computação   
+**Nível:** Introdutório  
+**Pré requisitos:** Não  
+**Linguagem:** English  
+**Legendas:** Habilitar legenda automática do youtube para os vídeos e tradução dos textos com a [Extensão do Google Tradutor](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb?hl=pt)
+  
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/41968938/205356852-edcc743e-45dc-4731-83c7-a1b42749bac9.jpg"  />  
+  <img src="https://user-images.githubusercontent.com/41968938/205356910-c592cc3a-284a-4f30-8149-af54963cb3ff.jpg"  />
+</p>
+
 <p align="left">
 <a href="https://discord.gg/cs50"><img src="https://img.shields.io/static/v1?logo=discord&label=&message=Discord&color=36393f&style=for-the-badge" alt="Discord da CS50 Harvard"></a> da CS50 Harvard
 </p>
