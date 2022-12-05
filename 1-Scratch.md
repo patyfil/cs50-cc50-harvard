@@ -2,6 +2,8 @@
    <a href="https://patyfil.github.io/CS50-CC50-Harvard/">Voltar ao README</a>
 </p>
 
+# Week 0's (Módulo 0 - Scratch)
+
 ## Videoaula:
 [CC50: Módulo 0 – Scratch](https://www.youtube.com/watch?v=9iPsnGJ3kVE&t=55s) (Link da Fundação Estudar na Prática)  
 
