@@ -37,7 +37,7 @@ Para ver seu progresso no curso da Harvard:  [PROGRESSO NO CURSO](https://cs50.m
 
 # Grade do Curso:
 [Introdução](introducao.md)  
-[Week 0's (Módulo 0 - Scratch)](1-Scratch.md)  
+[Week 0's (Módulo 0 - Scratch)](0-Scratch.md)  
 [Week 1's (Módulo 1 - C)](1-C.md)    
 [Week 2's (Módulo 2 - Arrays)](2-Arrays.md)  
 [Week 3's (Módulo 3 - Algoritmos)](3-Algoritmos.md)  
@@ -56,7 +56,7 @@ Para ver seu progresso no curso da Harvard:  [PROGRESSO NO CURSO](https://cs50.m
 ### [Videoaula Scratch: CC50: Módulo 0 – Scratch](https://www.youtube.com/watch?v=9iPsnGJ3kVE&t=55s) 
 
 #### Descritivo do Exercício 1 - Scratch:
-Português: [Exercício 1 - Scratch](1-Scratch.md)  
+Português: [Exercício 1 - Scratch](0-Scratch.md)  
 Inglês: [Exercício 1 - Scratch](https://cs50.harvard.edu/x/2022/psets/0/scratch/)  
 
 
