@@ -1,4 +1,4 @@
-## [CC50 - O Curso de Ciência da Computação de Harvard](https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home) - Material de apoio   
+## [CC50 - O Curso de Ciência da Computação de Harvard](https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home target="_blank" rel="noopener noreferrer") - Material de apoio   
 
 <p align="center">
   <img src="assets/CS50.jpg" />
@@ -15,8 +15,8 @@
 **Legendas:** Habilitar legenda automática do youtube para os vídeos e tradução dos textos com a [Extensão do Google Tradutor](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb?hl=pt)
  
 <p align="left">
-<a href="https://discord.gg/cs50?target=_blank" title="discord"><img src="assets/discord.svg" width=30 /></a>
-<a href="https://discord.gg/cs50?target=_blank"><img src="https://img.shields.io/static/v1?logo=&label=&message=Discord&color=36393f&style=for-the-badge" alt="Discord da CS50 Harvard"></a> da CS50 Harvard
+<a href="https://discord.gg/cs50" title="discord"><img src="assets/discord.svg" width=30 /></a>
+<a href="https://discord.gg/cs50"><img src="https://img.shields.io/static/v1?logo=&label=&message=Discord&color=36393f&style=for-the-badge" alt="Discord da CS50 Harvard"></a> da CS50 Harvard
 </p>
 
 Para ver seu progresso no curso da Harvard:  [PROGRESSO NO CURSO](https://cs50.me/cs50x) 
