@@ -1,5 +1,5 @@
 <p align="right">
-   <a href="https://github.com/patyfil/CS50-CC50-Harvard/blob/main/README.md">Voltar ao README</a>
+   <a href="https://patyfil.github.io/CS50-CC50-Harvard/">Voltar ao README</a>
 </p>
 
 # Principais códigos que serão utilizados na IDE CS50 ou CodeSpace VsCode
@@ -116,5 +116,5 @@ Existem vários operadores matemáticos que podemos usar também:
 
 
 <p align="right">
-   <a href="https://github.com/patyfil/CS50-CC50-Harvard/blob/main/README.md">Voltar ao README</a>
+   <a href="https://patyfil.github.io/CS50-CC50-Harvard/">Voltar ao README</a>
 </p>
