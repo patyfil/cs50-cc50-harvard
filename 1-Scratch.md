@@ -1,5 +1,5 @@
 <p align="right">
-   <a href="https://github.com/patyfil/CS50-CC50-Harvard/blob/main/README.md">Voltar ao README</a>
+   <a href="https://patyfil.github.io/CS50-CC50-Harvard/">Voltar ao README</a>
 </p>
 
 ## Videoaula:
@@ -77,5 +77,5 @@ check50 pode haver dificuldade para processá-lo. Melhor garantir que seu arquiv
 Para ver seu progresso atual no curso, visite o livro de notas do curso em cs50.me/cs50x !
 
 <p align="right">
-   <a href="https://github.com/patyfil/CS50-CC50-Harvard/blob/main/README.md">Voltar ao README</a>
+   <a href="https://patyfil.github.io/CS50-CC50-Harvard/">Voltar ao README</a>
 </p>
