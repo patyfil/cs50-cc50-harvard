@@ -1,7 +1,5 @@
 ## [CC50 - O Curso de Ciência da Computação de Harvard](https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home) - Material de apoio   
 
-  ![Logo Harvard](assets/CS50.jpg)
-  
 <p align="center">
   <img src="assets/CS50.jpg" />
   <img src="assets/instrutores.jpg" />
