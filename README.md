@@ -36,8 +36,8 @@ Este é um {c:blue}texto vermelho.{/c}
 
 # Grade do Curso:
 [Introdução](https://patyfil.github.io/CS50-CC50-Harvard/introducao)  
-[Week 0's (Módulo 0 - Scratch)](https://patyfil.github.io/CS50-CC50-Harvard/1-scratch)  
-[Week 1's (Módulo 1 - C)](https://patyfil.github.io/CS50-CC50-Harvard/1-c)    
+[Week 0's (Módulo 0 - Scratch)](https://patyfil.github.io/CS50-CC50-Harvard/1-Scratch)  
+[Week 1's (Módulo 1 - C)](https://patyfil.github.io/CS50-CC50-Harvard/1-C)    
 Week 2's (Módulo 2 - Arrays)  
 Week 3's (Módulo 3 - Algortimos)  
 Week 4's (Módulo 4 - Memória)  
