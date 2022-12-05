@@ -24,7 +24,7 @@
 <a href="https://discord.gg/cs50"><img src="https://img.shields.io/static/v1?logo=&label=&message=Discord&color=36393f&style=for-the-badge" alt="Discord da CS50 Harvard"></a> da CS50 Harvard
 </p>
 
-Para ver seu progresso no curso da Harvard:  [PROGRESSO NO CURSO](https://cs50.me/cs50x) {c:red}TESTE {/C}  
+Para ver seu progresso no curso da Harvard:  [PROGRESSO NO CURSO](https://cs50.me/cs50x) 
 Este é um {c:blue}texto vermelho.{/c}
 
 ## [Fundação Estudar na Prática](https://ead.napratica.org.br/)  
