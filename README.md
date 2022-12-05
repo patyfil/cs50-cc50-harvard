@@ -3,8 +3,8 @@
   ![Logo Harvard](assets/logo-harvard.png)
   
 <p align="center">
-  <img src="icons/CS50.jpg" />
-  <img src="icons/instrutores.jpg" />
+  <img src="assets/CS50.jpg" />
+  <img src="assets/instrutores.jpg" />
 </p>
 
 
@@ -19,22 +19,21 @@
 
 
 <p align="left">
-<a href="https://discord.gg/cs50" title="discord"><img src="icons/discord.svg" width=30 /></a>
+<a href="https://discord.gg/cs50" title="discord"><img src="assets/discord.svg" width=30 /></a>
 <a href="https://discord.gg/cs50"><img src="https://img.shields.io/static/v1?logo=&label=&message=Discord&color=36393f&style=for-the-badge" alt="Discord da CS50 Harvard"></a> da CS50 Harvard
 </p>
 
 Para ver seu progresso no curso da Harvard:  [PROGRESSO NO CURSO](https://cs50.me/cs50x) 
-Este é um {c:blue}texto vermelho.{/c}
 
 ## [Fundação Estudar na Prática](https://ead.napratica.org.br/)  
 <p align="left">
-<a href="https://discord.gg/cs50" title="discord"><img src="icons/discord.svg" width=30 /></a>
+<a href="https://discord.gg/cs50" title="discord"><img src="assets/discord.svg" width=30 /></a>
 <a href="https://discord.gg/rhdVEp7u"><img src="https://img.shields.io/static/v1?logo=&label=&message=Discord&color=36393f&style=for-the-badge" alt="Discord CC50 Fundação Estudar"></a> da CC50 Fundação Estudar na Prática
 </p>
 
-<a href="https://ide.cs50.io/" title="IDE CS50"><img src="icons/idecs50.svg" width=30 /></a>
+<a href="https://ide.cs50.io/" title="IDE CS50"><img src="assets/idecs50.svg" width=30 /></a>
 <a href="https://ide.cs50.io/"><img src="https://img.shields.io/static/v1?logo=&label=&message=IDE-CS50&color=655BE1&style=for-the-badge" alt="IDE CS50"></a> IDE Online  
-<a href="https://code.cs50.io/" title="Codespace - Visual Studio Code"><img src="icons/vscode.png" width=30 /></a>
+<a href="https://code.cs50.io/" title="Codespace - Visual Studio Code"><img src="assets/vscode.png" width=30 /></a>
 <a href="https://code.cs50.io/"><img src="https://img.shields.io/static/v1?logo=vscode&label=&message=Codespace&color=655BE1&style=for-the-badge" alt="Codespaces VsCode"></a> (Abre o VsCode no Computador ou o VsCode Online pela aba do navegador)  
 
 
