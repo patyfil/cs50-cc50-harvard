@@ -54,7 +54,7 @@ Encerramento do Curso
 ### [Videoaula Scratch: CC50: Módulo 0 – Scratch](https://www.youtube.com/watch?v=9iPsnGJ3kVE&t=55s) 
 
 #### Descritivo do Exercício 1 - Scratch:
-Português: [Exercício 1 - Scratch](https://github.com/patyfil/CS50-CC50-Harvard/blob/main/1-Scratch.md)  
+Português: [Exercício 1 - Scratch](https://patyfil.github.io/CS50-CC50-Harvard/1-Scratch)  
 Inglês: [Exercício 1 - Scratch](https://cs50.harvard.edu/x/2022/psets/0/scratch/)  
 
 
