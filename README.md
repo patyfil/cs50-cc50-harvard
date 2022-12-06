@@ -50,6 +50,8 @@ Para ver seu progresso no curso da Harvard:  [PROGRESSO NO CURSO](https://cs50.m
 [SSH-Keygen - Criando chave SSH para o GitHub](ssh-keygen.md)
 
 
+# Links das videoaulas e exercícios:
+
 ## Week 0's (Módulo 0 - Scratch)  
 ### Videoaula - Scratch
 [Videoaula Scratch: CC50: Módulo 0 – Scratch](https://www.youtube.com/watch?v=9iPsnGJ3kVE&t=55s) 
