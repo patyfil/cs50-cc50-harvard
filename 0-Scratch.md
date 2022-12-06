@@ -8,7 +8,7 @@
 
 ## <a href="https://www.youtube.com/watch?v=9iPsnGJ3kVE&t=55s" title="AulaScratch">CC50: Módulo 0 – Scratch <img src="assets/youtube.svg" width=20 /></a> (Link da Fundação Estudar na Prática)  
 
-## [Exercícios feito durante a aula <img src="assets/github-white.svg" width=20 />](https://github.com/patyfil/cs50-cc50-harvard/tree/main/semana0)  
+## [Exercícios feito durante a aula <img src="assets/github-mascote.svg" width=25 />](https://github.com/patyfil/cs50-cc50-harvard/tree/main/semana0)  
 
 <br>
 
