@@ -2,7 +2,7 @@
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
 </p>
 <p align="right">
-   <a href="https://patyfil.github.io/cs50-cc50-harvard/1-C.html">Voltar ao README</a>
+   <a href="https://patyfil.github.io/cs50-cc50-harvard/1-C.html">Voltar ao Índice da Semana 1</a>
 </p>
 
 [•	Exercício 1: Mario versão fácil](https://cs50.harvard.edu/x/2022/psets/1/mario/less/)   
@@ -102,5 +102,5 @@ Uma excelente aula para você!
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
 </p>
 <p align="right">
-   <a href="https://patyfil.github.io/cs50-cc50-harvard/1-C.html">Voltar ao README</a>
+   <a href="https://patyfil.github.io/cs50-cc50-harvard/1-C.html">Voltar ao Índice da Semana 1</a>
 </p>
