@@ -51,8 +51,10 @@ Para ver seu progresso no curso da Harvard:  [PROGRESSO NO CURSO](https://cs50.m
 
 
 ## Week 0's (Módulo 0 - Scratch)  
-### [Videoaula Scratch: CC50: Módulo 0 – Scratch](https://www.youtube.com/watch?v=9iPsnGJ3kVE&t=55s) 
+### Videoaula - Scratch
+[Videoaula Scratch: CC50: Módulo 0 – Scratch](https://www.youtube.com/watch?v=9iPsnGJ3kVE&t=55s) 
 
+### Exercícios - Scratch
 #### Descritivo do Exercício 1 - Scratch:
 Português: [Exercício 1 - Scratch](0-Scratch.md)  
 Inglês: [Exercício 1 - Scratch](https://cs50.harvard.edu/x/2022/psets/0/scratch/)  
@@ -62,7 +64,6 @@ Inglês: [Exercício 1 - Scratch](https://cs50.harvard.edu/x/2022/psets/0/scratc
 ## Week 1's (Módulo 1 - C)  
 ### Videoaula - C
 [Videoaula 1 - C](https://www.youtube.com/watch?v=rCTePooJP_s&t=283s) 
-
 [Videoaula 2 - Data Types - CS50 Shorts](https://www.youtube.com/watch?v=Fc9htmvVZ9U&t=63s)  
 [Videoaula 3 - Operators - CS50 Shorts](https://www.youtube.com/watch?v=f1xZf4iJDWE&t=1s)  
 [Videoaula 4 - Conditional Statements - CS50 Shorts](https://www.youtube.com/watch?v=1wsaV5nVC7g)  
@@ -71,9 +72,9 @@ Inglês: [Exercício 1 - Scratch](https://cs50.harvard.edu/x/2022/psets/0/scratc
 
 ### Exercícios - C
 #### Descritivo dos Exercícios: 
-[•	Exercício 0: Hello](https://cs50.harvard.edu/x/2022/psets/1/hello/)  
-[•	Exercício 1: Mario versão fácil](https://cs50.harvard.edu/x/2022/psets/1/mario/less/)  
-[•	Exercício 2: Mario versão difícil](https://cs50.harvard.edu/x/2022/psets/1/mario/more/)  
-[•	Exercício 3: Dinheiro](https://cs50.harvard.edu/x/2022/psets/1/cash/)  
-[•	Exercício 4: Crédito](https://cs50.harvard.edu/x/2022/psets/1/credit/)  
+[Exercício 0: Hello](https://cs50.harvard.edu/x/2022/psets/1/hello/)  
+[Exercício 1: Mario versão fácil](https://cs50.harvard.edu/x/2022/psets/1/mario/less/)  
+[Exercício 2: Mario versão difícil](https://cs50.harvard.edu/x/2022/psets/1/mario/more/)  
+[Exercício 3: Dinheiro](https://cs50.harvard.edu/x/2022/psets/1/cash/)  
+[Exercício 4: Crédito](https://cs50.harvard.edu/x/2022/psets/1/credit/)  
 
