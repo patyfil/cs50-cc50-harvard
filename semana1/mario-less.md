@@ -5,7 +5,7 @@
    <a href="https://patyfil.github.io/cs50-cc50-harvard/1-C.html">Voltar ao Índice da Semana 1</a>
 </p>
 
-[•	Exercício 1: Mario versão fácil](https://cs50.harvard.edu/x/2022/psets/1/mario/less/)   
+# [Exercício 1: Mario versão fácil](https://cs50.harvard.edu/x/2022/psets/1/mario/less/)   
 
 ![image](https://user-images.githubusercontent.com/41968938/205998511-bfd5ed1c-8901-4e23-8879-c88801c7b4cd.png)  
 Nesse exercício devemos recriar a pirâmide abaixo em texto, usando hashes (#) para os tijolos, como visto a seguir:  
