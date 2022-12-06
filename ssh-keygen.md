@@ -1,5 +1,5 @@
 <p align="right">
-   <a href="README.md">Voltar ao README</a>
+   <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
 </p>
 
 # Como testar seu código - Criando chave SSH para o GitHub  
@@ -32,5 +32,5 @@ Execute o seguinte comando para avaliar o estilo do seu código usando style50:
 `style50 hello.c`  
 
 <p align="right">
-   <a href="README.md">Voltar ao README</a>
+   <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
 </p>
