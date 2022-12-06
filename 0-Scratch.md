@@ -5,11 +5,10 @@
 # Week 0's (Módulo 0 - Scratch)
 
 ## Videoaula:
-[CC50: Módulo 0 – Scratch](https://www.youtube.com/watch?v=9iPsnGJ3kVE&t=55s) (Link da Fundação Estudar na Prática)  
 
-<a href="https://www.youtube.com/watch?v=9iPsnGJ3kVE&t=55s" title="AulaScratch"><img src="assets/youtube.svg" width=30 /></a>
+<a href="https://www.youtube.com/watch?v=9iPsnGJ3kVE&t=55s" title="AulaScratch">CC50: Módulo 0 – Scratch <img src="assets/youtube.svg" width=20 /></a> (Link da Fundação Estudar na Prática)  
 
-### [[Exercícios feito durante a aula]](https://github.com/patyfil/cs50-cc50-harvard/tree/main/semana0)
+### [Exercícios feito durante a aula <img src="assets/github-white.svg" width=20 />](https://github.com/patyfil/cs50-cc50-harvard/tree/main/semana0)  
 
 <br>
 
@@ -38,32 +37,36 @@ E tente alavancar a “abstração” sempre que possível: se você pode imagin
 eles provavelmente poderiam ser movidos para um bloco personalizado!  
 
 Se você gostaria de se inspirar em projetos do Scratch de ex-alunos, aqui estão alguns:  
-•	It's Raining Men, da palestra  
-•	Ivy's Hardest Game, um jogo, edição Harvard  
+•	[It's Raining Men](https://scratch.mit.edu/projects/37412/), da palestra  
+•	[Ivy's Hardest Game](https://scratch.mit.edu/projects/326129587/), um jogo, edição Harvard  
 •	Soccer, um jogo  
-•	Cookie Love Story, uma animação  
+•	[Cookie Love Story](https://scratch.mit.edu/projects/26329196/), uma animação  
 •	Gingerbread Tales, uma história interativa  
 •	Intersection, um jogo  
-•	Oscartime, um jogo  
+•	[Oscartime](https://scratch.mit.edu/projects/277537196/), um jogo  
 
 Você pode achar esses [tutoriais](https://scratch.mit.edu/projects/770688685/editor) ou [projetos iniciantes](https://scratch.mit.edu/starter-projects) úteis.   
-E você é bem-vindo a explorar scratch.mit.edu para se inspirar.   
+E você é bem-vindo a explorar <a>scratch.mit.edu</a> para se inspirar.   
 Mas tente pensar em uma ideia por conta própria e, em seguida, comece a implementá-la.   
 No entanto, não tente implementar todo o seu projeto de uma vez: vá uma peça de cada vez.   
-Em outras palavras, dê passos pequenos: escreva um pouco de código (ou seja, arraste e solte algumas peças do quebra-cabeça), teste, escreva um pouco mais,  
+Em outras palavras, dê passos pequenos: escreva um pouco de código (ou seja, arraste e solte algumas peças do quebra-cabeça), teste, escreva um pouco mais, 
 teste e assim por diante.  
 
-Selecione **Arquivo > Salvar Agora** de vez em quando para que você não perca nenhum trabalho!       
+Selecione **Arquivo > Salvar Agora** de vez em quando para que você não perca nenhum trabalho!  
 
-Se, ao longo do caminho, você achar que é muito difícil implementar algum recurso, tente não se preocupar; altere seu design ou contorne o problema.   
+Se, ao longo do caminho, você achar que é muito difícil implementar algum recurso, tente não se preocupar; altere seu design ou contorne o problema.  
+
 Se você se propõe a implementar uma ideia que acha divertida, é provável que não ache muito difícil satisfazer os requisitos acima.  
+
 Tudo bem, pode ir. Nos deixe orgulhosos!  
 
-Depois de terminar seu projeto, selecione **Arquivo > Salvar agora** uma última vez.   
-Em seguida, selecione **Arquivo > Salvar no computador** e guarde esse arquivo para poder enviá-lo.   
+Depois de terminar seu projeto, selecione **Arquivo > Salvar agora** uma última vez.  
+
+Em seguida, selecione **Arquivo > Salvar no computador** e guarde esse arquivo para poder enviá-lo.  
+
 Se solicitado pelo seu computador para abrir ou salvar o arquivo, certifique-se de salvá -lo.
 
-
+<br>
 
 ## Como enviar para a Harvard
 Certifique-se de concluir as duas etapas abaixo, em ordem!
@@ -71,20 +74,27 @@ Certifique-se de concluir as duas etapas abaixo, em ordem!
 Envie este [formulário](https://docs.google.com/forms/d/e/1FAIpQLSdBmbMB8IeqJjzTnE-dUG6T5uwYxkWULSoB9gVrhWrVwXLQuQ/viewform)  
 
 * Passo 2 de 2
-Esta etapa pressupõe que você baixou seu projeto Scratch como um arquivo cujo nome termina em .sb3.   
-E esta etapa também pressupõe que você se inscreveu em uma conta do GitHub, de acordo com o formulário acima.
-1.	Visite este [link](https://submit.cs50.io/), faça login com sua conta do GitHub e clique em Autorizar cs50.
-2.	Marque a caixa que indica que você deseja conceder à equipe do curso acesso aos seus envios e clique em Ingressar no curso.
-3.	Acesse submit.cs50.io/upload/cs50/problems/2022/x/scratch .
-4.	Clique em “Escolher arquivo” e escolha seu .sb3arquivo. Clique em Enviar.
-É isso! Depois que o envio for carregado, você deve ser redirecionado para a página de envio.   
-Clique no link de envio e, em seguida, no link check50 para ver quais requisitos seu projeto atendeu. 
+Esta etapa pressupõe que você baixou seu projeto Scratch como um arquivo cujo nome termina em `.sb3`.  
+E esta etapa também pressupõe que você se inscreveu em uma conta do GitHub, de acordo com o formulário acima.  
 
-obs: Você pode reenviar quantas vezes quiser (antes do prazo)!   
-Observe que, se você carregar um arquivo cujo tamanho seja maior que 10 MB (o que é muito grande para um projeto Scratch),   
-check50 pode haver dificuldade para processá-lo. Melhor garantir que seu arquivo seja menor que esse limite.  
+1.	Visite este [link](https://submit.cs50.io/), faça login com sua conta do GitHub e clique em Autorizar cs50.  
 
-Para ver seu progresso atual no curso, visite o livro de notas do curso em cs50.me/cs50x !
+2.	Marque a caixa que indica que você deseja conceder à equipe do curso acesso aos seus envios e clique em Ingressar no curso.  
+
+3.	Acesse `submit.cs50.io/upload/cs50/problems/2022/x/scratch`  
+
+4.	Clique em “Escolher arquivo” e escolha seu .sb3 arquivo. Clique em Enviar.  
+
+É isso! Depois que o envio for carregado, você deve ser redirecionado para a página de envio.  
+
+Clique no link de envio e, em seguida, no link *check50* para ver quais requisitos seu projeto atendeu. 
+
+obs: Você pode reenviar quantas vezes quiser (antes do prazo)!  
+
+Observe que, se você carregar um arquivo cujo tamanho seja maior que 10 MB (o que é muito grande para um projeto Scratch), check50 pode haver dificuldade para processá-lo.  
+Melhor garantir que seu arquivo seja menor que esse limite.  
+
+Para ver seu progresso atual no curso, visite o livro de notas do curso em <a>cs50.me/cs50x</a> !
 
 <p align="right">
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
