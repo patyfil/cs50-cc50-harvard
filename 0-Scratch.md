@@ -7,8 +7,16 @@
 ## Videoaula:
 [CC50: Módulo 0 – Scratch](https://www.youtube.com/watch?v=9iPsnGJ3kVE&t=55s) (Link da Fundação Estudar na Prática)  
 
-## Exercício 1 - [Scratch] - Traduzido 
-#### Descritivo do Exercício 1 - Scratch:
+<a href="https://www.youtube.com/watch?v=9iPsnGJ3kVE&t=55s" title="AulaScratch"><img src="assets/youtube.svg" width=30 /></a>
+
+### [[Exercícios feito durante a aula]](https://github.com/patyfil/cs50-cc50-harvard/tree/main/semana0)
+
+<br>
+
+## Exercício 1 - [Scratch] 
+<br>
+
+## Descritivo do Exercício 1 - Scratch:
 Site da Harvard em Inglês: [Exercise 1 - Scratch](https://cs50.harvard.edu/x/2022/psets/0/scratch/)  
 
 É hora de escolher sua própria aventura! Sua tarefa, é implementar no Scratch qualquer projeto de sua escolha, seja uma história interativa,   
