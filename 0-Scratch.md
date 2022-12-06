@@ -1,5 +1,5 @@
 <p align="right">
-   <a href="README.md">Voltar ao README</a>
+   <a href="https://patyfil.github.io/cs50-cc50-harvard/README.md">Voltar ao README</a>
 </p>
 
 # Week 0's (Módulo 0 - Scratch)
@@ -79,5 +79,5 @@ check50 pode haver dificuldade para processá-lo. Melhor garantir que seu arquiv
 Para ver seu progresso atual no curso, visite o livro de notas do curso em cs50.me/cs50x !
 
 <p align="right">
-   <a href="README.md">Voltar ao README</a>
+   <a href="https://patyfil.github.io/cs50-cc50-harvard/README.md">Voltar ao README</a>
 </p>
