@@ -64,11 +64,11 @@ Observe que, ao contrário das funções que têm apenas efeitos colaterais, as 
 
 ## Tome cuidado para não modificar o código fornecido, apenas substitua os TODO's e o valor subsequente return!  
 
-Observe também que, lembrando a ideia de abstração, cada uma de suas funções de cálculo deve aceitar qualquer valor de cents, não apenas os valores que o algoritmo ganancioso pode sugerir. Se cents for 85, por exemplo, `calculate_dimes` deve retornar 8.  
+Observe também que, lembrando a ideia de abstração, cada uma de suas funções de cálculo deve aceitar qualquer valor de cents, não apenas os valores que o algoritmo ganancioso podem sugerir. Se cents for 85, por exemplo, `calculate_dimes` (10 centavos) deve retornar 8, pois são 8 moedas de 10 centavos.  
 
 Dica  
 •	Lembre-se de que há vários programas de exemplo no Código-fonte da Semana 1 que ilustram como as funções podem retornar um valor.  
-Você pode achar `discount1.c` e `discount2.c` perspicaz.  
+Você pode achar [discount1.c](https://cdn.cs50.net/2021/fall/lectures/1/src1/discount1.c) e [discount2.c](https://cdn.cs50.net/2021/fall/lectures/1/src1/discount2.c) útil.  
 
 Seu programa deve se comportar de acordo com os exemplos abaixo.  
 ```
@@ -80,7 +80,7 @@ Change owed: 41
 ```
 $ ./cash  
 Change owed: -41  
-Change owed: foo  
+Change owed:   
 Change owed: 41  
 4  
 ```
