@@ -26,7 +26,9 @@ O programa deverá permitir que o usuário decida qual deve ser a altura da pir�
 solicitando para ele um número inteiro positivo entre 1 e 8 inclusive.  
 Se o usuário não inserir um número inteiro positivo entre 1 e 8 (inclusive) quando solicitado,  
 o programa deve solicitar novamente ao usuário até que ele coopere.  
-Observe que a largura da “lacuna” entre as pirâmides adjacentes é igual à largura de dois hashes, independentemente da altura das pirâmides. 
+Observe que a largura da “lacuna” entre as pirâmides adjacentes é igual à largura de dois hashes, independentemente da altura das pirâmides.  
+
+&nbsp;
 
 1 - Entre no *Terminal* do VsCode: `Ctrl`+`'`  
 
@@ -54,7 +56,7 @@ A execução `code mario.c` deve abrir o arquivo onde você digitará seu códig
 
 11 - Envie seu código: `submit50 cs50/problems/2022/x/mario/less` depois digite: `yes`  
 
-<br>
+&nbsp;
 
 # DICA  
 

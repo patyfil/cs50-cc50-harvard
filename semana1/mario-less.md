@@ -26,6 +26,7 @@ solicitando para ele um número inteiro positivo entre 1 e 8 inclusive.
 Se o usuário não inserir um número inteiro positivo entre 1 e 8 (inclusive) quando solicitado,  
 o programa deve solicitar novamente ao usuário até que ele coopere.  
 
+&nbsp;
 
 1 - Entre no *Terminal* do VsCode: `Ctrl`+`'`  
 
