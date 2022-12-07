@@ -83,15 +83,15 @@ E esta etapa também pressupõe que você se inscreveu em uma conta do GitHub, d
 
 3.	Acesse `submit.cs50.io/upload/cs50/problems/2022/x/scratch`  
 
-4.	Clique em “Escolher arquivo” e escolha seu .sb3 arquivo. Clique em Enviar.  
+4.	Clique em “**Escolher arquivo**” e escolha seu `.sb3` arquivo. Clique em "**Enviar**".  
 
 É isso! Depois que o envio for carregado, você deve ser redirecionado para a página de envio.  
 
-Clique no link de envio e, em seguida, no link *check50* para ver quais requisitos seu projeto atendeu. 
+Clique no link de envio e, em seguida, no link *check50* para ver quais requisitos seu projeto atendeu.  
 
 obs: Você pode reenviar quantas vezes quiser (antes do prazo)!  
 
-Observe que, se você carregar um arquivo cujo tamanho seja maior que 10 MB (o que é muito grande para um projeto Scratch), check50 pode haver dificuldade para processá-lo.  
+Observe que, se você carregar um arquivo cujo tamanho seja maior que **10 MB** (o que é muito grande para um projeto Scratch), check50 pode haver dificuldade para processá-lo.  
 Melhor garantir que seu arquivo seja menor que esse limite.  
 
 Para ver seu progresso atual no curso, visite o livro de notas do curso em <a>cs50.me/cs50x</a> !
