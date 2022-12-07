@@ -44,7 +44,17 @@ seguido de *ENTER* para baixar o zip *mario-more* que contem a pasta *mario-more
 6 - Agora entre na pasta: `cd mario-more`  
 
 7 - Se tudo foi bem sucedido, você deve executar o comando `ls` que listará os arquivos dentro dessa pasta, nesse caso deverá ter o arquivo *mario.c*  
-A execução `code mario.c` deve abrir o arquivo onde você digitará seu código para este conjunto de problemas. Se não, refaça seus passos e veja se consegue determinar onde errou!
+A execução `code mario.c` deve abrir o arquivo onde você digitará seu código para este conjunto de problemas. Se não, refaça seus passos e veja se consegue determinar onde errou!  
+
+8 - No arquivo *mario.c* faça o exercício proposto;
+
+9 - Teste seu código: `check50 cs50/problems/2022/x/mario/more`;  
+
+10 - Avalie o estilo do seu código: `style50 mario.c`;  
+
+11 - Envie seu código: `submit50 cs50/problems/2022/x/mario/less` depois digite: `yes`  
+
+<br>
 
 # DICA  
 
@@ -53,7 +63,7 @@ Atenção: para adicionar legendas ao vídeo clique no botão CC localizado no P
 Uma excelente aula para você!  
 ## <img src="../assets/youtube.svg" width=20 /> [CC50: PSet 1 - Mario (versão difícil)](https://www.youtube.com/watch?v=c0QS46ieiu4)  
 
-10 - No arquivo *mario.c* faça o exercício proposto;   
+   
 Seu código funciona conforme prescrito quando você insere:  
 •	-1 (ou outros números negativos)?  
 •	0 ?  
@@ -62,13 +72,6 @@ Seu código funciona conforme prescrito quando você insere:
 •	letras ou palavras?  
 •	nenhuma entrada, quando você apenas pressiona Enter?  
 
-11 - Teste seu código: `check50 cs50/problems/2022/x/mario/more`;  
-
-12 - Avalie o estilo do seu código: `style50 mario.c`;  
-
-13 - Envie seu código: `submit50 cs50/problems/2022/x/mario/less` depois digite: `yes`  
-
-<br>
 
 <p align="right">
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
