@@ -20,7 +20,7 @@ Quarters = 0,25
 
 &nbsp;
 
-## Introdução ao Exercício  
+# Introdução ao Exercício  
 Ao dar o troco, é provável que você queira minimizar o número de moedas que está distribuindo para cada cliente, para não acabar com o estoque (ou irritar o cliente!). Felizmente, a ciência da computação deu aos caixas em todos os lugares maneiras de minimizar o número de moedas devidas: algoritmos ambiciosos, também conhecidos como gulosos ou gananciosos.  
 
 De acordo com o Instituto Nacional de Padrões e Tecnologia (NIST), um algoritmo ambicioso é aquele “*que sempre pega a melhor solução imediata, ou local, enquanto encontra uma resposta. Algoritmos ambiciosos encontram a solução geral ou globalmente ideal para alguns problemas de otimização, mas podem encontrar soluções menos do que ideais para algumas instâncias de outros problemas.*”  
@@ -33,8 +33,12 @@ Desnecessário dizer que outro pagamento de 25 centavos seria muito grande (supo
 
 Acontece que essa abordagem gananciosa (do algoritmo) não é apenas ótima localmente, mas também globalmente para a moeda dos Estados Unidos (e também da União Europeia). Ou seja, desde que o caixa tenha o suficiente de cada moeda, essa abordagem do maior para o menor renderá o menor número possível de moedas. Quão menor? Bem, diga-nos você!
 
+&nbsp;
 
-## Exercício  
+# Exercício - Harvard  
+
+<p align=center> Com números inteiros, exemplo: 1 centavo, 5 centavos, 10 centavos e 25 centavos </p>  
+
 Implemente um programa que primeiro pergunte ao usuário quantos centavos deve ao cliente e em seguida imprime o menor número de moedas com as quais esse pagamento pode ser feito.  
 
 Na verdade, `main` já está implementado para você. Mas observe como `main` chama várias funções que ainda não foram implementadas!  
@@ -70,7 +74,9 @@ Dica
 •	Lembre-se de que há vários programas de exemplo no Código-fonte da Semana 1 que ilustram como as funções podem retornar um valor.  
 Você pode achar [discount1.c](https://cdn.cs50.net/2021/fall/lectures/1/src1/discount1.c) e [discount2.c](https://cdn.cs50.net/2021/fall/lectures/1/src1/discount2.c) útil.  
 
-Seu programa deve se comportar de acordo com os exemplos abaixo.  
+&nbsp;
+
+## Seu programa deve se comportar de acordo com os exemplos abaixo.  
 ```
 $ ./cash  
 Change owed: 41  
@@ -85,20 +91,9 @@ Change owed: 41
 4  
 ```
 
-```
-$ ./cash
-Troco devido: 0.41
-4
-```
-```
- $ ./cash
-Troco devido: -0.41
-Troco devido: foo
-Troco devido: 0.41
-4
-```  
-
 &nbsp;
+
+# Começando:
 
 1 - Entre no *Terminal* do VsCode: `Ctrl`+`'`  
 
@@ -136,7 +131,7 @@ Uma excelente aula para você!
 ## <img src="../assets/youtube.svg" width=20 /> [CC50: PSet 1 - Dinheiro](https://www.youtube.com/watch?v=mPQHKi-qjRk)
 
 ## Harvard
-Como testar seu código
+Como testar seu código.  
 Para este programa, tente testar seu código manualmente, é uma boa prática:  
 
 •	Se você inserir -1, seu programa solicitará novamente?  
@@ -149,9 +144,52 @@ Para este programa, tente testar seu código manualmente, é uma boa prática:
 •	Se você inserir 26, o seu programa produz 2 (ou seja, um quarto e um centavo)?  
 •	Se você inserir 99, seu programa produz 9 (ou seja, três quartos, duas moedas e quatro centavos)?  
 
+&nbsp;
 
-## Fundação Estudar
-Seu código funciona conforme prescrito quando você insere:  
+# Exercício - Fundação Estudar  
+
+<p align=center> Com números inteiros, exemplo: 1 centavo, 5 centavos, 10 centavos e 25 centavos </p>  
+
+&nbsp;
+
+Implemente, em um arquivo chamado cash.c em um diretório ~/pset1/cash, um programa que primeiro pergunta ao usuário quanto dinheiro é devido e depois imprime o número mínimo de moedas com as quais essa mudança pode ser feita.
+
+Use get_float para obter a entrada do usuário e printf para gerar sua resposta. Suponha que as únicas moedas disponíveis sejam de 25, 10, 5 e 1 centavo(s).
+
+Pedimos que você use get_float para que possa lidar com reais e centavos, embora sem o cifrão. Em outras palavras, se algum cliente deve R$9.75 (como no caso em que um jornal custa 25 centavos, mas o cliente paga com uma nota de R$10), suponha que a entrada de seu programa será de 9.75 e não de R$9.75 ou 975 . No entanto, se algum cliente deve exatamente R$9, suponha que a entrada de seu programa será 9.00 ou apenas 9, mas, novamente, não R$9 ou 900 . É claro que, pela natureza dos valores de ponto flutuante, seu programa provavelmente funcionará com entradas como 9.0 e 9.000 também; você não precisa se preocupar em verificar se a entrada do usuário está “formatada” como o dinheiro deveria estar.
+Você não precisa tentar verificar se a entrada de um usuário é muito grande para caber em um float. Usar get_float sozinho garantirá que a entrada do usuário seja realmente um valor de ponto flutuante (ou integral), mas não que seja não negativo.
+
+Se o usuário não fornecer um valor não negativo, seu programa deve solicitar novamente ao usuário uma quantia válida até que o usuário concorde.
+
+Para que possamos automatizar alguns testes do seu código, certifique-se de que a última linha de outpt do seu programa seja apenas o número mínimo de moedas possível: um inteiro seguido por \n.
+
+Cuidado com a imprecisão inerente aos valores de ponto flutuante. Lembre do floats.c da aula, em que, se x é 2 , e y é 10 , x / y não é precisamente dois décimos! E assim, antes de fazer a alteração, você provavelmente desejará converter os dólares inseridos pelo usuário em centavos (ou seja, de um float para um int) para evitar pequenos erros que poderiam se acumular!
+
+Tome cuidado para arredondar seus centavos até o último centavo mais próximo, por exemplo usando o round, que é declarado na math.h. Por exemplo, se o real é um float com input do usuário (por exemplo, 0.20 ), então uma linha como:
+
+int centavos = round(reais * 100);
+irá converter com segurança 0.20 (ou mesmo 0.2000002980232238769531250 ) em 20.
+
+Utilize o ponto final ao invés de vírgula!!
+
+Seu programa deve se comportar de acordo com os exemplos abaixo.
+
+```
+$ ./cash
+Troco devido: 0.41
+4
+```
+```
+ $ ./cash
+Troco devido: -0.41
+Troco devido: foo
+Troco devido: 0.41
+4
+```  
+
+&nbsp;
+
+## Seu código funciona conforme prescrito quando você insere:  
 
 •	-1.00 (ou outros números negativos)?  
 •	0.00 ?  
@@ -160,101 +198,6 @@ Seu código funciona conforme prescrito quando você insere:
 •	nenhuma entrada, quando você apenas pressiona Enter?  
 
 &nbsp;
-
-```
-// Exercício 3 - Dinheiro (versão fácil)
-#include <cs50.h>
-#include <stdio.h>
-
-int get_cents(void);
-int calculate_quarters(int cents);
-int calculate_dimes(int cents);
-int calculate_nickels(int cents);
-int calculate_pennies(int cents);
-
-// Quanto de cents ainda deve ao cliente;
-// Quantas moedas você usou até agora ao passar por esse algoritmo
-
-int main(void)
-{
-    // Ask how many cents the customer is owed
-    // Pergunte quantos centavos o cliente deve
-    int cents = get_cents();
-
-    // Calculate the number of quarters to give the customer
-    // Calcule o número de moedas de 25 centavos para dar ao cliente
-    int quarters = calculate_quarters(cents);
-    cents = cents - quarters * 25;
-
-    // Calculate the number of dimes to give the customer
-    // Calcule o número de moedas de dez centavos para dar ao cliente
-    int dimes = calculate_dimes(cents);
-    cents = cents - dimes * 10;
-
-    // Calculate the number of nickels to give the customer
-    // Calcule o número de moedas de cinco centavos para dar ao cliente
-    int nickels = calculate_nickels(cents);
-    cents = cents - nickels * 5;
-
-    // Calculate the number of pennies to give the customer
-    // Calcule o número de centavos para dar ao cliente
-    int pennies = calculate_pennies(cents);
-    cents = cents - pennies * 1;
-
-    // Sum coins
-    // Somar moedas
-    int coins = quarters + dimes + nickels + pennies;
-
-    // Print total number of coins to give the customer
-    // Imprima o número total de moedas para dar ao cliente
-    printf("%i\n", coins);
-}
-
-// A função solicita ao usuário um número de centavos usando get_int
-// Se o usuário inserir um int negativo, seu código deve solicitar ao usuário que digite novamente.
-int get_cents(void)
-{
-    // TODO
-    return 0;
-}
-
-
-// a função calcula (e retorna como um int) quantas moedas de 25 centavos um cliente deve receber se for devido a ele.
-int calculate_quarters(int cents)
-{
-    // TODO
-    return 0;
-}
-
-
-// a função calcula quantas moedas de 10 centavos um cliente deve receber se for devido a ele.
-int calculate_dimes(int cents)
-{
-    // TODO
-    return 0;
-}
-
-
-// a função calcula quantas moedas de 5 centavos um cliente deve receber se for devido a ele.
-int calculate_nickels(int cents)
-{
-    // TODO
-    return 0;
-}
-
-
-// a função calcula quantas moedas de 1 centavos um cliente deve receber se for devido a ele.
-int calculate_pennies(int cents)
-{
-    // TODO
-    return 0;
-}
-
-```
-
-&nbsp;
-
-
 
 Ver progresso no curso:  https://cs50.me/cs50x  
 
