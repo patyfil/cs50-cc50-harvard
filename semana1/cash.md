@@ -103,6 +103,7 @@ Será necessário colocar aspas para entrar na pasta: `cd 'Módulo 1-C'`
 
 3 - No terminal digite o comando: `wget https://cdn.cs50.net/2021/fall/psets/1/cash.zip`  
 seguido de *ENTER* para baixar o zip *cash* que contem a pasta *cash* com o arquivo em C.  
+ou [copie aqui a estrutura do código cash.c](https://patyfil.github.io/cs50-cc50-harvard/semana1/cash.c)
 
 4 - Execute o unzip: `unzip cash.zip` para extrair a pasta *cash* dentro da pasta *pset1*.  
 
@@ -120,10 +121,6 @@ A execução `code cash.c` deve abrir o arquivo onde você digitará seu código
 10 - Avalie o estilo do seu código: `style50 cash.c`;  
 
 11 - Envie seu código: `submit50 cs50/problems/2022/x/cash` depois digite: `yes`  
-
-[CÓDIGO cash.c](https://patyfil.github.io/cs50-cc50-harvard/semana1/cash.c)
-
-https://github.com/patyfil/cs50-cc50-harvard/blob/main/semana1/cash.c
 
 &nbsp;
 
@@ -190,7 +187,7 @@ Troco devido: 0.41
 ```
  $ ./cash
 Troco devido: -0.41
-Troco devido: foo
+Troco devido: 
 Troco devido: 0.41
 4
 ```  
