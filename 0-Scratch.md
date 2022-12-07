@@ -46,7 +46,7 @@ Se você gostaria de se inspirar em projetos do Scratch de ex-alunos, aqui estã
 •	[Oscartime](https://scratch.mit.edu/projects/277537196/), um jogo  
 
 Você pode achar esses [tutoriais](https://scratch.mit.edu/projects/770688685/editor) ou [projetos iniciantes](https://scratch.mit.edu/starter-projects) úteis.   
-E você é bem-vindo a explorar <a>scratch.mit.edu</a> para se inspirar.   
+E você é bem-vindo a explorar [scratch.mit.edu](scratch.mit.edu) para se inspirar.   
 Mas tente pensar em uma ideia por conta própria e, em seguida, comece a implementá-la.   
 No entanto, não tente implementar todo o seu projeto de uma vez: vá uma peça de cada vez.   
 Em outras palavras, dê passos pequenos: escreva um pouco de código (ou seja, arraste e solte algumas peças do quebra-cabeça), teste, escreva um pouco mais, 
@@ -94,7 +94,7 @@ obs: Você pode reenviar quantas vezes quiser (antes do prazo)!
 Observe que, se você carregar um arquivo cujo tamanho seja maior que **10 MB** (o que é muito grande para um projeto Scratch), check50 pode haver dificuldade para processá-lo.  
 Melhor garantir que seu arquivo seja menor que esse limite.  
 
-Para ver seu progresso atual no curso, visite o livro de notas do curso em <a>cs50.me/cs50x</a> !
+Para ver seu progresso atual no curso, visite o livro de notas do curso em [cs50.me/cs50x](cs50.me/cs50x) !
 
 <p align="right">
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
