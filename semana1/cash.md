@@ -5,7 +5,90 @@
    <a href="https://patyfil.github.io/cs50-cc50-harvard/1-C.html">Voltar ao Índice da Semana 1</a>
 </p>
 
-# [Exercício 3 - Dinheiro (versão fácil)](https://cs50.harvard.edu/x/2022/psets/1/cash/)
+# [Exercício 3 - Dinheiro (versão fácil)](https://cs50.harvard.edu/x/2022/psets/1/cash/)  
+
+### Algoritmos Gulosos ou Algoritmos Ambiciosos  
+
+&nbsp;
+
+![image](https://user-images.githubusercontent.com/41968938/206263437-66d0ce05-30b9-45b3-9e10-527aaa69c4d9.png)
+
+Centavos = 0,01  
+Níckels = 0,05  
+Dimes = 0,10  
+Quarters = 0,25  
+
+&nbsp;
+
+## Introdução ao Exercício  
+Ao dar o troco, é provável que você queira minimizar o número de moedas que está distribuindo para cada cliente, para não acabar com o estoque (ou irritar o cliente!). Felizmente, a ciência da computação deu aos caixas em todos os lugares maneiras de minimizar o número de moedas devidas: algoritmos ambiciosos, também conhecidos como gulosos ou gananciosos.  
+
+De acordo com o Instituto Nacional de Padrões e Tecnologia (NIST), um algoritmo ambicioso é aquele “*que sempre pega a melhor solução imediata, ou local, enquanto encontra uma resposta. Algoritmos ambiciosos encontram a solução geral ou globalmente ideal para alguns problemas de otimização, mas podem encontrar soluções menos do que ideais para algumas instâncias de outros problemas.*”  
+
+O que tudo isso significa? Bem, suponha que um caixa deva a um cliente algum troco e na gaveta desse caixa estejam moedas de 25, 10, 5 e 1 centavo(s). O problema a ser resolvido é decidir quais moedas e quantas de cada uma entregar ao cliente. Pense em um caixa “ganancioso” como alguém que quer tirar o maior proveito possível desse problema com cada moeda que tira da gaveta.   
+
+Por exemplo, se algum cliente deve pagar 41 centavos, o melhor/maior pagamento que pode ser feito é 25 centavos. Esse pagamento é "melhor" na medida em que nos deixa mais perto de 0 ¢ mais rápido do que qualquer outra moeda faria. Observe que um pagamento desse tamanho reduziria o que era um problema de 41 ¢ a um problema de 16 ¢, já que 41 - 25 = 16. Ou seja, o restante é um problema semelhante, mas menor.  
+
+Desnecessário dizer que outro pagamento de 25 centavos seria muito grande (supondo que o caixa prefere não perder dinheiro), e assim nosso caixa ganancioso mudaria para um pagamento de 10 centavos, deixando-o com um problema de 6 centavos. Nesse ponto, a ganância pede um pagamento de 5 centavos seguido de um pagamento de 1 centavo, ponto em que o problema é resolvido. O cliente recebe um Quarter, um Dime, um Níckel e um Centavo: quatro moedas no total.  
+
+Acontece que essa abordagem gananciosa (do algoritmo) não é apenas ótima localmente, mas também globalmente para a moeda dos Estados Unidos (e também da União Europeia). Ou seja, desde que o caixa tenha o suficiente de cada moeda, essa abordagem do maior para o menor renderá o menor número possível de moedas. Quão menor? Bem, diga-nos você!
+
+
+## Exercício  
+Implemente um programa que primeiro pergunte ao usuário quantos centavos deve ao cliente e em seguida imprime o menor número de moedas com as quais esse pagamento pode ser feito.  
+
+Na verdade, `main` já está implementado para você. Mas observe como `main` chama várias funções que ainda não foram implementadas!  
+Uma dessas funções, `get_cents`, não aceita argumentos (conforme indicado por void) e retorna um int.  
+O restante das funções recebe um argumento, um int, e também retorna um int.  
+Todos eles atualmente retornam 0 para que o código seja compilado.  
+Mas você vai querer substituir cada TODO e return 0; pelo seu próprio código. 
+
+Conclua a implementação dessas funções da seguinte maneira:  
+
+•	Implemente `get_cents` de forma que a função solicite ao usuário um número de centavos usando `get_int` e, em seguida, retorne esse número como um int.  
+Se o usuário inserir um negativo int, seu código deverá solicitar ao usuário novamente. (Mas você não precisa se preocupar com a entrada do usuário, por exemplo, uma string, pois `get_int` cuidará disso para você.) É provável que você encontre um *do while* loop de ajuda, como em mario.c!  
+•	Implemente `calculate_quarters` de forma que a função calcule (e retorne como um int) quantas moedas de 25 centavos o cliente deve receber se for devido a ele.  
+Por exemplo, se cents for 25, `calculate_quarters` deve retornar 1.  
+Se cents for 26 ou 49 (ou qualquer coisa no meio, então `calculate_quarters` também deve retornar 1.  
+Se cents for 50 ou 74 (ou qualquer coisa no meio), então `calculate_quarters` deve retornar 2. E assim por diante.  
+•	Implemente `calculate_dimes` de forma que a função calcule o mesmo para moedas de dez centavos.  
+•	Implemente `calculate_nickels` de forma que a função calcule o mesmo para 5 centavos.  
+•	Implemente `calculate_pennies` de forma que a função calcule o mesmo para 1 centavo.  
+
+Observe que, ao contrário das funções que têm apenas efeitos colaterais, as funções que retornam um valor devem fazê-lo explicitamente com return!  
+
+## Tome cuidado para não modificar o próprio código de distribuição, apenas substitua os TODOs fornecidos e o valor subsequente return!  
+
+Observe também que, lembrando a ideia de abstração, cada uma de suas funções de cálculo deve aceitar qualquer valor de cents, não apenas os valores que o algoritmo ganancioso pode sugerir. Se cents for 85, por exemplo, `calculate_dimes` deve retornar 8.  
+
+Dica  
+•	Lembre-se de que há vários programas de exemplo no Código-fonte da Semana 1 que ilustram como as funções podem retornar um valor.  
+Você pode achar `discount1.c` e `discount2.c` perspicaz.  
+
+Seu programa deve se comportar de acordo com os exemplos abaixo.  
+```
+$ ./cash  
+Change owed: 41  
+4  
+```
+
+```
+$ ./cash  
+Change owed: -41  
+Change owed: foo  
+Change owed: 41  
+4  
+```
+
+$ ./cash
+Troco devido: 0.41
+4
+ 
+ $ ./cash
+Troco devido: -0.41
+Troco devido: foo
+Troco devido: 0.41
+4
 
 
 
