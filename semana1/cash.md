@@ -80,17 +80,18 @@ Change owed: 41
 4  
 ```
 
+```
 $ ./cash
 Troco devido: 0.41
 4
- 
+```
+```
  $ ./cash
 Troco devido: -0.41
 Troco devido: foo
 Troco devido: 0.41
 4
-
-
+```  
 
 &nbsp;
 
@@ -129,7 +130,37 @@ Atenção: para adicionar legendas ao vídeo clique no botão CC localizado no P
 Uma excelente aula para você!  
 ## <img src="../assets/youtube.svg" width=20 /> [CC50: PSet 1 - Dinheiro](https://www.youtube.com/watch?v=mPQHKi-qjRk)
 
+## Harvard
+Como testar seu código
+Para este programa, tente testar seu código manualmente, é uma boa prática:  
+
+•	Se você inserir -1, seu programa solicitará novamente?  
+•	Se você insere 0, o seu programa produz 0?  
+•	Se você inserir 1, o seu programa produz 1 (ou seja, um centavo)?  
+•	Se você inserir 4, seu programa gera 4 (ou seja, quatro centavos)?  
+•	Se você inserir 5, o seu programa produz 1 (ou seja, um níquel)?  
+•	Se você inserir 24, seu programa gera 6 (ou seja, duas moedas e quatro moedas de um centavo)?  
+•	Se você inserir 25, o seu programa produz 1 (ou seja, um quarto)?  
+•	Se você inserir 26, o seu programa produz 2 (ou seja, um quarto e um centavo)?  
+•	Se você inserir 99, seu programa produz 9 (ou seja, três quartos, duas moedas e quatro centavos)?  
+
+
+## Fundação Estudar
+Seu código funciona conforme prescrito quando você insere:  
+
+•	-1.00 (ou outros números negativos)?  
+•	0.00 ?  
+•	0.01 (ou outros números positivos)?  
+•	letras ou palavras?  
+•	nenhuma entrada, quando você apenas pressiona Enter?  
+
+
+
 &nbsp;
+
+&nbsp;
+
+
 
 Ver progresso no curso:  https://cs50.me/cs50x  
 
