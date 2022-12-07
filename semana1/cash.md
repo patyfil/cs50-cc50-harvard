@@ -39,9 +39,14 @@ Implemente um programa que primeiro pergunte ao usuário quantos centavos deve a
 
 Na verdade, `main` já está implementado para você. Mas observe como `main` chama várias funções que ainda não foram implementadas!  
 Uma dessas funções, `get_cents`, não aceita argumentos (conforme indicado por void) e retorna um int.  
-O restante das funções recebe um argumento, um int, e também retorna um int.  
-Todos eles atualmente retornam 0 para que o código seja compilado.  
-Mas você vai querer substituir cada TODO e return 0; pelo seu próprio código. 
+O restante das funções recebe um argumento (um int) e também retorna um int.  
+Todas elas atualmente retornam 0 para que o código seja compilado, mas você vai substituir cada `TODO` e `return 0`; pelo seu próprio código. 
+```
+{
+    // TODO
+    return 0;
+}
+```
 
 Conclua a implementação dessas funções da seguinte maneira:  
 
@@ -57,7 +62,7 @@ Se cents for 50 ou 74 (ou qualquer coisa no meio), então `calculate_quarters` d
 
 Observe que, ao contrário das funções que têm apenas efeitos colaterais, as funções que retornam um valor devem fazê-lo explicitamente com return!  
 
-## Tome cuidado para não modificar o próprio código de distribuição, apenas substitua os TODOs fornecidos e o valor subsequente return!  
+## Tome cuidado para não modificar o código fornecido, apenas substitua os TODO's e o valor subsequente return!  
 
 Observe também que, lembrando a ideia de abstração, cada uma de suas funções de cálculo deve aceitar qualquer valor de cents, não apenas os valores que o algoritmo ganancioso pode sugerir. Se cents for 85, por exemplo, `calculate_dimes` deve retornar 8.  
 
@@ -154,9 +159,77 @@ Seu código funciona conforme prescrito quando você insere:
 •	letras ou palavras?  
 •	nenhuma entrada, quando você apenas pressiona Enter?  
 
-
-
 &nbsp;
+
+```
+#include <cs50.h>
+#include <stdio.h>
+
+int get_cents(void);
+int calculate_quarters(int cents);
+int calculate_dimes(int cents);
+int calculate_nickels(int cents);
+int calculate_pennies(int cents);
+
+int main(void)
+{
+    // Ask how many cents the customer is owed
+    int cents = get_cents();
+
+    // Calculate the number of quarters to give the customer
+    int quarters = calculate_quarters(cents);
+    cents = cents - quarters * 25;
+
+    // Calculate the number of dimes to give the customer
+    int dimes = calculate_dimes(cents);
+    cents = cents - dimes * 10;
+
+    // Calculate the number of nickels to give the customer
+    int nickels = calculate_nickels(cents);
+    cents = cents - nickels * 5;
+
+    // Calculate the number of pennies to give the customer
+    int pennies = calculate_pennies(cents);
+    cents = cents - pennies * 1;
+
+    // Sum coins
+    int coins = quarters + dimes + nickels + pennies;
+
+    // Print total number of coins to give the customer
+    printf("%i\n", coins);
+}
+
+int get_cents(void)
+{
+    // TODO
+    return 0;
+}
+
+int calculate_quarters(int cents)
+{
+    // TODO
+    return 0;
+}
+
+int calculate_dimes(int cents)
+{
+    // TODO
+    return 0;
+}
+
+int calculate_nickels(int cents)
+{
+    // TODO
+    return 0;
+}
+
+int calculate_pennies(int cents)
+{
+    // TODO
+    return 0;
+}
+
+```
 
 &nbsp;
 
