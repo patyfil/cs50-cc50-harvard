@@ -4,10 +4,10 @@
 
 # Como testar seu código - Criando chave SSH para o GitHub  
 
-[Vídeo Tutorial](https://www.youtube.com/watch?time_continue=135&v=B254ENe2lsg&feature=emb_logo) para te ajudar a realizar os passos abaixo.  
+## <img src="assets/youtube.svg" width=20 /> [Vídeo Tutorial](https://www.youtube.com/watch?time_continue=135&v=B254ENe2lsg&feature=emb_logo) para te ajudar a realizar os passos abaixo.  
 
 
-Siga os passos abaixo:  
+Siga esse roteiro:  
 •	Abra uma janela do terminal com CS50 IDE ou qualquer outro ambiente de desenvolvimento (IDE). Exemplo: Visual Studio Code.  
 •	Execute no terminal o comando *ssh-keygen*. Quando aparecer a mensagem no terminal “save the key” (salve a chave), aperte Enter, sem digitar nada.  
 •	Logo em seguida, será pedido para adicionar uma senha. Se você estiver usando sua conta do GitHub apenas para o CC50, não precisa de senha, logo, aperte Enter. Caso você já utilize o GitHub, escreva uma senha (que você não vá esquecer!) e clique no botão Enter, insira novamente a senha e aperte Enter.   
