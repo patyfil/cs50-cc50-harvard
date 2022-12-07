@@ -48,15 +48,25 @@ A execução `code mario.c` deve abrir o arquivo onde você digitará seu códig
 8 - Adicione um novo arquivo chamado *pseudocodigo.txt* dentro do seu diretório mario e cole o pseudocódigo de exemplo:  
 
 ```
-PSEUDOCÓDIGO:  
-Existe mais de uma forma para resolver esse exercício, esse spoiler aqui é apenas uma delas!  
+   PSEUDOCÓDIGO:  
+   Existe mais de uma forma para resolver esse exercício, esse spoiler aqui é apenas uma delas!  
 
-1- Peça ao usuário o tamanho da altura.  
-2- Se o tamanho da altura for menor que 1 ou maior que 8 (altura < 1 || altura > 8),   
-   fique nesse passo até que o usuário insira uma entrada válida.  
-3- Itere a variável i até o tamanho da altura.  
-4- Imprima os #. [Não se esqueça da quebra de linha!]  
-```
+   1- Peça ao usuário o tamanho da altura.  
+   2- Se o tamanho da altura for menor que 1 ou maior que 8 (altura < 1 || altura > 8),   
+      fique nesse passo até que o usuário insira uma entrada válida.  
+   3- Itere a variável i até o tamanho da altura.  
+   4- Imprima os #. [Não se esqueça da quebra de linha!]  
+```  
+
+9 - No arquivo *mario.c* faça o exercício proposto;  
+
+10 - Teste seu código: `check50 cs50/problems/2022/x/mario/less`;  
+
+11 - Avalie o estilo do seu código: `style50 mario.c`;  
+
+12 - Envie seu código: `submit50 cs50/problems/2022/x/mario/less` depois digite: `yes`  
+
+&nbsp;
 
 # DICA 1 - Construindo o oposto  
 Agora que seu programa está (espero!) aceitando a entrada conforme prescrito, é hora de outra etapa.  
@@ -75,7 +85,7 @@ Acontece que é um pouco mais fácil construir uma pirâmide alinhada à esquerd
 
 Então, vamos construir uma pirâmide alinhada à esquerda primeiro e, depois que estiver funcionando, alinhá-la à direita!  
 Modifique mario.c à direita para que não imprima mais apenas a entrada do usuário, mas imprima uma pirâmide alinhada à esquerda com essa altura.  
-Dicas:  
+**Dicas:**  
 •	Lembre-se de que um hash é apenas um caractere como outro qualquer, portanto, você pode imprimi-lo com printf.  
 •	Assim como o Scratch tem um bloco de repetição, o C também tem um for loop, por meio do qual você pode iterar algumas vezes.  
 Talvez em cada iteração i, você possa imprimir tantos hashes?  
@@ -91,13 +101,14 @@ for (int i = 0; i < n; i++)
    printf("\n");
 }
 ```
+&nbsp;
 
 Este vídeo irá te ajudar a entender o problema ;)  
 Atenção: para adicionar legendas ao vídeo clique no botão CC localizado no Player e selecione a opção "Português (Brasil)".  
 Uma excelente aula para você!  
 ## <img src="../assets/youtube.svg" width=20 /> [CC50: PSet 1 - Mario (versão fácil)](https://www.youtube.com/watch?v=8HciXXDwUfU)
 
-9 - No arquivo *mario.c* faça o exercício proposto;   
+ 
 Seu código funciona conforme prescrito quando você insere:  
 •	-1 (ou outros números negativos)?  
 •	0 ?  
@@ -106,11 +117,7 @@ Seu código funciona conforme prescrito quando você insere:
 •	letras ou palavras?  
 •	nenhuma entrada, quando você apenas pressiona Enter?  
 
-10 - Teste seu código: `check50 cs50/problems/2022/x/mario/less`;  
-
-11 - Avalie o estilo do seu código: `style50 mario.c`;  
-
-12 - Envie seu código: `submit50 cs50/problems/2022/x/mario/less` depois digite: `yes`  
+&nbsp;
 
 # DICA 2
 ![image](https://user-images.githubusercontent.com/41968938/206001936-4872cc4a-c7a7-403a-9517-8d5aac5f7fe3.png)
