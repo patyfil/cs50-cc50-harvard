@@ -6,18 +6,17 @@
 
 ## Videoaula:
 
-## <a href="https://www.youtube.com/watch?v=9iPsnGJ3kVE&t=55s" title="AulaScratch">CC50: Módulo 0 – Scratch <img src="assets/youtube.svg" width=20 /></a> (Link da Fundação Estudar na Prática)  
+## <img src="assets/youtube.svg" width=20 /> [CC50: Módulo 0 – Scratch](https://www.youtube.com/watch?v=9iPsnGJ3kVE&t=55s) (Link da Fundação Estudar na Prática)  
 
-## [Exercícios feito durante a aula <img src="assets/github-roxo.svg" width=20 />](https://github.com/patyfil/cs50-cc50-harvard/tree/main/semana0)  
+## <img src="assets/github-roxo.svg" width=20 /> [Exercícios feito durante a aula](https://github.com/patyfil/cs50-cc50-harvard/tree/main/semana0)  
 
 <br>
 
-## Exercício 1 - [Scratch] 
+## Exercício 1 - [Scratch] ( Para enviar )
 <br>
 
 ### **Descritivo do Exercício**:
-Site da Harvard em Inglês: [Exercise 1 - Scratch](https://cs50.harvard.edu/x/2022/psets/0/scratch/)  
-
+<br>
 É hora de escolher sua própria aventura! Sua tarefa, é implementar no Scratch qualquer projeto de sua escolha, seja uma história interativa,   
 jogo, animação ou qualquer outra coisa, sujeito apenas aos seguintes requisitos:  
 
@@ -95,6 +94,8 @@ Observe que, se você carregar um arquivo cujo tamanho seja maior que **10 MB** 
 Melhor garantir que seu arquivo seja menor que esse limite.  
 
 Para ver seu progresso atual no curso, visite o livro de notas do curso em [cs50.me/cs50x](cs50.me/cs50x) !
+
+Site da Harvard em Inglês: [Exercise 1 - Scratch](https://cs50.harvard.edu/x/2022/psets/0/scratch/)  
 
 <p align="right">
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
