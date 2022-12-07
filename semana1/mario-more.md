@@ -7,7 +7,8 @@
 
 # [Exercício 2: Mario versão difícil](https://cs50.harvard.edu/x/2022/psets/1/mario/more/)   
 
- 
+![image](https://user-images.githubusercontent.com/41968938/206063279-53dfd7d3-eb04-4d63-97a2-4718d38bcdb7.png)  
+
 Nesse exercício vamos recriar essas pirâmides em C, ainda que em texto, usando hashes ( # ) para tijolos, como visto a seguir:  
 
 ```
@@ -45,7 +46,7 @@ seguido de *ENTER* para baixar o zip *mario-more* que contem a pasta *mario-more
 7 - Se tudo foi bem sucedido, você deve executar o comando `ls` que listará os arquivos dentro dessa pasta, nesse caso deverá ter o arquivo *mario.c*  
 A execução `code mario.c` deve abrir o arquivo onde você digitará seu código para este conjunto de problemas. Se não, refaça seus passos e veja se consegue determinar onde errou!
 
-# DICA 1  
+# DICA  
 
 Este vídeo irá te ajudar a entender o problema ;)  
 Atenção: para adicionar legendas ao vídeo clique no botão CC localizado no Player e selecione a opção "Português (Brasil)".  
