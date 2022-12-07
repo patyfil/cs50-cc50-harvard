@@ -15,7 +15,7 @@
 ## Exercício 1 - [Scratch] 
 <br>
 
-## Descritivo do Exercício 1 - Scratch:
+### **Descritivo do Exercício**:
 Site da Harvard em Inglês: [Exercise 1 - Scratch](https://cs50.harvard.edu/x/2022/psets/0/scratch/)  
 
 É hora de escolher sua própria aventura! Sua tarefa, é implementar no Scratch qualquer projeto de sua escolha, seja uma história interativa,   
