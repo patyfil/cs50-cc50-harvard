@@ -28,17 +28,25 @@ o programa deve solicitar novamente ao usuário até que ele coopere.
 
 
 1 - Entre no *Terminal* do VsCode: `Ctrl`+`'`  
-2 - Crie uma pasta chamada *pset1* que significa "Conjunto de Exercícios 1" ou o nome que preferir: `mkdir pset1`  
-3 - Entrar nessa pasta: `cd pset1`  
+
+2 - Entrar nessa pasta: `cd pset1`  
 OBS: Caso a pasta possua acento gráfico, por exemplo: *Módulo 1-C*  
 Será necessário colocar aspas para entrar na pasta: `cd 'Módulo 1-C'`  
-4 - No terminal digite o comando: `wget https://cdn.cs50.net/2021/fall/psets/1/mario-less.zip`  
+
+3 - No terminal digite o comando: `wget https://cdn.cs50.net/2021/fall/psets/1/mario-less.zip`  
 seguido de *ENTER* para baixar o zip *mario-less* que contem a pasta *mario-less* com o arquivo em C.  
-5 - Execute o unzip: `unzip mario-less.zip` para extrair a pasta *mario-less* dentro da pasta *pset1*.  
-6 - Você não precisa mais do arquivo ZIP, então você pode executar o comando para excluir: `rm mario-less.zip`  
-7 - Agora entre na pasta: `cd mario-less`  
-8 - Se tudo foi bem sucedido, você deve executar o comando `ls` que listará os arquivos dentro dessa pasta, nesse caso deverá ter o arquivo *mario.c*   
-9 - Adicione um novo arquivo chamado *pseudocodigo.txt* dentro do seu diretório mario e cole o pseudocódigo de exemplo:  
+
+4 - Execute o unzip: `unzip mario-less.zip` para extrair a pasta *mario-less* dentro da pasta *pset1*.  
+
+5 - Você não precisa mais do arquivo ZIP, então você pode executar o comando para excluir: `rm mario-less.zip`  
+
+6 - Agora entre na pasta: `cd mario-less`  
+
+7 - Se tudo foi bem sucedido, você deve executar o comando `ls` que listará os arquivos dentro dessa pasta, nesse caso deverá ter o arquivo *mario.c*  
+A execução `code mario.c` deve abrir o arquivo onde você digitará seu código para este conjunto de problemas. Se não, refaça seus passos e veja se consegue determinar onde errou!
+
+8 - Adicione um novo arquivo chamado *pseudocodigo.txt* dentro do seu diretório mario e cole o pseudocódigo de exemplo:  
+
 ```
 PSEUDOCÓDIGO:  
 Existe mais de uma forma para resolver esse exercício, esse spoiler aqui é apenas uma delas!  
@@ -53,6 +61,7 @@ Existe mais de uma forma para resolver esse exercício, esse spoiler aqui é ape
 # DICA 1 - Construindo o oposto  
 Agora que seu programa está (espero!) aceitando a entrada conforme prescrito, é hora de outra etapa.  
 Acontece que é um pouco mais fácil construir uma pirâmide alinhada à esquerda do que à direita, como abaixo.  
+
 ```
 #
 ##
@@ -88,10 +97,20 @@ Atenção: para adicionar legendas ao vídeo clique no botão CC localizado no P
 Uma excelente aula para você!  
 ## <img src="../assets/youtube.svg" width=20 /> [CC50: PSet 1 - Mario (versão fácil)](https://www.youtube.com/watch?v=8HciXXDwUfU)
 
-10 - No arquivo *mario.c* faça o exercício proposto;   
-11 - Teste seu código: `check50 cs50/problems/2022/x/mario/less`;  
-12 - Avalie o estilo do seu código: `style50 mario.c`;  
-13 - Envie seu código: `submit50 cs50/problems/2022/x/mario/less` depois digite: `yes`  
+9 - No arquivo *mario.c* faça o exercício proposto;   
+Seu código funciona conforme prescrito quando você insere:  
+•	-1 (ou outros números negativos)?  
+•	0 ?  
+•	1 a 8 ?  
+•	9 ou outros números positivos?  
+•	letras ou palavras?  
+•	nenhuma entrada, quando você apenas pressiona Enter?  
+
+10 - Teste seu código: `check50 cs50/problems/2022/x/mario/less`;  
+
+11 - Avalie o estilo do seu código: `style50 mario.c`;  
+
+12 - Envie seu código: `submit50 cs50/problems/2022/x/mario/less` depois digite: `yes`  
 
 # DICA 2
 ![image](https://user-images.githubusercontent.com/41968938/206001936-4872cc4a-c7a7-403a-9517-8d5aac5f7fe3.png)
