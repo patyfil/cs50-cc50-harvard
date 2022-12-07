@@ -164,6 +164,17 @@ Passo 4 => último dígito é 1, portanto inválido
 
 &nbsp;
 
+# PSEUDOCÓDIGO
+1 - Solicite ao usuário um número de cartão de crédito;  
+
+2 - Calcule a soma de verificação para descobrir se pode ser um cartão de crédito ou não;  
+   *Com base se o dígito final é ou não um zero.  
+   
+3 - Verificar o comprimento do cartão de crédito (com os dígitos iniciais) para saber a bandeira.  
+*Caso não tenha o comprimento de algum cartão válido, deverá imprimir: número inválido.  
+
+&nbsp;
+
 Ver progresso no curso:  https://cs50.me/cs50x  
 
 &nbsp;
