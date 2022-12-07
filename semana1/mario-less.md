@@ -75,7 +75,7 @@ Acontece que é um pouco mais fácil construir uma pirâmide alinhada à esquerd
 
 Então, vamos construir uma pirâmide alinhada à esquerda primeiro e, depois que estiver funcionando, alinhá-la à direita!  
 Modifique mario.c à direita para que não imprima mais apenas a entrada do usuário, mas imprima uma pirâmide alinhada à esquerda com essa altura.  
-dicas:
+Dicas:  
 •	Lembre-se de que um hash é apenas um caractere como outro qualquer, portanto, você pode imprimi-lo com printf.  
 •	Assim como o Scratch tem um bloco de repetição, o C também tem um for loop, por meio do qual você pode iterar algumas vezes.  
 Talvez em cada iteração i, você possa imprimir tantos hashes?  
