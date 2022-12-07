@@ -39,10 +39,10 @@ eles provavelmente poderiam ser movidos para um bloco personalizado!
 Se você gostaria de se inspirar em projetos do Scratch de ex-alunos, aqui estão alguns:  
 •	[It's Raining Men](https://scratch.mit.edu/projects/37412/), da palestra  
 •	[Ivy's Hardest Game](https://scratch.mit.edu/projects/326129587/), um jogo, edição Harvard  
-•	Soccer, um jogo  
+•	[Soccer](https://scratch.mit.edu/projects/37413/), um jogo  
 •	[Cookie Love Story](https://scratch.mit.edu/projects/26329196/), uma animação  
-•	Gingerbread Tales, uma história interativa  
-•	Intersection, um jogo  
+•	[Gingerbread Tales](https://scratch.mit.edu/projects/277536784/), uma história interativa  
+•	[Intersection](https://scratch.mit.edu/projects/75390754/), um jogo  
 •	[Oscartime](https://scratch.mit.edu/projects/277537196/), um jogo  
 
 Você pode achar esses [tutoriais](https://scratch.mit.edu/projects/770688685/editor) ou [projetos iniciantes](https://scratch.mit.edu/starter-projects) úteis.   
