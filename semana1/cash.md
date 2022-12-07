@@ -66,7 +66,7 @@ Se cents for 50 ou 74 (ou qualquer coisa no meio), então `calculate_quarters` d
 
 Observe que, ao contrário das funções que têm apenas efeitos colaterais, as funções que retornam um valor devem fazê-lo explicitamente com return!  
 
-## Tome cuidado para não modificar o código fornecido, apenas substitua os TODO's e o valor subsequente return!  
+## Tome cuidado para não modificar o código fornecido, apenas substitua os "TODO's" e o valor subsequente "return"!  
 
 Observe também que, lembrando a ideia de abstração, cada uma de suas funções de cálculo deve aceitar qualquer valor de cents, não apenas os valores que o algoritmo ganancioso podem sugerir. Se cents for 85, por exemplo, `calculate_dimes` (10 centavos) deve retornar 8, pois são 8 moedas de 10 centavos.  
 
@@ -120,6 +120,14 @@ A execução `code cash.c` deve abrir o arquivo onde você digitará seu código
 10 - Avalie o estilo do seu código: `style50 cash.c`;  
 
 11 - Envie seu código: `submit50 cs50/problems/2022/x/cash` depois digite: `yes`  
+
+[CÓDIGO cash.c](https://patyfil.github.io/cs50-cc50-harvard/semana1/cash.c)
+
+https://github.com/patyfil/cs50-cc50-harvard/blob/main/semana1/cash.c
+
+&nbsp;
+
+Ver progresso no curso:  https://cs50.me/cs50x  
 
 &nbsp;
 
@@ -196,10 +204,6 @@ Troco devido: 0.41
 •	0.01 (ou outros números positivos)?  
 •	letras ou palavras?  
 •	nenhuma entrada, quando você apenas pressiona Enter?  
-
-&nbsp;
-
-Ver progresso no curso:  https://cs50.me/cs50x  
 
 &nbsp;
 
