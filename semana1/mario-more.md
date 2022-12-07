@@ -7,7 +7,8 @@
 
 # [Exercício 2: Mario versão difícil](https://cs50.harvard.edu/x/2022/psets/1/mario/more/)   
 
- 
+![image](https://user-images.githubusercontent.com/41968938/206063279-53dfd7d3-eb04-4d63-97a2-4718d38bcdb7.png)
+
 Nesse exercício vamos recriar essas pirâmides em C, ainda que em texto, usando hashes ( # ) para tijolos, como visto a seguir:  
 
 ```
