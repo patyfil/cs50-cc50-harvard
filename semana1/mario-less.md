@@ -86,7 +86,7 @@ for (int i = 0; i < n; i++)
 Este vídeo irá te ajudar a entender o problema ;)  
 Atenção: para adicionar legendas ao vídeo clique no botão CC localizado no Player e selecione a opção "Português (Brasil)".  
 Uma excelente aula para você!  
-[![CC50: PSet 1 - Mario (versão fácil)](https://img.shields.io/badge/-mario--less-white?style=flat-square&logo=Youtube&logoColor=red&link=https://bit.ly/laboratoriomaker)](https://www.youtube.com/watch?v=8HciXXDwUfU)
+## <img src="../assets/youtube.svg" width=20 /> [CC50: PSet 1 - Mario (versão fácil)](https://www.youtube.com/watch?v=8HciXXDwUfU)
 
 10 - No arquivo *mario.c* faça o exercício proposto;   
 11 - Teste seu código: `check50 cs50/problems/2022/x/mario/less`;  
