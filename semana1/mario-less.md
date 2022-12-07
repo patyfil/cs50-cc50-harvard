@@ -124,6 +124,11 @@ Seu código funciona conforme prescrito quando você insere:
 ![image](https://user-images.githubusercontent.com/41968938/206001936-4872cc4a-c7a7-403a-9517-8d5aac5f7fe3.png)
 ### Enquanto o número de espaço for *menor ou igual* a altura *menos* a linha, será preenchido com espaço, senão será preenchido com # no próximo for.
 
+&nbsp;
+
+Ver progresso no curso:  https://cs50.me/cs50x  
+
+&nbsp;
 
 <p align="right">
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>

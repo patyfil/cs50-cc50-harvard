@@ -56,6 +56,12 @@ Deve aparecer: hello, world
 13 - Envie seu código: `submit50 cs50/problems/2022/x/hello`  
 depois digite: `yes`  
 
+&nbsp;
+
+Ver progresso no curso:  https://cs50.me/cs50x  
+
+&nbsp;
+
 <p align="right">
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
 </p>

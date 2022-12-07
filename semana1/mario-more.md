@@ -74,6 +74,11 @@ Seu código funciona conforme prescrito quando você insere:
 •	letras ou palavras?  
 •	nenhuma entrada, quando você apenas pressiona Enter?  
 
+&nbsp;
+
+Ver progresso no curso:  https://cs50.me/cs50x  
+
+&nbsp;
 
 <p align="right">
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
