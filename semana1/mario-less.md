@@ -31,8 +31,8 @@ o programa deve solicitar novamente ao usuário até que ele coopere.
 1 - Entre no *Terminal* do VsCode: `Ctrl`+`'`  
 
 2 - Entrar nessa pasta: `cd pset1`  
-OBS: Caso a pasta possua acento gráfico, por exemplo: *Módulo 1-C*  
-Será necessário colocar aspas para entrar na pasta: `cd 'Módulo 1-C'`  
+OBS: Caso a pasta possua espaço, por exemplo: *Semana 1*  
+Será necessário colocar aspas para entrar na pasta: `cd 'Semana 1'`  
 
 3 - No terminal digite o comando: `wget https://cdn.cs50.net/2021/fall/psets/1/mario-less.zip`  
 seguido de *ENTER* para baixar o zip *mario-less* que contem a pasta *mario-less* com o arquivo em C.  

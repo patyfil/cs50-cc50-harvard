@@ -111,8 +111,8 @@ Visa	4012888888881881
 1 - Entre no *Terminal* do VsCode: `Ctrl`+`'`  
 
 2 - Entrar nessa pasta: `cd pset1`  
-OBS: Caso a pasta possua acento gráfico, por exemplo: *Módulo 1-C*  
-Será necessário colocar aspas para entrar na pasta: `cd 'Módulo 1-C'`  
+OBS: Caso a pasta possua espaço, por exemplo: *Semana 1*  
+Será necessário colocar aspas para entrar na pasta: `cd 'Semana 1'`  
 
 3 - No terminal digite o comando: `wget https://cdn.cs50.net/2021/fall/psets/1/credit.zip`  
 seguido de *ENTER* para baixar o zip *credit* que contem a pasta *credit* com o arquivo em C.  

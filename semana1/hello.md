@@ -19,8 +19,8 @@
 4 - Crie uma pasta chamada *hello* dentro da pasta *pset1* : `mkdir hello`  
 
 5 - Entrar nessa pasta: `cd hello`  
-OBS: Caso a pasta possua acento gráfico, por exemplo: *Módulo 1*  
-Será necessário colocar aspas para entrar na pasta: `cd 'Módulo 1'`  
+OBS: Caso a pasta possua espaço, por exemplo: *Semana 1*  
+Será necessário colocar aspas para entrar na pasta: `cd 'Semana 1'`  
 Seu prompt do terminal agora deve se parecer com o código: `hello/ $`
 
 6 - Crie o arquivo *hello.c*: `code hello.c`  
