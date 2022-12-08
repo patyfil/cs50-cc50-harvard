@@ -55,6 +55,12 @@ Portanto, validar números de cartão de crédito não é difícil, mas se torna
 
 &nbsp;
 
+![credit](https://user-images.githubusercontent.com/41968938/206553676-7df57ee1-4b98-4071-b9fc-f1bc1ba9203d.jpg)
+
+[Baixe a planilha](https://github.com/patyfil/cs50-cc50-harvard/blob/main/assets/Exerc%C3%ADcio%204%20-%20Cart%C3%A3o%20de%20Cr%C3%A9dito%20-%20TABELA.xlsx)
+
+&nbsp;
+
 # Exercício
 
 Escreva um programa que solicite ao usuário um número de cartão de crédito e, em seguida, informe (via printf ) se é um número de cartão American Express, MasterCard ou Visa válido , de acordo com as definições de formato de cada um neste documento.  
