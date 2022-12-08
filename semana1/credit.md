@@ -60,6 +60,12 @@ Portanto, validar números de cartão de crédito não é difícil, mas se torna
 
 [Baixe a planilha](https://github.com/patyfil/cs50-cc50-harvard/blob/main/assets/Exerc%C3%ADcio%204%20-%20Cart%C3%A3o%20de%20Cr%C3%A9dito%20-%20TABELA.xlsx)
 
+OBS: Assim como sabemos que o número é par se for divisível por 2 e o resto for zero, podemos saber qual o último dígito do conjunto de números, dividindo o mesmo por 10, o resto dessa ***divisão inteira*** será o último número.
+Por exemplo: 
+25/10 = 2 com resto 5;
+47/10 = 4 com resto 7;
+6/10 = 0 com resto 6.
+
 &nbsp;
 
 
@@ -184,7 +190,7 @@ Obs: Os cartões de crédito normalmente têm entre 13 e 16 dígitos de identifi
 
 &nbsp;
 
-Ver progresso no curso:  https://cs50.me/cs50x  
+Ver progresso no curso: <a>https://cs50.me/cs50x</a>
 
 &nbsp;
 
