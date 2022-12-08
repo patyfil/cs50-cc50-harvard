@@ -151,6 +151,10 @@ A execução `code credit.c` deve abrir o arquivo onde você digitará seu códi
 
 &nbsp;
 
+<a href=https://cs50.me/cs50x>Ver o progresso no Curso</a>
+
+&nbsp;
+
 # DICA  
 
 Este vídeo irá te ajudar a entender o problema ;)  
@@ -187,10 +191,6 @@ Obs: Os cartões de crédito normalmente têm entre 13 e 16 dígitos de identifi
 
 4 - Verificar o comprimento do cartão de crédito.  
 *Caso não tenha o comprimento de algum cartão válido, deverá imprimir: número inválido.  
-
-&nbsp;
-
-<a href=https://cs50.me/cs50x>Ver o progresso no Curso</a>
 
 &nbsp;
 
