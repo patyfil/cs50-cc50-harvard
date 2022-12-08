@@ -60,11 +60,11 @@ Portanto, validar números de cartão de crédito não é difícil, mas se torna
 
 [Baixe a planilha](https://patyfil.github.io/cs50-cc50-harvard/assets/ex4credit)
 
-OBS: Assim como sabemos que o número é par se for divisível por 2 e o resto for zero, podemos saber qual o último dígito do conjunto de números, dividindo o mesmo por 10, o resto dessa ***divisão inteira*** será o último número.
-Por exemplo: 
-25/10 = 2 com resto 5;
-47/10 = 4 com resto 7;
-6/10 = 0 com resto 6.
+OBS: Assim como sabemos que o número é par se for divisível por 2 e o resto for zero, podemos saber qual o último dígito do conjunto de números, dividindo o mesmo por 10, o resto dessa ***divisão inteira*** será o último número.  
+Por exemplo:  
+25/10 = 2 com resto 5;  
+47/10 = 4 com resto 7;  
+6/10 = 0 com resto 6.  
 
 &nbsp;
 
