@@ -55,6 +55,8 @@ Portanto, validar números de cartão de crédito não é difícil, mas se torna
 
 &nbsp;
 
+
+
 # Exercício
 
 Escreva um programa que solicite ao usuário um número de cartão de crédito e, em seguida, informe (via printf ) se é um número de cartão American Express, MasterCard ou Visa válido , de acordo com as definições de formato de cada um neste documento.  
