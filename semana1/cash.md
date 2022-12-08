@@ -124,7 +124,7 @@ A execução `code cash.c` deve abrir o arquivo onde você digitará seu código
 
 &nbsp;
 
-Ver progresso no curso:  https://cs50.me/cs50x  
+<a href=https://cs50.me/cs50x>Ver o progresso no Curso</a>
 
 &nbsp;
 

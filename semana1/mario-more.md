@@ -58,6 +58,10 @@ A execução `code mario.c` deve abrir o arquivo onde você digitará seu códig
 
 &nbsp;
 
+<a href=https://cs50.me/cs50x>Ver o progresso no Curso</a>
+
+&nbsp;
+
 # DICA  
 
 Este vídeo irá te ajudar a entender o problema ;)  
@@ -73,10 +77,6 @@ Seu código funciona conforme prescrito quando você insere:
 •	9 ou outros números positivos?  
 •	letras ou palavras?  
 •	nenhuma entrada, quando você apenas pressiona Enter?  
-
-&nbsp;
-
-Ver progresso no curso:  https://cs50.me/cs50x  
 
 &nbsp;
 

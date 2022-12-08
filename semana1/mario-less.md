@@ -69,6 +69,10 @@ A execução `code mario.c` deve abrir o arquivo onde você digitará seu códig
 
 &nbsp;
 
+<a href=https://cs50.me/cs50x>Ver o progresso no Curso</a>
+
+&nbsp;
+
 # DICA 1 - Construindo o oposto  
 Agora que seu programa está (espero!) aceitando a entrada conforme prescrito, é hora de outra etapa.  
 Acontece que é um pouco mais fácil construir uma pirâmide alinhada à esquerda do que à direita, como abaixo.  
@@ -123,10 +127,6 @@ Seu código funciona conforme prescrito quando você insere:
 # DICA 2
 ![image](https://user-images.githubusercontent.com/41968938/206001936-4872cc4a-c7a7-403a-9517-8d5aac5f7fe3.png)
 ### Enquanto o número de espaço for *menor ou igual* a altura *menos* a linha, será preenchido com espaço, senão será preenchido com # no próximo for.
-
-&nbsp;
-
-Ver progresso no curso:  https://cs50.me/cs50x  
 
 &nbsp;
 
