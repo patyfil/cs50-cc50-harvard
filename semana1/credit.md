@@ -7,7 +7,7 @@
 
 # [Exercício 4 - Cartão de Crédito (difícil)](https://cs50.harvard.edu/x/2022/psets/1/credit/)
 
-# Algoritmo de Luhn  
+## **<p style="color:red;">Algoritmo de Luhn</p>**
 
 
 # Introdução ao Exercício  
@@ -156,21 +156,21 @@ E esses são números decimais (0 a 9), não binários.
 2 - Some os resultados dos dígitos multiplicados;  
 3 - Adicione essa soma a soma dos dígitos que não foram multiplicados por 2 no primeiro passo.  
 4 - Se o último dígito do total for 0 (ou, se o módulo total 10 for congruente com 0), o número é válido!  
-EXEMPLO: 123456  
-Passo 1 => 2x5, 2x3, 2x1  
-Passo 2 => 10, 6, 2 => 1+0+6+2 = 9  
-Passo 3 => (9) + 2 + 4 + 6 = 21  
-Passo 4 => último dígito é 1, portanto inválido  
+ 
 
 &nbsp;
 
 # PSEUDOCÓDIGO
-1 - Solicite ao usuário um número de cartão de crédito;  
+1 - Solicite ao usuário um ***número*** de cartão de crédito, usando `get_long`  
+Obs: Os cartões de crédito normalmente têm entre 13 e 16 dígitos de identificação.
 
-2 - Calcule a soma de verificação para descobrir se pode ser um cartão de crédito ou não;  
-   *Com base se o dígito final é ou não um zero.  
-   
-3 - Verificar o comprimento do cartão de crédito (com os dígitos iniciais) para saber a bandeira.  
+2 - Calcule a soma de ***verificação*** para descobrir se pode ser um cartão de crédito ou não (Algoritmo de Luhn);  
+*Com base se o dígito final é ou não um zero.  
+* Dica: Usar uma função a parte, que retorne um booleano, ou seja ***true*** se for um cartão válido e ***false*** se não for.
+
+3 - Verificar os dígitos iniciais para saber a bandeira, em seguida imprimir se é Visa, Master...  
+
+4 - Verificar o comprimento do cartão de crédito.  
 *Caso não tenha o comprimento de algum cartão válido, deverá imprimir: número inválido.  
 
 &nbsp;
