@@ -190,7 +190,7 @@ Obs: Os cartões de crédito normalmente têm entre 13 e 16 dígitos de identifi
 
 &nbsp;
 
-Ver progresso no curso: <a>https://cs50.me/cs50x</a>
+<a href=https://cs50.me/cs50x>Ver o progresso no Curso</a>
 
 &nbsp;
 
