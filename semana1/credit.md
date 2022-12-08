@@ -62,13 +62,12 @@ Portanto, validar números de cartão de crédito não é difícil, mas se torna
 
 OBS: Assim como sabemos que o número é par se for divisível por 2 e o resto for zero, podemos saber qual o último dígito do conjunto de números, dividindo o mesmo por 10, o resto dessa ***divisão inteira*** será o último número.  
 Por exemplo:  
-25/10 = 2 com resto 5;  
-47/10 = 4 com resto 7;  
-6/10 = 0 com resto 6.  
+2***5***/10 = 2 com resto 5;  
+4***7***/10 = 4 com resto 7;  
+6/10 = 0 com resto 6;  
+123***4***/10 = 123 com resto 4.
 
 &nbsp;
-
-
 
 # Exercício
 
