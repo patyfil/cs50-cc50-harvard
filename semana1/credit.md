@@ -111,12 +111,29 @@ INVALID
 Teste seu programa com um monte de entradas, válidas e inválidas. (Certamente o faremos!) Aqui estão alguns [números de cartão](https://developer.paypal.com/api/nvp-soap/payflow/integration-guide/test-transactions/#standard-test-cards) que o PayPal recomenda para teste.
 
 > **Standard Test Cards**  
-American Express	378282246310005  
-Diners Club	30569309025904  
-Discover	6011000990139424  
-JCB	3566002020360505  
-Mastercard	2223016768739313  
-Visa	4012888888881881  
+American Express 378282246310005  
+American Express 371449635398431  
+Mastercard 5555555555554444  
+Visa 4012888888881881  
+Visa  4003600000000014  
+Diners Club 30569309025904  
+Discover 6011000990139424  
+JCB 3566002020360505  
+
+O 1º dígito identifica a bandeira do cartão, sendo as mais comuns:  
+
+Visa: 4 (13 e 16 dígitos);  
+Mastercard: 51, 52, 53, 54 e 55 (16 dígitos);  
+Diners Club: 30, 36, 38 e 39 (14 dígitos);  
+Discover: 6011 e 65 (16 dígitos);  
+JCB: 35 (16 dígitos);  
+American Express: 34 e 37 (15 dígitos);
+
+O restante dos dígitos se divide da seguinte forma:
+
+Do 2º ao 6º: informações sobre a instituição financeira emissora do cartão;  
+Do 7º ao 15º: dados da conta e identificação (que são únicos de cada cliente);  
+O dígito final é um dígito verificador que segue um padrão matemático para evitar fraudes.  
 
 &nbsp;
 
@@ -182,14 +199,16 @@ E esses são números decimais (0 a 9), não binários.
 1 - Solicite ao usuário um ***número*** de cartão de crédito, usando `get_long`  
 Obs: Os cartões de crédito normalmente têm entre 13 e 16 dígitos de identificação.
 
-2 - Calcule a soma de ***verificação*** para descobrir se pode ser um cartão de crédito ou não (Algoritmo de Luhn);  
+2 - Verificar o comprimento do cartão de crédito.  
+*Caso não tenha o comprimento de algum cartão válido, deverá imprimir: número inválido.  
+
+3 - Calcule a soma de ***verificação*** para descobrir se pode ser um cartão de crédito ou não (Algoritmo de Luhn);  
 *Com base se o dígito final é ou não um zero.  
-* Dica: Usar uma função a parte, que retorne um booleano, ou seja ***true*** se for um cartão válido e ***false*** se não for.
+* Dica: Usar uma função a parte, que retorne um booleano, ou seja ***true*** se for Zero e ***false*** se não for.
 
 3 - Verificar os dígitos iniciais para saber a bandeira, em seguida imprimir se é Visa, Master...  
 
-4 - Verificar o comprimento do cartão de crédito.  
-*Caso não tenha o comprimento de algum cartão válido, deverá imprimir: número inválido.  
+
 
 &nbsp;
 
