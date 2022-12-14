@@ -57,7 +57,7 @@ Podemos executá-lo adicionando help50 à frente de um comando que estamos tenta
 
 # Linguagem C:  
 
-# [Style Guide for C](https://cs50.readthedocs.io/style/c/)  
+## [Style Guide for C](https://cs50.readthedocs.io/style/c/)  
 
 <br>  
 
