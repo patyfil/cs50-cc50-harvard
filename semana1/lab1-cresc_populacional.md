@@ -123,10 +123,10 @@ End size: 1000000
 Years: 115
 ```
 
-Execute o seguinte comando para avaliar a exatidão do seu código usando check50 . Mas certifique-se de compilar e testar você mesmo!  
+Execute o seguinte comando para avaliar a exatidão do seu código usando ***check50*** . Mas certifique-se de compilar e testar você mesmo!  
 
 ```check50 cs50/labs/2022/x/population```  
 
-Execute o seguinte comando para avaliar o estilo do seu código usando style50 .  
+Execute o seguinte comando para avaliar o estilo do seu código usando ***style50*** .  
 
 ```style50 population.c```  
