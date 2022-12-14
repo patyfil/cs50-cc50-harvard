@@ -74,7 +74,8 @@ style50 hello.c
 
 <br>  
 
-```#include <stdio.h>  
+```c
+#include <stdio.h>  
 
 int main(void)   
 {  
