@@ -5,9 +5,10 @@
    <a href="https://patyfil.github.io/cs50-cc50-harvard/1-C.html">Voltar ao Índice da Semana 1</a>
 </p>
 
-# Lab 1: População  
+# Lab 1: População (Opcional)  
 
 # Laboratório 1: Crescimento Populacional  
+# ***OBS: O LAB1 fazia parte do curso anterior a 2022.***  
 
 ## Determine quanto tempo leva para uma população atingir um determinado tamanho.
 
@@ -20,7 +21,7 @@ Years: 9
 
 ## Background  
 
-Digamos que temos uma população de n lhamas. A cada ano, nascem n / 3 novas lhamas e n / 4 morrem.  
+Digamos que temos uma população de `n` lhamas. A cada ano, nascem `n / 3`  novas lhamas e `n / 4` morrem.  
 
 Por exemplo, se começarmos com n = 1.200 lhamas, no primeiro ano, 1.200 / 3 = 400 novas lhamas nascerão e 1.200 / 4 = 300 lhamas morrerão. No final daquele ano, teríamos 1.200 + 400 - 300 = 1.300 lhamas.  
 
