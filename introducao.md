@@ -68,16 +68,13 @@ style50 hello.c
 
 <br> 
 
-# Linguagem C:
-
-
+# Linguagem C:  
 
 # [Style Guide for C](https://cs50.readthedocs.io/style/c/)  
 
 <br>  
 
-```
-#include <stdio.h>  
+```#include <stdio.h>  
 
 int main(void)   
 {  
