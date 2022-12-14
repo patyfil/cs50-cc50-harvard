@@ -13,7 +13,16 @@
 <p>A versão mais recentede do Curso de Ciência da Computação de Harvard(2022) mudou o ambiente de desenvolvimento, também conhecido como IDE CS50 para o VS CODE CS50 (codespace). Se você tem familiaridade com o VS CODE ou gostaria de migrar para o novo IDE do CS50, siga as instruções desse vídeo, nele iremos apresentar o VS CODE CS50 e como ativá-lo, também testamos aquele exercício do "hello world" e "hello [nome]".</p>
 
 ## <img src="assets/youtube.svg" width=20 /> [[CC50] Do CS50 IDE para VS CODE CS50](https://www.youtube.com/watch?v=WDmW6LSnpIQ) 
- 
+
+***Dica de ouro***: após os passos acima, dê uma olhadinha na sua caixa de entrada e verifique se há algum e-mail do bot do CS50 pedindo alguma autorização!!! 
+
+<br>
+
+## Fazendo backup dos arquivos da IDE CS50: 
+🙋 🙋‍♂️ Eu tenho uma dúvida: se migrarmos do CS50 IDE para o VS CODE CS50 iremos perder todos os arquivos criados?
+A resposta é não, você não irá perder seus arquivos. Entretanto, para não perder seus arquivos é necessário fazer os passos abaixo:
+## <img src="assets/youtube.svg" width=20 /> [[CC50] Migrando os arquivos do CS50 IDE para VS CODE CS50](https://www.youtube.com/watch?v=8CpJVgTViO4) 
+
 <br>
 
 # Principais códigos que serão utilizados na IDE CS50 ou CodeSpace VsCode
