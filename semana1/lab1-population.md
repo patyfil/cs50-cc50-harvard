@@ -7,7 +7,10 @@
 
 # Lab 1: População (Opcional)  
 
-# Laboratório 1: Crescimento Populacional  
+## Laboratório 1: Crescimento Populacional  
+
+<br>
+
 # ***OBS: O LAB1 fazia parte do curso anterior a 2022.***  
 
 ## Determine quanto tempo leva para uma população atingir um determinado tamanho.
