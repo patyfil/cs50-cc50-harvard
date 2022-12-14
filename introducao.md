@@ -2,6 +2,20 @@
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
 </p>
 
+# Configurando o ambiente
+
+## Criando uma conta no GitHub:
+## <img src="assets/youtube.svg" width=20 /> [CC50: Como criar sua Conta no GitHub?](https://www.youtube.com/watch?v=UHARV0Y3r3A) 
+
+<br>
+
+## Criando o Codespace:  
+<p>A versão mais recentede do Curso de Ciência da Computação de Harvard(2022) mudou o ambiente de desenvolvimento, também conhecido como IDE CS50 para o VS CODE CS50 (codespace). Se você tem familiaridade com o VS CODE ou gostaria de migrar para o novo IDE do CS50, siga as instruções desse vídeo, nele iremos apresentar o VS CODE CS50 e como ativá-lo, também testamos aquele exercício do "hello world" e "hello [nome]".</p>
+
+## <img src="assets/youtube.svg" width=20 /> [[CC50] Do CS50 IDE para VS CODE CS50](https://www.youtube.com/watch?v=WDmW6LSnpIQ) 
+ 
+<br>
+
 # Principais códigos que serão utilizados na IDE CS50 ou CodeSpace VsCode
 
 Para importar a Biblioteca do CS50:
