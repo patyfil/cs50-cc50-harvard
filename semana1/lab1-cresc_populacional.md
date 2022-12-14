@@ -26,13 +26,27 @@ Por exemplo, se começarmos com n = 1.200 lhamas, no primeiro ano, 1.200 / 3 = 4
 
 Para tentar outro exemplo, se começarmos com n = 1000 lhamas, no final do ano teremos 1000/3 = 333,33 novas lhamas. Não podemos ter uma parte decimal de uma lhama, entretanto, vamos truncar o decimal para que 333 novas lhamas nasçam.   1000/4 = 250 lhamas passarão, então terminaremos com um total de 1000 + 333 - 250 = 1083 lhamas no final do ano.  
 
+<br>  
+
 ## <img src="../assets/youtube.svg" width=20 /> [CC50: Lab 1 - Crescimento Populacional](https://www.youtube.com/watch?v=PIBkoMVoLss)  
 
 <br>  
 
 # Começando  
 
-Copie o “código de distribuição” (ou seja, código inicial) a seguir em um novo arquivo em seu IDE chamado ***population.c*** .
+
+1 - Entre no *Terminal* do VsCode: `Ctrl`+`'`  
+
+2 - Crie a pasta: `mkdir Lab1`  
+
+3 - Entre na pasta: `cd 'Lab1'` 
+OBS: Caso a pasta possua espaço, por exemplo: *Lab 1*  
+Será necessário colocar aspas para entrar na pasta: `cd 'Lab 1'` 
+
+4 - Crie o arquivo *population.c*: `code population.c`
+obs: deve abrir o arquivo onde você digitará seu código para este conjunto de problemas. Se não, refaça seus passos e veja se consegue determinar onde errou!  
+
+5 - Copie o “código de distribuição” (ou seja, código inicial) a seguir em um novo arquivo em seu IDE chamado ***population.c*** .
 
 ```c
 #include  
@@ -50,6 +64,16 @@ int main(void)
 
 }
 ```  
+
+6 - Teste seu código: `check50 cs50/labs/2022/x/population`;  
+
+7 - Avalie o estilo do seu código: `style50 population.c`;  
+
+8 - Envie seu código: `submit50 cs50/problems/2022/x/population` depois digite: `yes`  
+
+&nbsp;
+
+<a href=https://cs50.me/cs50x>Ver o progresso no Curso</a>
 
 # Detalhes de Implementação  
 
@@ -129,37 +153,6 @@ Start size: 100
 End size: 1000000
 Years: 115
 ```
-# Começando:
-
-1 - Entre no *Terminal* do VsCode: `Ctrl`+`'`  
-
-2 - Entrar nessa pasta: `cd pset1`  
-OBS: Caso a pasta possua espaço, por exemplo: *Semana 1*  
-Será necessário colocar aspas para entrar na pasta: `cd 'Semana 1'` 
-
-3 - No terminal digite o comando: `wget https://cdn.cs50.net/2022/fall/psets/1/.zip`  
-seguido de *ENTER* para baixar o zip *population* que contem a pasta *population* com o arquivo em C.  
-
-4 - Execute o unzip: `unzip population.zip` para extrair a pasta *population* dentro da pasta *pset1*.  
-
-5 - Você não precisa mais do arquivo ZIP, então você pode executar o comando para excluir: `rm population.zip`  
-
-6 - Agora entre na pasta: `cd population`  
-
-7 - Se tudo foi bem sucedido, você deve executar o comando `ls` que listará os arquivos dentro dessa pasta, nesse caso deverá ter o arquivo *population.c*  
-A execução `code population.c` deve abrir o arquivo onde você digitará seu código para este conjunto de problemas. Se não, refaça seus passos e veja se consegue determinar onde errou!  
-
-8 - No arquivo *population.c* faça o exercício proposto;
-
-9 - Teste seu código: `check50 cs50/labs/2022/x/population`;  
-
-10 - Avalie o estilo do seu código: `style50 population.c`;  
-
-11 - Envie seu código: `submit50 cs50/problems/2022/x/population` depois digite: `yes`  
-
-&nbsp;
-
-<a href=https://cs50.me/cs50x>Ver o progresso no Curso</a>
 
 &nbsp;
 
