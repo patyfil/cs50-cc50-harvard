@@ -81,11 +81,11 @@ Exemplo: ```mv greedy.c greddy.c```
 
 ### ***Copiar*** e ***Renomear*** um ***arquivo***: cp
 Exemplo: ```cp hello.txt hi.txt```  
-cp <<nome do arquivo de origem>> <<nome do arquivo destino>>
+```cp <nome do arquivo de origem> <nome do arquivo destino>```
 
 ### ***Copiar*** um ***diretório com seu conteúdo***: cp -r
 Exemplo: ```cp -r pset0 pset3```  
-cp <<nome do diretório de origem>> <<nome do diretório destino>>
+```cp <nome do diretório de origem> <nome do diretório destino>```
 
 ### Diretório de trabalho atual: ```pwd```  
 
