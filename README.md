@@ -80,3 +80,19 @@ Inglês: [Exercício 1 - Scratch](https://cs50.harvard.edu/x/2022/psets/0/scratc
 [Exercício 3: Dinheiro](https://cs50.harvard.edu/x/2022/psets/1/cash/)  
 [Exercício 4: Crédito](https://cs50.harvard.edu/x/2022/psets/1/credit/)  
 
+# Labs [laboratórios](https://cs50.harvard.edu/x/2022/labs/)  
+
+Note, there is no Lab 1.  
+(Observe que não há laboratório 1.)  
+Labs start in Week 2.  
+(Os laboratórios começam na semana 2.)   
+
+[Population](https://cs50.harvard.edu/x/2021/labs/1/population/) Lab1 fazia parte do curso anterior a 2022    
+[Scrabble](https://cs50.harvard.edu/x/2022/labs/2/)  Lab2   
+[Sort](https://cs50.harvard.edu/x/2022/labs/3/)  Lab3  
+[Volume](https://cs50.harvard.edu/x/2022/labs/4/)  Lab4  
+[Inheritance](https://cs50.harvard.edu/x/2022/labs/5/)  Lab5  
+[World Cup](https://cs50.harvard.edu/x/2022/labs/6/)  Lab6  
+[Songs](https://cs50.harvard.edu/x/2022/labs/7/)  Lab7  
+[Trivia](https://cs50.harvard.edu/x/2022/labs/8/)  Lab8  
+[Birthdays](https://cs50.harvard.edu/x/2022/labs/9/)  Lab9  

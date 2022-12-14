@@ -34,7 +34,6 @@ Para tentar outro exemplo, se começarmos com n = 1000 lhamas, no final do ano t
 
 # Começando  
 
-
 1 - Entre no *Terminal* do VsCode: `Ctrl`+`'`  
 
 2 - Crie a pasta: `mkdir Lab1`  
