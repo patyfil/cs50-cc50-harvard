@@ -35,11 +35,11 @@ Obs: *Tem que executar o comando dentro da pasta onde está o arquivo.*
 Exemplo: ```check50 cs50/problems/2022/x/mario/more```  
 
 `help50` - É um comando que podemos executar para explicar problemas em nosso código de uma forma mais amigável.  
-Podemos executá-lo adicionando help50 à frente de um comando que estamos tentando.   Exemplo: ```help50 make hello```  
+Podemos executá-lo adicionando help50 à frente de um comando que estamos tentando.  
+Exemplo: ```help50 make hello```  
 
 `style50` - Para ver sugestões de novas linhas e recuo.  
-
-```style50 hello.c```
+Exemplo: ```style50 hello.c```
 
 ## Linhas de comando básicas para usar no Terminal do VsCode - na IDE CS50 ou CodeSpace:  
 
