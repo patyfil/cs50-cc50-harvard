@@ -49,9 +49,28 @@ Exemplo: ```style50 hello.c```
 
 ### Entrar em uma pasta: ```cd pasta```  
 
+### O caractere (.) é um atalho que representa o diretório atual.  
+Exemplo: cd .
+
+### O caractere (..) é um atalho que representa o diretório acima do diretório atual.  
+Exemplo: cd ..  
+
+### Mudar para o diretório que está dois níveis acima do diretório atual: 
+Exemplo: cd ../../
+
+### Remove um arquivo/diretório: ```rm```  
+
+### 
+
+### Diretório de trabalho atual: ```pwd```  
+
+### Lista arquivos ou pastas que estão dentro do diretório: ```ls```  
+
 ### Compilar o arquivo que criamos: ```make hello```  
 
 ### Executar o arquivo compilado: ```./hello```  
+
+### Limpar a tela: Aperte as teclas ```Ctrl```+```L```  
 
 <br> 
 
