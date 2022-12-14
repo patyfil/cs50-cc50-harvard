@@ -64,7 +64,7 @@ style50 hello.c
 ```make hello```
 
 ### Executar o arquivo compilado
-```./hello```
+```./hello```  
 
 
 # [Style Guide for C](https://cs50.readthedocs.io/style/c/)
