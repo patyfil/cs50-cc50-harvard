@@ -30,13 +30,15 @@ Observe que a largura da “lacuna” entre as pirâmides adjacentes é igual à
 
 &nbsp;
 
+# Começando:
+
 1 - Entre no *Terminal* do VsCode: `Ctrl`+`'`  
 
 2 - Entrar nessa pasta: `cd pset1`  
 OBS: Caso a pasta possua espaço, por exemplo: *Semana 1*  
 Será necessário colocar aspas para entrar na pasta: `cd 'Semana 1'` 
 
-3 - No terminal digite o comando: `wget https://cdn.cs50.net/2021/fall/psets/1/mario-more.zip`  
+3 - No terminal digite o comando: `wget https://cdn.cs50.net/2022/fall/psets/1/mario-more.zip`  
 seguido de *ENTER* para baixar o zip *mario-more* que contem a pasta *mario-more* com o arquivo em C.  
 
 4 - Execute o unzip: `unzip mario-more.zip` para extrair a pasta *mario-more* dentro da pasta *pset1*.  

@@ -1,3 +1,10 @@
+<p align="right">
+   <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
+</p>
+<p align="right">
+   <a href="https://patyfil.github.io/cs50-cc50-harvard/1-C.html">Voltar ao Índice da Semana 1</a>
+</p>
+
 # Lab 1: População  
 
 # Laboratório 1: Crescimento Populacional  
@@ -122,11 +129,43 @@ Start size: 100
 End size: 1000000
 Years: 115
 ```
+# Começando:
 
-Execute o seguinte comando para avaliar a exatidão do seu código usando ***check50*** . Mas certifique-se de compilar e testar você mesmo!  
+1 - Entre no *Terminal* do VsCode: `Ctrl`+`'`  
 
-```check50 cs50/labs/2022/x/population```  
+2 - Entrar nessa pasta: `cd pset1`  
+OBS: Caso a pasta possua espaço, por exemplo: *Semana 1*  
+Será necessário colocar aspas para entrar na pasta: `cd 'Semana 1'` 
 
-Execute o seguinte comando para avaliar o estilo do seu código usando ***style50*** .  
+3 - No terminal digite o comando: `wget https://cdn.cs50.net/2022/fall/psets/1/.zip`  
+seguido de *ENTER* para baixar o zip *population* que contem a pasta *population* com o arquivo em C.  
 
-```style50 population.c```  
+4 - Execute o unzip: `unzip population.zip` para extrair a pasta *population* dentro da pasta *pset1*.  
+
+5 - Você não precisa mais do arquivo ZIP, então você pode executar o comando para excluir: `rm population.zip`  
+
+6 - Agora entre na pasta: `cd population`  
+
+7 - Se tudo foi bem sucedido, você deve executar o comando `ls` que listará os arquivos dentro dessa pasta, nesse caso deverá ter o arquivo *population.c*  
+A execução `code population.c` deve abrir o arquivo onde você digitará seu código para este conjunto de problemas. Se não, refaça seus passos e veja se consegue determinar onde errou!  
+
+8 - No arquivo *population.c* faça o exercício proposto;
+
+9 - Teste seu código: `check50 cs50/labs/2022/x/population`;  
+
+10 - Avalie o estilo do seu código: `style50 population.c`;  
+
+11 - Envie seu código: `submit50 cs50/problems/2022/x/population` depois digite: `yes`  
+
+&nbsp;
+
+<a href=https://cs50.me/cs50x>Ver o progresso no Curso</a>
+
+&nbsp;
+
+<p align="right">
+   <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
+</p>
+<p align="right">
+   <a href="https://patyfil.github.io/cs50-cc50-harvard/1-C.html">Voltar ao Índice da Semana 1</a>
+</p>

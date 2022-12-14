@@ -101,7 +101,7 @@ Change owed: 41
 OBS: Caso a pasta possua espaço, por exemplo: *Semana 1*  
 Será necessário colocar aspas para entrar na pasta: `cd 'Semana 1'` 
 
-3 - No terminal digite o comando: `wget https://cdn.cs50.net/2021/fall/psets/1/cash.zip`  
+3 - No terminal digite o comando: `wget https://cdn.cs50.net/2022/fall/psets/1/cash.zip`  
 seguido de *ENTER* para baixar o zip *cash* que contem a pasta *cash* com o arquivo em C.  
 ou [copie aqui a estrutura do código cash.c](https://patyfil.github.io/cs50-cc50-harvard/semana1/cash.c)
 
