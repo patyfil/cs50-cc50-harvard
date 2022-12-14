@@ -32,11 +32,10 @@ Para importar a Biblioteca do CS50:
 
 `check50` - Irá verificar a exatidão do nosso código com alguns testes automatizados.  
 Obs: *Tem que executar o comando dentro da pasta onde está o arquivo.*  
-Exemplo:  
-```check50 cs50/problems/2021/x/mario/more```
+Exemplo: ```check50 cs50/problems/2022/x/mario/more```  
 
 `help50` - É um comando que podemos executar para explicar problemas em nosso código de uma forma mais amigável.  
-Podemos executá-lo adicionando help50 à frente de um comando que estamos tentando, exemplo: ```help50 make hello```
+Podemos executá-lo adicionando help50 à frente de um comando que estamos tentando.   Exemplo: ```help50 make hello```  
 
 `style50` - Para ver sugestões de novas linhas e recuo.  
 
