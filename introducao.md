@@ -97,23 +97,23 @@ Exemplo: ```cp -r pset0 pset3```
 
 ### ***Limpar*** a tela: Aperte as teclas ```Ctrl```+```L```  
 
-### chmod
+### ```chmod```
 
-### rmdir
+### ```rmdir```
 
-### sudo
+### ```sudo```
 
-### ln
+### ```ln```
 
-### man
+### ```man```
 
-### clear
+### ```clear```
 
-### touch
+### ```touch```
 
-### diff
+### ```diff```
 
-### telnet
+### ```telnet```
 
 <br> 
 
