@@ -50,27 +50,70 @@ Exemplo: ```style50 hello.c```
 ### Entrar em uma pasta: ```cd pasta```  
 
 ### O caractere (.) é um atalho que representa o diretório atual.  
-Exemplo: cd .
+Exemplo: ```cd .```  
 
 ### O caractere (..) é um atalho que representa o diretório acima do diretório atual.  
-Exemplo: cd ..  
+Exemplo: ```cd ..```    
 
-### Mudar para o diretório que está dois níveis acima do diretório atual: 
-Exemplo: cd ../../
+### ***Mudar*** para o diretório que está dois níveis acima do diretório atual: 
+Exemplo: ```cd ../../```  
 
-### Remove um arquivo/diretório: ```rm```  
+### ***Voltar*** para o diretório raiz: ```cd```  
 
-### 
+### ***Remove*** um arquivo, pedindo confirmação: ```rm```  
+Exemplo: ```rm hello.txt```    
+
+Mensagem de confirmação: Você realmente deseja remover o arquivo hello.txt?
+sua resposta deve ser: ```y``` ou ```yes``` 
+
+### ***Remove*** um ***arquivo***, SEM confirmação: ```rm -f```  
+Exemplo: ```rm -f hello.txt```    
+
+### ***Remove*** um ***diretório*** inteiro, pedindo confirmação ```rm -r```  
+Exemplo: ```rm -r pset2```    
+Mensagem de confirmação: Você realmente deseja remover o diretório 'pset'? y
+
+### ***Remove*** um ***diretório*** inteiro, SEM confirmação ```rm -r```  
+Exemplo: ```rm -rf pset2```    
+
+### ***Mover*** e ***Renomear*** um arquivo de um local para outro, da origem para o destino: 
+Exemplo: ```mv greedy.c greddy.c```  
+
+### ***Copiar*** e ***Renomear*** um ***arquivo***: cp
+Exemplo: ```cp hello.txt hi.txt```  
+cp <nome do arquivo de origem> <nome do arquivo destino>
+
+### ***Copiar*** um ***diretório com seu conteúdo***: cp -r
+Exemplo: ```cp -r pset0 pset3```  
+cp <nome do diretório de origem> <nome do diretório destino>
 
 ### Diretório de trabalho atual: ```pwd```  
 
-### Lista arquivos ou pastas que estão dentro do diretório: ```ls```  
+### ***Lista*** arquivos ou pastas que estão dentro do diretório: ```ls```  
 
-### Compilar o arquivo que criamos: ```make hello```  
+### ***Compilar*** o arquivo que criamos: ```make hello```  
 
-### Executar o arquivo compilado: ```./hello```  
+### ***Executar*** o arquivo compilado: ```./hello```  
 
-### Limpar a tela: Aperte as teclas ```Ctrl```+```L```  
+### ***Limpar*** a tela: Aperte as teclas ```Ctrl```+```L```  
+
+### chmod
+
+### rmdir
+
+### sudo
+
+### ln
+
+### man
+
+### clear
+
+### touch
+
+### diff
+
+### telnet
 
 <br> 
 
