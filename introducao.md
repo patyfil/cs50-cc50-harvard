@@ -66,10 +66,16 @@ style50 hello.c
 ### Executar o arquivo compilado
 ```./hello```  
 
-
-# [Style Guide for C](https://cs50.readthedocs.io/style/c/)
+<br> 
 
 # Linguagem C:
+
+
+
+# [Style Guide for C](https://cs50.readthedocs.io/style/c/)  
+
+<br>  
+
 ```
 #include <stdio.h>  
 
