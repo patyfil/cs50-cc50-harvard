@@ -58,7 +58,7 @@ depois digite: `yes`
 
 &nbsp;
 
-<a href=https://cs50.me/cs50x>Ver o progresso no Curso</a>
+[Ver o progresso no Curso](https://cs50.me/cs50x)
 
 &nbsp;
 

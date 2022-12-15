@@ -60,7 +60,7 @@ A execução `code mario.c` deve abrir o arquivo onde você digitará seu códig
 
 &nbsp;
 
-<a href=https://cs50.me/cs50x>Ver o progresso no Curso</a>
+[Ver o progresso no Curso](https://cs50.me/cs50x)
 
 &nbsp;
 

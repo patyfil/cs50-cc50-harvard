@@ -73,7 +73,7 @@ int main(void)
 
 8 - Envie seu código: `submit50 cs50/problems/2022/x/population` depois digite: `yes`  
 
-<a href=https://cs50.me/cs50x>Ver o progresso no Curso</a>
+[Ver o progresso no Curso](https://cs50.me/cs50x)
 
 &nbsp;
 
