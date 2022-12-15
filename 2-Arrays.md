@@ -7,9 +7,9 @@
 
 <p>OBS: Habilitar legendas</p>
 
-## <img src="assets/youtube.svg" width=20 /> [Videoaula 2 - Arrays](https://www.youtube.com/watch?v=yvAVgpKW6tY) (Link da Fundação Estudar na Prática)  
+## <img src="assets/youtube.svg" width=20 /> [Videoaula 1 - Arrays](https://www.youtube.com/watch?v=yvAVgpKW6tY) (Link da Fundação Estudar na Prática)  
 
-## <img src="assets/youtube.svg" width=20 /> [Videoaula 2 - CS50 2021 in HDR - Lecture 2 - Arrays](https://www.youtube.com/watch?v=v_luodP_mfE) (Link da Harvard)  
+## <img src="assets/youtube.svg" width=20 /> [Videoaula 1 - CS50 2021 in HDR - Lecture 2 - Arrays](https://www.youtube.com/watch?v=v_luodP_mfE) (Link da Harvard)  
 
 ## <img src="assets/youtube.svg" width=20 /> [Videoaula 2 - Functions](https://www.youtube.com/watch?v=n1glFqt3g38&t=5s)  
 
