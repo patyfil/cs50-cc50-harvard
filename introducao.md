@@ -34,14 +34,27 @@ Para importar a Biblioteca do CS50:
 Obs: *Tem que executar o comando dentro da pasta onde está o arquivo.*  
 Exemplo: ```check50 cs50/problems/2022/x/mario/more```  
 
+![image](https://user-images.githubusercontent.com/41968938/207944538-d14dad6a-8308-4b8f-ab30-5dcba765228f.png)
+
+
 `help50` - É um comando que podemos executar para explicar problemas em nosso código de uma forma mais amigável.  
 Podemos executá-lo adicionando help50 à frente de um comando que estamos tentando.  
 Exemplo: ```help50 make hello```  
+quando está correto:  
+
+![image](https://user-images.githubusercontent.com/41968938/207945405-b71b0308-9e24-4a06-9f75-a72608b9ea28.png)  
+quando tem erro:  
+
+![image](https://user-images.githubusercontent.com/41968938/207945954-39dc5025-ef80-4e6d-bc24-ce5adb069241.png)  
+
 
 `style50` - Para ver sugestões de novas linhas e recuo.  
-Exemplo: ```style50 hello.c```
+Exemplo: ```style50 hello.c```  
 
-## Linhas de comando básicas para usar no Terminal do VsCode - na IDE CS50 ou CodeSpace:  
+![image](https://user-images.githubusercontent.com/41968938/207945269-1ba46843-11f1-454e-a5a1-96c985f649b9.png)
+
+
+# Linhas de comando básicas para usar no Terminal do VsCode - na IDE CS50 ou CodeSpace:  
 
 ### Criar uma pasta:  ```mkdir pasta```  
 
