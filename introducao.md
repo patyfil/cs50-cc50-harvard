@@ -53,6 +53,71 @@ Exemplo: ```style50 hello.c```
 
 ![image](https://user-images.githubusercontent.com/41968938/207945269-1ba46843-11f1-454e-a5a1-96c985f649b9.png)
 
+`debug50` - 
+`debug50 ./buggy`
+
+Caso ocorra erro no debug50, configure o arquivo `launch.json` da seguinte forma:  
+```
+{
+    "name": "Local",
+    "type": "cppdbg",
+    "request": "launch",
+    "program": "${fileDirname}/${fileBasenameNoExtension}",
+    "args": [],
+    "stopAtEntry": true,
+    "cwd": "${fileDirname}",
+    "environment": [],
+    "externalConsole": false,
+    "MIMode": "gdb",
+    "setupCommands": [
+        {
+            "description": "Habilitar a reformatação automática para gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+        },
+        {
+            "description": "Set library path",
+            "text": "set env LD_LIBRARY_PATH=${workspaceFolder}",
+            "ignoreFailures": false
+        }
+    ],
+    "preLaunchTask": "<Custom Task Name>",
+    "miDebuggerPath": "/usr/bin/gdb"
+}
+
+"launch": {
+    "configurations": [
+        {
+            "name": "Global",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set library path",
+                    "text": "set env LD_LIBRARY_PATH=${workspaceFolder}",
+                    "ignoreFailures": false
+                }
+            ],
+            "miDebuggerPath": "/usr/bin/gdb"
+        }
+    ],
+    "compounds": []
+}
+```
+Pressione F5 para executar a depuração
+
 
 # Linhas de comando básicas para usar no Terminal do VsCode - na IDE CS50 ou CodeSpace:  
 
@@ -66,12 +131,27 @@ Exemplo: ```style50 hello.c```
 Exemplo: ```cd .```  
 
 ### O caractere (..) é um atalho que representa o diretório acima do diretório atual.  
-Exemplo: ```cd ..```    
+Exemplo: ```cd ..```   
 
 ### ***Mudar*** para o diretório que está dois níveis acima do diretório atual: 
 Exemplo: ```cd ../../```  
 
 ### ***Voltar*** para o diretório raiz: ```cd```  
+
+### ***Lista*** arquivos ou pastas que estão dentro do diretório: ```ls```  
+
+### ***Compilar*** o arquivo que criamos: ```make hello```  
+Executa o Comando "clang". Converte o código-fonte em código de máquina.  
+Para usar direto o comando ```clang```:  
+```clang hello.c``` Saída: ```a.out```  
+```clang -o hello hello.c``` Saída: ```hello```  
+```-o``` "saída". Renomeia o arquivo final, ou seja, argumento de linha de comando, que permite especificar, explicitamente, como você deseja que seu programa de saída seja chamado.
+Código-fonte: ```hello.c```
+Código de Máquina: ```hello```
+
+### ***Executar*** o arquivo compilado: ```./hello```  
+
+### ***Limpar*** a tela: Aperte as teclas ```Ctrl```+```L```  
 
 ### ***Remove*** um arquivo, pedindo confirmação: ```rm```  
 Exemplo: ```rm hello.txt```    
@@ -101,14 +181,6 @@ Exemplo: ```cp -r pset0 pset3```
 ```cp <nome do diretório de origem> <nome do diretório destino>```
 
 ### Diretório de trabalho atual: ```pwd```  
-
-### ***Lista*** arquivos ou pastas que estão dentro do diretório: ```ls```  
-
-### ***Compilar*** o arquivo que criamos: ```make hello```  
-
-### ***Executar*** o arquivo compilado: ```./hello```  
-
-### ***Limpar*** a tela: Aperte as teclas ```Ctrl```+```L```  
 
 ### ```chmod```
 
