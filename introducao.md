@@ -52,7 +52,7 @@ Exemplo: ```check50 cs50/problems/2022/x/mario/more```
 
 ![image](https://user-images.githubusercontent.com/41968938/207944538-d14dad6a-8308-4b8f-ab30-5dcba765228f.png)
 
-
+### Ajuda  
 `help50` - É um comando que podemos executar para explicar problemas em nosso código de uma forma mais amigável.  
 Podemos executá-lo adicionando help50 à frente de um comando que estamos tentando.  
 Exemplo: ```help50 make hello```  
@@ -63,13 +63,13 @@ quando tem erro:
 
 ![image](https://user-images.githubusercontent.com/41968938/207945954-39dc5025-ef80-4e6d-bc24-ce5adb069241.png)  
 
-
+### Sugestões de correções  
 `style50` - Para ver sugestões de novas linhas e recuo.  
 Exemplo: ```style50 hello.c```  
 
 ![image](https://user-images.githubusercontent.com/41968938/207945269-1ba46843-11f1-454e-a5a1-96c985f649b9.png)  
 
-
+### Depuração  
 `debug50` - Debug/Depuração significa executar o código passo a passo em uma ferramenta de depuração, para localizar o ponto exato em que você cometeu um erro de programação.  
 
 Exemplo de execução do debug50:  
