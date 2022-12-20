@@ -6,14 +6,14 @@
 
 # debug50 - Ferramenta de Depuração  
 
+`debug50` - Debug/Depuração significa executar o código passo a passo em uma ferramenta de depuração, para localizar o ponto exato em que você cometeu um erro de programação.  
+
 Assim que uma sessão de depuração for iniciada, a barra de ferramentas Depurar aparecerá na parte superior do editor.  
 ![debug](https://user-images.githubusercontent.com/41968938/208586137-2348bb28-b177-4bb2-a4a9-6abb702d3293.jpg)  
 
 ![debug2](https://user-images.githubusercontent.com/41968938/208586642-2d0c0005-ed3a-464e-8852-bda67f0a5401.jpg)
 
 <br>  
-
-`debug50` - Debug/Depuração significa executar o código passo a passo em uma ferramenta de depuração, para localizar o ponto exato em que você cometeu um erro de programação.  
 
 # Como executar a Depuração do seu código:  
 1 - Entre na pasta onde tem seu arquivo para depurar:
@@ -66,7 +66,7 @@ Para instalar extensões, clique no ícone como mostra a seguir:
 
 ![105](https://user-images.githubusercontent.com/41968938/208607069-6f183730-9f0a-459e-9181-ca13e21ce9de.jpg)
 
-
+8 - Execute o debug50 novamente.
 
 
 
