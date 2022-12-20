@@ -47,7 +47,8 @@ Para ver seu progresso no curso da Harvard:  [PROGRESSO NO CURSO](https://cs50.m
 [Week 9's (Módulo 9 - Flask)](9-Flask.md)  
 [Week 10's (Módulo 10 - Ética)](10-Ética.md)  
 [Encerramento do Curso]  
-[SSH-Keygen - Criando chave SSH para o GitHub](ssh-keygen.md)
+[SSH-Keygen - Criando chave SSH para o GitHub](ssh-keygen.md)  
+[Erro no debug50](https://patyfil.github.io/cs50-cc50-harvard/debug50)
 
 
 # Links das videoaulas e exercícios:
