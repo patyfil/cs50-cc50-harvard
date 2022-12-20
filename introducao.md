@@ -51,21 +51,17 @@ quando tem erro:
 `style50` - Para ver sugestões de novas linhas e recuo.  
 Exemplo: ```style50 hello.c```  
 
-![image](https://user-images.githubusercontent.com/41968938/207945269-1ba46843-11f1-454e-a5a1-96c985f649b9.png)
+![image](https://user-images.githubusercontent.com/41968938/207945269-1ba46843-11f1-454e-a5a1-96c985f649b9.png)  
 
-`debug50` - 
+
+`debug50` - Debug/Depuração significa executar o código passo a passo em uma ferramenta de depuração, para localizar o ponto exato em que você cometeu um erro de programação.  
+
+Exemplo de execução do debug50:  
 `debug50 ./buggy`
 
-Caso ocorra erro no debug50, 
-
-
-
-
-
-
-
-
-
+Caso ocorra erro:  
+``` Can't debug this program! Are you sure you're running debug50 on an executable or a Python script? ```  
+[Solução AQUI](https://patyfil.github.io/cs50-cc50-harvard/debug50)
 
 # Linhas de comando básicas para usar no Terminal do VsCode - na IDE CS50 ou CodeSpace:  
 
