@@ -1,3 +1,9 @@
+<p align="right">
+   <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
+</p>
+
+<br>  
+
 # debug50 - Ferramenta de Depuração  
 
 <br>  
@@ -18,3 +24,9 @@ Selecione para abrir com o "VS Code Desktop"
 Siga os passos e seu Codespaces será resetado.
 
 ![02](https://user-images.githubusercontent.com/41968938/208565813-2e2737f8-a691-4d87-b35f-f1b25b7b93ac.jpg)
+
+<br>  
+
+<p align="right">
+   <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
+</p>
