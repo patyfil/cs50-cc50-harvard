@@ -16,12 +16,12 @@ Exemplo de execução do debug50:
 Caso ocorra o erro:  
 ``` Can't debug this program! Are you sure you're running debug50 on an executable or a Python script? ```  
 
-digite no navegador: `https://code.cs50.io/`  
+1 - digite no navegador: `https://code.cs50.io/`  
 
-Selecione para abrir com o "VS Code Desktop"  
+2 - Selecione para abrir com o "VS Code Desktop"  
 ![01](https://user-images.githubusercontent.com/41968938/208565597-ff5594f8-aa93-49c4-8109-db08e5d14592.jpg)
 
-Siga os passos e seu Codespaces será resetado.
+3 - Siga os passos e seu Codespaces será resetado.
 
 ![02](https://user-images.githubusercontent.com/41968938/208565813-2e2737f8-a691-4d87-b35f-f1b25b7b93ac.jpg)
 
