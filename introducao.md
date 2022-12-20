@@ -25,10 +25,26 @@ A resposta é não, você não irá perder seus arquivos. Entretanto, para não 
 
 <br>
 
-# Principais códigos que serão utilizados na IDE CS50 ou CodeSpace VsCode
+# Principais códigos que serão utilizados na IDE CS50 ou CodeSpace VsCode  
 
-Para importar a Biblioteca do CS50:  
-```#include <cs50.h>``` 
+Para importar Bibliotecas:  
+```
+#include <...> Inclui cabeçalho de biblioteca
+#include <cs50.h> Funções do CS50;
+#include <stdio.h> Funções de entrada/saída
+#include <math.h> Funções matemáticas
+```  
+
+### ***Compilar*** o arquivo que criamos: ```make hello```  
+Executa o Comando "clang". Converte o código-fonte em código de máquina.  
+Para usar direto o comando ```clang```:  
+```clang hello.c``` Saída: ```a.out```  
+```clang -o hello hello.c``` Saída: ```hello```  
+```-o``` "saída". Renomeia o arquivo final, ou seja, argumento de linha de comando, que permite especificar, explicitamente, como você deseja que seu programa de saída seja chamado.
+Código-fonte: ```hello.c```
+Código de Máquina: ```hello```
+
+### ***Executar*** o arquivo compilado: ```./hello```  
 
 `check50` - Irá verificar a exatidão do nosso código com alguns testes automatizados.  
 Obs: *Tem que executar o comando dentro da pasta onde está o arquivo.*  
@@ -83,17 +99,6 @@ Exemplo: ```cd ../../```
 ### ***Voltar*** para o diretório raiz: ```cd```  
 
 ### ***Lista*** arquivos ou pastas que estão dentro do diretório: ```ls```  
-
-### ***Compilar*** o arquivo que criamos: ```make hello```  
-Executa o Comando "clang". Converte o código-fonte em código de máquina.  
-Para usar direto o comando ```clang```:  
-```clang hello.c``` Saída: ```a.out```  
-```clang -o hello hello.c``` Saída: ```hello```  
-```-o``` "saída". Renomeia o arquivo final, ou seja, argumento de linha de comando, que permite especificar, explicitamente, como você deseja que seu programa de saída seja chamado.
-Código-fonte: ```hello.c```
-Código de Máquina: ```hello```
-
-### ***Executar*** o arquivo compilado: ```./hello```  
 
 ### ***Limpar*** a tela: Aperte as teclas ```Ctrl```+```L```  
 
