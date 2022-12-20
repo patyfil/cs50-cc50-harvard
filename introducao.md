@@ -56,67 +56,15 @@ Exemplo: ```style50 hello.c```
 `debug50` - 
 `debug50 ./buggy`
 
-Caso ocorra erro no debug50, configure o arquivo `launch.json` da seguinte forma:  
-```
-{
-    "name": "Local",
-    "type": "cppdbg",
-    "request": "launch",
-    "program": "${fileDirname}/${fileBasenameNoExtension}",
-    "args": [],
-    "stopAtEntry": true,
-    "cwd": "${fileDirname}",
-    "environment": [],
-    "externalConsole": false,
-    "MIMode": "gdb",
-    "setupCommands": [
-        {
-            "description": "Habilitar a reformatação automática para gdb",
-            "text": "-enable-pretty-printing",
-            "ignoreFailures": true
-        },
-        {
-            "description": "Set library path",
-            "text": "set env LD_LIBRARY_PATH=${workspaceFolder}",
-            "ignoreFailures": false
-        }
-    ],
-    "preLaunchTask": "<Custom Task Name>",
-    "miDebuggerPath": "/usr/bin/gdb"
-}
+Caso ocorra erro no debug50, 
 
-"launch": {
-    "configurations": [
-        {
-            "name": "Global",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${fileDirname}/${fileBasenameNoExtension}",
-            "args": [],
-            "stopAtEntry": true,
-            "cwd": "${fileDirname}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "gdb",
-            "setupCommands": [
-                {
-                    "description": "Enable pretty-printing for gdb",
-                    "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
-                },
-                {
-                    "description": "Set library path",
-                    "text": "set env LD_LIBRARY_PATH=${workspaceFolder}",
-                    "ignoreFailures": false
-                }
-            ],
-            "miDebuggerPath": "/usr/bin/gdb"
-        }
-    ],
-    "compounds": []
-}
-```
-Pressione F5 para executar a depuração
+
+
+
+
+
+
+
 
 
 # Linhas de comando básicas para usar no Terminal do VsCode - na IDE CS50 ou CodeSpace:  
