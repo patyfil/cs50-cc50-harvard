@@ -1,3 +1,7 @@
+# debug50 - Ferramenta de Depuração  
+
+<br>  
+
 `debug50` - Debug/Depuração significa executar o código passo a passo em uma ferramenta de depuração, para localizar o ponto exato em que você cometeu um erro de programação.  
 
 Exemplo de execução do debug50:  
