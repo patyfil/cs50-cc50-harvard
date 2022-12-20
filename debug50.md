@@ -6,6 +6,27 @@
 
 # debug50 - Ferramenta de Depuração  
 
+![debug](https://user-images.githubusercontent.com/41968938/208586137-2348bb28-b177-4bb2-a4a9-6abb702d3293.jpg)
+
+Assim que uma sessão de depuração for iniciada, a barra de ferramentas Depurar aparecerá na parte superior do editor.  
+
+Ações de depuração  
+
+Ação	Explicação  
+Continuar / Pausar  
+F5	Continuar : Retoma a execução normal do programa/script (até o próximo ponto de interrupção).  
+Pausa : inspecionar o código em execução na linha atual e depurar linha por linha.  
+Passar  
+F10	Execute o próximo método como um único comando sem inspecionar ou seguir as etapas de seus componentes.  
+Entre no  
+F11	Insira o próximo método para acompanhar sua execução linha por linha.  
+Sair  
+Shift+F11	Quando estiver dentro de um método ou sub-rotina, retorne ao contexto de execução anterior completando as linhas restantes do método atual como se fosse um único comando.  
+Reiniciar  
+Ctrl+Shift+F5	Encerre a execução do programa atual e inicie a depuração novamente usando a configuração de execução atual.  
+Parar  
+Shift+F5	Termina a execução do programa atual.  
+
 <br>  
 
 `debug50` - Debug/Depuração significa executar o código passo a passo em uma ferramenta de depuração, para localizar o ponto exato em que você cometeu um erro de programação.  
