@@ -76,7 +76,10 @@ Exemplo de execução do debug50:
 `debug50 ./buggy`
 
 Caso ocorra erro:  
-``` Can't debug this program! Are you sure you're running debug50 on an executable or a Python script? ```  
+``` 
+Can't debug this program! Are you sure you're running debug50 on an executable, a Python script, or a Java program?
+Unsupported File: nomedoarquivo
+```  
 [Solução AQUI](https://patyfil.github.io/cs50-cc50-harvard/debug50)
 
 # Linhas de comando básicas para usar no Terminal do VsCode - na IDE CS50 ou CodeSpace:  
