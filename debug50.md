@@ -68,7 +68,12 @@ Para instalar extensões, clique no ícone como mostra a seguir:
 
 8 - Execute o debug50 novamente.
 
-
+# Outro possível Erro:  
+```
+Failed to connect extension server on port 1337.
+Please refresh the page and try again.
+```
+Solução: Basta reiniciar o codespace (F5 - Caso esteja usando o navegador)  
 
 <br>  
 
