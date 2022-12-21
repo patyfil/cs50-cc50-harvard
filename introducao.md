@@ -35,9 +35,12 @@ Para importar Bibliotecas:
 #include <math.h> Funções matemáticas
 ```  
 
-### ***Compilar*** o arquivo que criamos:  `make hello`  
+### ***Compilar*** o arquivo que criamos: `make hello`  
+
 `make` é um programa que chama o compilador "clang". Converte o código-fonte em código de máquina.  
-Para usar direto o compilador `clang`:  
+
+***Para usar direto o compilador `clang`:***  
+
 Executamos o comando: `clang hello.c` que tem como arquivo de saída com nome padrão: `a.out`  
 obs: Esse comando não funciona se tiver a biblioteca do CS50.  
 Para ter como saída um arquivo com nome específico, usamos o comando: `clang -o hello hello.c` Arquivo de saída: `hello`  
