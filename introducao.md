@@ -2,6 +2,9 @@
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
 </p>
 
+<a href="#indice">Índice</a>
+
+
 # Configurando o ambiente
 
 ## Criando uma conta no GitHub:
@@ -45,6 +48,9 @@ Para importar Bibliotecas:
 #include <stdio.h> Funções de entrada/saída
 #include <math.h> Funções matemáticas
 ```  
+<p align="right">
+   <a>[início](#inicio)</a>
+</p>
 
 ## make
 
@@ -69,10 +75,6 @@ Se quisermos usar a biblioteca do CS50, via `#include <cs50.h>`, para a função
 O sinalizador `-l` vincula o arquivo `cs50` , que já está instalado no CS50 IDE, e inclui o código de máquina para `get_string` (entre outras funções) que nosso programa pode consultar e usar também.  
 
 Com o `make`, esses argumentos são gerados para nós, uma vez que a equipe também configurou o `make` no IDE CS50.  
-
-## ./
-
-### ***Executar*** o arquivo compilado: `./hello`  
 
 ## check50
 
@@ -120,7 +122,7 @@ Unsupported File: nomedoarquivo
 ```  
 [Solução AQUI](https://patyfil.github.io/cs50-cc50-harvard/debug50)
 
-# Linhas de comando básicas para usar no Terminal do VsCode - na IDE CS50 ou CodeSpace:  
+# Linhas de comando básicas para usar no Terminal:  
 
 ### Criar uma pasta:  `mkdir pasta`  
 
@@ -142,6 +144,10 @@ Exemplo: `cd ../../`
 ### ***Lista*** arquivos ou pastas que estão dentro do diretório: `ls`  
 
 ### ***Limpar*** a tela: Aperte as teclas `Ctrl`+`L`  
+
+### ./
+
+### ***Executar*** o arquivo compilado: `./hello`  
 
 ### ***Remove*** um arquivo, pedindo confirmação: `rm`  
 Exemplo: `rm hello.txt`    
