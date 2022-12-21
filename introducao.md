@@ -35,32 +35,32 @@ Para importar Bibliotecas:
 #include <math.h> Funções matemáticas
 ```  
 
-### ***Compilar*** o arquivo que criamos: ```make hello```  
+### ***Compilar*** o arquivo que criamos:  `make hello`  
 `make` é um programa que chama o compilador "clang". Converte o código-fonte em código de máquina.  
-Para usar direto o compilador ```clang```:  
-Executamos o comando: ```clang hello.c``` que tem como arquivo de saída com nome padrão: ```a.out```  
+Para usar direto o compilador `clang`:  
+Executamos o comando: `clang hello.c` que tem como arquivo de saída com nome padrão: `a.out`  
 obs: Esse comando não funciona se tiver a biblioteca do CS50.  
-Para ter como saída um arquivo com nome específico, usamos o comando: ```clang -o hello hello.c``` Arquivo de saída: ```hello```  
-```-o``` "saída". Renomeia o arquivo final, ou seja, argumento de linha de comando, que permite especificar, explicitamente, como você deseja que seu programa de saída seja chamado.
-Código-fonte: ```hello.c```
-Código de Máquina: ```hello```  
+Para ter como saída um arquivo com nome específico, usamos o comando: `clang -o hello hello.c` Arquivo de saída: `hello`  
+`-o` "saída". Renomeia o arquivo final, ou seja, argumento de linha de comando, que permite especificar, explicitamente, como você deseja que seu programa de saída seja chamado.
+Código-fonte: `hello.c`
+Código de Máquina: `hello`  
 
 Se quisermos usar a biblioteca do CS50, via `#include <cs50.h>`, para a função `get_string` ou outra função dessa biblioteca, também temos que adicionar um sinalizador: `clang -o hello hello.c -lcs50`  
 
 O sinalizador `-l` vincula o arquivo `cs50` , que já está instalado no CS50 IDE, e inclui o código de máquina para `get_string` (entre outras funções) que nosso programa pode consultar e usar também.
 
-### ***Executar*** o arquivo compilado: ```./hello```  
+### ***Executar*** o arquivo compilado: `./hello`  
 
 `check50` - Irá verificar a exatidão do nosso código com alguns testes automatizados.  
 Obs: *Tem que executar o comando dentro da pasta onde está o arquivo.*  
-Exemplo: ```check50 cs50/problems/2022/x/mario/more```  
+Exemplo: `check50 cs50/problems/2022/x/mario/more`  
 
 ![image](https://user-images.githubusercontent.com/41968938/207944538-d14dad6a-8308-4b8f-ab30-5dcba765228f.png)
 
 ### Ajuda  
 `help50` - É um comando que podemos executar para explicar problemas em nosso código de uma forma mais amigável.  
 Podemos executá-lo adicionando help50 à frente de um comando que estamos tentando.  
-Exemplo: ```help50 make hello```  
+Exemplo: `help50 make hello`  
 quando está correto:  
 
 ![image](https://user-images.githubusercontent.com/41968938/207945405-b71b0308-9e24-4a06-9f75-a72608b9ea28.png)  
@@ -70,7 +70,7 @@ quando tem erro:
 
 ### Sugestões de correções  
 `style50` - Para ver sugestões de novas linhas e recuo.  
-Exemplo: ```style50 hello.c```  
+Exemplo: `style50 hello.c`  
 
 ![image](https://user-images.githubusercontent.com/41968938/207945269-1ba46843-11f1-454e-a5a1-96c985f649b9.png)  
 
@@ -89,73 +89,73 @@ Unsupported File: nomedoarquivo
 
 # Linhas de comando básicas para usar no Terminal do VsCode - na IDE CS50 ou CodeSpace:  
 
-### Criar uma pasta:  ```mkdir pasta```  
+### Criar uma pasta:  `mkdir pasta`  
 
-### Criar arquivo: ```code arquivo```  
+### Criar arquivo: `code arquivo`  
 
-### Entrar em uma pasta: ```cd pasta```  
+### Entrar em uma pasta: `cd pasta`  
 
 ### O caractere (.) é um atalho que representa o diretório atual.  
-Exemplo: ```cd .```  
+Exemplo: `cd .`   
 
 ### O caractere (..) é um atalho que representa o diretório acima do diretório atual.  
-Exemplo: ```cd ..```   
+Exemplo: `cd ..`   
 
 ### ***Mudar*** para o diretório que está dois níveis acima do diretório atual: 
-Exemplo: ```cd ../../```  
+Exemplo: `cd ../../`    
 
-### ***Voltar*** para o diretório raiz: ```cd```  
+### ***Voltar*** para o diretório raiz: `cd`  
 
-### ***Lista*** arquivos ou pastas que estão dentro do diretório: ```ls```  
+### ***Lista*** arquivos ou pastas que estão dentro do diretório: `ls`  
 
-### ***Limpar*** a tela: Aperte as teclas ```Ctrl```+```L```  
+### ***Limpar*** a tela: Aperte as teclas `Ctrl`+`L`  
 
-### ***Remove*** um arquivo, pedindo confirmação: ```rm```  
-Exemplo: ```rm hello.txt```    
+### ***Remove*** um arquivo, pedindo confirmação: `rm`  
+Exemplo: `rm hello.txt`    
 
 Mensagem de confirmação: Você realmente deseja remover o arquivo 'hello.txt'?
-sua resposta deve ser: ```y``` ou ```yes``` 
+sua resposta deve ser: `y` ou `yes` 
 
-### ***Remove*** um ***arquivo***, SEM confirmação: ```rm -f```  
-Exemplo: ```rm -f hello.txt```    
+### ***Remove*** um ***arquivo***, SEM confirmação: `rm -f`  
+Exemplo: `rm -f hello.txt`    
 
-### ***Remove*** um ***diretório*** inteiro, pedindo confirmação ```rm -r```  
-Exemplo: ```rm -r pset2```    
-Mensagem de confirmação: Você realmente deseja remover o diretório 'pset'? ```y```  
+### ***Remove*** um ***diretório*** inteiro, pedindo confirmação `rm -r`  
+Exemplo: `rm -r pset2`    
+Mensagem de confirmação: Você realmente deseja remover o diretório 'pset'? `y`  
 
-### ***Remove*** um ***diretório*** inteiro, SEM confirmação ```rm -r```  
-Exemplo: ```rm -rf pset2```    
+### ***Remove*** um ***diretório*** inteiro, SEM confirmação `rm -r`  
+Exemplo: `rm -rf pset2`    
 
 ### ***Mover*** e ***Renomear*** um arquivo de um local para outro, da origem para o destino: 
-Exemplo: ```mv greedy.c greddy.c```  
+Exemplo: `mv greedy.c greddy.c`  
 
 ### ***Copiar*** e ***Renomear*** um ***arquivo***: cp
-Exemplo: ```cp hello.txt hi.txt```  
-```cp <nome do arquivo de origem> <nome do arquivo destino>```
+Exemplo: `cp hello.txt hi.txt`  
+`cp <nome do arquivo de origem> <nome do arquivo destino>`
 
 ### ***Copiar*** um ***diretório com seu conteúdo***: cp -r
-Exemplo: ```cp -r pset0 pset3```  
-```cp <nome do diretório de origem> <nome do diretório destino>```
+Exemplo: `cp -r pset0 pset3`  
+`cp <nome do diretório de origem> <nome do diretório destino>`
 
 ### Diretório de trabalho atual: ```pwd```  
 
-### ```chmod```
+### `chmod`
 
-### ```rmdir```
+### `rmdir`
 
-### ```sudo```
+### `sudo`
 
-### ```ln```
+### `ln`
 
-### ```man```
+### `man`
 
-### ```clear```
+### `clear`
 
-### ```touch```
+### `touch`
 
-### ```diff```
+### `diff`
 
-### ```telnet```
+### `telnet`
 
 <br> 
 
@@ -205,7 +205,7 @@ Para printf, também, existem diferentes marcadores de posição para cada tipo:
 `%s`  para strings  
 
 Exemplo:  
-```printf("olá,%s \n" ,nome);```
+`printf("olá,%s \n" ,nome);`
 
 
 ## Operadores, limitações, truncamento  
