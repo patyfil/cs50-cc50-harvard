@@ -49,7 +49,7 @@ Para importar Bibliotecas:
 #include <math.h> Funções matemáticas
 ```  
 
-[Voltar ao Índice](#indice)
+[Voltar ao Índice](#índice)
 
 ## make
 
