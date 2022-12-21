@@ -27,6 +27,17 @@ A resposta é não, você não irá perder seus arquivos. Entretanto, para não 
 
 # Principais códigos que serão utilizados na IDE CS50 ou CodeSpace VsCode  
 
+<a href="#-include">include</a>  
+<a href="#-make">make</a>  
+<a href="#-clang">clang</a>  
+<a href="#-./">./</a>  
+<a href="#-help50">help50</a>  
+<a href="#-style50">style50</a>  
+<a href="#-debug50">debug50</a>  
+
+
+## include  
+
 Para importar Bibliotecas:  
 ```
 #include <...> Inclui cabeçalho de biblioteca
@@ -35,10 +46,12 @@ Para importar Bibliotecas:
 #include <math.h> Funções matemáticas
 ```  
 
+## make  
 ### ***Compilar*** o arquivo que criamos: `make hello`  
 
 `make` é um programa que chama o compilador "clang". Converte o código-fonte em código de máquina.  
 
+## clang  
 ***Para usar direto o compilador `clang`:***  
 
 Executamos o comando: `clang hello.c` que tem como arquivo de saída com nome padrão: `a.out`  
@@ -52,7 +65,11 @@ Código de Máquina: `hello`
 
 Se quisermos usar a biblioteca do CS50, via `#include <cs50.h>`, para a função `get_string` ou outra função dessa biblioteca, também temos que adicionar um sinalizador: `clang -o hello hello.c -lcs50`  
 
-O sinalizador `-l` vincula o arquivo `cs50` , que já está instalado no CS50 IDE, e inclui o código de máquina para `get_string` (entre outras funções) que nosso programa pode consultar e usar também.
+O sinalizador `-l` vincula o arquivo `cs50` , que já está instalado no CS50 IDE, e inclui o código de máquina para `get_string` (entre outras funções) que nosso programa pode consultar e usar também.  
+
+Com o `make`, esses argumentos são gerados para nós, uma vez que a equipe também configurou o `make` no IDE CS50.  
+
+## ./  
 
 ### ***Executar*** o arquivo compilado: `./hello`  
 
@@ -62,7 +79,8 @@ Exemplo: `check50 cs50/problems/2022/x/mario/more`
 
 ![image](https://user-images.githubusercontent.com/41968938/207944538-d14dad6a-8308-4b8f-ab30-5dcba765228f.png)
 
-### Ajuda  
+## help50 - Ajuda  
+
 `help50` - É um comando que podemos executar para explicar problemas em nosso código de uma forma mais amigável.  
 Podemos executá-lo adicionando help50 à frente de um comando que estamos tentando.  
 Exemplo: `help50 make hello`  
@@ -73,13 +91,16 @@ quando tem erro:
 
 ![image](https://user-images.githubusercontent.com/41968938/207945954-39dc5025-ef80-4e6d-bc24-ce5adb069241.png)  
 
+## style50  
+
 ### Sugestões de correções  
 `style50` - Para ver sugestões de novas linhas e recuo.  
 Exemplo: `style50 hello.c`  
 
 ![image](https://user-images.githubusercontent.com/41968938/207945269-1ba46843-11f1-454e-a5a1-96c985f649b9.png)  
 
-### Depuração  
+## debug50 - Depuração  
+
 `debug50` - Debug/Depuração significa executar o código passo a passo em uma ferramenta de depuração, para localizar o ponto exato em que você cometeu um erro de programação.  
 
 Exemplo de execução do debug50:  
