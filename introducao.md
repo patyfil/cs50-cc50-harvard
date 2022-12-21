@@ -27,25 +27,16 @@ A resposta é não, você não irá perder seus arquivos. Entretanto, para não 
 
 # Principais códigos que serão utilizados na IDE CS50 ou CodeSpace VsCode  
 
-<a href="#-include">include</a>  
-<a href="#-make">make</a>  
-<a href="#-clang">clang</a>  
-<a href="#-./">./</a>  
-<a href="#-check50">check50</a>   
-<a href="#-help50">help50</a>  
-<a href="#-style50">style50</a>  
+[include](#include)  
+[make](#make)  
+[clang](#clang)  
+[./](#./)  
+[check50](#check50)  
+[help50](#help50)  
+[style50](#style50)  
 [debug50](#debug50)  
 
-<p align="center">
-  <a href="#-tecnologias">Tecnologia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-demonstração">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
-</p>
-
-
-## include  
+## include
 
 Para importar Bibliotecas:  
 ```
@@ -55,12 +46,13 @@ Para importar Bibliotecas:
 #include <math.h> Funções matemáticas
 ```  
 
-## make  
+## make
+
 ### ***Compilar*** o arquivo que criamos: `make hello`  
 
 `make` é um programa que chama o compilador "clang". Converte o código-fonte em código de máquina.  
 
-## clang  
+## clang
 ***Para usar direto o compilador `clang`:***  
 
 Executamos o comando: `clang hello.c` que tem como arquivo de saída com nome padrão: `a.out`  
@@ -78,11 +70,11 @@ O sinalizador `-l` vincula o arquivo `cs50` , que já está instalado no CS50 ID
 
 Com o `make`, esses argumentos são gerados para nós, uma vez que a equipe também configurou o `make` no IDE CS50.  
 
-## ./  
+## ./
 
 ### ***Executar*** o arquivo compilado: `./hello`  
 
-## check50  
+## check50
 
 `check50` - Irá verificar a exatidão do nosso código com alguns testes automatizados.  
 Obs: *Tem que executar o comando dentro da pasta onde está o arquivo.*  
@@ -90,7 +82,9 @@ Exemplo: `check50 cs50/problems/2022/x/mario/more`
 
 ![image](https://user-images.githubusercontent.com/41968938/207944538-d14dad6a-8308-4b8f-ab30-5dcba765228f.png)
 
-## help50 - Ajuda  
+## help50
+
+Ajuda  
 
 `help50` - É um comando que podemos executar para explicar problemas em nosso código de uma forma mais amigável.  
 Podemos executá-lo adicionando help50 à frente de um comando que estamos tentando.  
@@ -102,7 +96,7 @@ quando tem erro:
 
 ![image](https://user-images.githubusercontent.com/41968938/207945954-39dc5025-ef80-4e6d-bc24-ce5adb069241.png)  
 
-## style50  
+## style50
 
 ### Sugestões de correções  
 `style50` - Para ver sugestões de novas linhas e recuo.  
@@ -110,7 +104,9 @@ Exemplo: `style50 hello.c`
 
 ![image](https://user-images.githubusercontent.com/41968938/207945269-1ba46843-11f1-454e-a5a1-96c985f649b9.png)  
 
-## debug50 - Depuração  
+## debug50
+
+Depuração  
 
 `debug50` - Debug/Depuração significa executar o código passo a passo em uma ferramenta de depuração, para localizar o ponto exato em que você cometeu um erro de programação.  
 
@@ -267,13 +263,6 @@ Existem vários operadores matemáticos que podemos usar também:
 `-`   minus sign (hyphen) (sinal de menos ou hífen)  
 `.`   dot (ponto)  
 `!`   exclamation mark (ponto de exclamação)  
-
-
-## 🛠 Tecnologias
-
-- HTML
-- CS
-
 
 <p align="right">
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
