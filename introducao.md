@@ -31,6 +31,7 @@ A resposta é não, você não irá perder seus arquivos. Entretanto, para não 
 <a href="#-make">make</a>  
 <a href="#-clang">clang</a>  
 <a href="#-./">./</a>  
+<a href="#-check50">check50</a>   
 <a href="#-help50">help50</a>  
 <a href="#-style50">style50</a>  
 <a href="#-debug50">debug50</a>  
@@ -72,6 +73,8 @@ Com o `make`, esses argumentos são gerados para nós, uma vez que a equipe tamb
 ## ./  
 
 ### ***Executar*** o arquivo compilado: `./hello`  
+
+## check50  
 
 `check50` - Irá verificar a exatidão do nosso código com alguns testes automatizados.  
 Obs: *Tem que executar o comando dentro da pasta onde está o arquivo.*  
