@@ -48,9 +48,8 @@ Para importar Bibliotecas:
 #include <stdio.h> Funções de entrada/saída
 #include <math.h> Funções matemáticas
 ```  
-<p align="right">
-   <a>[Índice](#indice)</a>
-</p>
+
+[Voltar ao Índice](#indice)
 
 ## make
 
