@@ -36,6 +36,14 @@ A resposta é não, você não irá perder seus arquivos. Entretanto, para não 
 <a href="#-style50">style50</a>  
 <a href="#-debug50">debug50</a>  
 
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-demonstração">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
+
 
 ## include  
 
@@ -260,6 +268,11 @@ Existem vários operadores matemáticos que podemos usar também:
 `.`   dot (ponto)  
 `!`   exclamation mark (ponto de exclamação)  
 
+
+## 🛠 Tecnologias
+
+- HTML
+- CS
 
 
 <p align="right">
