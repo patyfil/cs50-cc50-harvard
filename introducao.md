@@ -34,7 +34,7 @@ A resposta é não, você não irá perder seus arquivos. Entretanto, para não 
 <a href="#-check50">check50</a>   
 <a href="#-help50">help50</a>  
 <a href="#-style50">style50</a>  
-[debug50](#-debug50)  
+[debug50](#debug50)  
 
 <p align="center">
   <a href="#-tecnologias">Tecnologia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
