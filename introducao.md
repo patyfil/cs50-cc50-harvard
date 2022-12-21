@@ -28,7 +28,7 @@ A resposta é não, você não irá perder seus arquivos. Entretanto, para não 
 # Principais códigos que serão utilizados na IDE CS50 ou CodeSpace VsCode  
 
 [include](#-include)  
-[make](#-make)  
+[make](#make)  
 [clang](#-clang)  
 [./](#-./)  
 [check50](#-check50)  
