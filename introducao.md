@@ -36,13 +36,18 @@ Para importar Bibliotecas:
 ```  
 
 ### ***Compilar*** o arquivo que criamos: ```make hello```  
-Executa o Comando "clang". Converte o código-fonte em código de máquina.  
-Para usar direto o comando ```clang```:  
-```clang hello.c``` Saída: ```a.out```  
-```clang -o hello hello.c``` Saída: ```hello```  
+`make` é um programa que chama o compilador "clang". Converte o código-fonte em código de máquina.  
+Para usar direto o compilador ```clang```:  
+Executamos o comando: ```clang hello.c``` que tem como arquivo de saída com nome padrão: ```a.out```  
+obs: Esse comando não funciona se tiver a biblioteca do CS50.  
+Para ter como saída um arquivo com nome específico, usamos o comando: ```clang -o hello hello.c``` Arquivo de saída: ```hello```  
 ```-o``` "saída". Renomeia o arquivo final, ou seja, argumento de linha de comando, que permite especificar, explicitamente, como você deseja que seu programa de saída seja chamado.
 Código-fonte: ```hello.c```
-Código de Máquina: ```hello```
+Código de Máquina: ```hello```  
+
+Se quisermos usar a biblioteca do CS50, via `#include <cs50.h>`, para a função `get_string` ou outra função dessa biblioteca, também temos que adicionar um sinalizador: `clang -o hello hello.c -lcs50`  
+
+O sinalizador `-l` vincula o arquivo `cs50` , que já está instalado no CS50 IDE, e inclui o código de máquina para `get_string` (entre outras funções) que nosso programa pode consultar e usar também.
 
 ### ***Executar*** o arquivo compilado: ```./hello```  
 
