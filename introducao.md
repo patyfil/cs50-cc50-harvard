@@ -27,14 +27,14 @@ A resposta é não, você não irá perder seus arquivos. Entretanto, para não 
 
 # Principais códigos que serão utilizados na IDE CS50 ou CodeSpace VsCode  
 
-[include](#-include)  
+[include](#include)  
 [make](#make)  
-[clang](#-clang)  
-[./](#-./)  
-[check50](#-check50)  
-[help50](#-help50)  
-[style50](#-style50)  
-[debug50](#-debug50)  
+[clang](#clang)  
+[./](#./)  
+[check50](#check50)  
+[help50](#help50)  
+[style50](#style50)  
+[debug50](#debug50)  
 
 ## include
 
