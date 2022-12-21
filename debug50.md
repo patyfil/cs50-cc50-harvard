@@ -31,7 +31,7 @@ Assim que uma sessão de depuração for iniciada, a barra de ferramentas Depura
 # Caso ocorra o erro:  
 # ``` Can't debug this program! Are you sure you're running debug50 on an executable or a Python script? ```  
 
-1 - Vá no GitHub, no seu codespace:   https://github.com/code50/seucódigo
+1 - Vá no GitHub, no seu codespace: `https://github.com/code50/seucódigo`  
 
 ![100](https://user-images.githubusercontent.com/41968938/208599070-8f990b5f-f315-4750-b136-eec8aea5bc63.jpg)
 
@@ -44,12 +44,12 @@ Assim que uma sessão de depuração for iniciada, a barra de ferramentas Depura
 <br>  
 
 3 - Abra o [Visual Studio Code for CS50](https://code.cs50.io/) ou digite no navegador: `https://code.cs50.io/`  
-Clique em: Log in via GitHub  
+Clique em: `Log in via GitHub`  
 ![102](https://user-images.githubusercontent.com/41968938/208601806-3a59c923-5f89-426b-b882-9ff980a3216a.jpg)  
 
 <br>  
 
-4 - Um novo codespace será criado com um nome aleatório  
+4 - Um novo codespace será criado com um nome aleatório (seu código continuará o mesmo)  
 
 ![102 1](https://user-images.githubusercontent.com/41968938/208602088-8ed17cf9-98d7-48ff-a97c-ff362969b8d6.jpg)  
 
