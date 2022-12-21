@@ -43,9 +43,11 @@ Para importar Bibliotecas:
 
 Executamos o comando: `clang hello.c` que tem como arquivo de saída com nome padrão: `a.out`  
 obs: Esse comando não funciona se tiver a biblioteca do CS50.  
+
 Para ter como saída um arquivo com nome específico, usamos o comando: `clang -o hello hello.c` Arquivo de saída: `hello`  
-`-o` "saída". Renomeia o arquivo final, ou seja, argumento de linha de comando, que permite especificar, explicitamente, como você deseja que seu programa de saída seja chamado.
-Código-fonte: `hello.c`
+`-o` "saída". Renomeia o arquivo final, ou seja, argumento de linha de comando, que permite especificar, explicitamente, como você deseja que seu programa de saída seja chamado.  
+
+Código-fonte: `hello.c`  
 Código de Máquina: `hello`  
 
 Se quisermos usar a biblioteca do CS50, via `#include <cs50.h>`, para a função `get_string` ou outra função dessa biblioteca, também temos que adicionar um sinalizador: `clang -o hello hello.c -lcs50`  
