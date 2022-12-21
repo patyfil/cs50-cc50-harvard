@@ -2,7 +2,7 @@
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
 </p>
 
-<a href="#indice">Índice</a>
+# Índice
 
 
 # Configurando o ambiente
