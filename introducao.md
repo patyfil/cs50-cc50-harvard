@@ -30,19 +30,9 @@
 
 [submit50](#submit50)
 
-### 3 - LINHAS BÁSICAS DE COMANDO
+### 3 - Linguagem C
 
-[include](#include)  
-
-[Funções da biblioteca stdio.h](#funções-da-biblioteca-stdioh)
-
-[Funções da Biblioteca cs50.h](#funções-da-biblioteca-cs50h)
-
-[make](#make)
-
-[clang](#clang)
-
-[./](#executar)  
+[Linguagem C - Style Guide](#linguagem-c---style-guide)
 
 [Tipos de dados](#tipos-de-dados)
 
@@ -50,7 +40,97 @@
 
 [Nome de caracteres especiais](#nome-de-caracteres-especiais)
 
-[Linguagem C - Style Guide](#linguagem-c---style-guide)
+### 3 - LINHAS BÁSICAS DE COMANDO
+
+[include - Incluir](#include)  
+
+[Funções da biblioteca stdio.h](#funções-da-biblioteca-stdioh)
+
+[Funções da Biblioteca cs50.h](#funções-da-biblioteca-cs50h)
+
+[make - Compilar](#make)
+
+[clang - Compilar](#clang)
+
+### mkdir - Criar pasta
+Exemplo:  `mkdir pasta`  
+
+### code - Criar arquivo
+Exemplo: `code arquivo`  
+
+### cd - Mudar de pasta
+Exemplo: `cd pasta`  
+* Mudar para a pasta raiz: `cd`  
+
+O caractere (.) é um atalho que representa o diretório atual.  
+Exemplo: `cd .`  
+
+O caractere (..) é um atalho que representa o diretório acima do diretório atual.  
+Exemplo: `cd ..`  
+
+O caractere (../../) é um atalho que representa dois níveis acima do diretório atual.  
+Exemplo: `cd ../../`  
+
+### ls - ***Lista*** arquivos ou pastas que estão dentro do diretório: `ls`  
+
+### ***Limpar*** a tela  
+Aperte as teclas `Ctrl`+`L`  
+
+### ./ - Executar o arquivo compilado  
+`./`
+Exemplo: `./hello`  
+
+### rm - ***Remove*** um arquivo, pedindo confirmação  
+Exemplo: `rm hello.txt`   
+
+*Mensagem de confirmação: Você realmente deseja remover o arquivo 'hello.txt'?
+sua resposta deve ser: `y` ou `yes` 
+
+### rm -f - ***Remove*** um ***arquivo***, SEM confirmação  
+Exemplo: `rm -f hello.txt`   
+
+### rm -r - ***Remove*** um ***diretório*** inteiro, pedindo confirmação  
+Exemplo: `rm -r pset2`  
+*Mensagem de confirmação: Você realmente deseja remover o diretório 'pset2'? `y`  
+
+### rm -rf - ***Remove*** um ***diretório*** inteiro, SEM confirmação  
+Exemplo: `rm -rf pset2`  
+
+### mv - ***Mover*** e ***Renomear*** um arquivo de um local para outro, da origem para o destino:  
+Exemplo: `mv greedy.c greddy.c`  
+
+### cp - ***Copiar*** e ***Renomear*** um ***arquivo***
+Exemplo: `cp hello.txt hi.txt`  
+`cp <nome do arquivo de origem> <nome do arquivo destino>`
+
+### cp -r - ***Copiar*** um ***diretório com seu conteúdo***  
+Exemplo: `cp -r pset0 pset3`  
+`cp <nome do diretório de origem> <nome do diretório destino>`
+
+### Diretório de trabalho atual: ```pwd```  
+
+[Voltar ao Índice](#índice)
+
+Outros: 
+### `chmod`
+
+### `rmdir`
+
+### `sudo`
+
+### `ln`
+
+### `man`
+
+### `clear`
+
+### `touch`
+
+### `diff`
+
+### `telnet`
+
+[Voltar ao Índice](#índice)
 
 ------------
   
@@ -227,8 +307,8 @@ Exemplo:
 [Voltar ao Índice](#índice)
 
 ## make
-
-### ***Compilar*** o arquivo que criamos: `make hello`  
+***Compilar*** o arquivo que criamos  
+Exemplo: `make hello`  
 
 `make` é um programa que chama o compilador "clang". Converte o código-fonte em código de máquina.  
 
@@ -237,10 +317,12 @@ Exemplo:
 ## clang
 ***Para usar direto o compilador `clang`:***  
 
-Executamos o comando: `clang hello.c` que tem como arquivo de saída com nome padrão: `a.out`  
+Exemplo: `clang hello.c` 
+Terá como arquivo de saída com nome padrão: `a.out`  
 obs: Esse comando não funciona se tiver a biblioteca do CS50.  
 
-Para ter como saída um arquivo com nome específico, usamos o comando: `clang -o hello hello.c` Arquivo de saída: `hello`  
+Para ter como saída um arquivo com nome específico, usamos o comando: `clang -o`  
+Exemplo: `clang -o hello hello.c` Arquivo de saída: `hello`  
 `-o` "saída". Renomeia o arquivo final, ou seja, argumento de linha de comando, que permite especificar, explicitamente, como você deseja que seu programa de saída seja chamado.  
 
 Código-fonte: `hello.c`  
@@ -251,83 +333,6 @@ Se quisermos usar a biblioteca do CS50, via `#include <cs50.h>`, para a função
 O sinalizador `-l` vincula o arquivo `cs50` , que já está instalado no CS50 IDE, e inclui o código de máquina para `get_string` (entre outras funções) que nosso programa pode consultar e usar também.  
 
 Com o `make`, esses argumentos são gerados para nós, uma vez que a equipe também configurou o `make` no IDE CS50.  
-
-[Voltar ao Índice](#índice)
-
-<br>
-
-### Criar uma pasta:  `mkdir pasta`  
-
-### Criar arquivo: `code arquivo`  
-
-### Entrar em uma pasta: `cd pasta`  
-
-### O caractere (.) é um atalho que representa o diretório atual.  
-Exemplo: `cd .`   
-
-### O caractere (..) é um atalho que representa o diretório acima do diretório atual.  
-Exemplo: `cd ..`   
-
-### ***Mudar*** para o diretório que está dois níveis acima do diretório atual: 
-Exemplo: `cd ../../`    
-
-### ***Voltar*** para o diretório raiz: `cd`  
-
-### ***Lista*** arquivos ou pastas que estão dentro do diretório: `ls`  
-
-### ***Limpar*** a tela: Aperte as teclas `Ctrl`+`L`  
-
-### Executar
-`./`
-
-### ***Executar*** o arquivo compilado, exemplo: `./hello`  
-
-### ***Remove*** um arquivo, pedindo confirmação: `rm`  
-Exemplo: `rm hello.txt`    
-
-Mensagem de confirmação: Você realmente deseja remover o arquivo 'hello.txt'?
-sua resposta deve ser: `y` ou `yes` 
-
-### ***Remove*** um ***arquivo***, SEM confirmação: `rm -f`  
-Exemplo: `rm -f hello.txt`    
-
-### ***Remove*** um ***diretório*** inteiro, pedindo confirmação `rm -r`  
-Exemplo: `rm -r pset2`    
-Mensagem de confirmação: Você realmente deseja remover o diretório 'pset'? `y`  
-
-### ***Remove*** um ***diretório*** inteiro, SEM confirmação `rm -r`  
-Exemplo: `rm -rf pset2`    
-
-### ***Mover*** e ***Renomear*** um arquivo de um local para outro, da origem para o destino: 
-Exemplo: `mv greedy.c greddy.c`  
-
-### ***Copiar*** e ***Renomear*** um ***arquivo***: cp
-Exemplo: `cp hello.txt hi.txt`  
-`cp <nome do arquivo de origem> <nome do arquivo destino>`
-
-### ***Copiar*** um ***diretório com seu conteúdo***: cp -r
-Exemplo: `cp -r pset0 pset3`  
-`cp <nome do diretório de origem> <nome do diretório destino>`
-
-### Diretório de trabalho atual: ```pwd```  
-
-### `chmod`
-
-### `rmdir`
-
-### `sudo`
-
-### `ln`
-
-### `man`
-
-### `clear`
-
-### `touch`
-
-### `diff`
-
-### `telnet`
 
 [Voltar ao Índice](#índice)
 
