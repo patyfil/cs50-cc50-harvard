@@ -88,8 +88,6 @@ A resposta é não, você não irá perder seus arquivos. Entretanto, para não 
 
 ## check50
 
-Para instalar: `pip install check50`  
-
 `check50` - Irá verificar a exatidão do nosso código com alguns testes automatizados.  
 Obs: *Tem que executar o comando dentro da pasta onde está o arquivo.*  
 Exemplo: `check50 cs50/problems/2022/x/mario/more`  
@@ -100,15 +98,11 @@ Exemplo: `check50 cs50/problems/2022/x/mario/more`
 
 ## cli50
 
-Para instalar: `pip3 install cli50` 
-
 Com o `cli50` você pode montar um diretório dentro de um container executando cs50/cli, uma imagem do Docker baseada no Ubuntu 20.04, uma distribuição popular do Linux.  
  
 [Voltar ao Índice](#índice)
 
 ## compare50
-
-Para instalar: `pip install compare50`  
 
 `compare50` é uma ferramenta para detectar similaridade no código que suporta bem mais de 300 linguagens de programação e modelagem. A ferramenta em si é de código aberto e, por design, extensível em seus métodos de comparação. Não há necessidade de fazer upload de código para um host externo, compare50 é executado localmente a partir da linha de comando. Como uma ferramenta local, compare50 apresenta suas descobertas em arquivos HTML estáticos e interativos que permitem o compartilhamento fácil. E faz isso incrivelmente rápido, comparando facilmente milhares de arquivos de origem em segundos.
 
