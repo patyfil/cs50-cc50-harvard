@@ -30,7 +30,7 @@
 
 [submit50](#submit50)
 
-### 3 - Linguagem C
+### 3 - LINGUAGEM C
 
 [Linguagem C - Style Guide](#linguagem-c---style-guide)
 
@@ -40,7 +40,7 @@
 
 [Nome de caracteres especiais](#nome-de-caracteres-especiais)
 
-### 3 - LINHAS BÁSICAS DE COMANDO
+### 4 - LINHAS BÁSICAS DE COMANDO
 
 [include - Incluir](#include)  
 
