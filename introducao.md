@@ -254,7 +254,7 @@ Para enviar seu código: `submit50 cs50/problems/2022/x/credit` depois digite: `
 
 <br>
 
-# OUTROS COMANDOS
+# 4 - LINHAS BÁSICAS DE COMANDO
 
 ## include
 
