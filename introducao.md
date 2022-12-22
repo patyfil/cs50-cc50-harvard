@@ -383,6 +383,8 @@ Existem vários operadores matemáticos que podemos usar também:
 `.`   dot (ponto)  
 `!`   exclamation mark (ponto de exclamação)  
 
+[Voltar ao Índice](#índice)
+
 <p align="right">
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
 </p>
