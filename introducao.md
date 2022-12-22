@@ -42,7 +42,7 @@
 
 [clang](#clang)
 
-[./](#-./)  
+[./](#executar)  
 
 [Tipos de dados](#tipos-de-dados)
 
@@ -277,7 +277,7 @@ Exemplo: `cd ../../`
 
 ### ***Limpar*** a tela: Aperte as teclas `Ctrl`+`L`  
 
-### ./
+### Executar: `./`
 
 ### ***Executar*** o arquivo compilado, exemplo: `./hello`  
 
