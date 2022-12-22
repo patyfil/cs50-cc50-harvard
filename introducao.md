@@ -34,9 +34,9 @@
 
 [include](#include)  
 
-[A biblioteca stdio.h](#a-biblioteca-stdioh)
+[Funções da biblioteca stdio.h](#funções-da-biblioteca-stdioh)
 
-[A biblioteca cs50.h](#a-biblioteca-cs50h)
+[Funções da Biblioteca cs50.h](#funções-da-biblioteca-cs50h)
 
 [make](#make)
 
@@ -186,7 +186,7 @@ Para importar Bibliotecas:
 #include <math.h> Funções matemáticas
 ```  
 
-## Funções da Biblioteca CS50 <cs50.h>  
+## Funções da Biblioteca cs50.h
 E a biblioteca CS50 tem funções correspondentes para obter entrada de vários tipos:  
 `get_char`  - solicita ao usuário um char  
 `get_double` - solicita ao usuário um double  
