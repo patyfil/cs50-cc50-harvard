@@ -60,6 +60,8 @@
 
 ## <img src="assets/youtube.svg" width=20 /> [CC50: Como criar sua Conta no GitHub?](https://www.youtube.com/watch?v=UHARV0Y3r3A) 
 
+[Voltar ao Índice](#índice)
+
 <br>
 
 ## Criando o Codespace
@@ -69,12 +71,16 @@
 
 ***Dica de ouro***: após os passos acima, dê uma olhadinha na sua caixa de entrada e verifique se há algum e-mail do bot do CS50 pedindo alguma autorização!!! 
 
+[Voltar ao Índice](#índice)
+
 <br>
 
 ## Fazendo backup dos arquivos da IDE CS50: 
 🙋 🙋‍♂️ Eu tenho uma dúvida: se migrarmos do CS50 IDE para o VS CODE CS50 iremos perder todos os arquivos criados?
 A resposta é não, você não irá perder seus arquivos. Entretanto, para não perder seus arquivos é necessário fazer os passos abaixo:
 ## <img src="assets/youtube.svg" width=20 /> [[CC50] Migrando os arquivos do CS50 IDE para VS CODE CS50](https://www.youtube.com/watch?v=8CpJVgTViO4)  
+
+[Voltar ao Índice](#índice)
 
 <br>
 
