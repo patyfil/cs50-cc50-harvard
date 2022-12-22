@@ -52,66 +52,63 @@
 
 [clang - Compilar](#clang)
 
-### mkdir - Criar pasta
+### `mkdir` - Criar pasta
 Exemplo:  `mkdir pasta`  
 
-### code - Criar arquivo
+### `code` - Criar arquivo
 Exemplo: `code arquivo`  
 
-### cd - Mudar de pasta
+### `cd` - Mudar de pasta
 Exemplo: `cd pasta`  
 * Mudar para a pasta raiz: `cd`  
 
-O caractere (.) é um atalho que representa o diretório atual.  
+O caractere (`.`) é um atalho que representa o diretório atual.  
 Exemplo: `cd .`  
 
-O caractere (..) é um atalho que representa o diretório acima do diretório atual.  
+O caractere (`..`) é um atalho que representa o diretório acima do diretório atual.  
 Exemplo: `cd ..`  
 
-O caractere (../../) é um atalho que representa dois níveis acima do diretório atual.  
+O caractere (`../../`) é um atalho que representa dois níveis acima do diretório atual.  
 Exemplo: `cd ../../`  
 
-### ls - ***Lista*** arquivos ou pastas que estão dentro do diretório: `ls`  
+### `ls` - ***Lista*** arquivos ou pastas que estão dentro do diretório   
 
 ### ***Limpar*** a tela  
 Aperte as teclas `Ctrl`+`L`  
 
-### ./ - Executar o arquivo compilado  
-`./`
+### `./` - Executar o arquivo compilado  
 Exemplo: `./hello`  
 
-### rm - ***Remove*** um arquivo, pedindo confirmação  
+### `rm` - ***Remove*** um arquivo, pedindo confirmação  
 Exemplo: `rm hello.txt`   
-
 *Mensagem de confirmação: Você realmente deseja remover o arquivo 'hello.txt'?
 sua resposta deve ser: `y` ou `yes` 
 
-### rm -f - ***Remove*** um ***arquivo***, SEM confirmação  
+### `rm -f` - ***Remove*** um ***arquivo***, SEM confirmação  
 Exemplo: `rm -f hello.txt`   
 
-### rm -r - ***Remove*** um ***diretório*** inteiro, pedindo confirmação  
+### `rm -r` - ***Remove*** um ***diretório*** inteiro, pedindo confirmação  
 Exemplo: `rm -r pset2`  
 *Mensagem de confirmação: Você realmente deseja remover o diretório 'pset2'? `y`  
 
-### rm -rf - ***Remove*** um ***diretório*** inteiro, SEM confirmação  
+### `rm -rf` - ***Remove*** um ***diretório*** inteiro, SEM confirmação  
 Exemplo: `rm -rf pset2`  
 
-### mv - ***Mover*** e ***Renomear*** um arquivo de um local para outro, da origem para o destino:  
+### `mv` - ***Mover*** e ***Renomear*** um arquivo de um local para outro, da origem para o destino:  
 Exemplo: `mv greedy.c greddy.c`  
 
-### cp - ***Copiar*** e ***Renomear*** um ***arquivo***
+### `cp` - ***Copiar*** e ***Renomear*** um ***arquivo***
 Exemplo: `cp hello.txt hi.txt`  
 `cp <nome do arquivo de origem> <nome do arquivo destino>`
 
-### cp -r - ***Copiar*** um ***diretório com seu conteúdo***  
+### `cp -r` - ***Copiar*** um ***diretório com seu conteúdo***  
 Exemplo: `cp -r pset0 pset3`  
 `cp <nome do diretório de origem> <nome do diretório destino>`
 
-### Diretório de trabalho atual: ```pwd```  
+### `pwd` - Mostra o caminho do diretório de trabalho atual  
 
 [Voltar ao Índice](#índice)
 
-Outros: 
 ### `chmod`
 
 ### `rmdir`
@@ -252,7 +249,59 @@ Para enviar seu código: `submit50 cs50/problems/2022/x/credit` depois digite: `
 
 [Voltar ao Índice](#índice)
 
-<br>
+<br> 
+
+# Linguagem C - Style Guide
+
+## [Style Guide for C](https://cs50.readthedocs.io/style/c/)  
+
+<br>  
+
+```c
+#include <stdio.h>  
+
+int main(void)   
+{  
+    printf("olá, mundo");   
+}
+```
+[Voltar ao Índice](#índice)
+
+## Tipos de dados
+Existem muitos tipos de dados que podemos usar para nossas variáveis, que indicam ao computador que tipo de dados eles representam:  
+`bool`  uma expressão booleana verdadeira ou falsa  
+`char`  um único caractere ASCII como a ou 2  
+`double`  um valor de vírgula flutuante com mais dígitos do que um float  
+`float`  um valor de vírgula flutuante ou número real com um valor decimal  
+`int`  inteiros até um certo tamanho ou número de bits  
+`long`  inteiros com mais bits, para que possam contar mais do que um int  
+`string`  uma linha de caracteres  
+
+[Voltar ao Índice](#índice)
+
+## Operadores, limitações, truncamento
+Existem vários operadores matemáticos que podemos usar também:  
+`+`   para adição  
+`-`   para subtração  
+`*`   para multiplicação  
+`/`   para divisão  
+`%`   para calcular o resto  
+
+[Voltar ao Índice](#índice)
+
+## Nome de caracteres especiais
+`\`   backslash (barra invertida)  
+``` ` ``` backtick (crase)  
+`*`   asterisk (asterisco)  
+`_`   underscore  
+`{}`  curly braces (chaves)  
+`[]`  square brackets (colchetes)   
+`()`  parentheses (parênteses)  
+`#`   hash mark (sustenido / hash / jogo da velha)  
+`+`   plus sign (sinal de "mais" ou somar)  
+`-`   minus sign (hyphen) (sinal de menos ou hífen)  
+`.`   dot (ponto)  
+`!`   exclamation mark (ponto de exclamação)  
 
 # 4 - LINHAS BÁSICAS DE COMANDO
 
@@ -333,62 +382,6 @@ Se quisermos usar a biblioteca do CS50, via `#include <cs50.h>`, para a função
 O sinalizador `-l` vincula o arquivo `cs50` , que já está instalado no CS50 IDE, e inclui o código de máquina para `get_string` (entre outras funções) que nosso programa pode consultar e usar também.  
 
 Com o `make`, esses argumentos são gerados para nós, uma vez que a equipe também configurou o `make` no IDE CS50.  
-
-[Voltar ao Índice](#índice)
-
-<br> 
-
-# Linguagem C - Style Guide
-
-## [Style Guide for C](https://cs50.readthedocs.io/style/c/)  
-
-<br>  
-
-```c
-#include <stdio.h>  
-
-int main(void)   
-{  
-    printf("olá, mundo");   
-}
-```
-[Voltar ao Índice](#índice)
-
-## Tipos de dados
-Existem muitos tipos de dados que podemos usar para nossas variáveis, que indicam ao computador que tipo de dados eles representam:  
-`bool`  uma expressão booleana verdadeira ou falsa  
-`char`  um único caractere ASCII como a ou 2  
-`double`  um valor de vírgula flutuante com mais dígitos do que um float  
-`float`  um valor de vírgula flutuante ou número real com um valor decimal  
-`int`  inteiros até um certo tamanho ou número de bits  
-`long`  inteiros com mais bits, para que possam contar mais do que um int  
-`string`  uma linha de caracteres  
-
-[Voltar ao Índice](#índice)
-
-## Operadores, limitações, truncamento
-Existem vários operadores matemáticos que podemos usar também:  
-`+`   para adição  
-`-`   para subtração  
-`*`   para multiplicação  
-`/`   para divisão  
-`%`   para calcular o resto  
-
-[Voltar ao Índice](#índice)
-
-## Nome de caracteres especiais
-`\`   backslash (barra invertida)  
-``` ` ``` backtick (crase)  
-`*`   asterisk (asterisco)  
-`_`   underscore  
-`{}`  curly braces (chaves)  
-`[]`  square brackets (colchetes)   
-`()`  parentheses (parênteses)  
-`#`   hash mark (sustenido / hash / jogo da velha)  
-`+`   plus sign (sinal de "mais" ou somar)  
-`-`   minus sign (hyphen) (sinal de menos ou hífen)  
-`.`   dot (ponto)  
-`!`   exclamation mark (ponto de exclamação)  
 
 [Voltar ao Índice](#índice)
 
