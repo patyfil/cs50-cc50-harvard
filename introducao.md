@@ -277,7 +277,8 @@ Exemplo: `cd ../../`
 
 ### ***Limpar*** a tela: Aperte as teclas `Ctrl`+`L`  
 
-### Executar: `./`
+### Executar
+`./`
 
 ### ***Executar*** o arquivo compilado, exemplo: `./hello`  
 
