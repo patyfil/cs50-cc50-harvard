@@ -358,6 +358,8 @@ Existem muitos tipos de dados que podemos usar para nossas variáveis, que indic
 `long`  inteiros com mais bits, para que possam contar mais do que um int  
 `string`  uma linha de caracteres  
 
+[Voltar ao Índice](#índice)
+
 ## Operadores, limitações, truncamento
 Existem vários operadores matemáticos que podemos usar também:  
 `+`   para adição  
@@ -365,6 +367,8 @@ Existem vários operadores matemáticos que podemos usar também:
 `*`   para multiplicação  
 `/`   para divisão  
 `%`   para calcular o resto  
+
+[Voltar ao Índice](#índice)
 
 ## Nome de caracteres especiais
 `\`   backslash (barra invertida)  
