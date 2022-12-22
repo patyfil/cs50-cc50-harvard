@@ -28,7 +28,7 @@
 
 [style50](#style50)
 
-[submit50](submit50)
+[submit50](#submit50)
 
 ### 3 - LINHAS BÁSICAS DE COMANDO
 
