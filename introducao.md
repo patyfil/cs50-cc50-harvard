@@ -334,6 +334,8 @@ Exemplo: `cp -r pset0 pset3`
 
 ### `telnet`
 
+[Voltar ao Índice](#índice)
+
 <br> 
 
 # Linguagem C - Style Guide
@@ -350,6 +352,7 @@ int main(void)
     printf("olá, mundo");   
 }
 ```
+[Voltar ao Índice](#índice)
 
 ## Tipos de dados
 Existem muitos tipos de dados que podemos usar para nossas variáveis, que indicam ao computador que tipo de dados eles representam:  
