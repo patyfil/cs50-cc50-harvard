@@ -50,7 +50,7 @@ Para ver seu progresso no curso da Harvard:  [PROGRESSO NO CURSO](https://cs50.m
 [SSH-Keygen - Criando chave SSH para o GitHub](ssh-keygen.md)  
 [Erro no debug50](https://patyfil.github.io/cs50-cc50-harvard/debug50)
 
-# [Slides](https://cs50.harvard.edu/college/2022/fall/shorts/)
+# [Slides em pdf´s dos vídeos curtos](https://cs50.harvard.edu/college/2022/fall/shorts/)
 
 
 
