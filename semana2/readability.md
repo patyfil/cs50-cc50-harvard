@@ -194,7 +194,7 @@ Agora é hora de juntar todas as peças! Lembre-se de que o índice de Coleman-L
 
 `index = 0.0588 * L - 0.296 * S - 15.8`  
 
-onde `L` é o número médio de letras por 100 palavras no texto e Sé o número médio de frases por 100 palavras no texto.  
+onde `L` é o número médio de letras por 100 palavras no texto e `S` é o número médio de frases por 100 palavras no texto.  
 
 Modifique mainpara readability.cque, em vez de exibir o número de letras, palavras e frases, ele forneça (somente) o nível da série conforme definido pelo índice Coleman-Liau (por exemplo , "Grade 2"ou "Grade 8" or the like). Certifique-se de arredondar o número de índice resultante para o mais próximo int!  
 
