@@ -5,9 +5,9 @@
    <a href="https://patyfil.github.io/cs50-cc50-harvard/2-Arrays.html">Voltar ao Índice da Semana 2</a>
 </p>
 
-# [Exercício 1 - Readability](https://cs50.harvard.edu/x/2022/psets/2/readability/)
+# [Exercício 1 - Readability (Legibilidade)](https://cs50.harvard.edu/x/2022/psets/2/readability/)
 
-Para este problema, você implementará um programa que calcula o nível(Grau) aproximado necessário para compreender algum texto, conforme abaixo.
+Para este problema, você implementará um programa que calcula o nível (Grau) aproximado necessário para compreender algum texto, conforme abaixo.
 
 ```
 $ ./readability
@@ -24,8 +24,8 @@ Abra o [VS Code](https://code.cs50.io/)
 
 1 - Entre no *Terminal* do VsCode: `Ctrl`+`'`  
 
-2 - Entrar nessa pasta: `cd pset2`  
-OBS: Caso a pasta possua espaço, por exemplo: *Semana 2*  
+2 - Entrar na pasta da semana: `cd pset2`  
+OBS: Caso a pasta possua outro nome com espaço, por exemplo: *Semana 2*  
 Será necessário colocar aspas para entrar na pasta: `cd 'Semana 2'` 
 
 3 - No terminal digite o comando: `wget https://cdn.cs50.net/2022/fall/psets/2/readability.zip`  
@@ -56,7 +56,7 @@ A execução `code readability.c` deve abrir o arquivo onde você digitará seu 
 
 # Introdução ao Exercício  
 
-De acordo com a [Scholastic](https://www.scholastic.com/teachers/teaching-tools/collections/guided-reading-book-lists-for-every-level.html), "Charlotte's Web" de EB White está entre um nível de leitura de segunda e quarta série, e "The Giver" de Lois Lowry está entre um nível de leitura de oitava e décima segunda série. O que significa, porém, para um livro estar em um determinado nível de leitura?
+De acordo com a [Scholastic](https://www.scholastic.com/teachers/teaching-tools/collections/guided-reading-book-lists-for-every-level.html), o Livro "Charlotte's Web" de E.B. White está entre um nível de leitura de segunda e quarta série, e "The Giver" de Lois Lowry está entre um nível de leitura de oitava e décima segunda série. O que significa, porém, para um livro estar em um determinado nível de leitura?
 
 Bem, em muitos casos, um especialista humano pode ler um livro e tomar uma decisão sobre a série (ou seja, o ano escolar) para o qual ele acha que o livro é mais apropriado. Mas um algoritmo provavelmente poderia descobrir isso também!
 
@@ -100,7 +100,7 @@ Para experimentar a implementação deste problema pela equipe, execute
 
 `./readability`  
 
-within [this sandbox](https://sandbox.cs50.io/).
+within [this sandbox](http://bit.ly/2ulEXkw).
 
 # Exercício  
 
@@ -127,7 +127,7 @@ In my younger and more vulnerable years my father gave me some advice that I've 
 ## Cartas
 Agora que você coletou a entrada do usuário, vamos começar a analisar essa entrada contando primeiro o número de letras no texto. Considere letras como caracteres alfabéticos maiúsculos ou minúsculos, não pontuação, dígitos ou outros símbolos.
 
-Adicione a `readability.c`, abaixo `main` de , uma função chamada `count_letters` que recebe um argumento, a `string` de texto, e que retorna um `int`, o número de letras desse texto. Certifique-se de adicionar o protótipo da função também no topo do seu arquivo, para que ele `main` saiba como chamá-lo. As probabilidades são de que o protótipo deve se parecer com o abaixo:  
+Adicione a `readability.c`, abaixo de `main`, uma função chamada `count_letters` que recebe um argumento, a `string` de texto, e que retorna um `int`, o número de letras desse texto. Certifique-se de adicionar o protótipo da função também no topo do seu arquivo, para que ele `main` saiba como chamá-lo. As probabilidades são de que o protótipo deve se parecer com o abaixo:  
 
 `int count_letters(string text)`
 
@@ -147,16 +147,17 @@ Declarado em `ctype.h` é uma função que você pode achar útil, por [manual.c
 ## Palavras
 O índice Coleman-Liau se preocupa não apenas com o número de letras, mas também com o número de palavras em uma frase. Para o propósito deste problema, consideraremos qualquer sequência de caracteres separados por um espaço como uma palavra (portanto, uma palavra hifenizada como "sister-in-law"deve ser considerada uma palavra, não três).  
 
-Adicione a readability.c, abaixo main, uma função chamada count_wordsque recebe um argumento, a stringde texto, e que retorna um int, o número de palavras nesse texto. Certifique-se de adicionar o protótipo da função também no topo do seu arquivo, para que ele mainsaiba como chamá-lo.   (Deixamos o protótipo para você!)  
+Adicione a `readability.c`, abaixo de `main`, uma função chamada `count_words`que recebe um argumento, a string de texto, e que retorna um `int`, o número de palavras nesse texto. Certifique-se de adicionar o protótipo da função também no topo do seu arquivo, para que `main`saiba como chamá-lo.   (Deixamos o protótipo para você!)  
 
 Em seguida, chame essa função `main` para que seu programa também imprima o número de palavras no texto.  
 
 Você pode supor que uma frase:  
 
-conterá pelo menos uma palavra;  
-não começará nem terminará com um espaço; e  
-não terá vários espaços seguidos.
-É claro que você pode tentar uma solução que tolere vários espaços entre   as palavras ou, de fato, nenhuma palavra!  
+* conterá pelo menos uma palavra;  
+* não começará nem terminará com um espaço; e  
+* não terá vários espaços seguidos.  
+
+É claro que você pode tentar uma solução que tolere vários espaços entre as palavras ou, de fato, nenhuma palavra!  
 
 O programa agora deve se comportar de acordo com o abaixo.  
 
