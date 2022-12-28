@@ -7,9 +7,6 @@
 
 # [Exercício 0: Hello](https://cs50.harvard.edu/x/2022/psets/1/hello/)   
 
-
-
-
 1 - Entre no *Terminal* do VsCode CodeSpace: `Ctrl`+`'`  
 
 2 - Crie uma pasta chamada *pset1* (Conjunto de Exercícios 1) ou o nome que preferir: `mkdir pset1`  

@@ -7,8 +7,7 @@
 
 # [Exercício 4 - Cartão de Crédito (difícil)](https://cs50.harvard.edu/x/2022/psets/1/credit/)
 
-## **<p style="color:red;">Algoritmo de Luhn</p>**
-
+## Algoritmo de Luhn
 
 # Introdução ao Exercício  
 
