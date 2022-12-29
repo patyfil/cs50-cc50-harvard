@@ -26,7 +26,7 @@ Abra o [VS Code](https://code.cs50.io/)
 OBS: Caso a pasta possua espaço, por exemplo: *Semana 2*  
 Será necessário colocar aspas para entrar na pasta: `cd 'Semana 2'` 
 
-3 - No terminal digite o comando: `wget https://cdn.cs50.net/2021/fall/psets/2/caesar.zip`  
+3 - No terminal digite o comando: `wget https://cdn.cs50.net/2022/fall/psets/2/caesar.zip`  
 seguido de *ENTER* para baixar o zip *caesar.zip* que contem a pasta *caesar* com o arquivo em C.  
 
 4 - Execute o unzip: `unzip caesar.zip` para extrair a pasta *caesar* dentro da pasta *pset2*.  
