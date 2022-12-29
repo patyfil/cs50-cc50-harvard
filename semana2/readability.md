@@ -177,7 +177,11 @@ A última informação que preocupa a fórmula de Coleman-Liau, além do número
 Mr. and Mrs. Dursley, of number four Privet Drive, were proud to say that they were perfectly normal, thank you very much.
 ```
 
-Esta é apenas uma única frase, mas há três pontos! Para este problema, vamos pedir que você ignore essa sutileza: você deve considerar qualquer sequência de caracteres que termine com a .ou a !ou ?a como uma frase (portanto, para a “frase” acima, você deve contá-la como três frases) . Na prática, a detecção de limites de sentença precisa ser um pouco mais inteligente para lidar com esses casos, mas não vamos nos preocupar com isso por enquanto.
+Esta é apenas uma única frase, mas há três pontos! 
+
+Para este problema, vamos pedir que você ignore essa sutileza: você deve considerar qualquer sequência de caracteres que termine com um `.` ou uma `!` ou uma `?` como uma frase (portanto, para a “frase” acima, você deve contá-la como três frases). 
+
+Na prática, a detecção de limites de sentença precisa ser um pouco mais inteligente para lidar com esses casos, mas não vamos nos preocupar com isso por enquanto.
 
 Adicione a `readability.c`, abaixo `main`, uma função chamada `count_sentences` que recebe um argumento, a *string de texto*, e que retorna um `int`, o número de sentenças naquele texto. Certifique-se de adicionar o protótipo da função também no topo do seu arquivo, para que ele `main` saiba como chamá-lo. (Mais uma vez, deixamos o protótipo para você!)
 
