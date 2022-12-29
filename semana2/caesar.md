@@ -66,14 +66,14 @@ Para ser claro, então, veja como criptografar **HELLO** com uma chave de 1, que
 | + key (chave)                | $$1$$ | $$1$$ | $$1$$ | $$1$$ | $$1$$ |
 | = ciphertext (texto cifrado) | `I` | `F` | `M` | `M` | `P` |
 
-Mais formalmente, o algoritmo de César (ou seja, cifra) criptografa as mensagens “girando” cada letra em $k$ posições. Mais formalmente, se $$p$$ é algum texto simples (ou seja, uma mensagem não criptografada), $$p_i$$ é o $$i^{th}$$ caractere em $$p$$, e $$k$$ é uma chave secreta (ou seja, um número inteiro não negativo), então cada letra, $$c_i$$, no texto cifrado, $$c$$, é calculado como:
+Mais formalmente, o algoritmo de César (ou seja, cifra) criptografa as mensagens “girando” cada letra em $k$ posições. Mais formalmente, se $p$ é algum texto simples (ou seja, uma mensagem não criptografada), $p_i$ é o $i^{th}$ caractere em $p$, e $k$ é uma chave secreta (ou seja, um número inteiro não negativo), então cada letra, $c_i$, no texto cifrado, $c$, é calculado como:
 
-$$c_i = (p_i + k) \% 26$$
+$c_i = (p_i + k) \% 26$
 
 
-em que $$\% 26$$ aqui significa “resto ao dividir por 26”. Essa fórmula talvez faça a cifra parecer mais complicada do que é, mas é apenas uma maneira concisa de expressar o algoritmo com precisão. De fato, para fins de discussão, pense em A (ou a) como $$0$$, B (ou b) como $$1$$, ..., H (ou h) como $$7$$, I (ou i) como $$8$$, ..., e Z (ou z) como $$25$$.   
+em que $\% 26$ aqui significa “resto ao dividir por 26”. Essa fórmula talvez faça a cifra parecer mais complicada do que é, mas é apenas uma maneira concisa de expressar o algoritmo com precisão. De fato, para fins de discussão, pense em A (ou a) como $0$, B (ou b) como $1$, ..., H (ou h) como $7$, I (ou i) como $8$, ..., e Z (ou z) como $25$.   
 
-Suponha que César apenas queira dizer `Hi` a alguém confidencialmente usando, desta vez, uma chave, $$k$$, de 3. E assim seu texto simples, $$p$$, é `Hi`, caso em que o primeiro caractere de seu texto simples, $$p_0$$, é `H` (também conhecido como 7), e o segundo caractere de seu texto simples, $$p_1$$, é `i` (conhecido como 8). O primeiro caractere de seu texto cifrado, $$c_0$$, é assim `K`, e o segundo caractere de seu texto cifrado, $$c_1$$, é assim `L`. Faz sentido?  
+Suponha que César apenas queira dizer `Hi` a alguém confidencialmente usando, desta vez, uma chave, $k$, de 3. E assim seu texto simples, $$p$$, é `Hi`, caso em que o primeiro caractere de seu texto simples, $p_0$, é `H` (também conhecido como 7), e o segundo caractere de seu texto simples, $p_1$, é `i` (conhecido como 8). O primeiro caractere de seu texto cifrado, $c_0$, é assim `K`, e o segundo caractere de seu texto cifrado, $c_1$, é assim `L`. Faz sentido?  
 
 Vamos escrever um programa chamado `caesar` que permite criptografar mensagens usando a cifra de César. No momento em que o usuário executa o programa, ele deve decidir, fornecendo um argumento de linha de comando, qual deve ser a chave na mensagem secreta que fornecerá em tempo de execução. Não devemos necessariamente presumir que a chave do usuário será um número; embora você possa presumir que, se for um número, será um número inteiro positivo.  
 
