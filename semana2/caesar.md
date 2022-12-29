@@ -164,17 +164,17 @@ Há mais de uma maneira de fazer isso, então aqui está apenas uma!
 ```c
 int main(void)
 {
-    // Make sure program was run with just one command-line argument
+     // Certifique-se de que o programa foi executado com apenas um argumento de linha de comando
 
-    // Make sure every character in argv[1] is a digit
+     // Certifique-se de que cada caractere em argv[1] seja um dígito
 
-    // Convert argv[1] from a `string` to an `int`
+     // Converte argv[1] de `string` para `int`
 
-    // Prompt user for plaintext
+     // Solicita ao usuário texto sem formatação
 
-    // For each character in the plaintext:
+     // Para cada caractere no texto simples:
 
-        // Rotate the character if it's a letter
+         // Gira o caractere se for uma letra
 }
 ```
 
