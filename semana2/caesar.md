@@ -169,17 +169,19 @@ Há mais de uma maneira de fazer isso, então aqui está apenas uma!
 ```c
 int main(void)
 {
-     // Certifique-se de que o programa foi executado com apenas um argumento de linha de comando
+      // 1 - Certifique-se de que o programa foi executado com apenas um argumento de linha de comando;
 
-     // Certifique-se de que cada caractere em argv[1] seja um dígito
+      // 2 - Certifique-se de que todos os caracteres em argv[1] sejam dígitos; 
 
-     // Converte argv[1] de `string` para `int`
+      // 3 - Converta o argumento da linha de comando argv[1] de `string` para `int`;
 
-     // Solicita ao usuário texto sem formatação
+      // 4 - Solicita ao usuário texto sem formatação (plaintext:);
 
-     // Para cada caractere no texto simples:
+      // 5 - Para cada caractere no texto simples (plaintext:) repita/itere:
+         // 5.1 - Se é uma letra maiúscula ou minúscula, rotacione-a, preservando capitalização, e então imprima o caractere rotacionado.
+         // 5.2 - Se não for uma letra, imprima o caractere como digitado;
 
-         // Gira o caractere se for uma letra
+      // 6 - Imprima uma nova linha. 
 }
 ```
 
@@ -205,7 +207,6 @@ Usage: ./caesar key
 ```
 $ ./caesar 1
 ```
-
 
 ## Dicas
 
