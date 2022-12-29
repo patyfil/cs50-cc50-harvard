@@ -14,6 +14,7 @@ $ ./caesar 13
 plaintext:  HELLO
 ciphertext: URYYB
 ```
+**Lembre-se que plaintext significa texto simples e ciphertext é o texto cifrado!**   
 
 # Começando:
 
