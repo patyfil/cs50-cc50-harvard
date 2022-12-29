@@ -217,6 +217,7 @@ Adicione a `caesar.c`, abaixo de `main`, uma função chamada, por exemplo, `onl
 * Lembre-se que `strlen`, declarado em `string.h`, calcula o comprimento de uma `string`.
 * Você pode achar `isdigit`, declarado em `ctype.h`, útil, por [manual.cs50.io](https://manual.cs50.io/). Mas observe que ele verifica apenas um  `char` de cada vez!
 
+&nbsp;
 
 Em seguida, modifique `main` de forma que ele chame. Se essa função retornar, então deve imprimir e retornar. Senão deve simplesmente retornar. O programa deve, portanto, se comportar de acordo com o abaixo:
 
@@ -262,6 +263,7 @@ Em seguida, implemente uma função chamada, por exemplo, `rotate`, que recebe u
 * Você pode achar algumas outras funções declaradas `ctype.h` úteis, por <https://manual.cs50.io/>.
 * É provável que você ache `%` útil quando "envolver" aritmeticamente de um valor como `25` para `0`.  
 
+&nbsp;
 
 Em seguida, modifique `main` de forma que imprima `"ciphertext: "` e itere sobre cada `char` no texto simples do usuário, chamando `rotate` cada um e imprimindo o valor de retorno deles.
 
