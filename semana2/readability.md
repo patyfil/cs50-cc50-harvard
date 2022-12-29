@@ -143,6 +143,8 @@ Text: Alice was beginning to get very tired of sitting by her sister on the bank
 ### DICA
 
 Declarado em `ctype.h` é uma função que você pode achar útil, por [manual.cs50.io](https://manual.cs50.io/). Se você usá-lo, certifique-se de incluir esse arquivo de cabeçalho no topo de seu próprio código!  
+[ctype.h\Isalpha](https://manual.cs50.io/3/isalpha)  
+`isalpha` - verifica se um caractere é alfabético  
 
 ## Palavras
 O índice Coleman-Liau se preocupa não apenas com o número de letras, mas também com o número de palavras em uma frase. Para o propósito deste problema, consideraremos qualquer sequência de caracteres separados por um espaço como uma palavra (portanto, uma palavra hifenizada como "sister-in-law"deve ser considerada uma palavra, não três).  
