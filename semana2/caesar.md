@@ -188,7 +188,8 @@ Não há problema em editar seu próprio pseudocódigo depois de ver o nosso aqu
 ### Contando argumentos de linha de comando
 Seja qual for o seu pseudocódigo, vamos primeiro escrever apenas o código C que verifica se o programa foi executado com um único argumento de linha de comando antes de adicionar funcionalidades adicionais.
 
-Especificamente, modifique `main` de `caesar.c` de forma que, se o usuário não fornecer nenhum argumento de linha de comando, ou dois ou mais, a função imprima `"Usage: ./caesar key\n"` e então retorne `1`, saindo efetivamente do programa. Se o usuário fornecer exatamente um argumento de linha de comando, o programa não deve imprimir nada e simplesmente retornar `0`. O programa deve, portanto, se comportar de acordo com o abaixo:
+Especificamente, modifique `main` de `caesar.c` de forma que, se o usuário não fornecer nenhum argumento de linha de comando, ou dois ou mais, a função imprima `"Usage: ./caesar key\n"` e então retorne `1`, saindo efetivamente do programa.  
+Se o usuário fornecer exatamente um argumento de linha de comando, o programa não deve imprimir nada e simplesmente retornar `0`. O programa deve, portanto, se comportar de acordo com o abaixo:
 
 ```
 $ ./caesar
