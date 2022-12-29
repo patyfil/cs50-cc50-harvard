@@ -53,20 +53,20 @@ A execução `code caesar.c` deve abrir o arquivo onde você digitará seu códi
 &nbsp;
 
 # Introdução ao Exercício 
-Supostamente, César (sim, aquele César) costumava “criptografar” (ou seja, ocultar de forma reversível) mensagens confidenciais, deslocando cada letra nelas por um certo número de casas. Por exemplo, ele pode escrever A como B, B como C, C como D, …, e, em ordem alfabética, Z como A. E assim, para dizer OLÁ para alguém, Caesar pode escrever IFMMP. Ao receber tais mensagens de César, os destinatários teriam que “descriptografá-las” deslocando as letras na direção oposta pelo mesmo número de casas.
+Supostamente, César (sim, aquele César) costumava “criptografar” (ou seja, ocultar de forma reversível) mensagens confidenciais, deslocando cada letra nelas por um certo número de casas. Por exemplo, ele pode escrever A como B, B como C, C como D, ..., e, em ordem alfabética, Z como A. E assim, para dizer `HELLO` para alguém, Caesar pode escrever `IFMMP`. Ao receber tais mensagens de César, os destinatários teriam que “descriptografá-las” deslocando as letras na direção oposta pelo mesmo número de casas.
 
-O sigilo desse “criptossistema” dependia apenas de César e os destinatários conhecerem um segredo, o número de lugares pelos quais César havia trocado suas cartas (por exemplo, 1). Não é particularmente seguro pelos padrões modernos, mas, ei, se você talvez seja o primeiro no mundo a fazer isso, bastante seguro!
+O sigilo desse “criptosistema” dependia apenas de César e os destinatários conhecerem um segredo, o número de lugares pelos quais César havia trocado suas cartas (por exemplo, 1). Não é particularmente seguro pelos padrões modernos, mas, ei, se você talvez seja o primeiro no mundo a fazer isso, bastante seguro!
 
-O texto não criptografado é geralmente chamado de texto sem formatação . O texto criptografado é geralmente chamado de texto cifrado . E o segredo usado é chamado de chave .
+O texto não criptografado é geralmente chamado de texto simples ou sem formatação. O texto criptografado é geralmente chamado de texto cifrado. E o segredo usado é chamado de chave.
 
-Para ser claro, então, veja como criptografar HELLOcom uma chave derendimentos IFMMP:  
+Para ser claro, então, veja como criptografar **HELLO** com uma chave de 1, que resulta em IFMMP:  
 
-| plaintext    | `H` | `E` | `L` | `L` | `O` |
+| plaintext (texto simples)    | `H` | `E` | `L` | `L` | `O` |
 |--------------|---|---|---|---|---|
-| + key        | $$1$$ | $$1$$ | $$1$$ | $$1$$ | $$1$$ |
-| = ciphertext | `I` | `F` | `M` | `M` | `P` |
+| + key (chave)                | $$1$$ | $$1$$ | $$1$$ | $$1$$ | $$1$$ |
+| = ciphertext (texto cifrado) | `I` | `F` | `M` | `M` | `P` |
 
-Mais formalmente, o algoritmo de Caesar (ou seja, cifra) criptografa as mensagens “girando” cada letra $$k$$ posições. Mais formalmente, se $$p$$ é algum texto simples (ou seja, uma mensagem não criptografada), $$p_i$$ é o $$i^{th}$$ personagem em $$p$$, e $$k$$ é uma chave secreta (ou seja, um número inteiro não negativo), então cada letra, $$c_i$$, no texto cifrado, $$c$$, é calculado como:
+Mais formalmente, o algoritmo de César (ou seja, cifra) criptografa as mensagens “girando” cada letra em $$k$$ posições. Mais formalmente, se $$p$$ é algum texto simples (ou seja, uma mensagem não criptografada), $$p_i$$ é o $$i^{th}$$ caractere em $$p$$, e $$k$$ é uma chave secreta (ou seja, um número inteiro não negativo), então cada letra, $$c_i$$, no texto cifrado, $$c$$, é calculado como:
 
 $$c_i = (p_i + k) \% 26$$
 
