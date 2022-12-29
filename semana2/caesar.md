@@ -56,7 +56,7 @@ A execução `code caesar.c` deve abrir o arquivo onde você digitará seu códi
 Este vídeo irá te ajudar a entender o problema ;)  
 Atenção: para adicionar legendas ao vídeo clique no botão CC localizado no Player e selecione a opção "Português (Brasil)".  
 Uma excelente aula para você!  
-## <img src="../assets/youtube.svg" width=20 /> [CC50: PSet 2 - Legibilidade](hhttps://www.youtube.com/watch?v=vTsVt_kDS2M)
+## <img src="../assets/youtube.svg" width=20 /> [CC50: PSet 2 - César](https://www.youtube.com/watch?v=82pMEmDMnxI)
 
 &nbsp;
 
