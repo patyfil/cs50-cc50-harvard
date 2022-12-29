@@ -7,7 +7,7 @@
 
 # [Exercício 2 - Caesar (César)](https://cs50.harvard.edu/x/2022/psets/2/caesar/)
 
-Para esse problema, você implementará um programa que criptografa mensagens usando a cifra de César, conforme abaixo:
+Você implementará um programa que criptografa mensagens usando a cifra de César, conforme abaixo:
 
 ```
 $ ./caesar 13
