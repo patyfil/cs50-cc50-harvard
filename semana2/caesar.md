@@ -194,20 +194,19 @@ Usage: ./caesar key
 $ ./caesar 1
 ```
 
-{% spoiler "Dicas" %}
+
+## Dicas"
 
 * Lembre-se de que você pode imprimir com `printf`.
 * Lembre-se de que uma função pode retornar um valor com  `return`.
 * Lembre-se de que `argc` contém o número de argumentos de linha de comando passados ​​para um programa, mais o próprio nome do programa.
-
-{% endspoiler %}
 
 ## Verificando a chave
 Agora que seu programa está (espero!) aceitando a entrada conforme prescrito, é hora de outra etapa.
 
 Adicione a `caesar.c`, abaixo de `main`, uma função chamada, por exemplo, `only_digits` que recebe a `string` como argumento e retorna `true` se `string` contiver apenas dígitos, `0` por meio `9` de , senão retorna `false`. Certifique-se de adicionar o protótipo da função acima `main` também.
 
-{% spoiler Dicas %}
+## Dicas
 * É provável que você queira um protótipo como:
   ```c
   bool only_digits(string s);
@@ -217,7 +216,7 @@ Adicione a `caesar.c`, abaixo de `main`, uma função chamada, por exemplo, `onl
 * Lembre-se de que a `string` é apenas uma matriz de `char`s.
 * Lembre-se que `strlen`, declarado em `string.h`, calcula o comprimento de uma `string`.
 * Você pode achar `isdigit`, declarado em `ctype.h`, útil, por [manual.cs50.io](https://manual.cs50.io/). Mas observe que ele verifica apenas um  `char` de cada vez!
-{% endspoiler %}
+
 
 Em seguida, modifique `main` de forma que ele chame. Se essa função retornar, então deve imprimir e retornar. Senão deve simplesmente retornar. O programa deve, portanto, se comportar de acordo com o abaixo:
 
