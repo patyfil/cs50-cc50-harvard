@@ -100,8 +100,8 @@ $ ./caesar 13
 plaintext:  be sure to drink your Ovaltine
 ciphertext: or fher gb qevax lbhe Binygvar
 ```
-Porque?  
-[Christmas Story](https://www.youtube.com/watch?v=9K4FsAHB-C8&t=1s)  
+## Porque?  
+## <img src="../assets/youtube.svg" width=20 />  [Christmas Story](https://www.youtube.com/watch?v=9K4FsAHB-C8&t=1s)  
 
 Observe que o caso da mensagem original foi preservado. Letras minúsculas permanecem minúsculas e letras maiúsculas permanecem maiúsculas.
 
