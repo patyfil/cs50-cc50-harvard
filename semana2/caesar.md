@@ -66,7 +66,7 @@ Para ser claro, então, veja como criptografar **HELLO** com uma chave de 1, que
 | + key (chave)                | $$1$$ | $$1$$ | $$1$$ | $$1$$ | $$1$$ |
 | = ciphertext (texto cifrado) | `I` | `F` | `M` | `M` | `P` |
 
-Mais formalmente, o algoritmo de César (ou seja, cifra) criptografa as mensagens “girando” cada letra em $$k$$ posições. Mais formalmente, se $$p$$ é algum texto simples (ou seja, uma mensagem não criptografada), $$p_i$$ é o $$i^{th}$$ caractere em $$p$$, e $$k$$ é uma chave secreta (ou seja, um número inteiro não negativo), então cada letra, $$c_i$$, no texto cifrado, $$c$$, é calculado como:
+Mais formalmente, o algoritmo de César (ou seja, cifra) criptografa as mensagens “girando” cada letra em $k$ posições. Mais formalmente, se $$p$$ é algum texto simples (ou seja, uma mensagem não criptografada), $$p_i$$ é o $$i^{th}$$ caractere em $$p$$, e $$k$$ é uma chave secreta (ou seja, um número inteiro não negativo), então cada letra, $$c_i$$, no texto cifrado, $$c$$, é calculado como:
 
 $$c_i = (p_i + k) \% 26$$
 
