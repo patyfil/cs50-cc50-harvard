@@ -205,12 +205,14 @@ Agora é hora de juntar todas as peças! Lembre-se de que o índice de Coleman-L
 
 onde `L` é o número médio de letras por 100 palavras no texto e `S` é o número médio de frases por 100 palavras no texto.  
 
-Modifique mainpara readability.cque, em vez de exibir o número de letras, palavras e frases, ele forneça (somente) o nível da série conforme definido pelo índice Coleman-Liau (por exemplo , "Grade 2"ou "Grade 8" or the like). Certifique-se de arredondar o número de índice resultante para o mais próximo int!  
+Modifique `main` de `readability.c` que, em vez de exibir o número de letras, palavras e frases, ele forneça (somente) o nível da série conforme definido pelo índice Coleman-Liau (por exemplo , "Grade 2" ou "Grade 8" ou semelhante). Certifique-se de arredondar o número de índice resultante para o mais próximo int!  
 
 ### Dicas
-Lembre-se que roundé declarado em math.h, por manual.cs50.io !
-Lembre-se de que, ao dividir valores do tipo intem C, o resultado também será um int, com qualquer resto (ou seja, dígitos após a vírgula) descartado. Em outras palavras, o resultado será "truncado". Você pode querer lançar um ou mais valores floatantes de realizar a divisão ao calcular Le S!
-Se o número de índice resultante for 16 ou superior (equivalente ou superior a um nível de leitura de graduação sênior), seu programa deve produzir "Grade 16+"em vez de produzir um número de índice exato. Se o número do índice for menor que 1, seu programa deve gerar "Before Grade 1".
+* Lembre-se que `round` é declarado em `math.h`, por [manual.cs50.io](https://manual.cs50.io/)!  
+
+* Lembre-se de que, ao dividir valores do tipo `int` em C, o resultado também será um `int`, com qualquer resto (ou seja, dígitos após a vírgula) descartado. Em outras palavras, o resultado será "truncado". Você pode querer lançar um ou mais valores `float` antes de realizar a divisão ao calcular `L` e `S`!  
+
+Se o número de índice resultante for 16 ou superior (equivalente ou superior a um nível de leitura de graduação sênior), seu programa deve produzir `"Grade 16+"` em vez de produzir um número de índice exato. Se o número do índice for menor que 1, seu programa deve gerar `"Before Grade 1"`.
 
 # DICA  
 
