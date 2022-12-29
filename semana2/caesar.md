@@ -154,7 +154,7 @@ Projete e implemente um programa, caesar, que criptografa mensagens usando a cif
 * Não assuma que `k` será menor ou igual a 26. Seu programa deve funcionar para todos os valores integrais não negativos de `2^{31} - 26`. Em outras palavras, você não precisa se preocupar se seu programa eventualmente quebrar se o usuário escolher um valor para `k` isso é muito grande ou quase grande demais para caber em um arquivo `int`. (Lembre-se de que uma `int` pode transbordar.) Mas, mesmo que `k` é melhor que `26`, os caracteres alfabéticos na entrada do seu programa devem permanecer como caracteres alfabéticos na saída do seu programa. Por exemplo, se `k` é `27`, `A` não deve se tornar `\` mesmo que `\` 27 seja posições fora do `A` ASCII, por [asciichart.com](https://www.asciichart.com/); `A` deve se tornar `B`, já que `B` é `27` posições distantes de `A`, desde que você passe de `Z` para `A`.  
 * Seu programa deve produzir `plaintext: ` (com dois espaços, mas sem uma nova linha) e, em seguida, solicitar ao usuário um `string` de texto simples (usando `get_string`).
 * Seu programa deve produzir `ciphertext: ` (com um espaço, mas sem uma nova linha) seguido pelo texto cifrado correspondente do texto simples, com cada caractere alfabético no texto simples “rodado” por *k* posições; caracteres não alfabéticos devem ser exibidos inalterados.
-* Seu programa deve preservar maiúsculas e minúsculas: letras maiúsculas, embora rotacionadas, devem permanecer letras maiúsculas; letras minúsculas, embora rotacionadas, devem permanecer letras minúsculas.
+* Seu programa deve preservar maiúsculas e minúsculas: letras maiúsculas, embora iteradas, devem permanecer letras maiúsculas; letras minúsculas, embora iteradas, devem permanecer letras minúsculas.
 Depois de enviar o texto cifrado, você deve imprimir uma nova linha. Seu programa deve sair retornando `0` de `main`.  
 
 ## Adendo
@@ -178,7 +178,7 @@ int main(void)
       // 4 - Solicita ao usuário texto sem formatação (plaintext:);
 
       // 5 - Para cada caractere no texto simples (plaintext:) repita/itere:
-         // 5.1 - Se é uma letra maiúscula ou minúscula, rotacione-a, preservando capitalização, e então imprima o caractere rotacionado.
+         // 5.1 - Se é uma letra maiúscula ou minúscula, itere-a, preservando capitalização, e então imprima o caractere iterado.
          // 5.2 - Se não for uma letra, imprima o caractere como digitado;
 
       // 6 - Imprima uma nova linha. 
@@ -247,9 +247,9 @@ Usage: ./caesar key
 ```
 ## Usando a chave  
 
-Agora modifique `main` de forma que ele converta `argv[1]` em um arquivo `int`. Você pode achar `atoi`, declarado em `stdlib.h`, útil, por [manual.cs50.io](https://manual.cs50.io/). E, em seguida, use `get_string` para solicitar ao usuário algum texto sem formatação com `"plaintext: "`.
+Agora modifique `main` de forma que ele converta `argv[1]` em um arquivo `int`. Você pode achar `atoi`, declarado em `stdlib.h`, útil, pelo [manual.cs50.io](https://manual.cs50.io/). E, em seguida, use `get_string` para solicitar ao usuário algum texto sem formatação com `"plaintext: "`.
 
-Em seguida, implemente uma função chamada, por exemplo, `rotate`, que recebe um `char` como entrada e também um `int`, e a rotaciona `char` por tantas posições se for uma letra (ou seja, alfabética), passando de `Z` para `A`(e de `z` para `a`) conforme necessário. Se `char` não for uma letra, a função deve retornar o mesmo `char` inalterado.
+Em seguida, implemente uma função chamada, por exemplo, `rotate`, que recebe um `char` como entrada e também um `int`, e itera `char` por tantas posições se for uma letra (ou seja, alfabética), passando de `Z` para `A`(e de `z` para `a`) conforme necessário. Se `char` não for uma letra, a função deve retornar o mesmo `char` inalterado.
 
 ## Dicas  
 
