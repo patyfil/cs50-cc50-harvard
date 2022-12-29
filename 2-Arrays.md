@@ -36,7 +36,7 @@
 [ING - pset2 exercise 2](https://cs50.harvard.edu/x/2022/psets/2/caesar/)  
 
 ## [PORT - Exercício 3: Substitution](https://patyfil.github.io/cs50-cc50-harvard/semana2/substitution)  
-[ING - pset2 exercise 3](https://cs50.harvard.edu/x/2022/psets/2/readability/)  
+[ING - pset2 exercise 3](https://cs50.harvard.edu/x/2022/psets/2/substitution/)  
 <br>
 
 [Decimal ASCII Chart](https://asciichart.com/)

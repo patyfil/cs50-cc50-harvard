@@ -124,10 +124,10 @@ Text: In my younger and more vulnerable years my father gave me some advice that
 In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.
 ```
 
-## Cartas
+## Obtendo a quantidade de Letras
 Agora que você coletou a entrada do usuário, vamos começar a analisar essa entrada contando primeiro o número de letras no texto. Considere letras como caracteres alfabéticos maiúsculos ou minúsculos, não pontuação, dígitos ou outros símbolos.
 
-Adicione a `readability.c`, abaixo de `main`, uma função chamada `count_letters` que recebe um argumento, a `string` de texto, e que retorna um `int`, o número de letras desse texto. Certifique-se de adicionar o protótipo da função também no topo do seu arquivo, para que ele `main` saiba como chamá-lo. As probabilidades são de que o protótipo deve se parecer com o abaixo:  
+Adicione a `readability.c`, abaixo de `main`, uma função chamada `count_letters` que recebe um argumento, a *string de texto*, e que retorna um `int`, o número de letras desse texto. Certifique-se de adicionar o protótipo da função também no topo do seu arquivo, para que ele `main` saiba como chamá-lo. As probabilidades são de que o protótipo deve se parecer com o abaixo:  
 
 `int count_letters(string text)`
 
@@ -146,10 +146,10 @@ Declarado em `ctype.h` é uma função que você pode achar útil, por [manual.c
 [ctype.h\Isalpha](https://manual.cs50.io/3/isalpha)  
 `isalpha` - verifica se um caractere é alfabético  
 
-## Palavras
+## Obtendo a quantidade de Palavras
 O índice Coleman-Liau se preocupa não apenas com o número de letras, mas também com o número de palavras em uma frase. Para o propósito deste problema, consideraremos qualquer sequência de caracteres separados por um espaço como uma palavra (portanto, uma palavra hifenizada como "sister-in-law"deve ser considerada uma palavra, não três).  
 
-Adicione a `readability.c`, abaixo de `main`, uma função chamada `count_words`que recebe um argumento, a string de texto, e que retorna um `int`, o número de palavras nesse texto. Certifique-se de adicionar o protótipo da função também no topo do seu arquivo, para que `main`saiba como chamá-lo.   (Deixamos o protótipo para você!)  
+Adicione a `readability.c`, abaixo de `main`, uma função chamada `count_words`que recebe um argumento, a *string de texto*, e que retorna um `int`, o número de palavras nesse texto. Certifique-se de adicionar o protótipo da função também no topo do seu arquivo, para que `main`saiba como chamá-lo.   (Deixamos o protótipo para você!)  
 
 Em seguida, chame essa função `main` para que seu programa também imprima o número de palavras no texto.  
 
@@ -170,15 +170,15 @@ Text: It was a bright cold day in April, and the clocks were striking thirteen. 
 55 words
 ```
 
-## Frases
+## Obtendo a quantidade de Frases
 A última informação que preocupa a fórmula de Coleman-Liau, além do número de letras e palavras, é o número de sentenças. Determinar o número de sentenças pode ser surpreendentemente complicado. Você pode primeiro imaginar que uma frase é qualquer sequência de caracteres que termina com um ponto, mas é claro que as frases também podem terminar com um ponto de exclamação ou um ponto de interrogação. Mas é claro que nem todos os períodos significam necessariamente que a sentença acabou. Por exemplo, considere a frase abaixo.
 
 Mr. and Mrs. Dursley, of number four Privet Drive, were proud to say that they were perfectly normal, thank you very much.
 Esta é apenas uma única frase, mas há três pontos! Para este problema, vamos pedir que você ignore essa sutileza: você deve considerar qualquer sequência de caracteres que termine com a .ou a !ou ?a como uma frase (portanto, para a “frase” acima, você deve contá-la como três frases) . Na prática, a detecção de limites de sentença precisa ser um pouco mais inteligente para lidar com esses casos, mas não vamos nos preocupar com isso por enquanto.
 
-Adicione a readability.c, abaixo main, uma função chamada count_sentencesque recebe um argumento, a stringde texto, e que retorna um int, o número de sentenças naquele texto. Certifique-se de adicionar o protótipo da função também no topo do seu arquivo, para que ele mainsaiba como chamá-lo. (Mais uma vez, deixamos o protótipo para você!)
+Adicione a `readability.c`, abaixo `main`, uma função chamada `count_sentences` que recebe um argumento, a *string de texto*, e que retorna um `int`, o número de sentenças naquele texto. Certifique-se de adicionar o protótipo da função também no topo do seu arquivo, para que ele `main` saiba como chamá-lo. (Mais uma vez, deixamos o protótipo para você!)
 
-Em seguida, chame essa função mainpara que seu programa também imprima o número de sentenças no texto.
+Em seguida, chame essa função `main` para que seu programa também imprima o número de sentenças no texto.
 
 O programa agora deve se comportar de acordo com o abaixo.
 
