@@ -68,7 +68,7 @@ Para ser claro, então, veja como criptografar **HELLO** com uma chave de 1, que
 
 Mais formalmente, o algoritmo de César (ou seja, cifra) criptografa as mensagens “girando” cada letra em `k` posições. Mais formalmente, se `p` é algum texto simples (ou seja, uma mensagem não criptografada), `pi` é o `i^{th}` (i-ésimo) caractere em `p`, e `k` é uma chave secreta (ou seja, um número inteiro não negativo), então cada letra, `ci` , no texto cifrado, `c` , é calculado como:
 
-ci = (pi + k) % 26
+`ci = (pi + k) % 26`
 
 em que `%26` aqui significa “resto ao dividir por 26”. Essa fórmula talvez faça a cifra parecer mais complicada do que é, mas é apenas uma maneira concisa de expressar o algoritmo com precisão. De fato, para fins de discussão, pense em A (ou a) como `0`, B (ou b) como `1`, ..., H (ou h) como `7`, I (ou i) como `8`, ..., e Z (ou z) como `25`.   
 
