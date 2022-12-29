@@ -183,7 +183,7 @@ Para este problema, vamos pedir que você ignore essa sutileza: você deve consi
 
 Na prática, a detecção de limites de sentença precisa ser um pouco mais inteligente para lidar com esses casos, mas não vamos nos preocupar com isso por enquanto.
 
-Adicione a `readability.c`, abaixo `main`, uma função chamada `count_sentences` que recebe um argumento, a *string de texto*, e que retorna um `int`, o número de sentenças naquele texto. Certifique-se de adicionar o protótipo da função também no topo do seu arquivo, para que ele `main` saiba como chamá-lo. (Mais uma vez, deixamos o protótipo para você!)
+Adicione a `readability.c`, abaixo de `main`, uma função chamada `count_sentences` que recebe um argumento, a *string de texto*, e que retorna um `int`, o número de sentenças naquele texto. Certifique-se de adicionar o protótipo da função também no topo do seu arquivo, para que ele `main` saiba como chamá-lo. (Mais uma vez, deixamos o protótipo para você!)
 
 Em seguida, chame essa função `main` para que seu programa também imprima o número de sentenças no texto.
 
