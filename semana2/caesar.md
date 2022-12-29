@@ -195,7 +195,7 @@ $ ./caesar 1
 ```
 
 
-## Dicas"
+## Dicas
 
 * Lembre-se de que você pode imprimir com `printf`.
 * Lembre-se de que uma função pode retornar um valor com  `return`.
