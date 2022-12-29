@@ -72,7 +72,17 @@ Mais formalmente, o algoritmo de César (ou seja, cifra) criptografa as mensagen
 
 em que `%26` aqui significa “resto ao dividir por 26”. Essa fórmula talvez faça a cifra parecer mais complicada do que é, mas é apenas uma maneira concisa de expressar o algoritmo com precisão. De fato, para fins de discussão, pense em A (ou a) como `0`, B (ou b) como `1`, ..., H (ou h) como `7`, I (ou i) como `8`, ..., e Z (ou z) como `25`.   
 
-Suponha que César apenas queira dizer `Hi` a alguém confidencialmente usando, desta vez, uma chave, `k`, de 3. E assim seu texto simples, `p`, é `Hi`, caso em que o primeiro caractere de seu texto simples, `p0`, é `H` (também conhecido como 7), e o segundo caractere de seu texto simples, `p1`, é `i` (conhecido como 8). O primeiro caractere de seu texto cifrado, `c0`, é assim `K`, e o segundo caractere de seu texto cifrado, `c1`, é assim `L`. Faz sentido?  
+Suponha que César apenas queira dizer `Hi` a alguém confidencialmente usando, desta vez, uma chave, `k`, de 3. E assim seu texto simples, `p`, é `Hi`, caso em que o primeiro caractere de seu texto simples, `p0`, é `H` (também conhecido como 7), e o segundo caractere de seu texto simples, `p1`, é `i` (conhecido como 8). O primeiro caractere de seu texto cifrado, `c0`, é portanto `K`, e o segundo caractere de seu texto cifrado, `c1`, é igual a `L`.  
+```
+k = Chave = 3
+p = Texto Simples = Hi
+p0 = H = 7
+p1 = i = 8
+c = Texto Cifrado = kl
+c0 = K
+c1 = L
+```
+Faz sentido?  
 
 Vamos escrever um programa chamado `caesar` que permite criptografar mensagens usando a cifra de César. No momento em que o usuário executa o programa, ele deve decidir, fornecendo um argumento de linha de comando, qual deve ser a chave na mensagem secreta que fornecerá em tempo de execução. Não devemos necessariamente presumir que a chave do usuário será um número; embora você possa presumir que, se for um número, será um número inteiro positivo.  
 
@@ -136,7 +146,7 @@ dentro [desta sandbox](https://bit.ly/2Vwi8n0) , substituindo um inteiro válido
 ## Especificação
 Projete e implemente um programa, caesar, que criptografa mensagens usando a cifra de César.
 
-* Implemente seu programa em um arquivo chamado caesar.c em um diretório chamado `caesar`.  
+* Implemente seu programa em um arquivo chamado `caesar.c` em um diretório chamado `caesar`.  
 * Seu programa deve aceitar um único argumento de linha de comando, um inteiro não negativo. Vamos chamá-lo de `k` para fins de discussão.  
 * Se seu programa for executado sem nenhum argumento de linha de comando ou com mais de um argumento de linha de comando, seu programa deve imprimir uma mensagem de erro de sua escolha (com `printf`) e retornar de `main` um valor de `1`(que tende a significar um erro) imediatamente.
 * Se algum dos caracteres do argumento da linha de comando não for um dígito decimal, seu programa deve imprimir a mensagem `Usage: ./caesar key` e retornar de `main` um valor de `1`.
