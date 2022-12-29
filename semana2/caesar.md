@@ -217,7 +217,7 @@ $ ./caesar 1
 ## Verificando a chave
 Agora que seu programa está (espero!) aceitando a entrada conforme prescrito, é hora de outra etapa.
 
-Adicione a `caesar.c`, abaixo de `main`, uma função chamada, por exemplo, `only_digits` que recebe a `string` como argumento e retorna `true` se `string` contiver apenas dígitos, `0` por meio `9` de , senão retorna `false`. Certifique-se de adicionar o protótipo da função acima `main` também.
+Adicione a `caesar.c`, abaixo de `main`, uma função chamada, por exemplo, `only_digits` que recebe uma `string` como argumento e retorna `true` se essa `string` contiver apenas dígitos de `0` a `9`, senão retorna `false`. Certifique-se de adicionar o protótipo da função acima de `main` também.
 
 ## Dicas
 * É provável que você queira um protótipo como:
