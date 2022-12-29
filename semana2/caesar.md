@@ -5,7 +5,7 @@
    <a href="https://patyfil.github.io/cs50-cc50-harvard/2-Arrays.html">Voltar ao Índice da Semana 2</a>
 </p>
 
-# [Exercício 2 - Caesar](https://cs50.harvard.edu/x/2022/psets/2/caesar/)
+# [Exercício 2 - Caesar (César)](https://cs50.harvard.edu/x/2022/psets/2/caesar/)
 
 Para esse problema, você implementará um programa que criptografa mensagens usando a cifra de César, conforme abaixo:
 
