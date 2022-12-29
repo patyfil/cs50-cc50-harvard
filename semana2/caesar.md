@@ -247,7 +247,7 @@ Usage: ./caesar key
 ```
 ## Usando a chave  
 
-Agora modifique `main` de forma que ele se converta `argv[1]` em um arquivo `int`. Você pode achar `atoi`, declarado em `stdlib.h`, útil, por [manual.cs50.io](https://manual.cs50.io/). E, em seguida, use `get_string` para solicitar ao usuário algum texto sem formatação com `"plaintext: "`.
+Agora modifique `main` de forma que ele converta `argv[1]` em um arquivo `int`. Você pode achar `atoi`, declarado em `stdlib.h`, útil, por [manual.cs50.io](https://manual.cs50.io/). E, em seguida, use `get_string` para solicitar ao usuário algum texto sem formatação com `"plaintext: "`.
 
 Em seguida, implemente uma função chamada, por exemplo, `rotate`, que recebe um `char` como entrada e também um `int`, e a rotaciona `char` por tantas posições se for uma letra (ou seja, alfabética), passando de `Z` para `A`(e de `z` para `a`) conforme necessário. Se `char` não for uma letra, a função deve retornar o mesmo `char` inalterado.
 
