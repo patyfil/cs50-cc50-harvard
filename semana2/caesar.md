@@ -232,9 +232,10 @@ Adicione a `caesar.c`, abaixo de `main`, uma função chamada, por exemplo, `onl
 
 &nbsp;
 
-Em seguida, modifique `main` de forma que ele chame. Se essa função retornar, então deve imprimir e retornar. Senão deve simplesmente retornar. O programa deve, portanto, se comportar de acordo com o abaixo:
-
-`only_digits` `argv[1]` `false` `main` `"Usage: ./caesar key\n"` `1` `main` `0` 
+Em seguida, modifique `main` de forma que ele chame `only_digits` em `argv[1]`.  
+Se essa função retornar `false`, então `main` deve imprimir `"Usage: ./caesar key\n"` e retornar `1`.  
+Senão `main` deve simplesmente retornar `0`.  
+O programa deve, portanto, se comportar de acordo com o abaixo:  
 
 ```
 $ ./caesar 42
