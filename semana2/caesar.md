@@ -110,8 +110,6 @@ $ ./caesar 13
 plaintext:  be sure to drink your Ovaltine
 ciphertext: or fher gb qevax lbhe Binygvar
 ```
-## Por quê?  
-## <img src="../assets/youtube.svg" width=20 />  [Christmas Story](https://www.youtube.com/watch?v=9K4FsAHB-C8&t=1s)  
 
 Observe que o caso da mensagem original foi preservado. Letras minúsculas permanecem minúsculas e letras maiúsculas permanecem maiúsculas.
 
@@ -135,6 +133,9 @@ Ou realmente, realmente não coopera, fornecendo mais de um argumento de linha d
 $ ./caesar 1 2 3
 Usage: ./caesar key
 ```
+
+## Por quê?  
+## <img src="../assets/youtube.svg" width=20 />  [Christmas Story](https://www.youtube.com/watch?v=9K4FsAHB-C8&t=1s)  
 
 ## TENTE
 Para experimentar a implementação deste problema pela equipe, execute
