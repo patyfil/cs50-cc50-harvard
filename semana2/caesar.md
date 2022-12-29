@@ -236,7 +236,8 @@ Agora modifique `main` de forma que ele se converta `argv[1]` em um arquivo `int
 
 Em seguida, implemente uma função chamada, por exemplo, `rotate`, que recebe um `char` como entrada e também um `int`, e a rotaciona `char` por tantas posições se for uma letra (ou seja, alfabética), passando de `Z` para `A`(e de `z` para `a`) conforme necessário. Se `char` não for uma letra, a função deve retornar o mesmo `char` inalterado.
 
-{% spoiler "Dicas" %}
+## Dicas  
+
 * É provável que você queira um protótipo como::
   ```c
   char rotate(char c, int n);
@@ -260,14 +261,14 @@ Em seguida, implemente uma função chamada, por exemplo, `rotate`, que recebe u
 * É provável que você queira subtrair o valor ASCII de `'a'` qualquer letra minúscula, de modo a tratar `'a'` como `0`, `'b'` como `1`, e assim por diante, enquanto executa aritmética. E, em seguida, adicione-o novamente quando terminar com o mesmo.
 * Você pode achar algumas outras funções declaradas `ctype.h` úteis, por <https://manual.cs50.io/>.
 * É provável que você ache `%` útil quando "envolver" aritmeticamente de um valor como `25` para `0`.  
-{% endspoiler %}
+
 
 Em seguida, modifique `main` de forma que imprima `"ciphertext: "` e itere sobre cada `char` no texto simples do usuário, chamando `rotate` cada um e imprimindo o valor de retorno deles.
 
-{% spoiler "Hints" %}
+## Dicas  
+
 * Lembre-se de que `printf` pode imprimir um `char` usando `%c`.
 * Se você não está vendo nenhuma saída ao chamar `printf`, é provável que seja porque você está imprimindo caracteres fora do intervalo ASCII válido de 0 a 127. Tente imprimir caracteres temporariamente como números (usando `%i` em vez de `%c`) para ver quais valores você está imprimindo!
-{% endspoiler %}
 
 ## Passo a passo
 # DICA  
