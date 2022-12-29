@@ -62,13 +62,6 @@ O texto não criptografado é geralmente chamado de texto simples ou sem formata
 Para ser claro, então, veja como criptografar **HELLO** com uma chave de 1, que resulta em IFMMP:  
 
 | plaintext (texto simples)    | `H` | `E` | `L` | `L` | `O` |
-|--------------|:---:|:---:|---|---|---|
-| + key (chave)                | $$1$$ | $$1$$ | $$1$$ | $$1$$ | $$1$$ |
-| = ciphertext (texto cifrado) | `I` | `F` | `M` | `M` | `P` |
-
-
-
-| plaintext (texto simples)    | `H` | `E` | `L` | `L` | `O` |
 |--------------|:---:|:---:|:---:|:---:|:---:|
 | + key (chave)                | 1 | 1 | 1 | 1 | 1 |
 | = ciphertext (texto cifrado) | `I` | `F` | `M` | `M` | `P` |
