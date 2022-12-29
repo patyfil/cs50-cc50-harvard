@@ -70,6 +70,8 @@ Mais formalmente, o algoritmo de César (ou seja, cifra) criptografa as mensagen
 
 $c_i = (p_i + k)$ % 26
 
+\[c_i = (p_i + k) \% 26\]
+
 
 em que `%26` aqui significa “resto ao dividir por 26”. Essa fórmula talvez faça a cifra parecer mais complicada do que é, mas é apenas uma maneira concisa de expressar o algoritmo com precisão. De fato, para fins de discussão, pense em A (ou a) como `0`, B (ou b) como `1`, ..., H (ou h) como `7`, I (ou i) como `8`, ..., e Z (ou z) como `25`.   
 
