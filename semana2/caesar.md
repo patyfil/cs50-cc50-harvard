@@ -286,6 +286,9 @@ Em seguida, modifique `main` de forma que imprima `"ciphertext: "` e itere sobre
 * Lembre-se de que `printf` pode imprimir um `char` usando `%c`.
 * Se você não está vendo nenhuma saída ao chamar `printf`, é provável que seja porque você está imprimindo caracteres fora do intervalo ASCII válido de 0 a 127. Tente imprimir caracteres temporariamente como números (usando `%i` em vez de `%c`) para ver quais valores você está imprimindo!
 
+![02 - Caesar](https://user-images.githubusercontent.com/41968938/210101404-ab391614-78f4-42ff-9f29-c1716a92fb14.jpg)
+
+
 ## Passo a passo
 # DICA  
 
