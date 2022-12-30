@@ -77,13 +77,13 @@ Por exemplo, `A` ou `a` vale `1` ponto (representado por `POINTS[0]`), `B` ou `b
 
 
 ## Dicas
-* Você pode encontrar as funções isupper()e islower()ser útil para você. Essas funções recebem um caractere como argumento e retornam um booleano.
+* Você pode encontrar as funções `isupper()` e `islower()` ser útil para você. Essas funções recebem um caractere como argumento e retornam um booleano.
 
-* Para encontrar o valor no níndice de um array chamado arr, podemos escrever arr[n]. Também podemos aplicar isso a strings, pois strings são arrays de caracteres.
+* Para encontrar o valor no `n` índice de um array chamado `arr`, podemos escrever `arr[n]`. Também podemos aplicar isso a strings, pois strings são arrays de caracteres.
 
-* Lembre-se de que os computadores representam caracteres usando ASCII , um padrão que representa cada caractere como um número.
+* Lembre-se de que os computadores representam caracteres usando [ASCII](https://asciitable.com/), um padrão que representa cada caractere como um número.
 
-## Como testar seu código
+# Como testar seu código
 Seu programa deve se comportar de acordo com os exemplos abaixo.
 
 ```
