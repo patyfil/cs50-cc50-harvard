@@ -28,7 +28,7 @@ Será necessário colocar aspas para entrar na pasta: `cd 'Semana 2'`
 
 3 - No terminal digite o comando: `wget https://cdn.cs50.net/2022/fall/labs/2/scrabble.zip`  
 seguido de *ENTER* para baixar o zip *scrabble.zip* que contem a pasta *scrabble* com o arquivo em C.  
-OBS: Você também pode copiar o código aqui em [scrabble.c](https://patyfil.github.io/cs50-cc50-harvard/semana2/scrabble.c)
+OBS: Você também pode copiar o código aqui em [scrabble.c](https://patyfil.github.io/cs50-cc50-harvard/semana2/scrabble.html)
 
 4 - Execute o unzip: `unzip scrabble.zip` para extrair a pasta *scrabble* dentro da pasta *pset2*.  
 
