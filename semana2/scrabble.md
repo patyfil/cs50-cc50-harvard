@@ -62,9 +62,56 @@ No jogo de [Scrabble](https://scrabble.hasbro.com/en-us/rules) , os jogadores cr
 
 Por exemplo, se quiséssemos pontuar a palavra `Code`, observaríamos que, em geral, nas regras do Scrabble, o `C` vale `3` pontos, `O` vale `1` ponto, `D` vale `2` pontos e `E` vale `1` ponto. Somando estes, obtemos que `Code` vale `3 + 1 + 2 + 1 = 7` pontos.
 
+# Detalhes de Implementação  
+
+Conclua a implementação de scrabble.c, de modo que ele determine o vencedor de um jogo curto do tipo scrabble, em que dois jogadores inserem sua palavra, e o jogador com maior pontuação vence.
+
+Observe que armazenamos os valores de ponto de cada letra do alfabeto em uma matriz inteira chamada POINTS.
+Por exemplo, Aou avale 1 ponto (representado por POINTS[0]), Bou bvale 3 pontos (representado por POINTS[1]), etc.
+Observe que criamos um protótipo para uma função auxiliar chamada compute_score()que recebe uma string como entrada e retorna um arquivo int. Sempre que quisermos atribuir valores de pontos a uma palavra específica, podemos chamar essa função. Observe que esse protótipo é necessário para C saber que compute_score()existe posteriormente no programa.
+Em main(), o programa solicita aos dois jogadores suas palavras usando a get_string()função. Esses valores são armazenados dentro de variáveis ​​chamadas word1e word2.
+Em compute_score(), seu programa deve calcular, usando o POINTSarray, e retornar a pontuação para o argumento string. Caracteres que não são letras devem receber zero pontos, e letras maiúsculas e minúsculas devem receber os mesmos valores de pontos.
+Por exemplo, !vale 0pontos enquanto Ae aambos valem 1pontos.
+Embora as regras do Scrabble normalmente exijam que uma palavra esteja no dicionário, não há necessidade de verificar isso neste problema!
+Em main(), seu programa deve imprimir, dependendo da pontuação dos jogadores, Player 1 wins!, Player 2 wins!ou Tie!.  
 
 
-# DICA  
+## Dicas
+* Você pode encontrar as funções isupper()e islower()ser útil para você. Essas funções recebem um caractere como argumento e retornam um booleano.
+
+* Para encontrar o valor no níndice de um array chamado arr, podemos escrever arr[n]. Também podemos aplicar isso a strings, pois strings são arrays de caracteres.
+
+* Lembre-se de que os computadores representam caracteres usando ASCII , um padrão que representa cada caractere como um número.
+
+## Como testar seu código
+Seu programa deve se comportar de acordo com os exemplos abaixo.
+
+```
+$ ./scrabble
+Player 1: Question?
+Player 2: Question!
+Tie!
+```
+```
+$ ./scrabble
+Player 1: Oh,
+Player 2: hai!
+Player 2 wins!
+```
+```
+$ ./scrabble
+Player 1: COMPUTER
+Player 2: science
+Player 1 wins!
+```
+```
+$ ./scrabble
+Player 1: Scrabble
+Player 2: wiNNeR
+Player 1 wins!
+```
+
+# DICA - Passo a passo 
 
 Este vídeo irá te ajudar a entender o problema ;)  
 Atenção: para adicionar legendas ao vídeo clique no botão CC localizado no Player e selecione a opção "Português (Brasil)".  
