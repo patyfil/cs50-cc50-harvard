@@ -31,7 +31,7 @@
 [ING - Lab 2: Scrabble](https://cs50.harvard.edu/x/2022/labs/2/) 
 
 
-### Descritivo dos Exercícios: 
+# Descritivo dos Exercícios: 
 [ING - Problem Set 2 (ALL)](https://cs50.harvard.edu/x/2022/psets/2/)  
 
 ## [PORT - Exercício 1: Readability](https://patyfil.github.io/cs50-cc50-harvard/semana2/readability)  
