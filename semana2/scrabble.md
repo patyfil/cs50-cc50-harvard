@@ -26,7 +26,7 @@ Abra o [VS Code](https://code.cs50.io/)
 OBS: Caso a pasta possua espaço, por exemplo: *Semana 2*  
 Será necessário colocar aspas para entrar na pasta: `cd 'Semana 2'` 
 
-3 - No terminal digite o comando: `wget https://cdn.cs50.net/2021/fall/labs/2/scrabble.zip`  
+3 - No terminal digite o comando: `wget https://cdn.cs50.net/2022/fall/labs/2/scrabble.zip`  
 seguido de *ENTER* para baixar o zip *scrabble.zip* que contem a pasta *scrabble* com o arquivo em C.  
 
 4 - Execute o unzip: `unzip scrabble.zip` para extrair a pasta *scrabble* dentro da pasta *pset2*.  
@@ -77,7 +77,7 @@ Conclua a implementação de `scrabble.c`, de modo que ele determine o vencedor 
 
 
 ## Dicas
-* Você pode encontrar as funções `isupper()` e `islower()` úteis para você. Essas funções recebem um caractere como argumento e retornam um booleano.
+* Você pode encontrar as funções `isupper()` e `islower()` úteis para você. Essas funções recebem um caractere como argumento e retornam um booleano (um valor diferente de zero) se o caractere for maiúsculo (para isupper) ou minúsculo (para islower).
 
 * Para encontrar o valor no `n` índice de um array chamado `arr`, podemos escrever `arr[n]`. Também podemos aplicar isso a strings, pois strings são arrays de caracteres.
 
