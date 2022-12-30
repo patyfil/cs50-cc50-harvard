@@ -64,16 +64,16 @@ Por exemplo, se quiséssemos pontuar a palavra `Code`, observaríamos que, em ge
 
 # Detalhes de Implementação  
 
-Conclua a implementação de scrabble.c, de modo que ele determine o vencedor de um jogo curto do tipo scrabble, em que dois jogadores inserem sua palavra, e o jogador com maior pontuação vence.
+Conclua a implementação de `scrabble.c`, de modo que ele determine o vencedor de um jogo curto do tipo scrabble, em que dois jogadores inserem sua palavra, e o jogador com maior pontuação vence.
 
-Observe que armazenamos os valores de ponto de cada letra do alfabeto em uma matriz inteira chamada POINTS.
-Por exemplo, Aou avale 1 ponto (representado por POINTS[0]), Bou bvale 3 pontos (representado por POINTS[1]), etc.
-Observe que criamos um protótipo para uma função auxiliar chamada compute_score()que recebe uma string como entrada e retorna um arquivo int. Sempre que quisermos atribuir valores de pontos a uma palavra específica, podemos chamar essa função. Observe que esse protótipo é necessário para C saber que compute_score()existe posteriormente no programa.
-Em main(), o programa solicita aos dois jogadores suas palavras usando a get_string()função. Esses valores são armazenados dentro de variáveis ​​chamadas word1e word2.
-Em compute_score(), seu programa deve calcular, usando o POINTSarray, e retornar a pontuação para o argumento string. Caracteres que não são letras devem receber zero pontos, e letras maiúsculas e minúsculas devem receber os mesmos valores de pontos.
-Por exemplo, !vale 0pontos enquanto Ae aambos valem 1pontos.
-Embora as regras do Scrabble normalmente exijam que uma palavra esteja no dicionário, não há necessidade de verificar isso neste problema!
-Em main(), seu programa deve imprimir, dependendo da pontuação dos jogadores, Player 1 wins!, Player 2 wins!ou Tie!.  
+* Observe que armazenamos os valores de ponto de cada letra do alfabeto em uma matriz inteira chamada `POINTS`.
+Por exemplo, `A` ou `a` vale `1` ponto (representado por `POINTS[0]`), `B` ou `b` vale `3` pontos (representado por `POINTS[1]`), etc.  
+* Observe que criamos um protótipo para uma função auxiliar chamada `compute_score()` que recebe uma `string` como entrada e retorna um arquivo `int`. Sempre que quisermos atribuir valores de pontos a uma palavra específica, podemos chamar essa função. Observe que esse protótipo é necessário para C saber que `compute_score()` existe posteriormente no programa.
+* Em `main()`, o programa solicita aos dois jogadores suas palavras usando a `get_string()` função. Esses valores são armazenados dentro de variáveis ​​chamadas `word1` e `word2`.
+* Em `compute_score()`, seu programa deve calcular, usando o `POINTS` array, e retornar a pontuação para o argumento string. Caracteres que não são letras devem receber zero pontos, e letras maiúsculas e minúsculas devem receber os mesmos valores de pontos.
+** Por exemplo, `!` vale `0` pontos enquanto `A` e `a` ambos valem `1` ponto.
+** Embora as regras do Scrabble normalmente exijam que uma palavra esteja no dicionário, não há necessidade de verificar isso neste problema!
+* Em `main()`, seu programa deve imprimir, dependendo da pontuação dos jogadores, `Player 1 wins!`, `Player 2 wins!` ou `Tie!`.  
 
 
 ## Dicas
