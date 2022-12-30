@@ -77,7 +77,7 @@ Conclua a implementação de `scrabble.c`, de modo que ele determine o vencedor 
 
 
 ## Dicas
-* Você pode encontrar as funções `isupper()` e `islower()` ser útil para você. Essas funções recebem um caractere como argumento e retornam um booleano.
+* Você pode encontrar as funções `isupper()` e `islower()` úteis para você. Essas funções recebem um caractere como argumento e retornam um booleano.
 
 * Para encontrar o valor no `n` índice de um array chamado `arr`, podemos escrever `arr[n]`. Também podemos aplicar isso a strings, pois strings são arrays de caracteres.
 
