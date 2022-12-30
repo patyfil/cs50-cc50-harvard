@@ -60,7 +60,7 @@ No jogo de [Scrabble](https://scrabble.hasbro.com/en-us/rules) , os jogadores cr
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | 3 | 3 | 2 | 1 | 4 | 2 | 4 | 1 | 8 | 5 | 1 | 3 | 1 | 1 | 3 | 10 | 1 | 1 | 1 | 1 | 4 | 4 | 8 | 4 | 10 |
 
-Por exemplo, se quiséssemos pontuar a palavra `Code`, observaríamos que, em geral, as regras do Scrabble `C` valem `3` pontos, `o` valem `1` pontos, `d` valem `2` pontos e `e` valem `1` pontos. Somando estes, obtemos que `Code` vale `3 + 1 + 2 + 1 = 7` pontos.
+Por exemplo, se quiséssemos pontuar a palavra `Code`, observaríamos que, em geral, nas regras do Scrabble, o `C` vale `3` pontos, `O` vale `1` ponto, `D` vale `2` pontos e `E` vale `1` ponto. Somando estes, obtemos que `Code` vale `3 + 1 + 2 + 1 = 7` pontos.
 
 
 
