@@ -111,18 +111,17 @@ substituindo uma chave válida no lugar de `key`, dentro [desta sandbox](http://
 
 ## Especificação  
 
-Projete e implemente um programa, substitution, que criptografa mensagens usando uma cifra de substituição.
+Projete e implemente um programa, `substitution`, que criptografa mensagens usando uma cifra de substituição.
 
-* Implemente seu programa em um arquivo chamado substitution.cem um diretório chamado substitution.
-* Seu programa deve aceitar um único argumento de linha de comando, a chave a ser usada para a substituição. A chave em si não deve diferenciar maiúsculas de minúsculas, portanto, se qualquer caractere na chave é maiúsculo ou minúsculo, isso não deve afetar o comportamento do seu programa.
-* Se seu programa for executado sem nenhum argumento de linha de comando ou com mais de um argumento de linha de comando, seu programa deve imprimir uma mensagem de erro de sua escolha (com printf) e retornar de mainum valor de 1(que tende a significar um erro) imediatamente.
-* Se a chave for inválida (como por não conter 26 caracteres, conter qualquer caractere que não seja um caractere alfabético ou não conter cada letra exatamente uma vez), seu programa deve imprimir uma mensagem de erro de sua escolha (com printf) e retornar de mainum valor de 1imediatamente.
-* Seu programa deve produzir plaintext:(sem uma nova linha) e, em seguida, solicitar ao usuário um stringde texto simples (usando get_string).
-* Seu programa deve produzir ciphertext:(sem uma nova linha) seguido pelo texto cifrado correspondente do texto simples, com cada caractere alfabético no texto simples substituído pelo caractere correspondente no texto cifrado; caracteres não alfabéticos devem ser exibidos inalterados.
-* Seu programa deve preservar maiúsculas e minúsculas: letras maiúsculas devem permanecer letras maiúsculas; letras minúsculas devem permanecer letras minúsculas.
-* Depois de enviar o texto cifrado, você deve imprimir uma nova linha. Seu programa deve sair retornando 0de main.
-Você pode achar que uma ou mais funções declaradas `ctype.h` são úteis, por [manual.cs50.io](https://manual.cs50.io/) .
-
+* Implemente seu programa em um arquivo chamado `substitution.c` em um diretório chamado substitution.  
+* Seu programa deve **aceitar um único argumento de linha de comando**, a chave a ser usada para a substituição. A chave em si não deve diferenciar maiúsculas de minúsculas, portanto, se qualquer caractere na chave é maiúsculo ou minúsculo, isso não deve afetar o comportamento do seu programa.  
+* Se seu programa for executado **sem nenhum argumento de linha de comando ou com mais de um argumento de linha de comando**, seu programa deve **imprimir** uma mensagem de erro de sua escolha (com printf) e retornar de `main` um valor de `1` (que tende a significar um erro) imediatamente.  
+* Se a chave for inválida (como por não conter 26 caracteres, conter qualquer caractere que não seja um caractere alfabético ou não conter cada letra exatamente uma vez), seu programa deve **imprimir** uma mensagem de erro de sua escolha (com printf) e retornar de `main` um valor de `1` imediatamente.  
+* Seu programa deve produzir `plaintext:`(sem uma nova linha) e, em seguida, solicitar ao usuário um `string` de texto simples (usando get_string).
+* Seu programa deve produzir `ciphertext:`(sem uma nova linha) seguido pelo **texto cifrado** correspondente do texto simples, com cada caractere alfabético no texto simples substituído pelo caractere correspondente no texto cifrado; caracteres não alfabéticos devem ser exibidos inalterados.  
+* Seu programa deve **preservar maiúsculas e minúsculas**: letras maiúsculas devem permanecer letras maiúsculas; letras minúsculas devem permanecer letras minúsculas.
+* Depois de enviar o texto cifrado, você deve **imprimir uma nova linha**. Seu programa deve sair retornando `0` de main.
+Você pode achar que uma ou mais funções declaradas `ctype.h` são úteis, pelo [manual.cs50.io](https://manual.cs50.io/) .
 
 # DICA  
 
