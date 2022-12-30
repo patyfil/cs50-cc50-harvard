@@ -23,12 +23,17 @@
 
 ## <img src="assets/youtube.svg" width=20 /> [Videoaula 7 - Command Line Arguments](https://www.youtube.com/watch?v=AI6Ccfno6Pk)  
 
-[Lab 2: Scrabble](https://cs50.harvard.edu/x/2022/labs/2/)  
+&nbsp;
 
-[Problem Set 2](https://cs50.harvard.edu/x/2022/psets/2/)
+# Laboratório 2
+
+## [Descritivo do Laboratório 2 - Scrabble](https://patyfil.github.io/cs50-cc50-harvard/semana2/scrabble)  
+[ING - Lab 2: Scrabble](https://cs50.harvard.edu/x/2022/labs/2/) 
 
 
 ### Descritivo dos Exercícios: 
+[ING - Problem Set 2 (ALL)](https://cs50.harvard.edu/x/2022/psets/2/)  
+
 ## [PORT - Exercício 1: Readability](https://patyfil.github.io/cs50-cc50-harvard/semana2/readability)  
 [ING - pset2 exercise 1](https://cs50.harvard.edu/x/2022/psets/2/readability/)  
 
