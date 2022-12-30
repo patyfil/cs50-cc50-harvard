@@ -56,7 +56,7 @@ A execução `code scrabble.c` deve abrir o arquivo onde você digitará seu có
 
 No jogo de [Scrabble](https://scrabble.hasbro.com/en-us/rules) , os jogadores criam palavras para marcar pontos, e o número de pontos é a soma dos valores de pontos de cada letra da palavra.  
 
-| `UMA` | `B` | `C` | `D` | `E` | `F` | `G` | `H` | `EU` | `J` | `k` | `eu` | `M` | `N` | `O` | `P` | `Q` | `R` | `S` | `T` | `NO` | `NO` | `No` | `x` | `y` | `A PARTIR DE` |
+| `A` | `B` | `C` | `D` | `E` | `F` | `G` | `H` | `I` | `J` | `K` | `L` | `M` | `N` | `O` | `P` | `Q` | `R` | `S` | `T` | `U` | `V` | `W` | `X` | `Y` | `Z` |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | 3 | 3 | 2 | 1 | 4 | 2 | 4 | 1 | 8 | 5 | 1 | 3 | 1 | 1 | 3 | 10 | 1 | 1 | 1 | 1 | 4 | 4 | 8 | 4 | 10 |
 
