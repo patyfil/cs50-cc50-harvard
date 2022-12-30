@@ -51,12 +51,83 @@ A execução `code substitution.c` deve abrir o arquivo onde você digitará seu
 
 &nbsp;
 
+# Introdução ao Exercício  
+Em uma cifra de substituição, nós “criptografamos” (ou seja, ocultamos de forma reversível) uma mensagem substituindo cada letra por outra letra. Para isso, utilizamos uma chave : neste caso, um mapeamento de cada uma das letras do alfabeto para a letra a que deve corresponder quando a ciframos. Para “descriptografar” a mensagem, o destinatário da mensagem precisaria conhecer a chave, para que pudesse reverter o processo: traduzir o texto criptografado (geralmente chamado de texto cifrado ) de volta para a mensagem original (geralmente chamada de texto simples ).
+
+Uma chave, por exemplo, pode ser a string NQXPOMAFTRHLZGECYJIUWSKDVB. Esta chave de 26 caracteres significa que A(a primeira letra do alfabeto) deve ser convertida em N(o primeiro caractere da chave), B(a segunda letra do alfabeto) deve ser convertida em Q(o segundo caractere da chave) e assim por diante.
+
+Uma mensagem como HELLO, então, seria criptografada como FOLLE, substituindo cada uma das letras de acordo com o mapeamento determinado pela chave.
+
+Vamos escrever um programa chamado substitutionque permite criptografar mensagens usando uma cifra de substituição. No momento em que o usuário executa o programa, ele deve decidir, fornecendo um argumento de linha de comando, qual deve ser a chave na mensagem secreta que fornecerá em tempo de execução.
+
+Aqui estão alguns exemplos de como o programa pode funcionar. Por exemplo, se o usuário inserir uma chave YTNSHKVEFXRBAUQZCLWDMIPGJOe um texto simples de HELLO:
+
+```
+$ ./substitution YTNSHKVEFXRBAUQZCLWDMIPGJO
+plaintext:  HELLO
+ciphertext: EHBBQ
+```
+
+Veja como o programa pode funcionar se o usuário fornecer uma chave VCHPRZGJNTLSKFBDQWAXEUYMOIe um texto simples de hello, world:
+
+```
+$ ./substitution VCHPRZGJNTLSKFBDQWAXEUYMOI
+plaintext:  hello, world
+ciphertext: jrssb, ybwsp
+```
+
+Observe que nem a vírgula nem o espaço foram substituídos pela cifra. Substitua apenas caracteres alfabéticos! Observe, também, que o caso da mensagem original foi preservado. Letras minúsculas permanecem minúsculas e letras maiúsculas permanecem maiúsculas.
+
+Se os caracteres na própria chave são maiúsculos ou minúsculos, não importa. Uma chave de VCHPRZGJNTLSKFBDQWAXEUYMOIé funcionalmente idêntica a uma chave de vchprzgjntlskfbdqwaxeuymoi(como é, aliás, VcHpRzGjNtLsKfBdQwAxEuYmOi).
+
+E se um usuário não fornecer uma chave válida? O programa deve explicar com uma mensagem de erro:
+
+```
+$ ./substitution ABC
+Key must contain 26 characters.
+```
+
+Ou realmente não coopera, não fornecendo nenhum argumento de linha de comando? O programa deve lembrar ao usuário como usar o programa:
+
+```
+$ ./substitution
+Usage: ./substitution key
+```
+
+Ou realmente não coopera, fornecendo muitos argumentos de linha de comando? O programa também deve lembrar ao usuário como usar o programa:
+
+```
+$ ./substitution 1 2 3
+Usage: ./substitution key
+```
+
+## Tente
+Para experimentar a implementação deste problema pela equipe, execute  
+
+`./substitution key`  
+substituindo uma chave válida no lugar de `key`, dentro [desta sandbox](http://bit.ly/30Gnoru).  
+
+## Especificação  
+
+Projete e implemente um programa, substitution, que criptografa mensagens usando uma cifra de substituição.
+
+* Implemente seu programa em um arquivo chamado substitution.cem um diretório chamado substitution.
+* Seu programa deve aceitar um único argumento de linha de comando, a chave a ser usada para a substituição. A chave em si não deve diferenciar maiúsculas de minúsculas, portanto, se qualquer caractere na chave é maiúsculo ou minúsculo, isso não deve afetar o comportamento do seu programa.
+* Se seu programa for executado sem nenhum argumento de linha de comando ou com mais de um argumento de linha de comando, seu programa deve imprimir uma mensagem de erro de sua escolha (com printf) e retornar de mainum valor de 1(que tende a significar um erro) imediatamente.
+* Se a chave for inválida (como por não conter 26 caracteres, conter qualquer caractere que não seja um caractere alfabético ou não conter cada letra exatamente uma vez), seu programa deve imprimir uma mensagem de erro de sua escolha (com printf) e retornar de mainum valor de 1imediatamente.
+* Seu programa deve produzir plaintext:(sem uma nova linha) e, em seguida, solicitar ao usuário um stringde texto simples (usando get_string).
+* Seu programa deve produzir ciphertext:(sem uma nova linha) seguido pelo texto cifrado correspondente do texto simples, com cada caractere alfabético no texto simples substituído pelo caractere correspondente no texto cifrado; caracteres não alfabéticos devem ser exibidos inalterados.
+* Seu programa deve preservar maiúsculas e minúsculas: letras maiúsculas devem permanecer letras maiúsculas; letras minúsculas devem permanecer letras minúsculas.
+* Depois de enviar o texto cifrado, você deve imprimir uma nova linha. Seu programa deve sair retornando 0de main.
+Você pode achar que uma ou mais funções declaradas `ctype.h` são úteis, por [manual.cs50.io](https://manual.cs50.io/) .
+
+
 # DICA  
 
 Este vídeo irá te ajudar a entender o problema ;)  
 Atenção: para adicionar legendas ao vídeo clique no botão CC localizado no Player e selecione a opção "Português (Brasil)".  
 Uma excelente aula para você!  
-## <img src="../assets/youtube.svg" width=20 /> [CC50: PSet 2 - Legibilidade](hhttps://www.youtube.com/watch?v=vTsVt_kDS2M)
+## <img src="../assets/youtube.svg" width=20 /> [CC50: PSet 2 - Substituição](https://www.youtube.com/watch?v=yOGX9KxvYnA)
 
 &nbsp;
 
