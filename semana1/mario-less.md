@@ -5,7 +5,7 @@
    <a href="https://patyfil.github.io/cs50-cc50-harvard/1-C.html">Voltar ao Índice da Semana 1</a>
 </p>
 
-# [Exercício 1: Mario versão fácil](https://cs50.harvard.edu/x/2022/psets/1/mario/less/)   
+# [Exercício 1: Mario versão fácil](https://cs50.harvard.edu/x/2023/psets/1/mario/less/)   
 
 ![image](https://user-images.githubusercontent.com/41968938/205998511-bfd5ed1c-8901-4e23-8879-c88801c7b4cd.png)  
 Nesse exercício devemos recriar a pirâmide abaixo em texto, usando hashes (#) para os tijolos, como visto a seguir:  
@@ -36,7 +36,7 @@ o programa deve solicitar novamente ao usuário até que ele coopere.
 OBS: Caso a pasta possua espaço, por exemplo: *Semana 1*  
 Será necessário colocar aspas para entrar na pasta: `cd 'Semana 1'`  
 
-3 - No terminal digite o comando: `wget https://cdn.cs50.net/2022/fall/psets/1/mario-less.zip`  
+3 - No terminal digite o comando: `wget https://cdn.cs50.net/2023/fall/psets/1/mario-less.zip`  
 seguido de *ENTER* para baixar o zip *mario-less* que contem a pasta *mario-less* com o arquivo em C.  
 
 4 - Execute o unzip: `unzip mario-less.zip` para extrair a pasta *mario-less* dentro da pasta *pset1*.  
@@ -63,11 +63,11 @@ A execução `code mario.c` deve abrir o arquivo onde você digitará seu códig
 
 9 - No arquivo *mario.c* faça o exercício proposto;  
 
-10 - Teste seu código: `check50 cs50/problems/2022/x/mario/less`;  
+10 - Teste seu código: `check50 cs50/problems/2023/x/mario/less`;  
 
 11 - Avalie o estilo do seu código: `style50 mario.c`;  
 
-12 - Envie seu código: `submit50 cs50/problems/2022/x/mario/less` depois digite: `yes`  
+12 - Envie seu código: `submit50 cs50/problems/2023/x/mario/less` depois digite: `yes`  
 
 &nbsp;
 

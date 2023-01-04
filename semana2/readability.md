@@ -5,7 +5,7 @@
    <a href="https://patyfil.github.io/cs50-cc50-harvard/2-Arrays.html">Voltar ao Índice da Semana 2</a>
 </p>
 
-# [Exercício 1 - Readability (Legibilidade)](https://cs50.harvard.edu/x/2022/psets/2/readability/)
+# [Exercício 1 - Readability (Legibilidade)](https://cs50.harvard.edu/x/2023/psets/2/readability/)
 
 Para este problema, você implementará um programa que calcula o nível (Grau) aproximado necessário para compreender algum texto, conforme abaixo.
 
@@ -28,7 +28,7 @@ Abra o [VS Code](https://code.cs50.io/)
 OBS: Caso a pasta possua outro nome com espaço, por exemplo: *Semana 2*  
 Será necessário colocar aspas para entrar na pasta: `cd 'Semana 2'` 
 
-3 - No terminal digite o comando: `wget https://cdn.cs50.net/2022/fall/psets/2/readability.zip`  
+3 - No terminal digite o comando: `wget https://cdn.cs50.net/2023/fall/psets/2/readability.zip`  
 seguido de *ENTER* para baixar o zip *readability.zip* que contem a pasta *readability* com o arquivo em C.  
 
 4 - Execute o unzip: `unzip readability.zip` para extrair a pasta *readability* dentro da pasta *pset2*.  
@@ -42,11 +42,11 @@ A execução `code readability.c` deve abrir o arquivo onde você digitará seu 
 
 8 - No arquivo *readability.c* faça o exercício proposto;
 
-9 - Teste seu código: `check50 cs50/problems/2022/x/readability`;  
+9 - Teste seu código: `check50 cs50/problems/2023/x/readability`;  
 
 10 - Avalie o estilo do seu código: `style50 readability.c`;  
 
-11 - Envie seu código: `submit50 cs50/problems/2022/x/readability` depois digite: `yes`  
+11 - Envie seu código: `submit50 cs50/problems/2023/x/readability` depois digite: `yes`  
 
 &nbsp;
 

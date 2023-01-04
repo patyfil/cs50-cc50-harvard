@@ -25,7 +25,7 @@ Abra o [VS Code](https://code.cs50.io/)
 OBS: Caso a pasta possua espaço, por exemplo: *Semana 2*  
 Será necessário colocar aspas para entrar na pasta: `cd 'Semana 2'` 
 
-3 - No terminal digite o comando: `wget https://cdn.cs50.net/2022/fall/psets/2/substitution.zip`  
+3 - No terminal digite o comando: `wget https://cdn.cs50.net/2023/fall/psets/2/substitution.zip`  
 seguido de *ENTER* para baixar o zip *substitution.zip* que contem a pasta *substitution* com o arquivo em C.  
 
 4 - Execute o unzip: `unzip substitution.zip` para extrair a pasta *substitution* dentro da pasta *pset2*.  
@@ -39,11 +39,11 @@ A execução `code substitution.c` deve abrir o arquivo onde você digitará seu
 
 8 - No arquivo *substitution.c* faça o exercício proposto;
 
-9 - Teste seu código: `check50 cs50/problems/2022/x/substitution`;  
+9 - Teste seu código: `check50 cs50/problems/2023/x/substitution`;  
 
 10 - Avalie o estilo do seu código: `style50 substitution.c`;  
 
-11 - Envie seu código: `submit50 cs50/problems/2022/x/substitution` depois digite: `yes`  
+11 - Envie seu código: `submit50 cs50/problems/2023/x/substitution` depois digite: `yes`  
 
 &nbsp;
 

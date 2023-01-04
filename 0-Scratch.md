@@ -80,7 +80,7 @@ E esta etapa também pressupõe que você se inscreveu em uma conta do GitHub, d
 
 2.	Marque a caixa que indica que você deseja conceder à equipe do curso acesso aos seus envios e clique em Ingressar no curso.  
 
-3.	Acesse `submit.cs50.io/upload/cs50/problems/2022/x/scratch`  
+3.	Acesse `submit.cs50.io/upload/cs50/problems/2023/x/scratch`  
 
 4.	Clique em “**Escolher arquivo**” e escolha seu `.sb3` arquivo. Clique em "**Enviar**".  
 
@@ -95,7 +95,7 @@ Melhor garantir que seu arquivo seja menor que esse limite.
 
 Para ver seu progresso atual no curso, visite o livro de notas do curso em [cs50.me/cs50x](cs50.me/cs50x) !
 
-Site da Harvard em Inglês: [Exercise 1 - Scratch](https://cs50.harvard.edu/x/2022/psets/0/scratch/)  
+Site da Harvard em Inglês: [Exercise 1 - Scratch](https://cs50.harvard.edu/x/2023/psets/0/scratch/)  
 
 <p align="right">
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>

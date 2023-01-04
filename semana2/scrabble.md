@@ -5,7 +5,7 @@
    <a href="https://patyfil.github.io/cs50-cc50-harvard/2-Arrays.html">Voltar ao Índice da Semana 2</a>
 </p>
 
-# [Laboratório 2 - Scrabble (Palavras Cruzadas)](https://cs50.harvard.edu/x/2022/labs/2/#lab-2-scrabble)
+# [Laboratório 2 - Scrabble (Palavras Cruzadas)](https://cs50.harvard.edu/x/2023/labs/2/#lab-2-scrabble)
 
 Determine qual das duas palavras do Scrabble vale mais.
 
@@ -26,7 +26,7 @@ Abra o [VS Code](https://code.cs50.io/)
 OBS: Caso a pasta possua espaço, por exemplo: *Semana 2*  
 Será necessário colocar aspas para entrar na pasta: `cd 'Semana 2'` 
 
-3 - No terminal digite o comando: `wget https://cdn.cs50.net/2022/fall/labs/2/scrabble.zip`  
+3 - No terminal digite o comando: `wget https://cdn.cs50.net/2023/fall/labs/2/scrabble.zip`  
 seguido de *ENTER* para baixar o zip *scrabble.zip* que contem a pasta *scrabble* com o arquivo em C.  
 OBS: Você também pode copiar o código nesse link: [scrabble.c](https://patyfil.github.io/cs50-cc50-harvard/semana2/scrabble.html)
 
@@ -41,11 +41,11 @@ A execução `code scrabble.c` deve abrir o arquivo onde você digitará seu có
 
 8 - No arquivo *scrabble.c* faça o exercício proposto;
 
-9 - Teste seu código: `check50 cs50/labs/2022/x/scrabble`;  
+9 - Teste seu código: `check50 cs50/labs/2023/x/scrabble`;  
 
 10 - Avalie o estilo do seu código: `style50 scrabble.c`;  
 
-11 - Envie seu código: `submit50 cs50/labs/2022/x/scrabble` depois digite: `yes`  
+11 - Envie seu código: `submit50 cs50/labs/2023/x/scrabble` depois digite: `yes`  
 
 &nbsp;
 

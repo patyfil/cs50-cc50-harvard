@@ -5,7 +5,7 @@
    <a href="https://patyfil.github.io/cs50-cc50-harvard/1-C.html">Voltar ao Índice da Semana 1</a>
 </p>
 
-# [Exercício 3 - Dinheiro (versão fácil)](https://cs50.harvard.edu/x/2022/psets/1/cash/)  
+# [Exercício 3 - Dinheiro (versão fácil)](https://cs50.harvard.edu/x/2023/psets/1/cash/)  
 
 ### Algoritmos Gulosos ou Algoritmos Ambiciosos  
 
@@ -72,7 +72,7 @@ Observe também que, lembrando a ideia de abstração, cada uma de suas funçõe
 
 Dica  
 •	Lembre-se de que há vários programas de exemplo no Código-fonte da Semana 1 que ilustram como as funções podem retornar um valor.  
-Você pode achar [discount1.c](https://cdn.cs50.net/2021/fall/lectures/1/src1/discount1.c) e [discount2.c](https://cdn.cs50.net/2021/fall/lectures/1/src1/discount2.c) útil.  
+Você pode achar [discount1.c](https://cdn.cs50.net/2022/fall/lectures/1/src1/) útil.  
 
 &nbsp;
 
@@ -101,7 +101,7 @@ Change owed: 41
 OBS: Caso a pasta possua espaço, por exemplo: *Semana 1*  
 Será necessário colocar aspas para entrar na pasta: `cd 'Semana 1'` 
 
-3 - No terminal digite o comando: `wget https://cdn.cs50.net/2022/fall/psets/1/cash.zip`  
+3 - No terminal digite o comando: `wget https://cdn.cs50.net/2023/fall/psets/1/cash.zip`  
 seguido de *ENTER* para baixar o zip *cash* que contem a pasta *cash* com o arquivo em C.  
 ou [copie aqui a estrutura do código cash.c](https://patyfil.github.io/cs50-cc50-harvard/semana1/cash.c)
 
@@ -116,11 +116,11 @@ A execução `code cash.c` deve abrir o arquivo onde você digitará seu código
 
 8 - No arquivo *cash.c* faça o exercício proposto;
 
-9 - Teste seu código: `check50 cs50/problems/2022/x/cash`;  
+9 - Teste seu código: `check50 cs50/problems/2023/x/cash`;  
 
 10 - Avalie o estilo do seu código: `style50 cash.c`;  
 
-11 - Envie seu código: `submit50 cs50/problems/2022/x/cash` depois digite: `yes`  
+11 - Envie seu código: `submit50 cs50/problems/2023/x/cash` depois digite: `yes`  
 
 &nbsp;
 

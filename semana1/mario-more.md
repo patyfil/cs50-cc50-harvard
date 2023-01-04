@@ -5,7 +5,7 @@
    <a href="https://patyfil.github.io/cs50-cc50-harvard/1-C.html">Voltar ao Índice da Semana 1</a>
 </p>
 
-# [Exercício 2: Mario versão difícil](https://cs50.harvard.edu/x/2022/psets/1/mario/more/)   
+# [Exercício 2: Mario versão difícil](https://cs50.harvard.edu/x/2023/psets/1/mario/more/)   
 
 ![image](https://user-images.githubusercontent.com/41968938/206063279-53dfd7d3-eb04-4d63-97a2-4718d38bcdb7.png)  
 
@@ -38,7 +38,7 @@ Observe que a largura da “lacuna” entre as pirâmides adjacentes é igual à
 OBS: Caso a pasta possua espaço, por exemplo: *Semana 1*  
 Será necessário colocar aspas para entrar na pasta: `cd 'Semana 1'` 
 
-3 - No terminal digite o comando: `wget https://cdn.cs50.net/2022/fall/psets/1/mario-more.zip`  
+3 - No terminal digite o comando: `wget https://cdn.cs50.net/2023/fall/psets/1/mario-more.zip`  
 seguido de *ENTER* para baixar o zip *mario-more* que contem a pasta *mario-more* com o arquivo em C.  
 
 4 - Execute o unzip: `unzip mario-more.zip` para extrair a pasta *mario-more* dentro da pasta *pset1*.  
@@ -52,11 +52,11 @@ A execução `code mario.c` deve abrir o arquivo onde você digitará seu códig
 
 8 - No arquivo *mario.c* faça o exercício proposto;
 
-9 - Teste seu código: `check50 cs50/problems/2022/x/mario/more`;  
+9 - Teste seu código: `check50 cs50/problems/2023/x/mario/more`;  
 
 10 - Avalie o estilo do seu código: `style50 mario.c`;  
 
-11 - Envie seu código: `submit50 cs50/problems/2022/x/mario/less` depois digite: `yes`  
+11 - Envie seu código: `submit50 cs50/problems/2023/x/mario/less` depois digite: `yes`  
 
 &nbsp;
 

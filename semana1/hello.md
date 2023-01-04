@@ -5,7 +5,7 @@
    <a href="https://patyfil.github.io/cs50-cc50-harvard/1-C.html">Voltar ao Índice da Semana 1</a>
 </p>
 
-# [Exercício 0: Hello](https://cs50.harvard.edu/x/2022/psets/1/hello/)   
+# [Exercício 0: Hello](https://cs50.harvard.edu/x/2023/psets/1/hello/)   
 
 1 - Entre no *Terminal* do VsCode CodeSpace: `Ctrl`+`'`  
 
@@ -46,11 +46,11 @@ Isso ocorre porque você traduziu o código-fonte *hello.c* em código de máqui
 10 - Execute o próprio código de máquina: `./hello`  
 Deve aparecer: hello, world
 
-11 - Teste seu código: `check50 cs50/problems/2022/x/hello`  
+11 - Teste seu código: `check50 cs50/problems/2023/x/hello`  
 
 12 - Avalie o estilo do seu código: `style50 hello.c`  
 
-13 - Envie seu código: `submit50 cs50/problems/2022/x/hello`  
+13 - Envie seu código: `submit50 cs50/problems/2023/x/hello`  
 depois digite: `yes`  
 
 &nbsp;
