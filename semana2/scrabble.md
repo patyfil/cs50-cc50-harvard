@@ -26,7 +26,7 @@ Abra o [VS Code](https://code.cs50.io/)
 OBS: Caso a pasta possua espaço, por exemplo: *Semana 2*  
 Será necessário colocar aspas para entrar na pasta: `cd 'Semana 2'` 
 
-3 - No terminal digite o comando: `wget https://cdn.cs50.net/2023/fall/labs/2/scrabble.zip`  
+3 - No terminal digite o comando: `wget https://cdn.cs50.net/2022/fall/labs/2/scrabble.zip`  
 seguido de *ENTER* para baixar o zip *scrabble.zip* que contem a pasta *scrabble* com o arquivo em C.  
 OBS: Você também pode copiar o código nesse link: [scrabble.c](https://patyfil.github.io/cs50-cc50-harvard/semana2/scrabble.html)
 
