@@ -177,9 +177,13 @@ int main(void)
 
       // 4 - Solicita ao usuário texto sem formatação (plaintext:);
 
-      // 5 - Para cada caractere no texto simples (plaintext:) repita/itere:
-         // 5.1 - Se é uma letra maiúscula ou minúscula, itere-a, preservando capitalização, e então imprima o caractere iterado.
-         // 5.2 - Se não for uma letra, imprima o caractere como digitado;
+      // 5 - Ver quantas letras tem no texto e salvar em uma variável "length"  
+
+      // 6 - Crie uma matriz de letras cifradas e percorra todas as letras dessa matriz.
+         // Função para cifrar o texto simples (retornando o texto cifrado "c")
+         // 6.1 - Para cada caractere no texto simples (plaintext:) repita/itere:
+         // 6.2 - Verificar se é uma letra maiúscula ou minúscula, itere-a, preservando capitalização, e então imprima o caractere iterado.
+         // 6.3 - Se não for uma letra, imprima o caractere como digitado, ou seja, o texto simples (retorne "p");
 
       // 6 - Imprima uma nova linha. 
 }
