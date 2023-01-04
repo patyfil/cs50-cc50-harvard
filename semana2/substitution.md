@@ -118,9 +118,9 @@ Projete e implemente um programa, `substitution`, que criptografa mensagens usan
 
 * Implemente seu programa em um arquivo chamado `substitution.c` em um diretório chamado substitution.  
 * Seu programa deve **aceitar um único argumento de linha de comando**, a chave a ser usada para a substituição. A chave em si não deve diferenciar maiúsculas de minúsculas, portanto, se qualquer caractere na chave é maiúsculo ou minúsculo, isso não deve afetar o comportamento do seu programa.  
-* Se seu programa for executado **sem nenhum argumento de linha de comando ou com mais de um argumento de linha de comando**, seu programa deve **imprimir** uma mensagem de erro de sua escolha (com printf) e retornar de `main` um valor de `1` (que tende a significar um erro) imediatamente.  
-* Se a chave for inválida (como por não conter 26 caracteres, conter qualquer caractere que não seja um caractere alfabético ou não conter cada letra exatamente uma vez), seu programa deve **imprimir** uma mensagem de erro de sua escolha (com **printf**) e retornar de `main` um valor de `1` imediatamente.  
-* Seu programa deve produzir `plaintext:`(sem uma nova linha) e, em seguida, solicitar ao usuário um `string` de texto simples (usando get_string).
+* Se seu programa for executado **sem nenhum argumento de linha de comando ou com mais de um argumento de linha de comando**, seu programa deve **imprimir** uma mensagem de erro de sua escolha (com **printf**) e retornar de `main` um valor de `1` (que tende a significar um erro) imediatamente.  
+* Se a chave for inválida (por não conter 26 caracteres, conter qualquer caractere que não seja um caractere alfabético ou não conter cada letra exatamente uma vez), seu programa deve **imprimir** uma mensagem de erro de sua escolha (com **printf**) e retornar de `main` um valor de `1` imediatamente.  
+* Seu programa deve produzir `plaintext:`(sem uma nova linha) e, em seguida, solicitar ao usuário uma `string` de **texto simples** (usando get_string).
 * Seu programa deve produzir `ciphertext:`(sem uma nova linha) seguido pelo **texto cifrado** correspondente do texto simples, com cada caractere alfabético no texto simples substituído pelo caractere correspondente no texto cifrado; caracteres não alfabéticos devem ser exibidos inalterados.  
 * Seu programa deve **preservar maiúsculas e minúsculas**: letras maiúsculas devem permanecer letras maiúsculas; letras minúsculas devem permanecer letras minúsculas.
 * Depois de enviar o texto cifrado, você deve **imprimir uma nova linha**. Seu programa deve sair retornando `0` de main.
@@ -134,6 +134,25 @@ Uma excelente aula para você!
 ## <img src="../assets/youtube.svg" width=20 /> [CC50: PSet 2 - Substituição](https://www.youtube.com/watch?v=yOGX9KxvYnA)
 
 &nbsp;
+
+# PSEUDOCÓDIGO  
+// 1 - Validar se o usuário forneceu somente (1) um argumento na linha de comando. Se não fornecer, imprimir: Usage: ./substitution key  
+// 2 - Validar se a chave (argv[1]) é apenas letras do alfabeto. letras = argv[1]. Caso contrário imprimir: Usage: ./substitution key  
+// 3 - Validar se a chave consiste em 26 caracteres. Caso contrário imprimir: Key must contain 26 characters.  
+
+// 5 - Solicita ao usuário texto sem formatação (plaintext:);  
+
+// Ver quantas letras tem no texto e salvar em uma variável "length"  
+
+ // 6 - Crie uma matriz de letras cifradas e percorra todas as letras dessa matriz.  
+         // Função para cifrar o texto simples (retornando o texto cifrado "c")  
+         // 6.1 - Para cada caractere no texto simples (plaintext:) repita/itere:  
+         // 6.2 - Verificar se é uma letra maiúscula ou minúscula, itere-a, preservando capitalização, e então imprima o caractere iterado.  
+         // 6.3 - Se não for uma letra, imprima o caractere como digitado, ou seja, o texto simples (retorne "p");  
+
+// 7 - imprimir texto cifrado  
+
+
 
 <p align="right">
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
