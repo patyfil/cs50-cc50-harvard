@@ -185,7 +185,7 @@ int main(void)
          // 6.2 - Verificar se é uma letra maiúscula ou minúscula, itere-a, preservando capitalização, e então imprima o caractere iterado.
          // 6.3 - Se não for uma letra, imprima o caractere como digitado, ou seja, o texto simples (retorne "p");
 
-      // 6 - Imprima uma nova linha. 
+      // 7 - Imprima uma nova linha. 
 }
 ```
 
