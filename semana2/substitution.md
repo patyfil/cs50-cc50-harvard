@@ -86,21 +86,24 @@ E se um usuário **não fornecer uma chave válida**? O programa deve explicar c
 
 ```
 $ ./substitution ABC
-Key must contain 26 characters.
+Key must contain 26 characters.  
+A chave deve conter 26 caracteres.
 ```
 
 Ou realmente não coopera, **não fornecendo nenhum argumento** de linha de comando? O programa deve lembrar ao usuário como usar o programa:
 
 ```
 $ ./substitution
-Usage: ./substitution key
+Usage: ./substitution key  
+Maneira de usar: ./substitution key  
 ```
 
 Ou realmente não coopera, **fornecendo muitos argumentos** de linha de comando? O programa também deve lembrar ao usuário como usar o programa:
 
 ```
 $ ./substitution 1 2 3
-Usage: ./substitution key
+Usage: ./substitution key  
+Maneira de usar: ./substitution key  
 ```
 
 ## Tente
