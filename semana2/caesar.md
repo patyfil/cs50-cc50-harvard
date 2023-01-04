@@ -257,7 +257,7 @@ Em seguida, implemente uma função chamada, por exemplo, `rotate`, que recebe u
 
 ## Dicas  
 
-* É provável que você queira um protótipo como::
+* É provável que você queira um protótipo como:
   ```c
   char rotate(char c, int n);
   ```
