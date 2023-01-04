@@ -25,9 +25,9 @@
 
 &nbsp;
 
-# Laboratório 2
+# Descritivo do Laboratório 2
 
-## [Descritivo do Laboratório 2 - Scrabble](https://patyfil.github.io/cs50-cc50-harvard/semana2/scrabble)  
+## [PORT - Laboratório 2 - Scrabble](https://patyfil.github.io/cs50-cc50-harvard/semana2/scrabble)  
 [ING - Lab 2: Scrabble](https://cs50.harvard.edu/x/2023/labs/2/) 
 
 
