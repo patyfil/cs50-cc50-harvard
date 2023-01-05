@@ -91,7 +91,10 @@ E esta etapa também pressupõe que você se inscreveu em uma conta do GitHub, d
 
 É isso! Depois que o envio for carregado, você deve ser redirecionado para a página de envio.  
 
-Clique no link de envio e, em seguida, no link *check50* para ver quais requisitos seu projeto atendeu.  
+5 - Clique no link de envio e, em seguida, no link *check50* para ver quais requisitos seu projeto atendeu.  
+
+
+
 
 obs: Você pode reenviar quantas vezes quiser (antes do prazo)!  
 
