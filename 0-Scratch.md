@@ -9,9 +9,9 @@
 
 ## <img src="assets/youtube.svg" width=20 /> [CC50: Módulo 0 – Scratch](https://www.youtube.com/watch?v=9iPsnGJ3kVE&t=55s) (Link da Fundação Estudar na Prática)  
 
-## <img src="assets/youtube.svg" width=20 />[CS50 2021 in HDR - Lecture 0 - Scratch](https://www.youtube.com/watch?v=1tnj3UCkuxU&t=7s)  
+## <img src="assets/youtube.svg" width=20 /> [CS50 2021 in HDR - Lecture 0 - Scratch](https://www.youtube.com/watch?v=1tnj3UCkuxU&t=7s)  
 
-## <img src="assets/youtube.svg" width=20 />[CS50 2022 - Lecture 0 - Scratch](https://www.youtube.com/watch?v=4MIBGO9YnCg&t=224s)
+## <img src="assets/youtube.svg" width=20 /> [CS50 2022 - Lecture 0 - Scratch](https://www.youtube.com/watch?v=4MIBGO9YnCg&t=224s)
 
 ## <img src="assets/github-roxo.svg" width=20 /> [Exercícios feito durante a aula](https://github.com/patyfil/cs50-cc50-harvard/tree/main/semana0)  
 
@@ -22,32 +22,31 @@
 
 ### **Descritivo do Exercício**:
 <br>
-É hora de escolher sua própria aventura! Sua tarefa, é implementar no Scratch, em [scratch.mit.edu](https://scratch.mit.edu/), qualquer projeto de sua escolha, seja uma história interativa,   
-jogo, animação ou qualquer outra coisa, sujeito apenas aos seguintes requisitos:  
+É hora de escolher sua própria aventura! Sua tarefa, é implementar no Scratch, em [scratch.mit.edu](https://scratch.mit.edu/), qualquer projeto de sua escolha, seja uma história interativa, jogo, animação ou qualquer outra coisa, sujeito apenas aos seguintes requisitos:  
 
 •	Seu projeto deve ter pelo menos dois sprites, pelo menos um dos quais não deve ser um gato.
 •	Seu projeto deve ter pelo menos três scripts no total (ou seja, não necessariamente três por sprite).  
 •	Seu projeto deve usar pelo menos uma condição.  
 •	Seu projeto deve usar pelo menos um loop.  
 •	Seu projeto deve usar pelo menos uma variável.  
-•	Seu projeto deve usar pelo menos um bloco personalizado feito por você (via Make a Block ), que deve receber pelo menos uma entrada.
-•	Seu projeto deve ser mais complexo do que a maioria dos demonstrados na aula (muitos dos quais, embora instrutivos, foram bastante curtos),   
-mas pode ser menos complexo do que o Ivy’s Hardest Game.  
+•	Seu projeto deve usar pelo menos um bloco personalizado feito por você (via **Make a Block**), que deve receber pelo menos uma entrada.
+•	Seu projeto deve ser mais complexo do que a maioria dos demonstrados na aula (muitos dos quais, embora instrutivos, foram bastante curtos), mas pode ser menos complexo do que o [Oscartime](https://scratch.mit.edu/projects/277537196) [Ivy’s Hardest Game](https://scratch.mit.edu/projects/326129433). 
 
 Para atender a esses requisitos, seu projeto provavelmente deve usar algumas dezenas de peças de quebra-cabeça no geral.  
 E seu código idealmente não deve ser apenas correto, mas também bem projetado.  
 Se um de seus scripts estiver ficando um pouco longo, tente dividi-lo em vários scripts (cada um com uma função específica).  
-E tente alavancar a “abstração” sempre que possível: se você pode imaginar dar um nome descritivo a uma sequência de blocos (por exemplo, miau ),  
+E tente alavancar a “abstração” sempre que possível: se você pode imaginar dar um nome descritivo a uma sequência de blocos (por exemplo, **miau**),  
 eles provavelmente poderiam ser movidos para um bloco personalizado!  
 
 Se você gostaria de se inspirar em projetos do Scratch de ex-alunos, aqui estão alguns:  
 •	[It's Raining Men](https://scratch.mit.edu/projects/37412/), da palestra  
-•	[Ivy's Hardest Game](https://scratch.mit.edu/projects/326129587/), um jogo, edição Harvard  
-•	[Soccer](https://scratch.mit.edu/projects/37413/), um jogo  
+•	[Soccer(Futebol)](https://scratch.mit.edu/projects/37413/), um jogo  
 •	[Cookie Love Story](https://scratch.mit.edu/projects/26329196/), uma animação  
-•	[Gingerbread Tales](https://scratch.mit.edu/projects/277536784/), uma história interativa  
-•	[Intersection](https://scratch.mit.edu/projects/75390754/), um jogo  
+•	[Gingerbread Tales(Contos de gengibre)](https://scratch.mit.edu/projects/277536784/), uma história interativa  
+•	[Intersection(Intersecção)](https://scratch.mit.edu/projects/75390754/), um jogo 
+•  [Hogwarts](https://scratch.mit.edu/projects/422258685), um jogo
 •	[Oscartime](https://scratch.mit.edu/projects/277537196/), um jogo  
+•	[Ivy's Hardest Game](https://scratch.mit.edu/projects/326129587/), um jogo, edição Harvard 
 
 Você pode achar esses [tutoriais](https://scratch.mit.edu/projects/770688685/editor) ou [projetos iniciantes](https://scratch.mit.edu/starter-projects) úteis.   
 E você é bem-vindo a explorar [scratch.mit.edu](scratch.mit.edu) para se inspirar.   
@@ -74,8 +73,9 @@ Se solicitado pelo seu computador para abrir ou salvar o arquivo, certifique-se 
 
 ## Como enviar para a Harvard
 Certifique-se de concluir as duas etapas abaixo, em ordem!
+
 * Passo 1 de 2
-Envie este [formulário](https://docs.google.com/forms/d/e/1FAIpQLSdBmbMB8IeqJjzTnE-dUG6T5uwYxkWULSoB9gVrhWrVwXLQuQ/viewform)  
+Envie este [formulário](https://docs.google.com/forms/d/e/1FAIpQLSfP8M4l3D1dIFtpo7pfxlN4tQgPPZtbowKz7sokeRTdr0-v6g/viewform)  
 
 * Passo 2 de 2
 Esta etapa pressupõe que você baixou seu projeto Scratch como um arquivo cujo nome termina em `.sb3`.  
@@ -85,7 +85,7 @@ E esta etapa também pressupõe que você se inscreveu em uma conta do GitHub, d
 
 2.	Marque a caixa que indica que você deseja conceder à equipe do curso acesso aos seus envios e clique em Ingressar no curso.  
 
-3.	Acesse `submit.cs50.io/upload/cs50/problems/2023/x/scratch`  
+3.	Acesse [ENVIAR EXERCÍCIO SCRATCH](submit.cs50.io/upload/cs50/problems/2023/x/scratch)`submit.cs50.io/upload/cs50/problems/2023/x/scratch`  
 
 4.	Clique em “**Escolher arquivo**” e escolha seu `.sb3` arquivo. Clique em "**Enviar**".  
 
