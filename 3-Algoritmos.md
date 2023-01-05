@@ -34,14 +34,14 @@
 # Descritivo dos Exercícios: 
 [ING - Problem Set 3 (ALL)](https://cs50.harvard.edu/x/2023/psets/3/)  
 
-## [PORT - Exercício 1: ](https://patyfil.github.io/cs50-cc50-harvard/semana3/)  
-[ING - pset3 exercise 1](https://cs50.harvard.edu/x/2023/psets/3//)  
+## [PORT - Exercício 1: Pluralidade](https://patyfil.github.io/cs50-cc50-harvard/semana3/plurality)  
+[ING - pset3 exercise 1 - Plurality](https://cs50.harvard.edu/x/2023/psets/3/plurality/)  
 
-## [PORT - Exercício 2: ](https://patyfil.github.io/cs50-cc50-harvard/semana3/)  
-[ING - pset3 exercise 2](https://cs50.harvard.edu/x/2023/psets/3//)  
+## [PORT - Exercício 2: Escoamento](https://patyfil.github.io/cs50-cc50-harvard/semana3/runoff)  
+[ING - pset3 exercise 2 - Runoff](https://cs50.harvard.edu/x/2023/psets/3/runoff/)  
 
-## [PORT - Exercício 3: ](https://patyfil.github.io/cs50-cc50-harvard/semana3/)  
-[ING - pset3 exercise 3](https://cs50.harvard.edu/x/2023/psets/3//)  
+## [PORT - Exercício 3: Tideman](https://patyfil.github.io/cs50-cc50-harvard/semana3/tideman)  
+[ING - pset3 exercise 3 - Tideman](https://cs50.harvard.edu/x/2023/psets/3/tideman/)  
 <br>
 
 
