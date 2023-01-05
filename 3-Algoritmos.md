@@ -2,7 +2,7 @@
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
 </p>
 
-# Week 2's (Módulo 3 - Algoritmos)  
+# Week 3's (Módulo 3 - Algoritmos)  
 # Videoaulas - Algoritmos  
 
 <p>OBS: Habilitar legendas</p>
