@@ -88,11 +88,13 @@ E esta etapa também pressupõe que você se inscreveu em uma conta do GitHub, d
 3.	Acesse [ENVIAR EXERCÍCIO SCRATCH](submit.cs50.io/upload/cs50/problems/2023/x/scratch)  `submit.cs50.io/upload/cs50/problems/2023/x/scratch`  
 
 4.	Clique em “**Escolher arquivo**” e escolha seu `.sb3` arquivo. Clique em "**Enviar**".  
+
 ![EscolherArquivo](https://user-images.githubusercontent.com/41968938/210815352-f7e1a513-dbe9-4b46-bba7-8db45f795fa4.jpg)
 
 É isso! Depois que o envio for carregado, você deve ser redirecionado para a página de envio.  
 
 5 - Clique no link de envio e, em seguida, no link *check50* para ver quais requisitos seu projeto atendeu.  
+
 ![1check50](https://user-images.githubusercontent.com/41968938/210815410-bb23bca1-b285-4222-9dad-97f2aebe499e.jpg)
 
 ![check50](https://user-images.githubusercontent.com/41968938/210815482-6a317faf-a4a3-4db6-849c-e09e8fb1ee9d.jpg)
