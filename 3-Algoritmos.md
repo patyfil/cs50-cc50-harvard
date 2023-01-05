@@ -2,7 +2,47 @@
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
 </p>
 
+# Week 2's (Módulo 3 - Algoritmos)  
+# Videoaulas - Algoritmos  
 
+<p>OBS: Habilitar legendas</p>
+
+## <img src="assets/youtube.svg" width=20 /> [Videoaula 1 - CC50: Módulo 3 - Algoritmos](https://www.youtube.com/watch?v=oBOTNWx0EzY) (Link da Fundação Estudar na Prática)  
+
+## <img src="assets/youtube.svg" width=20 /> [Videoaula 1 - CS50 2021 in HDR - Lecture 3 - Algorithms](https://www.youtube.com/watch?v=yb0PY3LX2x8&t=2s) (Link da Harvard)  
+
+## <img src="assets/youtube.svg" width=20 /> [Videoaula 2 - Linear Search - CS50 Shorts](https://www.youtube.com/watch?v=TwsgCHYmbbA&t=4s)  
+
+## <img src="assets/youtube.svg" width=20 /> [Videoaula 3 - Binary Search - CS50 Shorts](https://www.youtube.com/watch?v=T98PIp4omUA&t=1s)  
+
+## <img src="assets/youtube.svg" width=20 /> [Videoaula 4 - Bubble Sort - CS50 Shorts](https://www.youtube.com/watch?v=RT-hUXUWQ2I)  
+
+## <img src="assets/youtube.svg" width=20 /> [Videoaula 5 - Selection Sort - CS50 Shorts](https://www.youtube.com/watch?v=3hH8kTHFw2A)  
+
+## <img src="assets/youtube.svg" width=20 /> [Videoaula 6 - Recursion - CS50 Shorts](https://www.youtube.com/watch?v=mz6tAJMVmfM)  
+
+## <img src="assets/youtube.svg" width=20 /> [Videoaula 7 - Merge Sort - CS50 Shorts](https://www.youtube.com/watch?v=Ns7tGNbtvV4&t=1s)  
+
+&nbsp;
+
+# Descritivo do Laboratório 3
+
+## [PORT - Laboratório 2 - Scrabble](https://patyfil.github.io/cs50-cc50-harvard/semana3/sort)  
+[ING - Lab 2: Scrabble](https://cs50.harvard.edu/x/2023/labs/3/) 
+
+
+# Descritivo dos Exercícios: 
+[ING - Problem Set 3 (ALL)](https://cs50.harvard.edu/x/2023/psets/3/)  
+
+## [PORT - Exercício 1: ](https://patyfil.github.io/cs50-cc50-harvard/semana3/)  
+[ING - pset3 exercise 1](https://cs50.harvard.edu/x/2023/psets/3//)  
+
+## [PORT - Exercício 2: ](https://patyfil.github.io/cs50-cc50-harvard/semana3/)  
+[ING - pset3 exercise 2](https://cs50.harvard.edu/x/2023/psets/3//)  
+
+## [PORT - Exercício 3: ](https://patyfil.github.io/cs50-cc50-harvard/semana3/)  
+[ING - pset3 exercise 3](https://cs50.harvard.edu/x/2023/psets/3//)  
+<br>
 
 
 <p align="right">
