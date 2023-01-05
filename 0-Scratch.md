@@ -106,8 +106,6 @@ Melhor garantir que seu arquivo seja menor que esse limite.
 
 Para ver seu progresso atual no curso, visite o livro de notas do curso em [cs50.me/cs50x](cs50.me/cs50x) !
 
-Site da Harvard em Inglês: [Exercise 1 - Scratch](https://cs50.harvard.edu/x/2023/psets/0/scratch/)  
-
 <p align="right">
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
 </p>
