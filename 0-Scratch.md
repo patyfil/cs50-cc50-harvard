@@ -22,7 +22,7 @@
 
 ### **Descritivo do Exercício**:
 <br>
-É hora de escolher sua própria aventura! Sua tarefa, é implementar no Scratch qualquer projeto de sua escolha, seja uma história interativa,   
+É hora de escolher sua própria aventura! Sua tarefa, é implementar no Scratch, em [scratch.mit.edu](https://scratch.mit.edu/), qualquer projeto de sua escolha, seja uma história interativa,   
 jogo, animação ou qualquer outra coisa, sujeito apenas aos seguintes requisitos:  
 
 •	Seu projeto deve ter pelo menos dois sprites, pelo menos um dos quais não deve ser um gato.
