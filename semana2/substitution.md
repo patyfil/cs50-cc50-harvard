@@ -136,23 +136,32 @@ Uma excelente aula para você!
 &nbsp;
 
 # PSEUDOCÓDIGO  
+
+```
 // 1 - Validar se o usuário forneceu somente (1) um argumento na linha de comando. Se não fornecer, imprimir: Usage: ./substitution key  
-// 2 - Validar se a chave (argv[1]) é apenas letras do alfabeto. letras = argv[1]. Caso contrário imprimir: Usage: ./substitution key  
-// 3 - Validar se a chave consiste em 26 caracteres. Caso contrário imprimir: Key must contain 26 characters.  
 
-// 5 - Solicita ao usuário texto sem formatação (plaintext:);  
+// 2 - Validar se a chave (argv[1]) são apenas letras do alfabeto. string key = argv[1]. Caso contrário imprimir: Usage: ./substitution key
 
-// Ver quantas letras tem no texto e salvar em uma variável "length"  
+// 3 - Validar se a chave consiste em 26 caracteres. Caso contrário imprimir: Key must contain 26 characters. 
 
- // 6 - Crie uma matriz de letras cifradas e percorra todas as letras dessa matriz.  
-         // Função para cifrar o texto simples (retornando o texto cifrado "c")  
-         // 6.1 - Para cada caractere no texto simples (plaintext:) repita/itere:  
-         // 6.2 - Verificar se é uma letra maiúscula ou minúscula, itere-a, preservando capitalização, e então imprima o caractere iterado.  
-         // 6.3 - Se não for uma letra, imprima o caractere como digitado, ou seja, o texto simples (retorne "p");  
+// 4 - Validar se cada letra foi digitada somente uma vez. Caso contrário imprimir: Contains repeated letter (Contém letras repetidas).
 
-// 7 - imprimir texto cifrado  
+// 5 - Solicita ao usuário texto sem formatação (plaintext:);
 
+// 6 - Ver quantas letras tem no texto e salvar em uma variável "length" 
 
+// 7 - Salvar a chave em uma string "key"
+
+// 8 - Crie uma matriz de letras cifradas e percorra todas as letras dessa matriz.
+         // Função para cifrar o texto simples (retornando o texto cifrado "c")
+         // 8.1 - Para cada caractere no texto simples (plaintext:) repita/itere:
+         // 8.2 - Verificar se é uma letra maiúscula ou minúscula, itere-a, preservando capitalização, e então imprima o caractere iterado.
+         // 8.3 - Se não for uma letra maiúscula nem minúscula, imprima o caractere como digitado, ou seja, o texto simples;
+
+// 9 - imprimir texto cifrado
+```
+
+&nbsp;
 
 <p align="right">
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>

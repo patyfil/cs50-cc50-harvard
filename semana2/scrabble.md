@@ -121,6 +121,15 @@ Uma excelente aula para você!
 
 &nbsp;
 
+# PSEUDOCÓDIGO  
+```
+// 1 - 
+
+
+```
+
+&nbsp;
+
 <p align="right">
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
 </p>
