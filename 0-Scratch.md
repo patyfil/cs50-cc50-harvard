@@ -2,17 +2,22 @@
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
 </p>
 
-# Week 0's (Módulo 0 - Scratch)
+# Week 0's (Módulo 0 - Scratch) 
+## [Descritivo vs.2023](https://cs50.harvard.edu/x/2023/psets/0/scratch/)
 
 ## Videoaula:
 
 ## <img src="assets/youtube.svg" width=20 /> [CC50: Módulo 0 – Scratch](https://www.youtube.com/watch?v=9iPsnGJ3kVE&t=55s) (Link da Fundação Estudar na Prática)  
 
+## <img src="assets/youtube.svg" width=20 />[CS50 2021 in HDR - Lecture 0 - Scratch](https://www.youtube.com/watch?v=1tnj3UCkuxU&t=7s)  
+
+## <img src="assets/youtube.svg" width=20 />[CS50 2022 - Lecture 0 - Scratch](https://www.youtube.com/watch?v=4MIBGO9YnCg&t=224s)
+
 ## <img src="assets/github-roxo.svg" width=20 /> [Exercícios feito durante a aula](https://github.com/patyfil/cs50-cc50-harvard/tree/main/semana0)  
 
 <br>
 
-## Exercício 1 - [Scratch] ( Para enviar )
+## Exercício 1 (2023) - [Scratch](https://cs50.harvard.edu/x/2023/psets/0/scratch/) ( Para enviar )
 <br>
 
 ### **Descritivo do Exercício**:
