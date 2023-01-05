@@ -85,7 +85,7 @@ E esta etapa também pressupõe que você se inscreveu em uma conta do GitHub, d
 
 2.	Marque a caixa que indica que você deseja conceder à equipe do curso acesso aos seus envios e clique em Ingressar no curso.  
 
-3.	Acesse [ENVIAR EXERCÍCIO SCRATCH](submit.cs50.io/upload/cs50/problems/2023/x/scratch)`submit.cs50.io/upload/cs50/problems/2023/x/scratch`  
+3.	Acesse [ENVIAR EXERCÍCIO SCRATCH](submit.cs50.io/upload/cs50/problems/2023/x/scratch)  `submit.cs50.io/upload/cs50/problems/2023/x/scratch`  
 
 4.	Clique em “**Escolher arquivo**” e escolha seu `.sb3` arquivo. Clique em "**Enviar**".  
 
