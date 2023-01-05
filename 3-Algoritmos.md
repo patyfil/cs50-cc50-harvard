@@ -27,8 +27,8 @@
 
 # Descritivo do Laboratório 3
 
-## [PORT - Laboratório 2 - Scrabble](https://patyfil.github.io/cs50-cc50-harvard/semana3/sort)  
-[ING - Lab 2: Scrabble](https://cs50.harvard.edu/x/2023/labs/3/) 
+## [PORT - Laboratório 3 - Sort (Ordenar)](https://patyfil.github.io/cs50-cc50-harvard/semana3/sort)  
+[ING - Lab 3: Sort](https://cs50.harvard.edu/x/2023/labs/3/) 
 
 
 # Descritivo dos Exercícios: 
