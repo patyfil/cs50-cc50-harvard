@@ -5,7 +5,9 @@
    <a href="https://patyfil.github.io/cs50-cc50-harvard/1-Algoritmos.html">Voltar ao Índice da Semana 3</a>
 </p>
 
-# [Laboratório 3 - Sort (Ordenar)](https://cs50.harvard.edu/x/2023/labs/3/)
+# [Laboratório 3 - Sort (Ordenar)](https://cs50.harvard.edu/x/2023/labs/3/)  
+
+Analise três programas de classificação para determinar quais algoritmos eles usam.  
 
 # Começando  
 
@@ -43,6 +45,14 @@ Se você tiver algum problema, siga estas mesmas etapas novamente e veja se cons
 [Ver o progresso no Curso](https://cs50.me/cs50x)
 
 &nbsp;
+
+# Detalhes de Implementação
+
+Lembre-se da aula em que vimos alguns algoritmos para classificar uma sequência de números. Eram eles: selection sort, bubble sort e merge sort.
+
+A `selection` sort itera através das partes não classificadas de uma lista, selecionando o menor elemento a cada vez e movendo-o para seu local correto.
+A `bubble sort` compara pares de valores adjacentes, um de cada vez, e os troca se estiverem na ordem incorreta. Isso continua até que a lista seja classificada.
+A `merge sort` divide recursivamente a lista em duas repetidamente e, em seguida, mescla as listas menores de volta em uma maior na ordem correta.
 
 # Instruções
 
