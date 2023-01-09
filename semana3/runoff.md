@@ -141,7 +141,7 @@ Conclua a função `vote`.
 * Se a preferência for registrada com sucesso, a função deve retornar `true`; caso contrário a função deve retornar `false` (se, por exemplo, `name` não for o nome de um dos candidatos).
 * Você pode presumir que não haverá dois candidatos com o mesmo nome.
 
-# Dicas
+## Dicas
 
 * Lembre-se que `candidate_count` armazena o número de candidatos na eleição.
 * Lembre-se de que você pode usar [strcmp](https://man.cs50.io/3/strcmp) para comparar duas strings.
@@ -154,7 +154,7 @@ Conclua a função `tabulate`.
 * A função deve atualizar o número de `votes` que cada candidato possui nesta etapa do segundo turno.
 * Lembre-se de que, em cada etapa do segundo turno, todo eleitor vota efetivamente em seu candidato preferido que ainda não foi eliminado.
 
-# Dicas
+## Dicas
 
 * Lembre-se que `voter_count` armazena o número de eleitores na eleição e que, para cada eleitor em nossa eleição, queremos contar uma cédula.
 * Lembre-se de que, para um eleitor `i`, seu candidato de primeira escolha é representado por `preferences[i][0]`, seu candidato de segunda escolha por `preferences[i][1]`, etc.
@@ -169,7 +169,7 @@ Conclua a função `print_winner`.
 * Caso algum candidato tenha mais da metade dos votos, seu nome deverá ser impresso em `stdout` e a função deverá retornar `true`.
 * Se ninguém ganhou a eleição ainda, a função deve retornar `false`.
 
-# Dicas
+## Dicas
 
 * Lembre-se que `voter_count` armazena o número de eleitores na eleição. Diante disso, como você expressaria o número de votos necessários para vencer a eleição?
 
@@ -179,7 +179,7 @@ Conclua a função `find_min`.
 
 * A função deve retornar o total mínimo de votos para qualquer candidato que ainda esteja na eleição.
 
-# Dicas
+## Dicas
 
 * Você provavelmente desejará percorrer os candidatos para encontrar aquele que ainda está na eleição e tem o menor número de votos. Quais informações você deve acompanhar enquanto percorre os candidatos?
 
@@ -190,7 +190,7 @@ Conclua a função `is_tie`.
 * A função recebe um argumento `min`, que será o número mínimo de votos que qualquer pessoa na eleição possui atualmente.
 * A função deve retornar `true` se todos os candidatos restantes na eleição tiverem o mesmo número de votos e deve retornar `false` caso contrário.
 
-# Dicas
+## Dicas
 
 * Lembre-se que o empate acontece se todos os candidatos ainda na eleição tiverem o mesmo número de votos. Observe também que a função `is_tie` aceita um argumento `min`, que é o menor número de votos que qualquer candidato possui atualmente. Como você pode usar essa informação para determinar se a eleição é um empate (ou, inversamente, não é um empate)?
 
