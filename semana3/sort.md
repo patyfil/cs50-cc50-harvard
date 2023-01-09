@@ -26,10 +26,11 @@ seguido de *ENTER* para baixar o arquivo zipado [sort.zip](https://patyfil.githu
 
 6 - Agora entre na pasta: `cd sort`  
 
-7 - Se tudo foi bem sucedido, você deve executar o comando `ls` que listará os arquivos dentro dessa pasta, nesse caso deverá ter o arquivo *sort.c*  
-A execução `code sort.c` deve abrir o arquivo onde você digitará seu código para este conjunto de problemas. Se não, refaça seus passos e veja se consegue determinar onde errou!  
+7 - Se tudo foi bem sucedido, você deve executar o comando `ls` que listará os arquivos dentro dessa pasta, nesse caso deverá ter uma coleção de `.txt` arquivos ao lado de programas executáveis `sort1`, `sort2` `sort3`.  
 
-8 - No arquivo *sort.c* faça o exercício proposto;
+Se você tiver algum problema, siga estas mesmas etapas novamente e veja se consegue determinar onde errou!
+
+8 - Leia as instruções logo abaixo;
 
 9 - Teste seu código: `check50 cs50/labs/2023/x/sort`;  
 
@@ -57,7 +58,15 @@ A execução `code sort.c` deve abrir o arquivo onde você digitará seu código
 Este vídeo irá te ajudar a entender o problema ;)  
 Atenção: para adicionar legendas ao vídeo clique no botão CC localizado no Player e selecione a opção "Português (Brasil)".  
 Uma excelente aula para você!  
-## <img src="../assets/youtube.svg" width=20 /> [Sort - Walkthrough - CS50 Labs 2020](https://www.youtube.com/watch?v=-Bhxxw6JKKY)
+## <img src="../assets/youtube.svg" width=20 /> [Sort - Walkthrough - CS50 Labs 2020](https://youtu.be/-Bhxxw6JKKY)
+
+## <img src="../assets/youtube.svg" width=20 /> [CC50: Lab 3 - Sort](https://youtu.be/I0czI4NM710)
+
+# Não sabe como resolver?  
+
+## <img src="../assets/youtube.svg" width=20 /> [Sort - Solution - CS50 Labs 2020](https://youtu.be/uOYhrBs37j0)
+
+
 
 &nbsp;
 
