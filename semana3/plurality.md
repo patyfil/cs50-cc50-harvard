@@ -30,7 +30,7 @@ Alice
 
 # Introdução ao Exercício
 
-As eleições vêm em todas as formas e tamanhos. No Reino Unido, o [primeiro-ministro](https://www.parliament.uk/education/about-your-parliament/general-elections/) é oficialmente nomeado pelo monarca, que geralmente escolhe o líder do partido político que ganha mais assentos na Câmara dos Comuns. Os Estados Unidos usam um processo de [Colégio Eleitoral](https://www.archives.gov/federal-register/electoral-college/about.html) de várias etapas , no qual os cidadãos votam sobre como cada estado deve alocar os Eleitores que então elegem o Presidente.  
+As eleições acontecem de todas as formas e tamanhos. No Reino Unido, o [primeiro-ministro](https://www.parliament.uk/education/about-your-parliament/general-elections/) é oficialmente nomeado pelo monarca, que geralmente escolhe o líder do partido político que ganha mais assentos na Câmara dos Comuns. Os Estados Unidos usam um processo de [Colégio Eleitoral](https://www.archives.gov/federal-register/electoral-college/about.html) de várias etapas , no qual os cidadãos votam sobre como cada estado deve alocar os Eleitores que então elegem o Presidente.  
 
 Talvez a maneira mais simples de realizar uma eleição, no entanto, seja por meio de um método comumente conhecido como “voto plural” (também conhecido como “primeiro a chegar” ou “o vencedor leva tudo”). Na votação por pluralidade, cada eleitor pode votar em um candidato. No final da eleição, o candidato que tiver o maior número de votos é declarado o vencedor da eleição.  
 
@@ -143,13 +143,11 @@ Uma excelente aula para você!
 
 Certifique-se de testar seu código para ter certeza de que ele lida com…
 
-* Uma eleição com qualquer número de candidatos (até o MAXde 9)
+* Uma eleição com qualquer número de candidatos (até o MAX de 9)
 * Votar em um candidato pelo nome
 * Votos inválidos para candidatos que não constam na cédula
 * Imprimindo o vencedor da eleição se houver apenas um
 * Imprimindo o vencedor da eleição se houver vários vencedores
-
-
 
 <p align="right">
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
