@@ -48,9 +48,9 @@ Se você tiver algum problema, siga estas mesmas etapas novamente e veja se cons
 
 São fornecidos a você três programas C já compilados, `sort1`, `sort2` e `sort3`. Cada um desses programas implementa um algoritmo de classificação diferente:  
 
-selection sort (classificação por seleção),  
-bubble sort (classificação por bolha) ou  
-merge sort (classificação por mesclagem)  
+`selection sort` (classificação por seleção),  
+`bubble sort` (classificação por bolha) ou  
+`merge sort` (classificação por mesclagem).  
 
 (embora não necessariamente nessa ordem!)
 
