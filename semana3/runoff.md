@@ -11,7 +11,7 @@ Para este programa, você implementará um programa que executa uma eleição de
 
 ```
 ./runoff Alice Bob Charlie
-Number of voters: 5
+Number of voters: 5     // Número de eleitores
 Rank 1: Alice
 Rank 2: Bob
 Rank 3: Charlie
