@@ -65,10 +65,10 @@ Sua tarefa é determinar qual algoritmo de classificação é usado por cada arq
    * Por exemplo, você pode executar `time ./sort1 reversed10000.txt` para executar `sort1` em 10.000 números invertidos. No final da saída do seu terminal, você pode olhar o tempo `real` para ver quanto tempo realmente passou durante a execução do programa.  
 * Registre suas respostas em `answers.txt`, juntamente com uma explicação para cada programa, preenchendo os espaços em branco marcados com `TODO`.  
 
+## DICA  
+Os diferentes tipos de arquivos `.txt` podem ajudá-lo a determinar qual classificação é qual. Considere como cada algoritmo funciona com uma lista já classificada. Que tal uma lista invertida? Ou lista embaralhada? Pode ser útil trabalhar em uma lista menor de cada tipo e percorrer cada processo de classificação.  
 
 # DICA - Passo a passo  
-
-Os diferentes tipos de arquivos `.txt` podem ajudá-lo a determinar qual classificação é qual. Considere como cada algoritmo funciona com uma lista já classificada. Que tal uma lista invertida? Ou lista embaralhada? Pode ser útil trabalhar em uma lista menor de cada tipo e percorrer cada processo de classificação.  
 
 Este vídeo irá te ajudar a entender o problema ;)  
 Atenção: para adicionar legendas ao vídeo clique no botão CC localizado no Player e selecione a opção "Português (Brasil)".  
