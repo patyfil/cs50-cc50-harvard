@@ -57,7 +57,7 @@ merge sort (classificação por mesclagem)
 Sua tarefa é determinar qual algoritmo de classificação é usado por cada arquivo.  
 
 * `sort1`, `sort2` e `sort3` são arquivos binários, então você não poderá visualizar o código-fonte C de cada um. Para avaliar qual classificação implementa qual algoritmo, execute as classificações em diferentes listas de valores.  
-* Vários `.txt` arquivos são fornecidos a você. Esses arquivos contêm `n` linhas de valores, invertidos, embaralhados ou classificados.  
+* Vários arquivos `.txt` são fornecidos a você. Esses arquivos contêm `n` linhas de valores, invertidos, embaralhados ou classificados.  
    * Por exemplo, `reversed10000.txt` contém 10.000 linhas de números invertidos de `10000`, enquanto `random10000.txt` contém 10.000 linhas de números que estão em ordem aleatória.  
 * Para executar as classificações nos arquivos de texto, no terminal, execute `./[program_name] [text_file.txt]`. Certifique-se de ter usado `cd` para mover para o `sort` diretório!  
    * Por exemplo, para classificar `reversed10000.txt` com `sort1`, execute `./sort1 reversed10000.txt`.  
