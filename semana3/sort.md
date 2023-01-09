@@ -62,7 +62,7 @@ Sua tarefa é determinar qual algoritmo de classificação é usado por cada arq
 
 # DICA - Passo a passo  
 
-Os diferentes tipos de .txtarquivos podem ajudá-lo a determinar qual classificação é qual. Considere como cada algoritmo funciona com uma lista já classificada. Que tal uma lista invertida? Ou lista embaralhada? Pode ser útil trabalhar em uma lista menor de cada tipo e percorrer cada processo de classificação.  
+Os diferentes tipos de arquivos `.txt` podem ajudá-lo a determinar qual classificação é qual. Considere como cada algoritmo funciona com uma lista já classificada. Que tal uma lista invertida? Ou lista embaralhada? Pode ser útil trabalhar em uma lista menor de cada tipo e percorrer cada processo de classificação.  
 
 Este vídeo irá te ajudar a entender o problema ;)  
 Atenção: para adicionar legendas ao vídeo clique no botão CC localizado no Player e selecione a opção "Português (Brasil)".  
