@@ -42,8 +42,19 @@
 
 ## [PORT - Exercício 3: Tideman](https://patyfil.github.io/cs50-cc50-harvard/semana3/tideman)  
 [ING - pset3 exercise 3 - Tideman](https://cs50.harvard.edu/x/2023/psets/3/tideman/)  
-<br>
 
+&nbsp;
+
+# [Problemas práticos da semana 3](https://cs50.harvard.edu/x/2023/problems/3/):  
+
+Além do laboratório e do conjunto de problemas desta semana, você pode tentar qualquer um destes (opcional!) problemas práticos:
+
+[Recursiveatoi](https://cs50.harvard.edu/x/2023/problems/3/atoi/), para praticar a criação de funções recursivas
+[Average Temperatures (Temperaturas médias)](https://cs50.harvard.edu/x/2023/problems/3/temps/), para praticar o trabalho com `struct`s e algoritmos de classificação
+[Max](https://cs50.harvard.edu/x/2023/problems/3/max/), para praticar passando arrays para funções e encontrando valores máximos
+[Snackbar](https://cs50.harvard.edu/x/2023/problems/3/snackbar/), para praticar usando `struct`s e escrevendo um algoritmo de busca linear
+
+&nbsp;
 
 <p align="right">
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
