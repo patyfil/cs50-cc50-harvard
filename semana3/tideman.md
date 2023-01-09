@@ -5,7 +5,7 @@
    <a href="https://patyfil.github.io/cs50-cc50-harvard/3-Algoritmos.html">Voltar ao Índice da Semana 3</a>
 </p>
 
-# [Exercício 1 - Tideman](https://cs50.harvard.edu/x/2023/psets/3/tideman/)  
+# [Exercício 3 - Tideman](https://cs50.harvard.edu/x/2023/psets/3/tideman/)  
 
  
 
