@@ -60,7 +60,7 @@ Atenção: para adicionar legendas ao vídeo clique no botão CC localizado no P
 Uma excelente aula para você!  
 ## <img src="../assets/youtube.svg" width=20 /> [Sort - Walkthrough - CS50 Labs 2020](https://youtu.be/-Bhxxw6JKKY)
 
-## <img src="../assets/youtube.svg" width=20 /> [CC50: Lab 3 - Sort](https://youtu.be/I0czI4NM710)
+## <img src="../assets/youtube.svg" width=20 /> [CC50: Lab 3 - Sort (Fundação Estudar)](https://youtu.be/I0czI4NM710)
 
 &nbsp;
 
