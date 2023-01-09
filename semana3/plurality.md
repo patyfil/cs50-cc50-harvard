@@ -18,6 +18,15 @@ Vote: Charlie
 Vote: Alice
 Alice
 ```
+```
+$ ./plurality Alice Bob Charlie
+Número de eleitores: 4
+Voto: Alice
+Voto: Bob
+Voto: Charlie
+Voto: Alice
+Alice
+```
 
 # Introdução ao Exercício
 
