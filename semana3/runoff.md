@@ -41,17 +41,20 @@ Você já conhece as eleições de pluralidade, que seguem um algoritmo muito si
 
 Mas o voto de pluralidade tem algumas desvantagens. O que acontece, por exemplo, em uma eleição com três candidatos, e as cédulas abaixo são lançadas?  
  
+![1runoff](https://user-images.githubusercontent.com/41968938/211423342-a813960e-d2bf-4c48-aa30-a3038cb94cc9.jpg)
 
 Uma votação de pluralidade aqui declararia um empate entre Alice e Bob, já que cada um tem dois votos. Mas esse é o resultado certo?
 
 Há outro tipo de sistema de votação, conhecido como sistema de votação por classificação. Em um sistema de escolha ranqueada, os eleitores podem votar em mais de um candidato. Em vez de apenas votar na primeira escolha, eles podem classificar os candidatos em ordem de preferência. As cédulas resultantes podem, portanto, parecer como abaixo.
 
+![2runoff](https://user-images.githubusercontent.com/41968938/211423401-779d4a0e-ef88-48c7-b106-2ac1fd5969a5.jpg)
 
 
 Aqui, cada eleitor, além de especificar seu candidato de primeira preferência, também indicou sua segunda e terceira opções. E agora, o que antes era uma eleição empatada agora pode ter um vencedor. A corrida estava originalmente empatada entre Alice e Bob, então Charlie estava fora da corrida. Mas o eleitor que escolheu Charlie preferiu Alice a Bob, então Alice poderia ser declarada a vencedora.
 
 A votação por escolha classificada também pode resolver outra desvantagem potencial da votação por pluralidade. Confira as votações a seguir.
 
+![3runoff](https://user-images.githubusercontent.com/41968938/211423439-dd3d132c-95e3-4af3-93b6-969cc1fbe0c8.jpg)
 
 
 Quem deve ganhar esta eleição? Em uma votação de pluralidade em que cada eleitor escolhe apenas sua primeira preferência, Charlie vence esta eleição com quatro votos em comparação com apenas três para Bob e dois para Alice. Mas a maioria dos eleitores (5 de 9) ficaria mais feliz com Alice ou Bob em vez de Charlie. Ao considerar as preferências classificadas, um sistema de votação pode escolher um vencedor que reflita melhor as preferências dos eleitores.
