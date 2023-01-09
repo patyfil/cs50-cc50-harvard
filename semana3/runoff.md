@@ -243,12 +243,11 @@ Alice
 
 Certifique-se de testar seu código para ter certeza de que ele lida com…
 
-* Uma eleição com qualquer número de candidatos (até o `MAX` de `9`)
-* Votar em um candidato pelo nome
-* Votos inválidos para candidatos que não constam na cédula
-* Imprimindo o vencedor da eleição se houver apenas um
-* Não eliminar ninguém em caso de empate entre todos os restantes candidatos
-
+* Uma eleição com qualquer número de candidatos (até o `MAX` de `9`);  
+* Votar em um candidato pelo nome;  
+* Votos inválidos para candidatos que não constam na cédula;  
+* Imprimindo o vencedor da eleição se houver apenas um;  
+* Não eliminar ninguém em caso de empate entre todos os candidatos restantes.  
 
 <p align="right">
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
