@@ -56,7 +56,7 @@ Sua tarefa é determinar qual algoritmo de classificação é usado por cada arq
 * Para executar as classificações nos arquivos de texto, no terminal, execute `./[program_name] [text_file.txt]`. Certifique-se de ter usado `cd` para mover para o `sort` diretório!  
 ** Por exemplo, para classificar `reversed10000.txt` com `sort1`, execute `./sort1 reversed10000.txt`.  
 * Você pode achar útil cronometrar suas classificações. Para fazer isso, execute `time ./[sort_file] [text_file.txt]`.  
-   ** Por exemplo, você pode executar `time ./sort1 reversed10000.txt` para executar `sort1` em 10.000 números invertidos. No final da saída do seu terminal, você pode ver o `real` tempo para ver quanto tempo realmente passou durante a execução do programa.  
+   * Por exemplo, você pode executar `time ./sort1 reversed10000.txt` para executar `sort1` em 10.000 números invertidos. No final da saída do seu terminal, você pode ver o `real` tempo para ver quanto tempo realmente passou durante a execução do programa.  
 * Registre suas respostas em `answers.txt`, juntamente com uma explicação para cada programa, preenchendo os espaços em branco marcados com `TODO`.  
 
 
