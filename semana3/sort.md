@@ -47,7 +47,13 @@ Se você tiver algum problema, siga estas mesmas etapas novamente e veja se cons
 # Instruções
 
 São fornecidos a você três programas C já compilados, `sort1`, `sort2` e `sort3`. Cada um desses programas implementa um algoritmo de classificação diferente:  
-classificação por seleção, classificação por bolha ou classificação por mesclagem (embora não necessariamente nessa ordem!).  
+
+selection sort (classificação por seleção),  
+bubble sort (classificação por bolha) ou  
+merge sort (classificação por mesclagem)  
+
+(embora não necessariamente nessa ordem!)
+
 Sua tarefa é determinar qual algoritmo de classificação é usado por cada arquivo.  
 
 * `sort1`, `sort2` e `sort3` são arquivos binários, então você não poderá visualizar o código-fonte C de cada um. Para avaliar qual classificação implementa qual algoritmo, execute as classificações em diferentes listas de valores.  
