@@ -76,20 +76,20 @@ Vamos dar uma olhada em `plurality.c` e ler o código de distribuição que foi 
 
 A linha `#define MAX 9` é alguma sintaxe usada aqui para significar que `MAX` é uma constante (igual a `9`) que pode ser usada ao longo do programa. Aqui, representa o número máximo de candidatos que uma eleição pode ter.  
 
-O arquivo então define um `struct` chamado a `candidate`. Cada um `candidate` tem dois campos: um `string` chamado `name` que representa o nome do candidato e um `int` chamado `votes` que representa o número de votos que o candidato possui. Em seguida, o arquivo define um array global de `candidates`, onde cada elemento é um `candidate`.
+O arquivo então define uma `struct` chamada `candidate`. Cada um `candidate` tem dois campos: uma `string` chamada `name` que representa o nome do candidato e um `int` chamado `votes` que representa o número de votos que o candidato possui. Em seguida, o arquivo define um array global de `candidates`, onde cada elemento é um `candidate`.
 
-Agora, dê uma olhada na função `main`. Veja se você consegue descobrir onde o programa define uma variável global que `candidate_count` representa o número de candidatos na eleição, copia argumentos de linha de comando no array candidatese pede ao usuário para digitar o número de eleitores. Em seguida, o programa permite que cada eleitor digite um voto (viu como?), chamando a função `vote`  em cada candidato votado. Por fim, `main` faz uma chamada à função `print_winner` para imprimir o vencedor (ou vencedores) da eleição.  
+Agora, dê uma olhada na função `main`. Veja se você consegue descobrir onde o programa define uma variável global `candidate_count` que representa o número de candidatos na eleição, copia os argumentos da linha de comando no array `candidatese` e pede ao usuário para digitar o número de eleitores. Em seguida, o programa permite que cada eleitor digite um voto (entendeu como?), chamando a função `vote`  em cada candidato votado. Por fim, `main` faz uma chamada à função `print_winner` para imprimir o vencedor (ou vencedores) da eleição.  
 
-Porém, se você olhar mais abaixo no arquivo, notará que as funções `vote` e `print_winner` foram deixadas em branco. Esta parte é até você para concluir!
+Porém, se você olhar mais abaixo no arquivo, notará que as funções `vote` e `print_winner` foram deixadas em branco. Esta parte depende de você para concluir!
 
-# Especificação
+# Especificações
 
-Conclua a implementação de `plurality.c` de forma que o programa simule uma eleição de votos por pluralidade.
+Conclua a implementação de `plurality.c` de forma que o programa simule uma eleição de voto plural.
 
-* Conclua a função `vote`.
+* Conclua a função de `vote`.
     * `vote` recebe um único argumento, `string` chamado `name`, representando o nome do candidato que foi votado.
-    * Se `name` corresponder a um dos nomes dos candidatos na eleição, atualize o total de votos desse candidato para contabilizar o novo voto. A função `vote` neste caso deve retornar `true` para indicar uma cédula bem-sucedida.  
-    * Caso `name` não coincida com o nome de nenhum dos candidatos na eleição, nenhum total de votos deve mudar, e a função `vote` deve retornar `false` para indicar uma cédula inválida.
+    * Se o `name` corresponder a um dos nomes dos candidatos na eleição, atualize o total de votos desse candidato para contabilizar o novo voto. A função `vote` neste caso deve retornar `true` para indicar uma votação bem-sucedida.  
+    * Caso o `name` não corresponder com o nome de nenhum dos candidatos na eleição, nenhum total de votos deve mudar, e a função `vote` deve retornar `false` para indicar uma cédula inválida.
     * Você pode presumir que não haverá dois candidatos com o mesmo nome.
 * Conclua a função `print_winner`.
     * A função deve imprimir o nome do candidato que recebeu mais votos na eleição e, em seguida, imprimir uma quebra de linha.
@@ -139,15 +139,15 @@ Uma excelente aula para você!
 
 &nbsp;
 
-# teste
+# Como testar o seu código?
 
-Certifique-se de testar seu código para ter certeza de que ele lida com…
+Certifique-se de testar seu código para ter certeza de que ele lida com as seguintes situações:  
 
-* Uma eleição com qualquer número de candidatos (até o MAX de 9)
-* Votar em um candidato pelo nome
-* Votos inválidos para candidatos que não constam na cédula
-* Imprimindo o vencedor da eleição se houver apenas um
-* Imprimindo o vencedor da eleição se houver vários vencedores
+* Uma eleição com qualquer número de candidatos (até o `MAX` de `9`);  
+* Votar em um candidato pelo nome;  
+* Votos inválidos para candidatos que não constam na cédula;  
+* Imprimindo o vencedor da eleição se houver apenas um;  
+* Imprimindo o vencedor da eleição se houver vários vencedores;  
 
 <p align="right">
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
