@@ -2,7 +2,7 @@
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
 </p>
 <p align="right">
-   <a href="https://patyfil.github.io/cs50-cc50-harvard/1-Algoritmos.html">Voltar ao Índice da Semana 3</a>
+   <a href="https://patyfil.github.io/cs50-cc50-harvard/3-Algoritmos.html">Voltar ao Índice da Semana 3</a>
 </p>
 
 # [Laboratório 3 - Sort (Ordenar)](https://cs50.harvard.edu/x/2023/labs/3/)  
@@ -99,5 +99,5 @@ Uma excelente aula para você!
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
 </p>
 <p align="right">
-   <a href="https://patyfil.github.io/cs50-cc50-harvard/1-Algoritmos.html">Voltar ao Índice da Semana 3</a>
+   <a href="https://patyfil.github.io/cs50-cc50-harvard/3-Algoritmos.html">Voltar ao Índice da Semana 3</a>
 </p>
