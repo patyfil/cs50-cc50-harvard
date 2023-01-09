@@ -113,67 +113,68 @@ A execução `code runoff.c` deve abrir o arquivo onde você digitará seu códi
 
 # Compreensão
 
-Vamos dar uma olhada `runoff.c`. Estamos definindo duas constantes: `MAX_CANDIDATES` para o número máximo de candidatos na eleição e `MAX_VOTERS` para o número máximo de eleitores na eleição.
+Vamos dar uma olhada no que já está no arquivo `runoff.c`. Estamos definindo duas constantes: `MAX_CANDIDATES` para o número máximo de candidatos na eleição e `MAX_VOTERS` para o número máximo de eleitores na eleição.
 
-Em seguida é uma matriz bidimensional `preferences`. O array `preferences[i]` representará todas as preferências por número de eleitor `i`, e o inteiro `preferences[i][j]` aqui armazenará o índice do candidato que é a `j` enésima preferência por eleitor `i`.
+Em seguida, estão as preferências de uma matriz bidimensional `preferences`. O matriz `preferences[i]` representará todas as preferências por número de eleitor `i` e o inteiro `preferences[i][j]` aqui armazenará o índice do candidato que é a `j` enésima preferência por eleitor `i`.
 
-Em seguida é um `struct` chamado `candidate`. Cada `candidate` um tem uma `string` campo para seu `name`, e `int` representa o número de `votes` que possui atualmente, e um `bool` valor chamado `eliminated` que indica se o candidato foi eliminado da eleição. A matriz `candidates` manterá o controle de todos os candidatos na eleição.
+O próximo é um `struct` chamado `candidate`. Cada `candidate` um tem um campo de `string` para seu `name` e `int` representa o número de `votes` que possui atualmente, e um valor `bool` chamado `eliminated` que indica se o candidato foi eliminado da eleição. A matriz `candidates` manterá o controle de todos os candidatos na eleição.
 
 O programa também possui duas variáveis ​​globais: `voter_count` e `candidate_count`.
 
-Agora em `main`. Observe que depois de determinar o número de candidatos e o número de eleitores, o loop principal de votação começa, dando a cada eleitor a chance de votar. À medida que o eleitor insere suas preferências, a `vote` função é chamada para acompanhar todas as preferências. Se, a qualquer momento, a cédula for considerada inválida, o programa será encerrado.  
+Agora em `main`. Observe que depois de determinar o número de candidatos e o número de eleitores, o loop principal de votação começa, dando a cada eleitor a chance de votar. À medida que o eleitor insere suas preferências, a função `vote` é chamada para acompanhar todas as preferências. Se, a qualquer momento, a cédula for considerada inválida, o programa será encerrado.  
 
-Uma vez que todos os votos estão dentro, outro loop começa: este vai continuar repetindo o processo de verificação de um vencedor e eliminando o candidato do último lugar até que haja um vencedor.  
+Uma vez que todos os votos foram alcançados, outro loop começa: este vai continuar repetindo o processo de verificação de um vencedor e eliminando o candidato do último lugar até que haja um vencedor.  
 
-A primeira chamada aqui é para uma função chamada `tabulate`, que deve examinar todas as preferências dos eleitores e calcular os totais de votos atuais, observando o candidato mais escolhido de cada eleitor que ainda não foi eliminado. Em seguida, a função `print_winner` deve imprimir o vencedor, se houver; se houver, o programa acabou. Caso contrário, o programa precisa determinar o menor número de votos que alguém ainda na eleição recebeu (por meio de uma chamada para `find_min`). Se todos na eleição estiverem empatados com o mesmo número de votos (conforme determinado pela função `is_tie`), a eleição é declarada empatada; caso contrário, o candidato (ou candidatos) em último lugar é eliminado da eleição por meio de convocação para a função `eliminate`.  
+A primeira chamada aqui é para uma função chamada `tabulate`, que deve examinar todas as preferências dos eleitores e calcular os totais de votos atuais, observando o candidato mais escolhido de cada eleitor que ainda não foi eliminado. Em seguida, a função `print_winner` deve imprimir o vencedor, caso aplicavel; se houver, o programa acabou. Caso contrário, o programa precisa determinar o menor número de votos que alguém ainda na eleição recebeu (por meio de uma chamada para `find_min`). Se todos na eleição estiverem empatados com o mesmo número de votos (conforme determinado pela função `is_tie`), a eleição é declarada empatada; caso contrário, o candidato (ou candidatos) em último lugar é eliminado da eleição por meio de uma chamada para a função `eliminate`.  
 
 Se você olhar um pouco mais abaixo no arquivo, verá que essas funções — `vote`, `tabulate`, `print_winner`, `find_min`, `is_tie` e `eliminate` — são todas deixadas para você concluir!  
 
 # Especificação
 
-Conclua a implementação de `runoff.c` forma que simule uma eleição de segundo turno. Você deve concluir as implementações das funções `vote`, `tabulate`, `print_winner`, `find_min`, `is_tie` e `eliminate` e não deve modificar mais nada `runoff.c`(e a inclusão de arquivos de cabeçalho adicionais, se desejar).  
+Conclua a implementação de `runoff.c` de forma que simule uma eleição de turnos. Você deve concluir as implementações das funções `vote`, `tabulate`, `print_winner`, `find_min`, `is_tie` e `eliminate` e não deve modificar mais nada `runoff.c`(e a inclusão de arquivos de cabeçalho adicionais, se desejar).  
 
 ## `vote`
 
 Conclua a função `vote`.
 
-* A função recebe os argumentos `voter`, `rank` e `name`. Se `name` for uma correspondência para o nome de um candidato válido, você deve atualizar a matriz de preferências globais para indicar que o eleitor `voter` tem esse candidato como sua `rank` preferência (onde `0` é a primeira preferência, `1` é a segunda preferência, etc.).  
-* Se a preferência for registrada com sucesso, a função deve retornar `true`; a função deve retornar o `false` contrário (se, por exemplo, `name` não for o nome de um dos candidatos).
+* A função recebe os argumentos `voter`, `rank` e `name`. Se `name` for uma correspondência para o nome de um candidato válido, você deve atualizar a matriz de preferências globais para indicar que o eleitor `voter` tem esse candidato como sua preferência de `rank` (onde `0` é a primeira preferência, `1` é a segunda preferência, etc.).  
+* Se a preferência for registrada com sucesso, a função deve retornar `true`; caso contrário a função deve retornar `false` (se, por exemplo, `name` não for o nome de um dos candidatos).
 * Você pode presumir que não haverá dois candidatos com o mesmo nome.
 
 # Dicas
 
 * Lembre-se que `candidate_count` armazena o número de candidatos na eleição.
 * Lembre-se de que você pode usar [strcmp](https://man.cs50.io/3/strcmp) para comparar duas strings.
-* Lembre-se que `preferences[i][j]` armazena o índice do candidato que é a `j` enésima preferência do `i` eleitor.  
+* Lembre-se que `preferences[i][j]` armazena o índice do candidato que é a `j` ésima preferência classificada para o `i` ésimo eleitor.  
 
 ## `tabulate`
 
-Conclua a `tabulate` função.
+Conclua a função `tabulate`.
 
-* A função deve atualizar o número de `votes` cada candidato nesta etapa do segundo turno.
-* Lembre-se de que, em cada etapa do segundo turno, todo eleitor efetivamente vota em seu candidato preferido que ainda não foi eliminado.
+* A função deve atualizar o número de `votes` que cada candidato possui nesta etapa do segundo turno.
+* Lembre-se de que, em cada etapa do segundo turno, todo eleitor vota efetivamente em seu candidato preferido que ainda não foi eliminado.
 
 # Dicas
 
 * Lembre-se que `voter_count` armazena o número de eleitores na eleição e que, para cada eleitor em nossa eleição, queremos contar uma cédula.
 * Lembre-se de que, para um eleitor `i`, seu candidato de primeira escolha é representado por `preferences[i][0]`, seu candidato de segunda escolha por `preferences[i][1]`, etc.
-* Lembre-se que o `candidate` `struct` tem um campo chamado `eliminated`, que será `true` caso o candidato tenha sido eliminado da eleição.
-* Lembre-se de que o `candidate` `struct` tem um campo chamado `votes`, que você provavelmente desejará atualizar para o candidato preferido de cada eleitor.
+* Lembre-se que o `struct` do `candidate`  tem um campo chamado `eliminated`, que será `true` caso o candidato tenha sido eliminado da eleição.
+* Lembre-se de que o `struct` do`candidate` tem um campo chamado `votes`, que você provavelmente desejará atualizar para o candidato preferido de cada eleitor.
 * Depois de votar no primeiro candidato não eliminado de um eleitor, você deve parar por aí, não continuar na cédula! Lembre-se de que você pode sair de um loop antecipadamente usando `break` dentro de uma condicional.
 
 ## `print_winner`
 
-Conclua a `print_winner` função.
+Conclua a função `print_winner`.
 
-* Caso algum candidato tenha mais da metade dos votos, seu nome deverá ser impresso e a função deverá retornar `true`.
+* Caso algum candidato tenha mais da metade dos votos, seu nome deverá ser impresso em `stdout` e a função deverá retornar `true`.
 * Se ninguém ganhou a eleição ainda, a função deve retornar `false`.
 
 # Dicas
 
-* Lembre-se que `voter_count` armazena o número de eleitores na eleição. Dado isso, como você expressaria o número de votos necessários para vencer a eleição?
+* Lembre-se que `voter_count` armazena o número de eleitores na eleição. Diante disso, como você expressaria o número de votos necessários para vencer a eleição?
 
 ## `find_min`
+
 Conclua a função `find_min`.
 
 * A função deve retornar o total mínimo de votos para qualquer candidato que ainda esteja na eleição.
