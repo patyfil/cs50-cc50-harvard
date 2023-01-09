@@ -18,8 +18,7 @@ OBS: Caso a pasta possua espaço, por exemplo: *Semana 3*
 Será necessário colocar aspas para entrar na pasta: `cd 'Semana 3'` 
 
 3 - No terminal digite o comando: `wget https://cdn.cs50.net/2022/fall/labs/3/sort.zip`  
-seguido de *ENTER* para baixar o zip *sort.zip* que contem a pasta *sort* com o arquivo em C.  
-OBS: Você também pode baixar o zip nesse link: [sort.zip](https://patyfil.github.io/cs50-cc50-harvard/semana3/sort.zip)
+seguido de *ENTER* para baixar o arquivo zipado [sort.zip](https://patyfil.github.io/cs50-cc50-harvard/semana3/sort.zip) que contem a pasta *sort* com seus arquivos.  
 
 4 - Execute o unzip: `unzip sort.zip` para extrair a pasta *sort* dentro da pasta *pset3*.  
 
