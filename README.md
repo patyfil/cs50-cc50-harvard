@@ -1,4 +1,4 @@
-## [CC50 - O Curso de Ciência da Computação de Harvard - 2023](https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home?target="_blank") - Material de apoio   
+# [CC50 - O Curso de Ciência da Computação de Harvard - 2023](https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home?target="_blank") - Material de apoio   
 
 <p align="center">
   <img src="assets/CS50.jpg" />
