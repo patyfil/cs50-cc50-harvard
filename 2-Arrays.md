@@ -53,8 +53,8 @@
 Além do laboratório e do conjunto de problemas desta semana, você pode tentar qualquer um destes (opcional!) problemas práticos:
 
 [Hours](https://cs50.harvard.edu/x/2023/problems/2/hours/), para praticar com arrays, passando arrays como parâmetros para uma função, divisão de inteiro e conversão de tipo  
-[N0 V0w3ls](https://cs50.harvard.edu/x/2023/problems/2/no-vowels/), para praticar com strings, argumentos de linha de comando e escrever um programa inteiro do zero
-[Password](https://cs50.harvard.edu/x/2023/problems/2/password/), para praticar a iteração por meio de uma string, usando a `ctype` biblioteca e usando variáveis ​​booleanas
+[N0 V0w3ls](https://cs50.harvard.edu/x/2023/problems/2/no-vowels/), para praticar com strings, argumentos de linha de comando e escrever um programa inteiro do zero  
+[Password](https://cs50.harvard.edu/x/2023/problems/2/password/), para praticar a iteração por meio de uma string, usando a `ctype` biblioteca e usando variáveis ​​booleanas  
 
 &nbsp;
 
