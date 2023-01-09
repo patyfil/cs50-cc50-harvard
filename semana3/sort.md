@@ -62,11 +62,11 @@ Uma excelente aula para você!
 
 ## <img src="../assets/youtube.svg" width=20 /> [CC50: Lab 3 - Sort](https://youtu.be/I0czI4NM710)
 
+&nbsp;
+
 # Não sabe como resolver?  
 
 ## <img src="../assets/youtube.svg" width=20 /> [Sort - Solution - CS50 Labs 2020](https://youtu.be/uOYhrBs37j0)
-
-
 
 &nbsp;
 
