@@ -182,7 +182,7 @@ Você não deve modificar nada tideman.calém das implementações das funções
 Este vídeo irá te ajudar a entender o problema ;)  
 Atenção: para adicionar legendas ao vídeo clique no botão CC localizado no Player e selecione a opção "Português (Brasil)".  
 Uma excelente aula para você!  
-## <img src="../assets/youtube.svg" width=20 /> [CC50: PSet 3 - tideman]()
+## <img src="../assets/youtube.svg" width=20 /> [CC50: PSet 3 - Tideman](https://youtu.be/bwlFwoWH3hM)
 
 &nbsp;
 
