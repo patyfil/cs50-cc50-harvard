@@ -41,24 +41,19 @@ Você já conhece as eleições de pluralidade, que seguem um algoritmo muito si
 
 Mas o voto de pluralidade tem algumas desvantagens. O que acontece, por exemplo, em uma eleição com três candidatos, e as cédulas abaixo são lançadas?
 
-1
-
+<img width="831" alt="1tideman" src="https://user-images.githubusercontent.com/41968938/211432481-17fb2513-b7b8-4627-9019-96a6fd125a19.png">
 
 Uma votação de pluralidade aqui declararia um empate entre Alice e Bob, já que cada um tem dois votos. Mas esse é o resultado certo?
 
 Há outro tipo de sistema de votação, conhecido como sistema de votação por classificação. Em um sistema de escolha ranqueada, os eleitores podem votar em mais de um candidato. Em vez de apenas votar na primeira escolha, eles podem classificar os candidatos em ordem de preferência. As cédulas resultantes podem, portanto, parecer como abaixo.
 
-2
-
+<img width="831" alt="2tideman" src="https://user-images.githubusercontent.com/41968938/211432495-3e2c573c-a07b-4124-80ad-4125550f159c.png">
 
 Aqui, cada eleitor, além de especificar seu candidato de primeira preferência, também indicou sua segunda e terceira opções. E agora, o que antes era uma eleição empatada agora pode ter um vencedor. A corrida foi originalmente empatada entre Alice e Bob. Mas o eleitor que escolheu Charlie preferiu Alice a Bob, então Alice poderia ser declarada a vencedora.
 
 A votação por escolha classificada também pode resolver outra desvantagem potencial da votação por pluralidade. Confira as votações a seguir.
 
-
-3
-
-
+<img width="831" alt="3tideman" src="https://user-images.githubusercontent.com/41968938/211432500-52a6f78e-6264-4401-894c-3dda342cfba3.png">
 
 Quem deve ganhar esta eleição? Em uma votação de pluralidade em que cada eleitor escolhe apenas sua primeira preferência, Charlie vence esta eleição com quatro votos em comparação com apenas três para Bob e dois para Alice. (Observe que, se você estiver familiarizado com o sistema de votação de segundo turno instantâneo, Charlie também vence aqui nesse sistema). Alice, no entanto, poderia razoavelmente argumentar que ela deveria ser a vencedora da eleição em vez de Charlie: afinal, dos nove eleitores, a maioria (cinco deles) preferia Alice a Charlie, então a maioria das pessoas ficaria mais feliz com Alice. como o vencedor em vez de Charlie.
 
@@ -68,9 +63,7 @@ O método de votação Tideman (também conhecido como “pares classificados”
 
 De um modo geral, o método Tideman funciona construindo um “gráfico” de candidatos, onde uma seta (ou seja, borda) do candidato A para o candidato B indica que o candidato A vence o candidato B em um confronto direto. O gráfico para a eleição acima, então, ficaria como o abaixo.
 
-
-4
-
+<img width="485" alt="4tideman" src="https://user-images.githubusercontent.com/41968938/211432531-26d303d8-9785-4955-a28b-ee372d7e378b.png">
 
 A seta de Alice para Bob significa que mais eleitores preferem Alice a Bob (5 preferem Alice, 4 preferem Bob). Da mesma forma, as outras setas significam que mais eleitores preferem Alice a Charlie e mais eleitores preferem Charlie a Bob.
 
@@ -78,9 +71,7 @@ Olhando para este gráfico, o método Tideman diz que o vencedor da eleição de
 
 É possível, porém, que quando as flechas forem sorteadas, não haja um vencedor Condorcet. Considere as cédulas abaixo.
 
-
-5
-
+<img width="1347" alt="5tideman" src="https://user-images.githubusercontent.com/41968938/211432555-cfeb76cd-e639-4978-b65a-65524f855ec6.png">
 
 Entre Alice e Bob, Alice é preferida a Bob por uma margem de 7-2. Entre Bob e Charlie, Bob é preferido a Charlie por uma margem de 5-4. Mas entre Charlie e Alice, Charlie é preferido sobre Alice por uma margem de 6-3. Se desenharmos o gráfico, não há fonte! Temos um ciclo de candidatos, onde Alice vence Bob que vence Charlie que vence Alice (muito parecido com um jogo de pedra-papel-tesoura). Nesse caso, parece que não há como escolher um vencedor.
 
@@ -92,11 +83,7 @@ A seguir, a vitória de Bob por 5 a 4 sobre Charlie. Mas observe: se fôssemos a
 
 Este processo passo a passo é mostrado abaixo, com o gráfico final à direita.
 
-
-
-6
-
-
+<img width="1330" alt="6tideman" src="https://user-images.githubusercontent.com/41968938/211432579-90faacfe-431b-4d7d-aa8f-c53b852881ca.png">
 
 Com base no gráfico resultante, Charlie é a fonte (não há seta apontando para Charlie), então Charlie é declarado o vencedor desta eleição.
 
