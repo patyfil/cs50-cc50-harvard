@@ -89,10 +89,11 @@ Com base no gráfico resultante, Charlie é a fonte (não há seta apontando par
 
 Em termos mais formais, o método de votação do Tideman consiste em três partes:
 
-Contagem : Uma vez que todos os eleitores tenham indicado todas as suas preferências, determine, para cada par de candidatos, quem é o candidato preferido e por qual margem eles são os preferidos.
-Sort : Classifica os pares de candidatos em ordem decrescente de força de vitória, onde força de vitória é definida como o número de eleitores que preferem o candidato preferido.
-Lock : Começando com o par mais forte, percorra os pares de candidatos em ordem e “trave” cada par no grafo candidato, desde que o travamento desse par não crie um ciclo no grafo.
-Assim que o gráfico estiver completo, a fonte do gráfico (aquele sem arestas apontando para ele) é o vencedor!
+*  **Contagem** : Uma vez que todos os eleitores tenham indicado todas as suas preferências, determine, para cada par de candidatos, quem é o candidato preferido e por qual margem eles são os preferidos.  
+*  **Sort** : Classifica os pares de candidatos em ordem decrescente de força de vitória, onde força de vitória é definida como o número de eleitores que preferem o candidato preferido.  
+*  **Lock** : Começando com o par mais forte, percorra os pares de candidatos em ordem e “trave” cada par no grafo candidato, desde que o travamento desse par não crie um ciclo no grafo.  
+
+Assim que o gráfico estiver completo, a fonte do gráfico (aquele sem arestas apontando para ele) é o vencedor!  
 
 # Começando  
 
