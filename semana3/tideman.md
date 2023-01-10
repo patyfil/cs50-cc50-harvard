@@ -105,7 +105,7 @@ OBS: Caso a pasta possua espaço, por exemplo: *Semana 3*
 Será necessário colocar aspas para entrar na pasta: `cd 'Semana 3'` 
 
 3 - No terminal digite o comando: `wget https://cdn.cs50.net/2022/fall/psets/3/tideman.zip`  
-seguido de *ENTER* para baixar o arquivo zipado [plurality.zip](https://patyfil.github.io/cs50-cc50-harvard/semana3/tideman.zip) que contem a pasta *tideman* com seus arquivos.  
+seguido de *ENTER* para baixar o arquivo zipado [tideman.zip](https://patyfil.github.io/cs50-cc50-harvard/semana3/tideman.zip) que contem a pasta *tideman* com seus arquivos.  
 
 4 - Execute o unzip: `unzip tideman.zip` para extrair a pasta *tideman* dentro da pasta *pset3*.  
 
@@ -132,50 +132,51 @@ A execução `code tideman.c` deve abrir o arquivo onde você digitará seu cód
 
 # COMPREENSÃO
 
-Vamos dar uma olhada tideman.c.
+Vamos dar uma olhada `tideman.c`.
 
-Primeiro, observe a matriz bidimensional preferences. O inteiro preferences[i][j]representará o número de eleitores que preferem candidato ia candidato j.
+Primeiro, observe a matriz bidimensional `preferences`. O inteiro `preferences[i][j]` representará o número de eleitores que preferem candidato `i` a candidato `j`.
 
-O arquivo também define outro array bidimensional, chamado locked, que representará o grafo candidato. lockedé um array booleano, portanto locked[i][j]sendo truerepresenta a existência de uma aresta apontando de candidato ia candidato j; falsesignifica que não há borda. (Se curioso, essa representação de um grafo é conhecida como “matriz de adjacência”).
+O arquivo também define outro array bidimensional, chamado `locked`, que representará o grafo candidato. `locked` é um array booleano, portanto `locked[i][j]` sendo `true` representa a existência de uma aresta apontando de candidato `i` a candidato `j`; `false` significa que não há borda. (Se curioso, essa representação de um grafo é conhecida como “matriz de adjacência”).  
 
-O próximo é structchamado pair, usado para representar um par de candidatos: cada par inclui o winneríndice de candidato de e o loseríndice de candidato de .
+O próximo é `struct` chamado `pair`, usado para representar um par de candidatos: cada par inclui o `winner` índice de candidato de e o `loser` índice de candidato de.  
 
-Os próprios candidatos são armazenados no array candidates, que é um array de strings representando os nomes de cada um dos candidatos. Há também uma matriz de pairs, que representará todos os pares de candidatos (para os quais um é preferido em detrimento do outro) na eleição.
+Os próprios candidatos são armazenados no array `candidates`, que é um array de `string`s representando os nomes de cada um dos candidatos. Há também uma matriz de `pairs`, que representará todos os pares de candidatos (para os quais um é preferido em detrimento do outro) na eleição.  
 
-O programa também possui duas variáveis ​​globais: pair_counte candidate_count, representando o número de pares e número de candidatos nas matrizes pairse candidates, respectivamente.
+O programa também possui duas variáveis ​​globais: `pair_count` e `candidate_count`, representando o número de pares e número de candidatos nas matrizes `pairs` e `candidates`, respectivamente.  
 
-Agora em main. Observe que depois de determinar o número de candidatos, o programa percorre o lockedgráfico e inicialmente define todos os valores como false, o que significa que nosso gráfico inicial não terá arestas.
+Agora em `main`. Observe que depois de determinar o número de candidatos, o programa percorre o lockedgráfico e inicialmente define todos os valores como `false`, o que significa que nosso gráfico inicial não terá arestas.  
 
-Em seguida, o programa percorre todos os votantes e coleta suas preferências em um array chamado ranks(por meio de uma chamada para vote), onde ranks[i]é o índice do candidato que é a ienésima preferência do eleitor. Essas classificações são passadas para a record_preferencefunção, cujo trabalho é obter essas classificações e atualizar a preferencesvariável global.
+Em seguida, o programa percorre todos os votantes e coleta suas preferências em um array chamado `ranks`(por meio de uma chamada para `vote`), onde `ranks[i]` é o índice do candidato que é a `i` ésima preferência do eleitor. Essas classificações são passadas para a `record_preference` função, cujo trabalho é obter essas classificações e atualizar a `preferences` variável global.  
 
-Assim que todos os votos forem recebidos, os pares de candidatos são adicionados à pairsmatriz por meio de uma chamada para add_pairs, classificados por meio de uma chamada para sort_pairse bloqueados no gráfico por meio de uma chamada para lock_pairs. Por fim, print_winneré chamado a imprimir o nome do vencedor da eleição!
+Assim que todos os votos forem recebidos, os pares de candidatos são adicionados à `pairs` matriz por meio de uma chamada para `add_pairs`, classificados por meio de uma chamada para `sort_pairs` e bloqueados no gráfico por meio de uma chamada para `lock_pairs`. Por fim, `print_winner` é chamado a imprimir o nome do vencedor da eleição!  
 
-Mais abaixo no arquivo, você verá que as funções vote, record_preference, add_pairs, sort_pairs, lock_pairse print_winnersão deixadas em branco. Isso é contigo!
+Mais abaixo no arquivo, você verá que as funções `vote`, `record_preference`, `add_pairs`, `sort_pairs`, `lock_pairs` e `print_winner` são deixadas em branco. Isso é contigo!  
 
 
 # ESPECIFICAÇÃO
 
-Conclua a implementação de tideman.cmodo que simule uma eleição do Tideman.
+Conclua a implementação de `tideman.c` de modo que simule uma eleição do Tideman.
 
-Conclua a votefunção.
-A função recebe os argumentos rank, namee ranks. Se namefor uma correspondência para o nome de um candidato válido, você deve atualizar a ranksmatriz para indicar que o eleitor tem o candidato como sua rankpreferência (onde 0é a primeira preferência, 1é a segunda preferência, etc.)
-Lembre-se de que ranks[i]aqui representa a ipreferência do usuário.
-A função deve retornar truese a classificação foi registrada com sucesso, e falsecaso contrário (se, por exemplo, namenão for o nome de um dos candidatos).
-Você pode presumir que não haverá dois candidatos com o mesmo nome.
-Conclua a record_preferencesfunção.
-A função é chamada uma vez para cada eleitor, e recebe como argumento o ranksarray, (lembre-se que ranks[i]é a ienésima preferência do eleitor, onde ranks[0]é a primeira preferência).
-A função deve atualizar a preferencesmatriz global para adicionar as preferências do eleitor atual. Lembre-se que preferences[i][j]deve representar o número de eleitores que preferem candidato ia candidato j.
-Você pode supor que cada eleitor classificará cada um dos candidatos.
-Conclua a add_pairsfunção.
-A função deve adicionar todos os pares de candidatos em que um candidato é o preferido para o pairsarray. Um par de candidatos empatados (um não é preferido sobre o outro) não deve ser adicionado à matriz.
-A função deve atualizar a variável global pair_countpara ser o número de pares de candidatos. (Os pares devem, portanto, ser todos armazenados entre pairs[0]e pairs[pair_count - 1], inclusive).
-Conclua a sort_pairsfunção.
-A função deve classificar a pairsmatriz em ordem decrescente de força de vitória, onde força de vitória é definida como o número de eleitores que preferem o candidato preferido. Se vários pares tiverem a mesma força de vitória, você pode presumir que a ordem não importa.
-Conclua a lock_pairsfunção.
-A função deve criar o lockedgráfico, adicionando todas as arestas em ordem decrescente de força de vitória, desde que a aresta não crie um ciclo.
-Conclua a print_winnerfunção.
-A função deve imprimir o nome do candidato que é a fonte do gráfico. Você pode assumir que não haverá mais de uma fonte.
-Você não deve modificar nada tideman.calém das implementações das funções vote, record_preferences, add_pairs, sort_pairs, lock_pairse print_winner(e a inclusão de arquivos de cabeçalho adicionais, se desejar). Você tem permissão para adicionar funções adicionais a tideman.c, desde que não altere as declarações de nenhuma das funções existentes.
+* Conclua a função `vote`.  
+   * A função recebe os argumentos `rank`, `name` e `ranks`. Se `name` for uma correspondência para o nome de um candidato válido, você deve atualizar a `ranks` matriz para indicar que o eleitor tem o candidato como sua `rank` preferência (onde `0` é a primeira preferência, `1` é a segunda preferência, etc.)  
+   * Lembre-se de que `ranks[i]` aqui representa a ipreferência do usuário.  
+   * A função deve retornar `true` se a classificação foi registrada com sucesso, e `false` caso contrário (se, por exemplo, `name` não for o nome de um dos candidatos).  
+   * Você pode presumir que não haverá dois candidatos com o mesmo nome.  
+* Conclua a função `record_preferences`.  
+   * A função é chamada uma vez para cada eleitor, e recebe como argumento o `ranks` array, (lembre-se que `ranks[i]` é a `i` ésima preferência do eleitor, onde `ranks[0]` é a primeira preferência).  
+   * A função deve atualizar a preferencesmatriz global para adicionar as preferências do eleitor atual. Lembre-se que `preferences[i][j]` deve representar o número de eleitores que preferem candidato `i` a candidato `j`.  
+   * Você pode supor que cada eleitor classificará cada um dos candidatos.  
+* Conclua a função `add_pairs`.  
+   * A função deve adicionar todos os pares de candidatos em que um candidato é o preferido para o `pairs` array. Um par de candidatos empatados (um não é preferido sobre o outro) não deve ser adicionado à matriz.  
+   * A função deve atualizar a variável global `pair_count` para ser o número de pares de candidatos. (Os pares devem, portanto, ser todos armazenados entre `pairs[0]` e `pairs[pair_count - 1]`, inclusive).
+* Conclua a função `sort_pairs`.  
+   * A função deve classificar a `pairs` matriz em ordem decrescente de força de vitória, onde força de vitória é definida como o número de eleitores que preferem o candidato preferido. Se vários pares tiverem a mesma força de vitória, você pode presumir que a ordem não importa.  
+* Conclua a função `lock_pairs`.  
+   * A função deve criar o `locked` gráfico, adicionando todas as arestas em ordem decrescente de força de vitória, desde que a aresta não crie um ciclo.  
+* Conclua a função `print_winner`.  
+   * A função deve imprimir o nome do candidato que é a fonte do gráfico. Você pode assumir que não haverá mais de uma fonte.  
+
+Você não deve modificar nada `tideman.c` além das implementações das funções `vote`, `record_preferences`, `add_pairs`, `sort_pairs`, `lock_pairs` e `print_winner`(e a inclusão de arquivos de cabeçalho adicionais, se desejar). Você tem permissão para adicionar funções adicionais a `tideman.c`, desde que não altere as declarações de nenhuma das funções existentes.
 
 # PASSO A PASSO  
 
@@ -221,10 +222,10 @@ Charlie
 
 Certifique-se de testar seu código para ter certeza de que ele lida com…
 
-Uma eleição com qualquer número de candidatos (até o MAXde 9)
-Votar em um candidato pelo nome
-Votos inválidos para candidatos que não constam na cédula
-Imprimindo o vencedor da eleição
+* Uma eleição com qualquer número de candidatos (até o `MAX` de `9`)
+* Votar em um candidato pelo nome
+* Votos inválidos para candidatos que não constam na cédula
+* Imprimindo o vencedor da eleição
 
 
 <p align="right">
