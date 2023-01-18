@@ -1,4 +1,4 @@
-# [CC50 - O Curso de Ciência da Computação de Harvard - 2023](https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home?target="_blank") - Material de apoio   
+# [CC50 - O Curso de Ciência da Computação de Harvard - 2023](https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home?target="_blank")  Material de apoio  
 
 A universidade de Harvard oferece um curso gratuito de introdução à ciência da computação chamado CS50, com direito a certificado (também gratuito; tem a opção paga também, mas é a mesma coisa).  
 
