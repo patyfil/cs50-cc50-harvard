@@ -94,9 +94,9 @@ Labs start in Week 2.
 [Population](https://patyfil.github.io/cs50-cc50-harvard/semana1/lab1-population) [EM INGLÊS](https://cs50.harvard.edu/x/2021/labs/1/population/) Lab1 fazia parte do curso anterior a 2022  
 [Scrabble](https://patyfil.github.io/cs50-cc50-harvard/semana2/scrabble) [EM INGLÊS](https://cs50.harvard.edu/x/2022/labs/2/)  Lab2  
 [Sort](https://patyfil.github.io/cs50-cc50-harvard/semana3/sort) [EM INGLÊS](https://cs50.harvard.edu/x/2022/labs/3/)  Lab3  
-[Volume]() [EM INGLÊS](https://cs50.harvard.edu/x/2022/labs/4/)  Lab4  
-[Inheritance]() [EM INGLÊS](https://cs50.harvard.edu/x/2022/labs/5/)  Lab5  
-[World Cup]() [EM INGLÊS](https://cs50.harvard.edu/x/2022/labs/6/)  Lab6  
-[Songs]() [EM INGLÊS](https://cs50.harvard.edu/x/2022/labs/7/)  Lab7  
-[Trivia]() [EM INGLÊS](https://cs50.harvard.edu/x/2022/labs/8/)  Lab8  
-[Birthdays]() [EM INGLÊS](https://cs50.harvard.edu/x/2022/labs/9/)  Lab9  
+[Volume](https://patyfil.github.io/cs50-cc50-harvard/semana4/volume) [EM INGLÊS](https://cs50.harvard.edu/x/2022/labs/4/)  Lab4  
+[Inheritance](https://patyfil.github.io/cs50-cc50-harvard/semana5/inheritance) [EM INGLÊS](https://cs50.harvard.edu/x/2022/labs/5/)  Lab5  
+[World Cup](https://patyfil.github.io/cs50-cc50-harvard/semana6/world-cup) [EM INGLÊS](https://cs50.harvard.edu/x/2022/labs/6/)  Lab6  
+[Songs](https://patyfil.github.io/cs50-cc50-harvard/semana7/songs) [EM INGLÊS](https://cs50.harvard.edu/x/2022/labs/7/)  Lab7  
+[Trivia](https://patyfil.github.io/cs50-cc50-harvard/semana8/trivia) [EM INGLÊS](https://cs50.harvard.edu/x/2022/labs/8/)  Lab8  
+[Birthdays](https://patyfil.github.io/cs50-cc50-harvard/semana9/birthdays) [EM INGLÊS](https://cs50.harvard.edu/x/2022/labs/9/)  Lab9  
