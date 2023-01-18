@@ -59,10 +59,10 @@ Note, there is no Lab 1.
 Labs start in Week 2.  
 (Os laboratórios começam na semana 2.)  
 
-Lab1 [Population](https://patyfil.github.io/cs50-cc50-harvard/semana1/lab1-population)  
+Lab1 [Population](https://patyfil.github.io/cs50-cc50-harvard/semana1/lab1-population) * fazia parte do curso anterior a 2022  
 [EM PORTUGUÊS](https://patyfil.github.io/cs50-cc50-harvard/semana1/lab1-population)  
 [EM INGLÊS](https://cs50.harvard.edu/x/2021/labs/1/population/)  
-* fazia parte do curso anterior a 2022  
+
 
 Lab2 [Scrabble](https://patyfil.github.io/cs50-cc50-harvard/semana2/scrabble)  
 [EM PORTUGUÊS](https://patyfil.github.io/cs50-cc50-harvard/semana2/scrabble)  
@@ -85,10 +85,10 @@ Lab6 [World Cup](https://patyfil.github.io/cs50-cc50-harvard/semana6/world-cup)
 [EM INGLÊS](https://cs50.harvard.edu/x/2022/labs/6/)  
 
 Lab7 [Songs](https://patyfil.github.io/cs50-cc50-harvard/semana7/songs)  
-[EM PORTUGUÊS](https://patyfil.github.io/cs50-cc50-harvard/semana7/songs)
+[EM PORTUGUÊS](https://patyfil.github.io/cs50-cc50-harvard/semana7/songs)  
 [EM INGLÊS](https://cs50.harvard.edu/x/2022/labs/7/)  
 
-Lab8 [Trivia](https://patyfil.github.io/cs50-cc50-harvard/semana8/trivia)
+Lab8 [Trivia](https://patyfil.github.io/cs50-cc50-harvard/semana8/trivia)  
 [EM PORTUGUÊS](https://patyfil.github.io/cs50-cc50-harvard/semana8/trivia)  
 [EM INGLÊS](https://cs50.harvard.edu/x/2022/labs/8/)  
 
