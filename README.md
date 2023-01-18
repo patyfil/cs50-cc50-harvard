@@ -67,4 +67,4 @@ Labs start in Week 2.
 [World Cup](https://patyfil.github.io/cs50-cc50-harvard/semana6/world-cup) [EM INGLÊS](https://cs50.harvard.edu/x/2022/labs/6/)  Lab6  
 [Songs](https://patyfil.github.io/cs50-cc50-harvard/semana7/songs) [EM INGLÊS](https://cs50.harvard.edu/x/2022/labs/7/)  Lab7  
 [Trivia](https://patyfil.github.io/cs50-cc50-harvard/semana8/trivia) [EM INGLÊS](https://cs50.harvard.edu/x/2022/labs/8/)  Lab8  
-[Birthdays](https://patyfil.github.io/cs50-cc50-harvard/semana9/birthdays) [EM INGLÊS](https://cs50.harvard.edu/x/2022/labs/9/)  Lab9  
+[Birthdays](https://patyfil.github.io/cs50-cc50-harvard/semana9/birthdays) Lab9 [EM INGLÊS](https://cs50.harvard.edu/x/2022/labs/9/) 
