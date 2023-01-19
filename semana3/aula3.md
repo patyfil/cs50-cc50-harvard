@@ -10,8 +10,8 @@
 # Índice  
 
 [Bem-vindo!](#bem-vindo)  
-[Algoritmos](#algoritmos)  
 [Revisão do Módulo Anterior](#revisão-do-módulo-anterior)  
+[Algoritmos](#algoritmos)  
 [Busca](#busca--searching)  
 [Big O](#big-o)  
 [Pesquisa Linear e Binária](#pesquisa-linear-e-binária)  
@@ -28,6 +28,16 @@
 * Na semana zero, introduzimos a ideia de um algoritmo.  
 * Nesta semana, vamos expandir nossa compreensão dos algoritmos por meio do pseudocódigo e do próprio código.  
 * Além disso, vamos considerar a eficiência desses algoritmos. Na verdade, vamos desenvolver nossa compreensão de como usar alguns dos conceitos de ***baixo nível*** que discutimos na semana passada na construção de algoritmos.  
+
+## Revisão do Módulo Anterior
+
+Aprendemos sobre ferramentas para resolver problemas, ou bugs, em nosso código. Em particular, descobrimos como usar um depurador, uma ferramenta que nos permite percorrer lentamente nosso código e examinar os valores na memória enquanto nosso programa está em execução.
+
+Outra ferramenta poderosa, embora menos técnica, é a duck debugging (“depuração de pato de borracha”), onde tentamos explicar o que estamos tentando fazer com um pato de borracha (ou algum outro objeto) e, no processo, encontramos o problema (e esperamos, a solução!) sozinhos.
+
+Olhamos para a memória, visualizando bytes em uma grade e armazenando valores em cada caixa, ou byte, com variáveis ​​e matrizes.
+
+[Voltar ao Índice](#índice)
 
 ## Algoritmos
 
@@ -91,16 +101,6 @@ Else if 50 > doors[middle]
 ```
 
 Observe, olhando para essa aproximação de código, você quase pode imaginar como isso pode parecer no código real.
-
-[Voltar ao Índice](#índice)
-
-## Revisão do Módulo Anterior
-
-Aprendemos sobre ferramentas para resolver problemas, ou bugs, em nosso código. Em particular, descobrimos como usar um depurador, uma ferramenta que nos permite percorrer lentamente nosso código e examinar os valores na memória enquanto nosso programa está em execução.
-
-Outra ferramenta poderosa, embora menos técnica, é a duck debugging (“depuração de pato de borracha”), onde tentamos explicar o que estamos tentando fazer com um pato de borracha (ou algum outro objeto) e, no processo, encontramos o problema (e esperamos, a solução!) sozinhos.
-
-Olhamos para a memória, visualizando bytes em uma grade e armazenando valores em cada caixa, ou byte, com variáveis ​​e matrizes.
 
 [Voltar ao Índice](#índice)
 
