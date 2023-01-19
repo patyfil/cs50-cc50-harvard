@@ -31,13 +31,13 @@
 
 ## Algoritmos
 
-* Lembre-se de que na semana passada você foi apresentado à ideia de um array , blocos de memória que estão lado a lado uns com os outros.
+* Lembre-se de que na semana passada você foi apresentado à ideia de um *array* , blocos de memória que estão lado a lado uns com os outros.
 * Você pode imaginar metaforicamente uma matriz como uma série de sete armários vermelhos da seguinte forma:  
 
 ![armarios](https://user-images.githubusercontent.com/41968938/213565175-3b01f791-db20-4cd3-bfff-690a054957bc.png)
 
-* Podemos imaginar que temos um problema essencial de querer saber: “O número 50 está dentro de uma matriz?”
-* Podemos potencialmente passar nosso array para um algoritmo, onde nosso algoritmo irá procurar em nossos armários para ver se o número 50 está atrás de uma das portas: Retornando o valor true ou false.
+* Podemos imaginar que temos um problema de querer saber: “O número 50 está dentro de uma matriz?”
+* Podemos passar nosso array para um algoritmo, onde nosso algoritmo irá procurar em nossos armários para ver se o número 50 está atrás de uma das portas: Retornando o valor true ou false.
 
 ![armariosComoAlgoritmos](https://user-images.githubusercontent.com/41968938/213565203-e5f9c95f-28a3-4346-a916-c16cd4f9ef71.png)
 
@@ -50,7 +50,7 @@ For each door from left to right
 Return false
 ```
 
-Observe que as instruções acima são chamadas de pseudocódigo : uma versão legível por humanos das instruções que poderíamos fornecer ao computador.
+Observe que as instruções acima são chamadas de *pseudocódigo* : uma versão legível por humanos das instruções que poderíamos fornecer ao computador.
 
 * Um cientista da computação poderia traduzir esse pseudocódigo da seguinte maneira:
 
@@ -61,9 +61,9 @@ For i from 0 to n-1
 Return false
 ```
 
-Observe que o código acima ainda não é um código, mas é uma aproximação bastante aproximada de como o código final pode parecer.
+Observe que o código acima ainda não é um código, mas é uma forma bastante aproximada de como o código final pode parecer.
 
-* A busca binária é um algoritmo de busca que pode ser empregado em nossa tarefa de encontrar os 50.
+* A *busca binária* é um *algoritmo de busca* que pode ser empregado em nossa tarefa de encontrar os 50.
 * Supondo que os valores dentro dos armários tenham sido organizados do menor para o maior, o pseudocódigo para busca binária apareceria da seguinte forma:
 
 ```
@@ -114,7 +114,8 @@ Hoje veremos algoritmos de pesquisa. Para discuti-los, consideraremos o tempo de
 
 [Voltar ao Índice](#índice)
 
-## Big O
+## Tempo de execução
+### (Grande O)
 
 Na semana 0, vimos diferentes tipos de algoritmos e seus tempos de execução:
 
