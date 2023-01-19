@@ -14,7 +14,7 @@
 [Revisão do Módulo Anterior](#revisão-do-módulo-anterior)  
 [Busca](#busca--searching)  
 [Big O](#big-o)  
-[Pesquisa linear, pesquisa binária](#pesquisa-linear-pesquisa-binária)  
+[Pesquisa Linear e Binária](#pesquisa-linear-e-binária)  
 [Realizando a busca em código](#realizando-a-busca-em-código)  
 [Estruturas de dados](#estruturas-de-dados)  
 [Ordenação](#ordenação)  
@@ -151,7 +151,7 @@ E temos um conjunto semelhante de tempos de execução mais comuns para big Ω:
 
 [Voltar ao Índice](#índice)
 
-## Pesquisa linear, pesquisa binária
+## Pesquisa Linear e Binária
 
 No palco, temos algumas portas de mentira, com números escondidos atrás delas. Como um computador só pode olhar para um elemento de cada vez em um array, só podemos abrir uma porta de cada vez.
 
@@ -478,7 +478,8 @@ Com essa ideia em mente, podemos escrever uma função recursiva para desenhar u
 
 [Voltar ao Índice](#índice)
 
-## Merge sort
+## Merge sort  
+### (Mesclar Ordenar)  
 
 Podemos levar a ideia de recursão para classificação, com outro algoritmo chamado merge sort . O pseudocódigo pode ser semelhante a:
 
