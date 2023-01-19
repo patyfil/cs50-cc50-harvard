@@ -16,7 +16,7 @@
 [Big O](#big-o)  
 [Pesquisa linear, pesquisa binária](#pesquisa-linear-pesquisa-binária)  
 [Realizando a busca em código](#realizando-a-busca-em-código)  
-[Structs](#structs)  
+[Estruturas de dados](#estruturas-de-dados)  
 [Ordenação](#ordenação)  
 [Selection sort](#selection-sort)  
 [Bubble sort](#bubble-sort)  
@@ -220,7 +220,7 @@ Se checarmos apenas strcmp (nomes [i], "Ron") e não strcmp (nomes [i], "Ron") =
 
 [Voltar ao Índice](#índice)
 
-## Structs
+## Estruturas de dados
 
 Se quisermos implementar um programa que pesquisa uma lista telefônica, podemos querer um tipo de dado para uma “pessoa”, com seu nome e número de telefone.
 
