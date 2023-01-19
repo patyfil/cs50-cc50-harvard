@@ -132,13 +132,13 @@ Um tempo de execução logarítmico é O (log ⁡ n), não importa qual seja a b
 
 * É a forma da curva que mostra a eficiência de um algoritmo. Alguns tempos de execução comuns que podemos ver são:
 
-    * *O(n²)*  
-    * *O (n log ⁡ n)*  
-    * *O(n)*  
+    *   *O(n²)*  
+    *   *O (n log ⁡ n)*  
+    *   *O(n)*  
         * (pesquisando uma página por vez, em ordem)  
-    * *O (log ⁡ n)*  
+    *   *O (log ⁡ n)*  
         * (dividindo a lista telefônica pela metade a cada vez)  
-    * *O (1)*  
+    *   *O (1)*  
         * Um algoritmo que executa um número **constante** de etapas, independentemente do tamanho do problema.  
     Os cientistas da computação também podem usar a notação big ***Ω***, grande Omega, que é o limite inferior do número de etapas de nosso algoritmo. *Big O* é o limite superior do número de etapas ou o pior caso.  
   
