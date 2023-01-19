@@ -9,17 +9,17 @@
 
 Nesta aula, vimos sobre...
 
-[Revisão ao Módulo Anterior](#Módulo-Anterior)
-[Busca](#Busca/Searching)
-[Big O](#Big-O)
-[Pesquisa linear, pesquisa binária](#Pesquisa-linear)
-[Realizando a busca em código](#Realizando-a-busca-em-código)
-[Structs](#Structs)
-[Ordenação](#Ordenação)
-[Selection sort](#Selection-sort)
-[Bubble sort](#Bubble-sort)
-[Recursão](#Recursão)
-[Merge sort](#Merge-sort)
+[Revisão ao Módulo Anterior](#Módulo-Anterior)  
+[Busca](#Busca/Searching)  
+[Big O](#Big-O)  
+[Pesquisa linear, pesquisa binária](#Pesquisa-linear)  
+[Realizando a busca em código](#Realizando-a-busca-em-código)  
+[Structs](#Structs)  
+[Ordenação](#Ordenação)  
+[Selection sort](#Selection-sort)  
+[Bubble sort](#Bubble-sort)  
+[Recursão](#Recursão)  
+[Merge sort](#Merge-sort)  
 
 # Módulo Anterior
 
