@@ -255,7 +255,7 @@ Observe que o número de Carter começa com `+1-617` e o número de telefone de 
 * Embora esse código funcione, existem inúmeras ineficiências. De fato, há uma chance de que os nomes e números das pessoas não correspondam. Não seria legal se pudéssemos criar nosso próprio tipo de dados onde pudéssemos associar uma pessoa ao número de telefone?
 
 
-## Fundação Estudar  
+## Pesquisa Linear e Binária (Fundação Estudar)  
 
 No palco, temos algumas portas de mentira, com números escondidos atrás delas. Como um computador só pode olhar para um elemento de cada vez em um array, só podemos abrir uma porta de cada vez.
 
@@ -299,7 +299,7 @@ Desligamos as lâmpadas na frequência de um **hertz**, ou ciclo por segundo, e 
 
 ## Realizando a busca em código
 
-Vamos dar uma olhada em numbers.c :
+Vamos dar uma olhada em `numbers.c`:
 
 ```
 #include <cs50.h>
@@ -321,14 +321,19 @@ int main(void)
 }
 ```
 
-Aqui, inicializamos uma matriz com alguns valores entre chaves e verificamos os itens na matriz, um de cada vez, para ver se eles são iguais a zero (o que estávamos originalmente procurando atrás das portas no palco).
-Se encontrarmos o valor zero, retornamos um código de saída 0 (para indicar sucesso). Caso contrário, após nosso loop for, retornamos 1 (para indicar falha).
+* Aqui, inicializamos uma matriz com alguns valores entre chaves e verificamos os itens na matriz, um de cada vez, para ver se eles são iguais a zero (o que estávamos originalmente procurando atrás das portas no palco).
+* Se encontrarmos o valor zero, retornamos um código de saída 0 (para indicar sucesso). Caso contrário, após nosso loop for, retornamos 1 (para indicar falha).  
+
 Podemos fazer o mesmo com os nomes:
 
+```
 · #include · #include · #include · · int main(void) · { · string names[] = {"Bill", "Charlie", "Fred", "George", "Ginny", "Percy", "Ron"}; · · for (int i = 0; i < 7; i++) · { · if (strcmp(names[i], "Ron") == 0) · { · printf("Found\n"); · return 0; · } · } · printf("Not found\n"); · return 1; · }
-Observe que os names é uma matriz ordenada de strings.
-Não podemos comparar strings diretamente em C, uma vez que não são um tipo de dados simples, mas sim um array de muitos caracteres. Felizmente, a biblioteca de string tem uma função strcmp (“string compare”) que compara strings para nós, um caractere por vez, e retorna 0 se forem iguais.
-Se checarmos apenas strcmp (nomes [i], "Ron") e não strcmp (nomes [i], "Ron") == 0 , então imprimiremos Encontrado mesmo se o nome não for encontrado. Isso ocorre porque strcmp retorna um valor que não é 0 se duas strings não corresponderem, e qualquer valor diferente de zero é equivalente a verdadeiro em uma condição.
+```
+
+* Observe que os **names** é uma matriz ordenada de strings.  
+* Não podemos comparar strings diretamente em C, uma vez que não são um tipo de dados simples, mas sim um array de muitos caracteres. Felizmente, a biblioteca de **string** tem uma função **strcmp** (“string compare”) que compara strings para nós, um caractere por vez, e retorna 0 se forem iguais.  
+* Se checarmos apenas strcmp (nomes [i], "Ron") e não strcmp (nomes [i], "Ron") == 0, então imprimiremos Encontrado mesmo se o nome não for encontrado. Isso ocorre porque strcmp retorna um valor que não é 0 se duas strings não corresponderem, e qualquer valor diferente de zero é equivalente a verdadeiro em uma condição.  
+
 
 [Voltar ao Índice](#índice)
 
