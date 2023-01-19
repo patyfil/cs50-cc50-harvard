@@ -144,11 +144,11 @@ Os cientistas da computação também podem usar a notação big ***Ω***, grand
   
 E temos um conjunto semelhante de tempos de execução mais comuns para big Ω:  
 
-*Ω (n²)*  
-*Ω (nlog ⁡ n)*  
-*Ω (n)*  
-*Ω (log ⁡ n)*  
-*Ω (1)*  
+* *Ω (n²)*  
+* *Ω (nlog ⁡ n)*  
+* *Ω (n)*  
+* *Ω (log ⁡ n)*  
+* *Ω (1)*  
     * (pesquisar em uma lista telefônica, pois podemos encontrar nosso nome na primeira página que verificarmos)
 
 [Voltar ao Índice](#índice)
