@@ -11,7 +11,7 @@
 
 Nesta aula, vimos sobre...
 
-[Bem-vindo!](#bem-vindo)
+[Bem-vindo!](#bem-vindo)  
 [Revisão do Módulo Anterior](#revisão-do-módulo-anterior)  
 [Busca](#busca--searching)  
 [Big O](#big-o)  
