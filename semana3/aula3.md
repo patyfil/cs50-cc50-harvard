@@ -7,6 +7,8 @@
 
 # Anotações da Aula 3
 
+# Índice  
+
 Nesta aula, vimos sobre...
 
 [Revisão do Módulo Anterior](#revisão-do-módulo-anterior)  
@@ -30,6 +32,8 @@ Outra ferramenta poderosa, embora menos técnica, é a duck debugging (“depura
 
 Olhamos para a memória, visualizando bytes em uma grade e armazenando valores em cada caixa, ou byte, com variáveis ​​e matrizes.
 
+[Voltar ao Índice](#índice)
+
 ## Busca / Searching
 
 Acontece que, com matrizes, um computador não pode olhar para todos os elementos de uma vez. Em vez disso, um computador só pode olhar para eles um de cada vez, embora a ordem possa ser arbitrária. (Lembre-se de que, na semana 0, David só conseguia olhar uma página de cada vez na lista telefônica, quer folheasse em ordem ou de maneira mais sofisticada.)
@@ -37,6 +41,8 @@ Acontece que, com matrizes, um computador não pode olhar para todos os elemento
 Searching (“busca”) é como resolvemos o problema de encontrar um valor específico. Um caso simples pode ter como input algum array de valores, e a saída pode ser simplesmente um bool, esteja ou não um determinado valor no array.
 
 Hoje veremos algoritmos de pesquisa. Para discuti-los, consideraremos o tempo de execução, ou quanto tempo um algoritmo leva para ser executado dado algum tamanho de input.
+
+[Voltar ao Índice](#índice)
 
 ## Big O
 
@@ -73,6 +79,8 @@ E temos um conjunto semelhante de tempos de execução mais comuns para big Ω:
 Ω (1)
 (pesquisar em uma lista telefônica, pois podemos encontrar nosso nome na primeira página que verificarmos)
 
+[Voltar ao Índice](#índice)
+
 ## Pesquisa linear, pesquisa binária
 
 No palco, temos algumas portas de mentira, com números escondidos atrás delas. Como um computador só pode olhar para um elemento de cada vez em um array, só podemos abrir uma porta de cada vez.
@@ -104,6 +112,8 @@ O limite superior da pesquisa binária é O(log ⁡ n), e o limite inferior tamb
 Com 64 lâmpadas, notamos que a pesquisa linear leva muito mais tempo do que a pesquisa binária, que leva apenas alguns passos.
 
 Desligamos as lâmpadas na frequência de um hertz, ou ciclo por segundo, e a velocidade de um processador pode ser medida em gigahertz, ou bilhões de operações por segundo.
+
+[Voltar ao Índice](#índice)
 
 ## Realizando a busca em código
 
@@ -137,6 +147,8 @@ Podemos fazer o mesmo com os nomes:
 Observe que os names é uma matriz ordenada de strings.
 Não podemos comparar strings diretamente em C, uma vez que não são um tipo de dados simples, mas sim um array de muitos caracteres. Felizmente, a biblioteca de string tem uma função strcmp (“string compare”) que compara strings para nós, um caractere por vez, e retorna 0 se forem iguais.
 Se checarmos apenas strcmp (nomes [i], "Ron") e não strcmp (nomes [i], "Ron") == 0 , então imprimiremos Encontrado mesmo se o nome não for encontrado. Isso ocorre porque strcmp retorna um valor que não é 0 se duas strings não corresponderem, e qualquer valor diferente de zero é equivalente a verdadeiro em uma condição.
+
+[Voltar ao Índice](#índice)
 
 ## Structs
 
@@ -217,11 +229,15 @@ Em nosso loop, agora podemos ter mais certeza de que o number(número) correspon
 Também podemos melhorar o design do nosso programa com uma constante, como const int NUMBER = 10; , e armazenar nossos valores não em nosso código, mas em um arquivo separado ou mesmo em um banco de dados, que veremos em breve.
 Em breve, também escreveremos nossos próprios arquivos de cabeçalho com definições para structs, para que possam ser compartilhados entre diferentes arquivos para nosso programa.
 
+[Voltar ao Índice](#índice)
+
 ## Ordenação
 
 Se nossa entrada for uma lista não ordenada de números, existem muitos algoritmos que podemos usar para produzir um output de uma lista classificada, onde todos os elementos estão em ordem.
 
 Com uma lista classificada, podemos usar a pesquisa binária para eficiência, mas pode levar mais tempo para escrever um algoritmo de classificação para essa eficiência, então às vezes encontraremos a compensação de tempo que leva para um ser humano escrever um programa em comparação com o tempo é preciso um computador para executar algum algoritmo. Outras compensações que veremos podem ser tempo e complexidade ou uso de tempo e memória.
+
+[Voltar ao Índice](#índice)
 
 ## Selection Sort
 
@@ -265,6 +281,8 @@ n² / 2 + n / 2
 O(n²)
 
 Como n² é o maior, ou dominante, fator, podemos dizer que o algoritmo tem um tempo de execução de O(n²).
+
+[Voltar ao Índice](#índice)
 
 ## Bubble sort
 
@@ -338,6 +356,8 @@ bubble sort
 Ω(1)
 pesquisa linear, pesquisa binária
 
+[Voltar ao Índice](#índice)
+
 ## Recursão
 
 Recursão é a capacidade de uma função chamar a si mesma. Ainda não vimos isso no código, mas vimos algo em pseudocódigo na semana 0 que podemos converter:
@@ -385,6 +405,8 @@ Na semana 1, também implementamos uma "pirâmide" de blocos na seguinte forma:
 Mas observe que uma pirâmide de altura 4 é na verdade uma pirâmide de altura 3, com uma linha extra de 4 blocos adicionados. E uma pirâmide de altura 3 é uma pirâmide de altura 2, com uma linha extra de 3 blocos. Uma pirâmide de altura 2 é uma pirâmide de altura 1, com uma linha extra de 2 blocos. E, finalmente, uma pirâmide de altura 1 é apenas um único bloco.
 
 Com essa ideia em mente, podemos escrever uma função recursiva para desenhar uma pirâmide, uma função que se chama para desenhar uma pirâmide menor antes de adicionar outra linha.
+
+[Voltar ao Índice](#índice)
 
 ## Merge sort
 
@@ -516,6 +538,7 @@ Vemos uma visualização final dos algoritmos de classificação com um número 
 
 E aí, gostou das notas da aula?
 
+[Voltar ao Índice](#índice)
 
 <p align="right">
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
