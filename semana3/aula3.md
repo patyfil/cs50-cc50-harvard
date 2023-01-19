@@ -11,6 +11,7 @@
 
 Nesta aula, vimos sobre...
 
+[Bem-vindo!](#bem-vindo)
 [Revisão do Módulo Anterior](#revisão-do-módulo-anterior)  
 [Busca](#busca--searching)  
 [Big O](#big-o)  
@@ -23,6 +24,77 @@ Nesta aula, vimos sobre...
 [Recursão](#recursão)  
 [Merge sort](#merge-sort)  
 
+## Bem-vindo!
+
+* Na semana zero, introduzimos a ideia de um algoritmo.  
+* Nesta semana, vamos expandir nossa compreensão dos algoritmos por meio do pseudocódigo e do próprio código.  
+* Além disso, vamos considerar a eficiência desses algoritmos. Na verdade, vamos desenvolver nossa compreensão de como usar alguns dos conceitos de nível inferior que discutimos na semana passada na construção de algoritmos.  
+
+## Algoritmos
+
+* Lembre-se de que na semana passada você foi apresentado à ideia de um array , blocos de memória que estão lado a lado uns com os outros.
+* Você pode imaginar metaforicamente uma matriz como uma série de sete armários vermelhos da seguinte forma:  
+
+01
+
+* Podemos imaginar que temos um problema essencial de querer saber: “O número 50 está dentro de uma matriz?”
+* Podemos potencialmente passar nosso array para um algoritmo, onde nosso algoritmo irá procurar em nossos armários para ver se o número 50 está atrás de uma das portas: Retornando o valor true ou false.
+
+02
+
+
+* Podemos imaginar várias instruções que podemos fornecer ao nosso algoritmo para realizar essa tarefa da seguinte maneira:
+
+```
+For each door from left to right
+    If 50 is behind door
+        Return true
+Return false
+```
+
+Observe que as instruções acima são chamadas de pseudocódigo : uma versão legível por humanos das instruções que poderíamos fornecer ao computador.
+
+* Um cientista da computação poderia traduzir esse pseudocódigo da seguinte maneira:
+
+```
+For i from 0 to n-1
+    If 50 is behind doors[i]
+        Return true
+Return false
+```
+
+Observe que o código acima ainda não é um código, mas é uma aproximação bastante aproximada de como o código final pode parecer.
+
+* A busca binária é um algoritmo de busca que pode ser empregado em nossa tarefa de encontrar os 50.
+* Supondo que os valores dentro dos armários tenham sido organizados do menor para o maior, o pseudocódigo para busca binária apareceria da seguinte forma:
+
+```
+If there are no doors
+    Return false
+If 50 is behind middle door
+    Return true
+Else if 50 < middle door
+    Search left half
+Else if 50 > middle door
+    Search right half
+```
+
+* Usando a nomenclatura do código, podemos modificar ainda mais nosso algoritmo da seguinte maneira:
+
+```
+If no doors
+    Return false
+If 50 is behind doors[middle]
+    Return true
+Else if 50 < doors[middle]
+    Search doors[0] through doors[middle-1]
+Else if 50 > doors[middle]
+    Search doors[middle+1] through doors[n-1]
+```
+
+Observe, olhando para essa aproximação de código, você quase pode imaginar como isso pode parecer no código real.
+
+[Voltar ao Índice](#índice)
 
 ## Revisão do Módulo Anterior
 
