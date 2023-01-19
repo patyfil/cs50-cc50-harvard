@@ -27,7 +27,7 @@
 
 * Na semana zero, introduzimos a ideia de um algoritmo.  
 * Nesta semana, vamos expandir nossa compreensão dos algoritmos por meio do pseudocódigo e do próprio código.  
-* Além disso, vamos considerar a eficiência desses algoritmos. Na verdade, vamos desenvolver nossa compreensão de como usar alguns dos conceitos de ***nível baixo*** que discutimos na semana passada na construção de algoritmos.  
+* Além disso, vamos considerar a eficiência desses algoritmos. Na verdade, vamos desenvolver nossa compreensão de como usar alguns dos conceitos de ***baixo nível*** que discutimos na semana passada na construção de algoritmos.  
 
 ## Algoritmos
 
