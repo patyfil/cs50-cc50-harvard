@@ -222,7 +222,7 @@ Se nossa entrada for uma lista não ordenada de números, existem muitos algorit
 
 Com uma lista classificada, podemos usar a pesquisa binária para eficiência, mas pode levar mais tempo para escrever um algoritmo de classificação para essa eficiência, então às vezes encontraremos a compensação de tempo que leva para um ser humano escrever um programa em comparação com o tempo é preciso um computador para executar algum algoritmo. Outras compensações que veremos podem ser tempo e complexidade ou uso de tempo e memória.
 
-## Selection Sort/Ordenação de seleção
+## Selection Sort
 
 Brian está nos bastidores com um conjunto de números em uma prateleira, em ordem não classificada:
 
