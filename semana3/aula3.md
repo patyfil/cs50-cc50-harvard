@@ -33,13 +33,12 @@
 * Lembre-se de que na semana passada você foi apresentado à ideia de um array , blocos de memória que estão lado a lado uns com os outros.
 * Você pode imaginar metaforicamente uma matriz como uma série de sete armários vermelhos da seguinte forma:  
 
-01
+![armarios](https://user-images.githubusercontent.com/41968938/213565175-3b01f791-db20-4cd3-bfff-690a054957bc.png)
 
 * Podemos imaginar que temos um problema essencial de querer saber: “O número 50 está dentro de uma matriz?”
 * Podemos potencialmente passar nosso array para um algoritmo, onde nosso algoritmo irá procurar em nossos armários para ver se o número 50 está atrás de uma das portas: Retornando o valor true ou false.
 
-02
-
+![armariosComoAlgoritmos](https://user-images.githubusercontent.com/41968938/213565203-e5f9c95f-28a3-4346-a916-c16cd4f9ef71.png)
 
 * Podemos imaginar várias instruções que podemos fornecer ao nosso algoritmo para realizar essa tarefa da seguinte maneira:
 
@@ -118,7 +117,7 @@ Hoje veremos algoritmos de pesquisa. Para discuti-los, consideraremos o tempo de
 
 Na semana 0, vimos diferentes tipos de algoritmos e seus tempos de execução:
 
-Gráfico
+![tempoDeExecucao](https://user-images.githubusercontent.com/41968938/213565268-c8c00ea2-fac3-43ef-874d-6390f6fc18f2.png)
 
 Lembre-se de que a linha vermelha está pesquisando linearmente, uma página por vez; a linha amarela está pesquisando duas páginas por vez; e a linha verde está pesquisando logaritmicamente, dividindo o problema pela metade a cada vez.
 
