@@ -162,6 +162,32 @@ E temos um conjunto semelhante de tempos de execução mais comuns para big Ω:
 
 ## Pesquisa Linear e Binária
 
+* Você mesmo pode implementar a pesquisa linear digitando `code search.c` na janela do terminal e escrevendo o código da seguinte forma:  
+
+```
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    // An array of integers
+    int numbers[] = {20, 500, 10, 5, 100, 1, 50};
+
+    // Search for number
+    int n = get_int("Number: ");
+    for (int i = 0; i < 7; i++)
+    {
+        if (numbers[i] == n)
+        {
+            printf("Found\n");
+            return 0;
+        }
+    }
+    printf("Not found\n");
+    return 1;
+}
+```
+
 No palco, temos algumas portas de mentira, com números escondidos atrás delas. Como um computador só pode olhar para um elemento de cada vez em um array, só podemos abrir uma porta de cada vez.
 
 Se quisermos procurar o número zero, por exemplo, teríamos que abrir uma porta por vez, e se não soubéssemos nada sobre os números atrás das portas, o algoritmo mais simples seria ir da esquerda para a direita.
