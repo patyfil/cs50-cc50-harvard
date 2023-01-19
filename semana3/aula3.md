@@ -9,7 +9,7 @@
 
 Nesta aula, vimos sobre...
 
-[Revisão ao Módulo Anterior](#Módulo-Anterior)  
+[Revisão do Módulo Anterior](#Revisão-do-Módulo-Anterior)  
 [Busca](#Busca--Searching)  
 [Big O](#Big-O)  
 [Pesquisa linear, pesquisa binária](#Pesquisa-linear-pesquisa-binária)  
@@ -21,7 +21,7 @@ Nesta aula, vimos sobre...
 [Recursão](#Recursão)  
 [Merge sort](#Merge-sort)  
 
-## Módulo Anterior
+## Revisão do Módulo Anterior
 
 Aprendemos sobre ferramentas para resolver problemas, ou bugs, em nosso código. Em particular, descobrimos como usar um depurador, uma ferramenta que nos permite percorrer lentamente nosso código e examinar os valores na memória enquanto nosso programa está em execução.
 
