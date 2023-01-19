@@ -3,6 +3,7 @@
 </p>
 
 # Week 3's (Módulo 3 - Algoritmos)  
+# [Anotações da Aula 3](semana3/aula3.md)
 # Videoaulas - Algoritmos  
 
 <p>OBS: Habilitar legendas</p>
