@@ -10,6 +10,7 @@
 # Índice  
 
 [Bem-vindo!](#bem-vindo)  
+[Algoritmos](#algoritmos)
 [Revisão do Módulo Anterior](#revisão-do-módulo-anterior)  
 [Busca](#busca--searching)  
 [Big O](#big-o)  
