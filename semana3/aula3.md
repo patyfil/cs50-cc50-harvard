@@ -24,11 +24,8 @@ Nesta aula, vimos sobre...
 [Ordenação](#ordenação)
 
 [Selection sort](#selection-sort)
-
 [Bubble sort](#bubble-sort)
-
 [Recursão](#recursão)
-
 [Merge sort](#merge-sort)
 
 
