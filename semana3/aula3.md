@@ -117,7 +117,8 @@ Hoje veremos algoritmos de pesquisa. Para discuti-los, consideraremos o tempo de
 ## Tempo de execução
 ### (Grande O)
 
-Na semana 0, vimos diferentes tipos de algoritmos e seus tempos de execução:
+Na semana 0, vimos diferentes tipos de algoritmos e seus tempos de execução
+* *tempo de execução* envolve uma análise usando a notação *O grande*. Dê uma olhada no gráfico a seguir:
 
 ![tempoDeExecucao](https://user-images.githubusercontent.com/41968938/213565268-c8c00ea2-fac3-43ef-874d-6390f6fc18f2.png)
 
@@ -131,23 +132,23 @@ Um tempo de execução logarítmico é O (log ⁡ n), não importa qual seja a b
 
 Existem alguns tempos de execução comuns:
 
-O(n²)
-O (n log ⁡ n)
-O(n)
-(pesquisando uma página por vez, em ordem)
-O (log ⁡ n)
-(dividindo a lista telefônica pela metade a cada vez)
-O (1)
-Um algoritmo que executa um número constante de etapas, independentemente do tamanho do problema.
-Os cientistas da computação também podem usar a notação big Ω, grande Omega, que é o limite inferior do número de etapas de nosso algoritmo. Big O é o limite superior do número de etapas ou o pior caso.
+* O(n²)  
+* O (n log ⁡ n)  
+* O(n)  
+(pesquisando uma página por vez, em ordem)  
+* O (log ⁡ n)  
+(dividindo a lista telefônica pela metade a cada vez)  
+* O (1)  
+Um algoritmo que executa um número constante de etapas, independentemente do tamanho do problema.  
+Os cientistas da computação também podem usar a notação big Ω, grande Omega, que é o limite inferior do número de etapas de nosso algoritmo. Big O é o limite superior do número de etapas ou o pior caso.  
+  
+E temos um conjunto semelhante de tempos de execução mais comuns para big Ω:  
 
-E temos um conjunto semelhante de tempos de execução mais comuns para big Ω:
-
-Ω (n²)
-Ω (nlog ⁡ n)
-Ω (n)
-Ω (log ⁡ n)
-Ω (1)
+Ω (n²)  
+Ω (nlog ⁡ n)  
+Ω (n)  
+Ω (log ⁡ n)  
+Ω (1)  
 (pesquisar em uma lista telefônica, pois podemos encontrar nosso nome na primeira página que verificarmos)
 
 [Voltar ao Índice](#índice)
