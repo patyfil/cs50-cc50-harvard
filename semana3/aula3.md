@@ -12,7 +12,7 @@ Nesta aula, vimos sobre...
 [Revisão ao Módulo Anterior](#Módulo-Anterior)  
 [Busca](#Busca--Searching)  
 [Big O](#Big-O)  
-[Pesquisa linear, pesquisa binária](#Pesquisa-linear,-pesquisa-binária)  
+[Pesquisa linear, pesquisa binária](#Pesquisa-linear--pesquisa-binária)  
 [Realizando a busca em código](#Realizando-a-busca-em-código)  
 [Structs](#Structs)  
 [Ordenação](#Ordenação)  
