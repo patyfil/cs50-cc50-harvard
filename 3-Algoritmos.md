@@ -7,9 +7,11 @@
 
 <p>OBS: Habilitar legendas</p>
 
-## <img src="assets/youtube.svg" width=20 /> [Videoaula 1 - CC50: Módulo 3 - Algoritmos](https://www.youtube.com/watch?v=oBOTNWx0EzY) (Link da Fundação Estudar na Prática)  
+## <img src="assets/youtube.svg" width=20 /> [Videoaula 1 - CC50: Módulo 3 - Algoritmos](https://youtu.be/oBOTNWx0EzY) (Link da Fundação Estudar na Prática)  
 
-## <img src="assets/youtube.svg" width=20 /> [Videoaula 1 - CS50 2021 in HDR - Lecture 3 - Algorithms](https://www.youtube.com/watch?v=yb0PY3LX2x8&t=2s) (Link da Harvard)  
+## <img src="assets/youtube.svg" width=20 /> [Videoaula 1 - CS50 2021 in HDR - Lecture 3 - Algorithms](https://youtu.be/yb0PY3LX2x8) (Link da Harvard)  
+
+## <img src="assets/youtube.svg" width=20 /> [Videoaula 1 - CS50 2022 - Lecture 3 - Algorithms](https://youtu.be/SXujiYWM9l8) (Link da Harvard)  
 
 ## <img src="assets/youtube.svg" width=20 /> [Videoaula 2 - Linear Search - CS50 Shorts](https://www.youtube.com/watch?v=TwsgCHYmbbA&t=4s)  
 
