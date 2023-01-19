@@ -1,3 +1,10 @@
+<p align="right">
+   <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
+</p>
+<p align="right">
+   <a href="https://patyfil.github.io/cs50-cc50-harvard/3-Algoritmos.html">Voltar ao Índice da Semana 3</a>
+</p>
+
 # Anotações da Aula 3
 
 Nesta aula, vimos sobre...
@@ -507,3 +514,11 @@ merge sort
 Vemos uma visualização final dos algoritmos de classificação com um número maior de inputs, em execução ao mesmo tempo.
 
 E aí, gostou das notas da aula?
+
+
+<p align="right">
+   <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
+</p>
+<p align="right">
+   <a href="https://patyfil.github.io/cs50-cc50-harvard/3-Algoritmos.html">Voltar ao Índice da Semana 3</a>
+</p>
