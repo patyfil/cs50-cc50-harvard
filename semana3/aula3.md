@@ -188,35 +188,112 @@ int main(void)
 }
 ```
 
+Observe que a linha que começa com `int numbers[]` nos permite definir os valores de cada elemento do array à medida que o criamos. Então, no `for` loop, temos uma implementação de busca linear.
+
+* Agora implementamos a pesquisa linear em C!
+* E se quiséssemos procurar uma string dentro de um array? Modifique seu código da seguinte maneira:
+
+```
+#include <cs50.h>
+#include <stdio.h>
+#include <string.h>
+
+int main(void)
+{
+    // An array of strings
+    string strings[] = {"battleship", "boot", "cannon", "iron", "thimble", "top hat"};
+
+    // Search for string
+    string s = get_string("String: ");
+    for (int i = 0; i < 6; i++)
+    {
+        if (strcmp(strings[i], s) == 0)
+        {
+            printf("Found\n");
+            return 0;
+        }
+    }
+    printf("Not found\n");
+    return 1;
+}
+```
+
+Observe que não podemos utilizar `==` como em nossa iteração anterior deste programa. Em vez disso, temos que usar `strcmp`, que vem da `string.h` biblioteca.
+
+De fato, a execução desse código nos permite iterar sobre esse array de strings para ver se uma determinada string estava dentro dele. No entanto, se você vir uma `falha de segmentação`, em que uma parte da memória foi tocada por seu programa à qual não deveria ter acesso, certifique-se `i < 6` de anotar acima em vez de `i < 7`.
+
+Podemos combinar essas ideias de números e strings em um único programa. Digite `code phonebook.c` na janela do terminal e escreva o código da seguinte forma:
+
+```
+#include <cs50.h>
+#include <stdio.h>
+#include <string.h>
+
+int main(void)
+{
+    // Arrays of strings
+    string names[] = {"Carter", "David"};
+    string numbers[] = {"+1-617-495-1000", "+1-949-468-2750"};
+
+    // Search for name
+    string name = get_string("Name: ");
+    for (int i = 0; i < 2; i++)
+    {
+        if (strcmp(names[i], name) == 0)
+        {
+            printf("Found %s\n", numbers[i]);
+            return 0;
+        }
+    }
+    printf("Not found\n");
+    return 1;
+}
+```
+
+Observe que o número de Carter começa com `+1-617` e o número de telefone de David começa com '1-949'. Portanto, `names[0]` é Carter e `numbers[0]` é o número de Carter.  
+
+* Embora esse código funcione, existem inúmeras ineficiências. De fato, há uma chance de que os nomes e números das pessoas não correspondam. Não seria legal se pudéssemos criar nosso próprio tipo de dados onde pudéssemos associar uma pessoa ao número de telefone?
+
+
+## Fundação Estudar  
+
 No palco, temos algumas portas de mentira, com números escondidos atrás delas. Como um computador só pode olhar para um elemento de cada vez em um array, só podemos abrir uma porta de cada vez.
 
 Se quisermos procurar o número zero, por exemplo, teríamos que abrir uma porta por vez, e se não soubéssemos nada sobre os números atrás das portas, o algoritmo mais simples seria ir da esquerda para a direita.
 
-Então, podemos escrever pseudocódigo para busca linear com:
+Então, podemos escrever pseudocódigo para `busca linear` com:
 
+```
 For i from 0 to n–1
-If number behind i'th door
-Return true
+    If number behind i'th door
+        Return true
 Return false
-Rotulamos cada uma das n portas de 0 a n – 1 e verificamos cada uma delas em ordem.
-“Return false” está fora do for loop, já que só queremos fazer isso depois de olharmos por trás de todas as portas.
-O big O para este algoritmo seria O(n), e o limite inferior, big Ω, seria Ω(1).
+```
+
+* Rotulamos cada uma das `n` portas de 0 a `n – 1` e verificamos cada uma delas em ordem.  
+* “Return false” está fora do for loop, já que só queremos fazer isso depois de olharmos por trás de todas as portas.  
+* O `big O` para este algoritmo seria *O(n)*, e o limite inferior, `big Ω`, seria *Ω(1)*.  
+
 Se soubermos que os números atrás das portas estão classificados, podemos começar pelo meio e encontrar nosso valor com mais eficiência.
 
 Para busca binária, nosso algoritmo pode ser semelhante a:
 
+```
 If no doors
-Return false
+    Return false
 If number behind middle door
-Return true
+    Return true
 Else if number < middle door
-Search left half
+    Search left half
 Else if number > middle door
-Search right half
-O limite superior da pesquisa binária é O(log ⁡ n), e o limite inferior também Ω(1), se o número que procuramos estiver no meio, onde começamos.
-Com 64 lâmpadas, notamos que a pesquisa linear leva muito mais tempo do que a pesquisa binária, que leva apenas alguns passos.
+    Search right half
+```
 
-Desligamos as lâmpadas na frequência de um hertz, ou ciclo por segundo, e a velocidade de um processador pode ser medida em gigahertz, ou bilhões de operações por segundo.
+* O limite superior da pesquisa binária é `O(log ⁡ n)`, e o limite inferior também `Ω(1)`, se o número que procuramos estiver no meio, onde começamos.  
+
+Com 64 lâmpadas, notamos que a pesquisa linear leva muito mais tempo do que a pesquisa binária, que leva apenas alguns passos.  
+
+Desligamos as lâmpadas na frequência de um **hertz**, ou ciclo por segundo, e a velocidade de um processador pode ser medida em gigahertz, ou bilhões de operações por segundo.
 
 [Voltar ao Índice](#índice)
 
