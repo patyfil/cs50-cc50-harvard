@@ -21,7 +21,7 @@ Nesta aula, vimos sobre...
 [Recursão](#Recursão)  
 [Merge sort](#Merge-sort)  
 
-# Módulo Anterior
+## Módulo Anterior
 
 Aprendemos sobre ferramentas para resolver problemas, ou bugs, em nosso código. Em particular, descobrimos como usar um depurador, uma ferramenta que nos permite percorrer lentamente nosso código e examinar os valores na memória enquanto nosso programa está em execução.
 
@@ -29,7 +29,7 @@ Outra ferramenta poderosa, embora menos técnica, é a duck debugging (“depura
 
 Olhamos para a memória, visualizando bytes em uma grade e armazenando valores em cada caixa, ou byte, com variáveis ​​e matrizes.
 
-# Busca / Searching
+## Busca / Searching
 
 Acontece que, com matrizes, um computador não pode olhar para todos os elementos de uma vez. Em vez disso, um computador só pode olhar para eles um de cada vez, embora a ordem possa ser arbitrária. (Lembre-se de que, na semana 0, David só conseguia olhar uma página de cada vez na lista telefônica, quer folheasse em ordem ou de maneira mais sofisticada.)
 
@@ -37,7 +37,7 @@ Searching (“busca”) é como resolvemos o problema de encontrar um valor espe
 
 Hoje veremos algoritmos de pesquisa. Para discuti-los, consideraremos o tempo de execução, ou quanto tempo um algoritmo leva para ser executado dado algum tamanho de input.
 
-# Big O
+## Big O
 
 Na semana 0, vimos diferentes tipos de algoritmos e seus tempos de execução:
 
@@ -72,7 +72,7 @@ E temos um conjunto semelhante de tempos de execução mais comuns para big Ω:
 Ω (1)
 (pesquisar em uma lista telefônica, pois podemos encontrar nosso nome na primeira página que verificarmos)
 
-# Pesquisa linear, pesquisa binária
+## Pesquisa linear, pesquisa binária
 
 No palco, temos algumas portas de mentira, com números escondidos atrás delas. Como um computador só pode olhar para um elemento de cada vez em um array, só podemos abrir uma porta de cada vez.
 
@@ -104,7 +104,7 @@ Com 64 lâmpadas, notamos que a pesquisa linear leva muito mais tempo do que a p
 
 Desligamos as lâmpadas na frequência de um hertz, ou ciclo por segundo, e a velocidade de um processador pode ser medida em gigahertz, ou bilhões de operações por segundo.
 
-# Realizando a busca em código
+## Realizando a busca em código
 
 Vamos dar uma olhada em numbers.c :
 
@@ -137,7 +137,7 @@ Observe que os names é uma matriz ordenada de strings.
 Não podemos comparar strings diretamente em C, uma vez que não são um tipo de dados simples, mas sim um array de muitos caracteres. Felizmente, a biblioteca de string tem uma função strcmp (“string compare”) que compara strings para nós, um caractere por vez, e retorna 0 se forem iguais.
 Se checarmos apenas strcmp (nomes [i], "Ron") e não strcmp (nomes [i], "Ron") == 0 , então imprimiremos Encontrado mesmo se o nome não for encontrado. Isso ocorre porque strcmp retorna um valor que não é 0 se duas strings não corresponderem, e qualquer valor diferente de zero é equivalente a verdadeiro em uma condição.
 
-# Structs
+## Structs
 
 Se quisermos implementar um programa que pesquisa uma lista telefônica, podemos querer um tipo de dado para uma “pessoa”, com seu nome e número de telefone.
 
@@ -216,7 +216,7 @@ Em nosso loop, agora podemos ter mais certeza de que o number(número) correspon
 Também podemos melhorar o design do nosso programa com uma constante, como const int NUMBER = 10; , e armazenar nossos valores não em nosso código, mas em um arquivo separado ou mesmo em um banco de dados, que veremos em breve.
 Em breve, também escreveremos nossos próprios arquivos de cabeçalho com definições para structs, para que possam ser compartilhados entre diferentes arquivos para nosso programa.
 
-# Ordenação
+## Ordenação
 
 Se nossa entrada for uma lista não ordenada de números, existem muitos algoritmos que podemos usar para produzir um output de uma lista classificada, onde todos os elementos estão em ordem.
 
@@ -265,7 +265,7 @@ O(n²)
 
 Como n² é o maior, ou dominante, fator, podemos dizer que o algoritmo tem um tempo de execução de O(n²).
 
-# Bubble sort
+## Bubble sort
 
 Podemos tentar um algoritmo diferente, em que trocamos pares de números repetidamente, chamado de bubble sort.
 
@@ -337,7 +337,7 @@ bubble sort
 Ω(1)
 pesquisa linear, pesquisa binária
 
-# Recursão
+## Recursão
 
 Recursão é a capacidade de uma função chamar a si mesma. Ainda não vimos isso no código, mas vimos algo em pseudocódigo na semana 0 que podemos converter:
 
@@ -385,7 +385,7 @@ Mas observe que uma pirâmide de altura 4 é na verdade uma pirâmide de altura 
 
 Com essa ideia em mente, podemos escrever uma função recursiva para desenhar uma pirâmide, uma função que se chama para desenhar uma pirâmide menor antes de adicionar outra linha.
 
-# Merge sort
+## Merge sort
 
 Podemos levar a ideia de recursão para classificação, com outro algoritmo chamado merge sort . O pseudocódigo pode ser semelhante a:
 
