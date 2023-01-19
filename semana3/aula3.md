@@ -13,7 +13,7 @@
 [Revisão do Módulo Anterior](#revisão-do-módulo-anterior)  
 [Algoritmos](#algoritmos)  
 [Busca](#busca--searching)  
-[Big O](#big-o)  
+[Tempo de execução](#tempo-de-execução)  
 [Pesquisa Linear e Binária](#pesquisa-linear-e-binária)  
 [Realizando a busca em código](#realizando-a-busca-em-código)  
 [Estruturas de dados](#estruturas-de-dados)  
