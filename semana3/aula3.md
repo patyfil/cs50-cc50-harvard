@@ -142,6 +142,13 @@ Um tempo de execução logarítmico é O (log ⁡ n), não importa qual seja a b
         * Um algoritmo que executa um número **constante** de etapas, independentemente do tamanho do problema.  
     Os cientistas da computação também podem usar a notação big ***Ω***, grande Omega, que é o limite inferior do número de etapas de nosso algoritmo. *Big O* é o limite superior do número de etapas ou o pior caso.  
   
+* Dos tempos de execução acima, *O(n²)* é considerado o pior tempo de execução, *O (1)* é o mais rápido.  
+* A busca linear era de ordem *O(n)* porque poderia levar *n* etapas no pior caso para ser executado.  
+* A pesquisa binária era de ordem *O (log ⁡ n)*  porque levaria cada vez menos etapas para executar, mesmo no pior caso.  
+* Os programadores estão interessados ​​no pior caso, ou limite superior , e no melhor caso, ou *limite inferior*.  
+* O *Ω* O símbolo é usado para denotar o melhor caso de um algoritmo, como *Ω (log ⁡ n)*.
+* O *Θ* O símbolo é usado para indicar onde o limite superior e o limite inferior são os mesmos, onde os tempos de execução do melhor e do pior caso são os mesmos.
+
 E temos um conjunto semelhante de tempos de execução mais comuns para big Ω:  
 
     * *Ω (n²)*  
