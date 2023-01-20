@@ -27,20 +27,20 @@
 
 # Descritivo do Laboratório 2
 
-## [PORT - Laboratório 2 - Scrabble](https://patyfil.github.io/cs50-cc50-harvard/semana2/scrabble)  
+## <img src="assets/folderOpen2.svg" width=30 /> [PORT - Laboratório 2 - Scrabble](https://patyfil.github.io/cs50-cc50-harvard/semana2/scrabble)  
 [ING - Lab 2: Scrabble](https://cs50.harvard.edu/x/2023/labs/2/) 
 
 
 # Descritivo dos Exercícios: 
 [ING - Problem Set 2 (ALL)](https://cs50.harvard.edu/x/2023/psets/2/)  
 
-## [PORT - Exercício 1: Readability](https://patyfil.github.io/cs50-cc50-harvard/semana2/readability)  
+## <img src="assets/folderOpen2.svg" width=30 /> [PORT - Exercício 1: Readability](https://patyfil.github.io/cs50-cc50-harvard/semana2/readability)  
 [ING - pset2 exercise 1](https://cs50.harvard.edu/x/2023/psets/2/readability/)  
 
-## [PORT - Exercício 2: Caesar](https://patyfil.github.io/cs50-cc50-harvard/semana2/caesar)  
+## <img src="assets/folderOpen2.svg" width=30 /> [PORT - Exercício 2: Caesar](https://patyfil.github.io/cs50-cc50-harvard/semana2/caesar)  
 [ING - pset2 exercise 2](https://cs50.harvard.edu/x/2023/psets/2/caesar/)  
 
-## [PORT - Exercício 3: Substitution](https://patyfil.github.io/cs50-cc50-harvard/semana2/substitution)  
+## <img src="assets/folderOpen2.svg" width=30 /> [PORT - Exercício 3: Substitution](https://patyfil.github.io/cs50-cc50-harvard/semana2/substitution)  
 [ING - pset2 exercise 3](https://cs50.harvard.edu/x/2023/psets/2/substitution/)  
 <br>
 
