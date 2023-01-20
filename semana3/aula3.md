@@ -12,9 +12,9 @@
 [Bem-vindo!](#bem-vindo)  
 [Revisão do Módulo Anterior](#revisão-do-módulo-anterior)  
 [Algoritmos](#algoritmos)  
-[Busca](#busca--searching)  
 [Tempo de execução](#tempo-de-execução)  
 [Pesquisa Linear e Binária](#pesquisa-linear-e-binária)  
+[Busca](#busca--searching)  
 [Realizando a busca em código](#realizando-a-busca-em-código)  
 [Estruturas de dados](#estruturas-de-dados)  
 [Ordenação](#ordenação)  
@@ -101,16 +101,6 @@ Else if 50 > doors[middle]
 ```
 
 Observe, olhando para essa aproximação de código, você quase pode imaginar como isso pode parecer no código real.
-
-[Voltar ao Índice](#índice)
-
-## Busca / Searching
-
-Acontece que, com matrizes, um computador não pode olhar para todos os elementos de uma vez. Em vez disso, um computador só pode olhar para eles um de cada vez, embora a ordem possa ser arbitrária. (Lembre-se de que, na semana 0, David só conseguia olhar uma página de cada vez na lista telefônica, quer folheasse em ordem ou de maneira mais sofisticada.)
-
-Searching (“busca”) é como resolvemos o problema de encontrar um valor específico. Um caso simples pode ter como input algum array de valores, e a saída pode ser simplesmente um bool, esteja ou não um determinado valor no array.
-
-Hoje veremos algoritmos de pesquisa. Para discuti-los, consideraremos o tempo de execução, ou quanto tempo um algoritmo leva para ser executado dado algum tamanho de input.
 
 [Voltar ao Índice](#índice)
 
@@ -294,6 +284,16 @@ Else if number > middle door
 Com 64 lâmpadas, notamos que a pesquisa linear leva muito mais tempo do que a pesquisa binária, que leva apenas alguns passos.  
 
 Desligamos as lâmpadas na frequência de um **hertz**, ou ciclo por segundo, e a velocidade de um processador pode ser medida em gigahertz, ou bilhões de operações por segundo.
+
+[Voltar ao Índice](#índice)
+
+## Busca / Searching
+
+Acontece que, com matrizes, um computador não pode olhar para todos os elementos de uma vez. Em vez disso, um computador só pode olhar para eles um de cada vez, embora a ordem possa ser arbitrária. (Lembre-se de que, na semana 0, David só conseguia olhar uma página de cada vez na lista telefônica, quer folheasse em ordem ou de maneira mais sofisticada.)
+
+Searching (“busca”) é como resolvemos o problema de encontrar um valor específico. Um caso simples pode ter como input algum array de valores, e a saída pode ser simplesmente um bool, esteja ou não um determinado valor no array.
+
+Hoje veremos algoritmos de pesquisa. Para discuti-los, consideraremos o tempo de execução, ou quanto tempo um algoritmo leva para ser executado dado algum tamanho de input.
 
 [Voltar ao Índice](#índice)
 
