@@ -232,20 +232,20 @@ Podemos combinar essas ideias de números e strings em um único programa. Digit
 int main(void)
 {
     // Arrays of strings
-    string names[] = {"Carter", "David"};
-    string numbers[] = {"+1-617-495-1000", "+1-949-468-2750"};
+    string nomes[] = {"Carter", "David"};
+    string numeros[] = {"+1-617-495-1000", "+1-949-468-2750"};
 
-    // Search for name
-    string name = get_string("Name: ");
+    // Search for nome
+    string nome = get_string("Nome: ");
     for (int i = 0; i < 2; i++)
     {
-        if (strcmp(names[i], name) == 0)
+        if (strcmp(nomes[i], nome) == 0)
         {
-            printf("Found %s\n", numbers[i]);
+            printf("Encontrado %s\n", numeros[i]);
             return 0;
         }
     }
-    printf("Not found\n");
+    printf("Nao encontrado\n");
     return 1;
 }
 ```
@@ -341,17 +341,21 @@ Podemos fazer o mesmo com os nomes:
 
 Se quisermos implementar um programa que pesquisa uma lista telefônica, podemos querer um tipo de dado para uma “pessoa”, com seu nome e número de telefone.
 
-Acontece que em C podemos definir nosso próprio tipo de dados, ou data structure (“estrutura de dados”), com um struct na seguinte sintaxe:
+Acontece que em C podemos definir nosso próprio tipo de dados, ou *data structure* (“estrutura de dados”), com um `struct` na seguinte sintaxe:
 
+```
 typedef struct
 {
-string name;
-string number;
+    string name;
+    string number;
 }
 person;
-Usamos string para o number, pois queremos incluir símbolos e formatação, como sinais de mais ou hifens.
-Nossa estrutura contém outros tipos de dados dentro dela.
-Vamos tentar implementar nossa lista telefônica sem structs primeiro:
+```
+
+* Usamos **string** para o **number**, pois queremos incluir símbolos e formatação, como sinais de mais ou hifens.  
+* Nossa estrutura contém outros tipos de dados dentro dela.  
+
+Vamos tentar implementar nossa lista telefônica sem structs primeiro:  
 
 ```
 #include <cs50.h>
@@ -375,9 +379,10 @@ int main(void)
 }
 ```
 
-Precisamos ter cuidado para garantir que firstname nos names corresponda ao primeiro número em numbers e assim por diante.
-Se o nome em um determinado índice i na matriz de names corresponder ao que estamos procurando, podemos retornar o número de telefone em numbers no mesmo índice.
-Com structs, podemos ter um pouco mais de certeza de que não teremos erros humanos em nosso programa:
+* Precisamos ter cuidado para garantir que firstname nos **names** corresponda ao primeiro número em **numbers** e assim por diante.  
+* Se o nome em um determinado índice **i** na matriz de **names** corresponder ao que estamos procurando, podemos retornar o número de telefone em **numbers** no mesmo índice.  
+
+Com structs, podemos ter um pouco mais de certeza de que não teremos erros humanos em nosso programa:  
 
 ```
 #include <cs50.h>
@@ -411,10 +416,11 @@ int main(void)
 }
 ```
 
-Criamos uma matriz do tipo struct person e a damos o nome people (como em int numbers[] , embora pudéssemos nomeá-la arbitrariamente, como qualquer outra variável). Definimos os valores para cada campo, ou variável, dentro de cada estrutura de person, usando o operador ponto, . .
-Em nosso loop, agora podemos ter mais certeza de que o number(número) corresponde ao name(nome), pois eles são da mesma estrutura de person.
-Também podemos melhorar o design do nosso programa com uma constante, como const int NUMBER = 10; , e armazenar nossos valores não em nosso código, mas em um arquivo separado ou mesmo em um banco de dados, que veremos em breve.
-Em breve, também escreveremos nossos próprios arquivos de cabeçalho com definições para structs, para que possam ser compartilhados entre diferentes arquivos para nosso programa.
+* Criamos uma matriz do tipo struct **person** e a damos o nome **people** (como em `int numbers[]`, embora pudéssemos nomeá-la arbitrariamente, como qualquer outra variável). Definimos os valores para cada campo, ou variável, dentro de cada estrutura de **person**, usando o operador ponto, . .  
+* Em nosso loop, agora podemos ter mais certeza de que o **number(número)** corresponde ao **name(nome)**, pois eles são da mesma estrutura de **person**.  
+* Também podemos melhorar o design do nosso programa com uma constante, como `const int NUMBER = 10;`, e armazenar nossos valores não em nosso código, mas em um arquivo separado ou mesmo em um banco de dados, que veremos em breve.  
+
+Em breve, também escreveremos nossos próprios arquivos de cabeçalho com definições para structs, para que possam ser compartilhados entre diferentes arquivos para nosso programa.  
 
 [Voltar ao Índice](#índice)
 
@@ -427,103 +433,150 @@ Com uma lista classificada, podemos usar a pesquisa binária para eficiência, m
 [Voltar ao Índice](#índice)
 
 ## Selection Sort
+### Ordenação de Seleção  
 
 Brian está nos bastidores com um conjunto de números em uma prateleira, em ordem não classificada:
 
-6 3 8 5 2 7 4 1
+`6 3 8 5 2 7 4 1`  
+
 Pegando alguns números e colocando-os no lugar certo, Brian os classifica rapidamente.
 
 Indo passo a passo, Brian olha cada número da lista, lembrando-se do menor que vimos até agora. Ele chega ao final e vê que 1 é o menor, e ele sabe que deve ir no início, então ele vai apenas trocá-lo pelo número do início, 6:
 
-6 3 8 5 2 7 4 1
-– –
-1 3 8 5 2 7 4 6
+```
+6 3 8 5 2 7 4 1  
+–             –  
+1 3 8 5 2 7 4 6  
+```
+
 Agora, Brian sabe que pelo menos o primeiro número está no lugar certo, então ele pode procurar o menor número entre os demais e trocá-lo pelo próximo número não ordenado (agora o segundo número):
 
-1 3 8 5 2 7 4 6
-– –
-1 2 8 5 3 7 4 6
+```
+1 3 8 5 2 7 4 6  
+–       –  
+1 2 8 5 3 7 4 6  
+```
+
 E ele repete isso, trocando o próximo menor, 3, pelo 8:
 
-1 2 8 5 3 7 4 6 - -
-1 2 3 5 8 7 4 6
+```
+1 2 8 5 3 7 4 6  
+    -   -  
+1 2 3 5 8 7 4 6  
+```
+
 Depois de mais algumas trocas, terminamos com uma lista ordenada.
 
-Esse algoritmo é chamado de selection sort, e podemos ser um pouco mais específicos com alguns pseudocódigos:
+Esse algoritmo é chamado de **selection sort**, e podemos ser um pouco mais específicos com alguns pseudocódigos:
 
+```
 Para i de 0 a n–1
 Encontre o menor item entre i-ésimo item e último
 Troque o menor item com i-ésimo item
-A primeira etapa do loop é procurar o menor item na parte não ordenada da lista, que estará entre o i'ésimo item e o último item, pois sabemos que classificamos até o “i-1'º " item.
-Em seguida, trocamos o menor item pelo i'ésimo item, o que compõe tudo até o item que eu classifiquei.
-Vemos uma visualização online com animações de como os elementos se movem durante um selection sort.
+```
 
-Para esse algoritmo, examinamos quase todos os n elementos para encontrar o menor e fizemos n passos para classificar todos os elementos.
+* A primeira etapa do loop é procurar o menor item na parte não ordenada da lista, que estará entre o i'ésimo item e o último item, pois sabemos que classificamos até o “i-1'º " item. 
+* Em seguida, trocamos o menor item pelo i'ésimo item, o que compõe tudo até o item que eu classifiquei.  
 
-Mais formalmente, podemos usar algumas fórmulas matemáticas para mostrar que o maior fator é de fato n². Começamos tendo que olhar para todos os n elementos, então apenas n − 1, então n − 2:
+Vemos uma `visualização online` com animações de como os elementos se movem durante um selection sort.
 
+Para esse algoritmo, examinamos quase todos os **n** elementos para encontrar o menor e fizemos n passos para classificar todos os elementos.
+
+Mais formalmente, podemos usar algumas fórmulas matemáticas para mostrar que o maior fator é de fato **n²**. Começamos tendo que olhar para todos os **n** elementos, então apenas **n − 1**, então **n − 2**:
+
+```
 n (n + 1) / 2
 (n² + n) / 2
 n² / 2 + n / 2
 O(n²)
+```
 
-Como n² é o maior, ou dominante, fator, podemos dizer que o algoritmo tem um tempo de execução de O(n²).
+* Como **n²** é o maior, ou dominante, fator, podemos dizer que o algoritmo tem um tempo de execução de **O(n²)**.
 
 [Voltar ao Índice](#índice)
 
 ## Bubble sort
 
-Podemos tentar um algoritmo diferente, em que trocamos pares de números repetidamente, chamado de bubble sort.
+Podemos tentar um algoritmo diferente, em que trocamos pares de números repetidamente, chamado de **bubble sort**.  
 
-Brian vai olhar para os dois primeiros números e trocá-los para que fiquem em ordem:
+Brian vai olhar para os dois primeiros números e trocá-los para que fiquem em ordem:  
 
-6 3 8 5 2 7 4 1
+```
+6 3 8 5 2 7 4 1  
+- -  
+3 6 8 5 2 7 4 1  
+```
 
-- - 3 6 8 5 2 7 4 1
-    O próximo par, 6 e 8 , está em ordem, então não precisamos trocá-los.
+* O próximo par, **6** e **8** , está em ordem, então não precisamos trocá-los.
 
-O próximo par, 8 e 5 , precisa ser trocado:
+O próximo par, **8** e **5** , precisa ser trocado:
 
-3 6 8 5 2 7 4 1 - -
-3 6 5 8 2 7 4 1
+```
+3 6 8 5 2 7 4 1  
+    - -  
+3 6 5 8 2 7 4 1  
+```
+
 Brian continua até chegar ao final da lista:
 
-3 6 5 2 8 7 4 1 - -
-3 6 5 2 7 8 4 1 - -
-3 6 5 2 7 4 8 1 - -
-3 6 5 2 7 4 1 8 -
-Nossa lista ainda não foi ordenada, mas estamos um pouco mais próximos da solução porque o maior valor, 8 , foi deslocado totalmente para a direita. E outros números maiores também se moveram para a direita, ou “bubbled up”.
+```
+3 6 5 2 8 7 4 1  
+        - -  
+3 6 5 2 7 8 4 1  
+          - -  
+3 6 5 2 7 4 8 1  
+            - -  
+3 6 5 2 7 4 1 8  
+              -  
+```
+
+Nossa lista ainda não foi ordenada, mas estamos um pouco mais próximos da solução porque o maior valor, **8** , foi deslocado totalmente para a direita. E outros números maiores também se moveram para a direita, ou “bubbled up”.
 
 Brian fará outra passagem pela lista:
 
-3 6 5 2 7 4 1 8
+```
+3 6 5 2 7 4 1 8  
+- -  
+3 6 5 2 7 4 1 8  
+  - - 
+3 5 6 2 7 4 1 8 
+    - -  
+3 5 2 6 7 4 1 8 
+      - -  
+3 5 2 6 7 4 1 8 
+        - -  
+3 5 2 6 4 7 1 8 
+          - -  
+3 5 2 6 4 1 7 8 
+            - -  
+```
 
-- - 3 6 5 2 7 4 1 8
-    - - 3 5 6 2 7 4 1 8 - -
-        3 5 2 6 7 4 1 8 - -
-        3 5 2 6 7 4 1 8 - -
-        3 5 2 6 4 7 1 8 - -
-        3 5 2 6 4 1 7 8 - -
-        Observe que não precisamos trocar o 3 e o 6, ou o 6 e o ​​7.
-        Mas agora, o próximo maior valor, 7 , mudou totalmente para a direita.
-        Brian repetirá esse processo mais algumas vezes e cada vez mais a lista será ordenada, até que tenhamos uma lista totalmente ordenada.
+* Observe que não precisamos trocar o 3 e o 6, ou o 6 e o ​​7.  
+* Mas agora, o próximo maior valor, **7** , mudou totalmente para a direita.  
+        
+Brian repetirá esse processo mais algumas vezes e cada vez mais a lista será ordenada, até que tenhamos uma lista totalmente ordenada.  
 
-Com selection sort, o melhor caso com uma lista ordenada ainda levaria tantos passos quanto o pior caso, uma vez que verificamos apenas o menor número em cada passagem.
+Com selection sort, o melhor caso com uma lista ordenada ainda levaria tantos passos quanto o pior caso, uma vez que verificamos apenas o menor número em cada passagem.  
 
-O pseudocódigo para bubble sort pode ser parecido com:
+O pseudocódigo para bubble sort pode ser parecido com:  
 
+```
 Repita até estar ordenado
-Para i de 0 a n–2
-Se iºésimo and i+1ºésimo elemento fora de ordem
+    Para i de 0 a n–2
+    Se iºésimo and i+1ºésimo elemento fora de ordem
 Troque eles
-Uma vez que estamos comparando o i'ésimo e i + 1'ésimo elemento, só precisamos ir até n – 2 para i . Em seguida, trocamos os dois elementos se eles estiverem fora de ordem.
-E podemos parar assim que a lista for ordenada, já que podemos apenas lembrar se fizemos alguma troca. Caso não tenhamos feito, a lista já deve estar ordenada.
-Para determinar o tempo de execução para classificação por bolha, temos n – 1 comparações no loop e no máximo n – 1 loops, portanto, obtemos n² - 2n + 2 etapas no total. Mas o maior fator, ou termo dominante, é novamente n² à medida que n fica cada vez maior, então podemos dizer que a classificação por bolha tem O(n²). Portanto, basicamente, a classificação por seleção e a classificação por bolha têm o mesmo limite superior para o tempo de execução.
+```
 
-O limite inferior para o tempo de execução aqui seria Ω(n), uma vez que examinamos todos os elementos uma vez.
+* Uma vez que estamos comparando o `i'ésimo` e `i + 1'ésimo` elemento, só precisamos ir até `n – 2` para `i` . Em seguida, trocamos os dois elementos se eles estiverem fora de ordem.  
+* E podemos parar assim que a lista for ordenada, já que podemos apenas lembrar se fizemos alguma troca. Caso não tenhamos feito, a lista já deve estar ordenada.  
 
-Portanto, nossos limites superiores para o tempo de execução que vimos são:
+Para determinar o tempo de execução para classificação por bolha, temos `n – 1` comparações no loop e no máximo `n – 1` loops, portanto, obtemos `n² - 2n + 2` etapas no total. Mas o maior fator, ou termo dominante, é novamente `n²` à medida que n fica cada vez maior, então podemos dizer que a classificação por bolha tem `O(n²)`. Portanto, basicamente, a classificação por seleção e a classificação por bolha têm o mesmo limite superior para o tempo de execução.  
 
+O limite inferior para o tempo de execução aqui seria `Ω(n)`, uma vez que examinamos todos os elementos uma vez.  
+
+Portanto, nossos limites superiores para o tempo de execução que vimos são:  
+
+```
 O(n²)
 selection sort, bubble sort
 O(n log ⁡ n)
@@ -532,8 +585,11 @@ busca linear
 O(log ⁡ n)
 busca binária
 O(1)
-E para limites inferiores:
+```
 
+E para limites inferiores:  
+
+```
 Ω(n²)
 selection sort
 Ω(nlog ⁡ n)
@@ -541,7 +597,8 @@ selection sort
 bubble sort
 Ω(log ⁡ n)
 Ω(1)
-pesquisa linear, pesquisa binária
+    * pesquisa linear, pesquisa binária
+```
 
 [Voltar ao Índice](#índice)
 
