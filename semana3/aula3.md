@@ -7,8 +7,8 @@
 
 # Anotações da Aula 3  
 
-## <img src="assets/baixar.svg" width=20 /> [BAIXAR OS ARQUIVOS DESSA AULA](src3.zip)  
-## <img src="assets/baixar.svg" width=20 /> [BAIXAR O SLIDE DESSA AULA](Algoritmo(2022).pdf)  
+## <img src="/assets/baixar.svg" width=20 /> [BAIXAR OS ARQUIVOS DESSA AULA](src3.zip)  
+## <img src="/assets/baixar.svg" width=20 /> [BAIXAR O SLIDE DESSA AULA](Algoritmo(2022).pdf)  
 
 # Índice  
 
