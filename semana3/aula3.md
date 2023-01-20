@@ -604,51 +604,57 @@ bubble sort
 
 ## Recursão
 
-Recursão é a capacidade de uma função chamar a si mesma. Ainda não vimos isso no código, mas vimos algo em pseudocódigo na semana 0 que podemos converter:
+**Recursão** é a capacidade de uma função chamar a si mesma. Ainda não vimos isso no código, mas vimos algo em pseudocódigo na semana 0 que podemos converter:
 
-1 Pegue a lista telefônica
-2 Abra no meio da lista telefônica
+```
+1 Pegue a lista telefônica  
+2 Abra no meio da lista telefônica  
 3 Olhe para a página
-4 Se Smith estiver na página
-5 Ligue para Mike
-6 Caso contrário, se Smith estiver no início do livro
-7 Aberto no meio da metade esquerda do livro
-8 Volte para a linha 3
-9 Caso contrário, se Smith estiver mais tarde no livro
-10 Aberto no meio da metade direita do livro
-11 Volte para a linha 3
-12 Senão
-13 Desistir
-Aqui, estamos usando uma instrução semelhante a um loop para voltar a uma linha específica.
-Em vez disso, poderíamos apenas repetir todo o nosso algoritmo na metade do livro que restou:
+4 Se Smith estiver na página  
+5       Ligue para Mike  
+6 Caso contrário, se Smith estiver no início do livro  
+7       Aberto no meio da metade esquerda do livro  
+8       Volte para a linha 3  
+9 Caso contrário, se Smith estiver mais tarde no livro  
+10      Aberto no meio da metade direita do livro  
+11      **Volte para a linha 3**  
+12 Senão  
+13      Desistir  
+```
 
-1 Pegue a lista telefônica
-2 Abra no meio da lista telefônica
-3 Olhe para a página
-4 Se Smith estiver na página
-5 Ligue para Mike
-6 Caso contrário, se Smith estiver no início do livro
-7 Pesquise na metade esquerda do livro
+* Aqui, estamos usando uma instrução semelhante a um loop para voltar a uma linha específica.  
+Em vez disso, poderíamos apenas repetir todo o nosso algoritmo na metade do livro que restou:  
+
+```
+1 Pegue a lista telefônica  
+2 Abra no meio da lista telefônica  
+3 Olhe para a página  
+4 Se Smith estiver na página  
+5       Ligue para Mike  
+6 Caso contrário, se Smith estiver no início do livro  
+7       **Pesquise na metade esquerda do livro**  
 8
-9 Caso contrário, se Smith estiver mais tarde no livro
-10 Pesquise a metade direita do livro
+9 Caso contrário, se Smith estiver mais tarde no livro  
+10      **Pesquise a metade direita do livro**  
 11
 12 Senão
-13 Desistir
-Parece um processo cíclico que nunca termina, mas na verdade estamos mudando a entrada para a função e dividindo o problema pela metade a cada vez, parando assim que não houver mais livro sobrando.
-Na semana 1, também implementamos uma "pirâmide" de blocos na seguinte forma:
+13      Desistir
+```
 
+* Parece um processo cíclico que nunca termina, mas na verdade estamos mudando a entrada para a função e dividindo o problema pela metade a cada vez, parando assim que não houver mais livro sobrando.  
+
+Na semana 1, também implementamos uma "pirâmide" de blocos na seguinte forma:  
+
+```
 #
-
 ##
-
 ###
-
 ####
+```
 
-Mas observe que uma pirâmide de altura 4 é na verdade uma pirâmide de altura 3, com uma linha extra de 4 blocos adicionados. E uma pirâmide de altura 3 é uma pirâmide de altura 2, com uma linha extra de 3 blocos. Uma pirâmide de altura 2 é uma pirâmide de altura 1, com uma linha extra de 2 blocos. E, finalmente, uma pirâmide de altura 1 é apenas um único bloco.
+* Mas observe que uma pirâmide de altura 4 é na verdade uma pirâmide de altura 3, com uma linha extra de 4 blocos adicionados. E uma pirâmide de altura 3 é uma pirâmide de altura 2, com uma linha extra de 3 blocos. Uma pirâmide de altura 2 é uma pirâmide de altura 1, com uma linha extra de 2 blocos. E, finalmente, uma pirâmide de altura 1 é apenas um único bloco.  
 
-Com essa ideia em mente, podemos escrever uma função recursiva para desenhar uma pirâmide, uma função que se chama para desenhar uma pirâmide menor antes de adicionar outra linha.
+Com essa ideia em mente, podemos escrever uma função recursiva para desenhar uma pirâmide, uma função que se chama para desenhar uma pirâmide menor antes de adicionar outra linha.  
 
 [Voltar ao Índice](#índice)
 
@@ -657,95 +663,128 @@ Com essa ideia em mente, podemos escrever uma função recursiva para desenhar u
 
 Podemos levar a ideia de recursão para classificação, com outro algoritmo chamado merge sort . O pseudocódigo pode ser semelhante a:
 
+```
 Se apenas um número
-Retornar
+        Retornar
 Senão
-Ordenar a metade esquerda do número
-Ordenar a metade direita do número
-Mesclar metades classificadas
+        Ordenar a metade esquerda do número
+        Ordenar a metade direita do número
+        Mesclar metades classificadas
+```
+
 Veremos isso melhor na prática com duas listas classificadas:
 
-3 5 6 8 | 1 2 4 7
+`3 5 6 8 | 1 2 4 7`  
+
 Vamos mesclar as duas listas para uma lista final classificada, pegando o menor elemento na frente de cada lista, um de cada vez:
 
+```
 3 5 6 8 | \_ 2 4 7
 1
+```
+
 O 1 no lado direito é o menor entre 1 e 3, então podemos começar nossa lista ordenada com ele.
 
+```
 3 5 6 8 | \_ \_ 4 7
 1 2
+```
+
 O próximo menor número, entre 2 e 3, é 2, então usamos o 2.
 
-_ 5 6 8 | _ _ 4 7
-1 2 3
-_ 5 6 8 | \_ \_ _ 7
-1 2 3 4
-_ _ 6 8 | _ \_ _ 7
-1 2 3 4 5
-_ \_ _ 8 | _ \_ _ 7
-1 2 3 4 5 6
-_ \_ _ 8 | _ \_ \_ _
+```
+_ 5 6 8 | _ _ 4 7  
+1 2 3  
+_ 5 6 8 | \_ \_ _ 7  
+1 2 3 4  
+_ _ 6 8 | _ \_ _ 7  
+1 2 3 4 5  
+_ \_ _ 8 | _ \_ _ 7  
+1 2 3 4 5 6  
+_ \_ _ 8 | _ \_ \_ _  
 1 2 3 4 5 6 7
-_ \_ \_ _ | _ \_ \_ \_
-1 2 3 4 5 6 7 8
-Agora temos uma lista completamente ordenada.
-Vimos como a linha final em nosso pseudocódigo pode ser implementada e agora veremos como todo o algoritmo funciona:
+_ \_ \_ _ | _ \_ \_ \_  
+1 2 3 4 5 6 7 8  
+```
 
+* Agora temos uma lista completamente ordenada. 
+
+Vimos como a linha final em nosso pseudocódigo pode ser implementada e agora veremos como todo o algoritmo funciona:  
+
+```
 Se apenas um número
 Retornar
 Senão
 Ordenar a metade esquerda do número
 Ordenar a metade direita do número
 Mesclar metades classificadas
+```
+
 Começamos com outra lista não classificada:
 
-6 3 8 5 2 7 4 1
+`6 3 8 5 2 7 4 1`  
+
 Para começar, precisamos classificar a metade esquerda primeiro:
 
-6 3 8 5
+`6 3 8 5`  
+
 Bem, para classificar isso, precisamos classificar a metade esquerda da metade esquerda primeiro:
 
-6 3
+`6 3`  
+
 Agora, ambas as metades têm apenas um item cada, portanto, estão classificadas. Nós mesclamos essas duas listas, para obter uma lista classificada:
 
+```
 \_ \_ 8 5 2 7 4 1
 3 6
+```
+
 Estamos de volta à classificação da metade direita da metade esquerda, mesclando-as:
 
+```
 \_ \_ \_ \_ 2 7 4 1
 3 6 5 8
+```
+
 As duas metades da metade esquerda foram classificadas individualmente, então agora precisamos mesclá-las:
 
+```
 \_ \_ \_ \_ 2 7 4 1
-
----
-
+\_ \_ \_ \_ 
 3 5 6 8
+```
+
 Faremos o que acabamos de fazer, com a metade certa:
 
----
-
+```
+\_ \_ \_ \_ \_ \_ \_ \_ 
 \_ \_ \_ \_ 2 7 4 1
 3 5 6 8
-Primeiro, classificamos as duas metades da metade direita.
+```
 
----
+* Primeiro, classificamos as duas metades da metade direita.
 
----
-
+```
+\_ \_ \_ \_ \_ \_ \_ \_ 
+\_ \_ \_ \_ \_ \_ \_ \_ 
 3 5 6 8 2 7 1 4
-Em seguida, nós os mesclamos para uma metade direita classificada.
-Por fim, temos duas metades classificadas novamente e podemos mesclá-las para obter uma lista totalmente classificada:
+```
 
----
+* Em seguida, nós os mesclamos para uma metade direita classificada.  
 
----
+Por fim, temos duas metades classificadas novamente e podemos mesclá-las para obter uma lista totalmente classificada:  
 
+```
+\_ \_ \_ \_ \_ \_ \_ \_ 
+\_ \_ \_ \_ \_ \_ \_ \_ 
 1 2 3 4 5 6 7 8
-Cada número foi movido de uma prateleira para outra três vezes (uma vez que a lista foi dividida de 8 para 4, para 2 e para 1 antes de ser mesclada novamente em listas ordenadas de 2, 4 e, finalmente, 8 novamente). E cada prateleira exigia que todos os 8 números fossem mesclados, um de cada vez.
+```
 
-Cada prateleira exigia n passos, e havia apenas log ⁡ n prateleiras necessárias, então multiplicamos esses fatores juntos. Nosso tempo total de execução para pesquisa binária é O(log ⁡ n):
+Cada número foi movido de uma prateleira para outra três vezes (uma vez que a lista foi dividida de 8 para 4, para 2 e para 1 antes de ser mesclada novamente em listas ordenadas de 2, 4 e, finalmente, 8 novamente). E cada prateleira exigia que todos os 8 números fossem mesclados, um de cada vez.  
 
+Cada prateleira exigia n passos, e havia apenas `log⁡ n` prateleiras necessárias, então multiplicamos esses fatores juntos. Nosso tempo total de execução para pesquisa binária é `O(log ⁡ n)`:  
+
+```
 O(n²)
 selection sort, bubble sort
 O(nlog ⁡ n)
@@ -755,10 +794,13 @@ busca linear
 O(log ⁡ n)
 busca binária
 O(1)
+```
+
 (Uma vez que log ⁡ n é maior que 1, mas menor que n, nlog ⁡ n está entre n (vezes 1) e n².)
 
 O melhor caso, Ω, ainda é n log ⁡ n, uma vez que ainda temos que classificar cada metade primeiro e, em seguida, mesclá-los juntos:
 
+```
 Ω(n²)
 selection sort
 Ω(nlog ⁡ n)
@@ -767,11 +809,14 @@ merge sort
 bubble sort
 Ω(log ⁡ n)
 Ω(1)
-pesquisa linear, pesquisa binária
-Embora a merge sort provavelmente seja mais rápida do que a selection sort ou bubble sort, precisamos de outra prateleira, ou mais memória, para armazenar temporariamente nossas listas mescladas em cada estágio. Enfrentamos a desvantagem de incorrer em um custo mais alto, outro array na memória, pelo benefício de uma classificação mais rápida.
+* pesquisa linear, pesquisa binária
+```
 
-Finalmente, há outra notação, Θ , Theta, que usamos para descrever os tempos de execução de algoritmos se o limite superior e o limite inferior forem iguais. Por exemplo, merge sort tem Θ (nlog ⁡ n), uma vez que o melhor e o pior caso requerem o mesmo número de passos. E a classificação de seleção tem Θ(n²):
+Embora a merge sort provavelmente seja mais rápida do que a selection sort ou bubble sort, precisamos de outra prateleira, ou mais memória, para armazenar temporariamente nossas listas mescladas em cada estágio. Enfrentamos a desvantagem de incorrer em um custo mais alto, outro array na memória, pelo benefício de uma classificação mais rápida.  
 
+Finalmente, há outra notação, Θ , Theta, que usamos para descrever os tempos de execução de algoritmos se o limite superior e o limite inferior forem iguais. Por exemplo, merge sort tem Θ (nlog ⁡ n), uma vez que o melhor e o pior caso requerem o mesmo número de passos. E a classificação de seleção tem Θ(n²):  
+
+```
 Θ(n²)
 selection sort
 Θ(nlog ⁡ n)
@@ -779,7 +824,9 @@ merge sort
 Θ(n)
 Θ(log ⁡ n)
 Θ(1)
-Vemos uma visualização final dos algoritmos de classificação com um número maior de inputs, em execução ao mesmo tempo.
+```
+
+Vemos uma **visualização final** dos algoritmos de classificação com um número maior de inputs, em execução ao mesmo tempo.
 
 E aí, gostou das notas da aula?
 
