@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    id="svg5269"
+    sodipodi:docname="Folder.svg"
+    viewBox="0 0 830.8 646.16"
+    version="1.1"
+    inkscape:version="0.47 r22583"
+  >
+  <defs
+      id="defs5271"
+    >
+    <filter
+        id="filter8052"
+        inkscape:collect="always"
+        color-interpolation-filters="sRGB"
+      >
+      <feGaussianBlur
+          id="feGaussianBlur8054"
+          stdDeviation="6.0309222"
+          inkscape:collect="always"
+      />
+    </filter
+    >
+    <filter
+        id="filter8058"
+        inkscape:collect="always"
+        color-interpolation-filters="sRGB"
+      >
+      <feGaussianBlur
+          id="feGaussianBlur8060"
+          stdDeviation="5.7214287"
+          inkscape:collect="always"
+      />
+    </filter
+    >
+    <filter
+        id="filter8119"
+        inkscape:collect="always"
+        color-interpolation-filters="sRGB"
+      >
+      <feGaussianBlur
+          id="feGaussianBlur8121"
+          stdDeviation="6.2905517"
+          inkscape:collect="always"
+      />
+    </filter
+    >
+  </defs
+  >
+  <sodipodi:namedview
+      id="base"
+      bordercolor="#666666"
+      inkscape:pageshadow="2"
+      inkscape:window-y="-8"
+      pagecolor="#ffffff"
+      inkscape:window-height="1030"
+      inkscape:window-maximized="1"
+      inkscape:zoom="0.98994949"
+      inkscape:window-x="-8"
+      showgrid="false"
+      borderopacity="1.0"
+      inkscape:current-layer="layer1"
+      inkscape:cx="260.65931"
+      inkscape:cy="274.87677"
+      inkscape:window-width="1920"
+      inkscape:pageopacity="0.0"
+      inkscape:document-units="px"
+  />
+  <g
+      id="layer1"
+      inkscape:label="Layer 1"
+      inkscape:groupmode="layer"
+      transform="translate(-6.6971 -14.538)"
+    >
+    <g
+        id="g8123"
+      >
+      <rect
+          id="rect8056"
+          style="stroke-linejoin:round;stroke-dashoffset:19.74;filter:url(#filter8058);stroke:#000000;stroke-linecap:round;stroke-width:2;fill:#2e3436"
+          ry="35.122"
+          height="457.14"
+          width="687.14"
+          y="186.65"
+          x="21.429"
+      />
+      <rect
+          id="rect5279"
+          style="stroke-linejoin:round;stroke-dashoffset:19.74;stroke:#000000;stroke-linecap:round;stroke-width:2;fill:#c4a000"
+          ry="35.122"
+          height="457.14"
+          width="687.14"
+          y="186.65"
+          x="21.429"
+      />
+      <rect
+          id="rect8064"
+          style="filter:url(#filter8119);fill:#2e3436"
+          transform="rotate(35.691)"
+          ry="0"
+          height="360.06"
+          width="541.43"
+          y="-125.86"
+          x="226"
+      />
+      <g
+          id="g6424"
+          transform="matrix(.58178 -.81335 .81335 .58178 165.91 -14.599)"
+        >
+        <rect
+            id="rect6366"
+            style="stroke-linejoin:round;stroke-dashoffset:19.74;stroke:#000000;stroke-linecap:round;stroke-width:2;fill:#eeeeec"
+            transform="rotate(90)"
+            ry="0"
+            height="360.06"
+            width="541.43"
+            y="-17.207"
+            x="99.773"
+        />
+        <g
+            id="g6407"
+            transform="matrix(1 0 0 .52631 -1.6683 57.53)"
+          >
+          <path
+              id="path6377"
+              style="stroke:#204a87;stroke-width:1.3784px;fill:none"
+              d="m-317.97 156.15h312.14"
+          />
+          <path
+              id="path6379"
+              style="stroke:#204a87;stroke-width:1.3784px;fill:none"
+              d="m-317.97 121.95h312.14"
+          />
+          <path
+              id="path6381"
+              style="stroke:#204a87;stroke-width:1.3784px;fill:none"
+              d="m-317.97 190.35h312.14"
+          />
+          <path
+              id="path6383"
+              style="stroke:#204a87;stroke-width:1.3784px;fill:none"
+              d="m-317.97 224.55h312.14"
+          />
+          <path
+              id="path6385"
+              style="stroke:#204a87;stroke-width:1.3784px;fill:none"
+              d="m-317.97 258.75h312.14"
+          />
+          <path
+              id="path6387"
+              style="stroke:#204a87;stroke-width:1.3784px;fill:none"
+              d="m-317.97 327.16h312.14"
+          />
+          <path
+              id="path6389"
+              style="stroke:#204a87;stroke-width:1.3784px;fill:none"
+              d="m-317.97 361.36h312.14"
+          />
+          <path
+              id="path6391"
+              style="stroke:#204a87;stroke-width:1.3784px;fill:none"
+              d="m-317.97 395.56h312.14"
+          />
+          <path
+              id="path6393"
+              style="stroke:#204a87;stroke-width:1.3784px;fill:none"
+              d="m-317.97 429.76h312.14"
+          />
+          <path
+              id="path6395"
+              style="stroke:#204a87;stroke-width:1.3784px;fill:none"
+              d="m-317.97 463.96h312.14"
+          />
+          <path
+              id="path6397"
+              style="stroke:#204a87;stroke-width:1.3784px;fill:none"
+              d="m-317.97 498.16h312.14"
+          />
+          <path
+              id="path6399"
+              style="stroke:#204a87;stroke-width:1.3784px;fill:none"
+              d="m-317.97 532.36h312.14"
+          />
+          <path
+              id="path6401"
+              style="stroke:#204a87;stroke-width:1.3784px;fill:none"
+              d="m-317.97 566.56h312.14"
+          />
+          <path
+              id="path6403"
+              style="stroke:#204a87;stroke-width:1.3784px;fill:none"
+              d="m-317.97 600.76h312.14"
+          />
+          <path
+              id="path6405"
+              style="stroke:#204a87;stroke-width:1.3784px;fill:none"
+              d="m-317.97 292.95h312.14"
+          />
+        </g
+        >
+      </g
+      >
+      <path
+          id="path7540"
+          style="stroke-linejoin:round;stroke-dashoffset:19.74;filter:url(#filter8052);stroke:#000000;stroke-linecap:round;stroke-width:2;fill:#2e3436"
+          d="m178.15 232.36h616.9c19.457 0 30.925 14.147 25.711 31.719l-103.67 349.42c-5.2136 17.573-25.075 31.719-44.533 31.719h-616.9c-19.457 0-30.925-14.147-25.711-31.719l103.67-349.42c5.2136-17.573 25.075-31.719 44.533-31.719z"
+      />
+      <path
+          id="rect5281"
+          style="stroke-linejoin:round;stroke-dashoffset:19.74;stroke:#000000;stroke-linecap:round;stroke-width:2;fill:#edd400"
+          d="m178.15 232.36h616.9c19.457 0 30.925 14.147 25.711 31.719l-103.67 349.42c-5.2136 17.573-25.075 31.719-44.533 31.719h-616.9c-19.457 0-30.925-14.147-25.711-31.719l103.67-349.42c5.2136-17.573 25.075-31.719 44.533-31.719z"
+      />
+    </g
+    >
+  </g
+  >
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+        <dc:title
+          >Folder</dc:title
+        >
+        <dc:date
+          >2010-07-20T16:29:31</dc:date
+        >
+        <dc:description
+          >Yellow folder with shadows</dc:description
+        >
+        <dc:source
+          >https://openclipart.org/detail/74029/folder-by-vorre</dc:source
+        >
+        <dc:creator
+          >
+          <cc:Agent
+            >
+            <dc:title
+              >vorre</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:creator
+        >
+        <dc:subject
+          >
+          <rdf:Bag
+            >
+            <rdf:li
+              >folder</rdf:li
+            >
+            <rdf:li
+              >yellow folder</rdf:li
+            >
+          </rdf:Bag
+          >
+        </dc:subject
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>
