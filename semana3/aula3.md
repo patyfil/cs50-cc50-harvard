@@ -102,6 +102,30 @@ Else if 50 > doors[middle]
 
 Observe, olhando para essa aproximação de código, você quase pode imaginar como isso pode parecer no código real.
 
+
+## Diferença entre Big Oh, Big Omega e Big Theta  
+
+### 1. Notação Grande Oh (O) - limite superior:  
+
+É definido como limite superior e limite superior em um algoritmo é a maior quantidade de tempo necessária (o desempenho do pior caso).
+A notação oh grande é usada para descrever o limite superior assintótico. 
+
+n = usado para fornecer limite superior a uma função.  
+Se uma função for O(n) , ela também será automaticamente O(n-quadrado).  
+
+### 2. Notação Grande Omega (Ω) - Limite Inferior:  
+
+É definido como limite inferior e limite inferior em um algoritmo é a menor quantidade de tempo necessária (a maneira mais eficiente possível, em outras palavras, o melhor caso). 
+Assim como a notação O fornece um limite superior assintótico, a notação Ω fornece um limite inferior assintótico.  
+
+n = usado para um determinado limite inferior em uma função.  
+Se uma função for Ω(n-quadrado) , ela também será automaticamente Ω(n).  
+
+### 3. Notação Grande Theta (Θ) - limite apertado:  
+
+É definido como o limite mais rígido e o limite mais rígido é o melhor de todos os tempos de pior caso que o algoritmo pode suportar.  
+
+
 [Voltar ao Índice](#índice)
 
 ## Tempo de execução
@@ -130,14 +154,14 @@ Um tempo de execução logarítmico é O (log ⁡ n), não importa qual seja a b
         * (dividindo a lista telefônica pela metade a cada vez)  
     *   *O (1)*  
         * Um algoritmo que executa um número **constante** de etapas, independentemente do tamanho do problema.  
-    Os cientistas da computação também podem usar a notação big ***Ω***, grande Omega, que é o limite inferior do número de etapas de nosso algoritmo. *Big O* é o limite superior do número de etapas ou o pior caso.  
+    Os cientistas da computação também podem usar a notação big ***Ω***, *grande Omega*, que é o limite inferior do número de etapas de nosso algoritmo. *Big O* é o limite superior do número de etapas ou o pior caso.  
   
 * Dos tempos de execução acima, *O(n²)* é considerado o pior tempo de execução, *O (1)* é o mais rápido.  
 * A busca linear era de ordem *O(n)* porque poderia levar *n* etapas no pior caso para ser executado.  
 * A pesquisa binária era de ordem *O (log ⁡ n)*  porque levaria cada vez menos etapas para executar, mesmo no pior caso.  
 * Os programadores estão interessados ​​no pior caso, ou limite superior , e no melhor caso, ou *limite inferior*.  
 * O símbolo *Ω* é usado para denotar o melhor caso de um algoritmo, como *Ω (log ⁡ n)*.  
-* O símbolo *Θ* é usado para indicar onde o limite superior e o limite inferior são os mesmos, onde os tempos de execução do melhor e do pior caso são os mesmos.  
+* O símbolo *Θ* (Teta) é usado para indicar onde o limite superior e o limite inferior são os mesmos, onde os tempos de execução do melhor e do pior caso são os mesmos.  
 
 E temos um conjunto semelhante de tempos de execução mais comuns para big Ω:  
 
