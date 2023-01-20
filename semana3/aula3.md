@@ -7,7 +7,7 @@
 
 # Anotações da Aula 3  
 [BAIXE AQUI OS ARQUIVOS DESSA AULA](src3.zip)  
-[BAIXE AQUI O SLIDE DESSA AULA](módulo-3-algoritmos-(2022).pdf)  
+[BAIXE AQUI O SLIDE DESSA AULA](Algoritmo(2022).pdf)  
 
 # Índice  
 
