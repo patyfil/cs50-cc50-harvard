@@ -35,20 +35,20 @@
 
 # Descritivo do Laboratório 3
 
-## <img src="assets/folderOpen.svg" width=30 heigth=20 /> [PORT - Laboratório 3 - Sort (Ordenar)](https://patyfil.github.io/cs50-cc50-harvard/semana3/sort)  
+## <img src="assets/folderOpen.svg" width=30 heigth=25 /> [PORT - Laboratório 3 - Sort (Ordenar)](https://patyfil.github.io/cs50-cc50-harvard/semana3/sort)  
 [ING - Lab 3: Sort](https://cs50.harvard.edu/x/2023/labs/3/) 
 
 
 # Descritivo dos Exercícios: 
 [ING - Problem Set 3 (ALL)](https://cs50.harvard.edu/x/2023/psets/3/)  
 
-## <img src="assets/folderOpen.svg" width=30 heigth=20 /> [PORT - Exercício 1: Pluralidade](https://patyfil.github.io/cs50-cc50-harvard/semana3/plurality)  
+## <img src="assets/folderOpen.svg" width=30 heigth=25 /> [PORT - Exercício 1: Pluralidade](https://patyfil.github.io/cs50-cc50-harvard/semana3/plurality)  
 [ING - pset3 exercise 1 - Plurality](https://cs50.harvard.edu/x/2023/psets/3/plurality/)  
 
-## <img src="assets/folderOpen.svg" width=30 heigth=20 /> [PORT - Exercício 2: Runoff (Eleição com turnos)](https://patyfil.github.io/cs50-cc50-harvard/semana3/runoff)  
+## <img src="assets/folderOpen.svg" width=30 heigth=25 /> [PORT - Exercício 2: Runoff (Eleição com turnos)](https://patyfil.github.io/cs50-cc50-harvard/semana3/runoff)  
 [ING - pset3 exercise 2 - Runoff](https://cs50.harvard.edu/x/2023/psets/3/runoff/)  
 
-## <img src="assets/folderOpen.svg" width=30 heigth=20 /> [PORT - Exercício 3: Tideman](https://patyfil.github.io/cs50-cc50-harvard/semana3/tideman)  
+## <img src="assets/folderOpen.svg" width=30 heigth=25 /> [PORT - Exercício 3: Tideman](https://patyfil.github.io/cs50-cc50-harvard/semana3/tideman)  
 [ING - pset3 exercise 3 - Tideman](https://cs50.harvard.edu/x/2023/psets/3/tideman/)  
 
 &nbsp;
