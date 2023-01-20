@@ -18,10 +18,10 @@
 [Realizando a busca em código](#realizando-a-busca-em-código)  
 [Estruturas de dados](#estruturas-de-dados)  
 [Ordenação](#ordenação)  
-[Selection sort](#selection-sort)  
-[Bubble sort](#bubble-sort)  
+[Selection sort (Classificação por Seleção)](#selection-sort)  
+[Bubble sort (Classificação por Bolha)](#bubble-sort)  
 [Recursão](#recursão)  
-[Merge sort](#merge-sort)  
+[Merge sort (Classificação por Mesclagem)](#merge-sort)  
 
 ## Bem-vindo!
 
@@ -51,7 +51,7 @@ Olhamos para a memória, visualizando bytes em uma grade e armazenando valores e
 
 ![armariosComoAlgoritmos](https://user-images.githubusercontent.com/41968938/213565203-e5f9c95f-28a3-4346-a916-c16cd4f9ef71.png)
 
-* Podemos imaginar várias instruções que podemos fornecer ao nosso algoritmo para realizar essa tarefa da seguinte maneira:
+* Podemos imaginar várias instruções que podemos fornecer ao nosso algoritmo para realizar essa tarefa da seguinte maneira:  
 
 ```
 For each door from left to right
@@ -60,7 +60,7 @@ For each door from left to right
 Return false
 ```
 
-Observe que as instruções acima são chamadas de *pseudocódigo* : uma versão legível por humanos das instruções que poderíamos fornecer ao computador.
+Observe que as instruções acima são chamadas de *pseudocódigo*: uma versão legível por humanos das instruções que poderíamos fornecer ao computador.
 
 * Um cientista da computação poderia traduzir esse pseudocódigo da seguinte maneira:
 
@@ -276,7 +276,7 @@ Return false
 
 Se soubermos que os números atrás das portas estão classificados, podemos começar pelo meio e encontrar nosso valor com mais eficiência.
 
-Para busca binária, nosso algoritmo pode ser semelhante a:
+Para `busca binária`, nosso algoritmo pode ser semelhante a:
 
 ```
 If no doors
