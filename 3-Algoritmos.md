@@ -35,7 +35,7 @@
 
 # Descritivo do Laboratório 3
 
-## <img src="assets/folderOpen2.svg" width=30 /> [PORT - Laboratório 3 - Sort (Ordenar)](https://patyfil.github.io/cs50-cc50-harvard/semana3/sort)  
+## <img src="assets/folderOpen3.svg" width=30 /> [PORT - Laboratório 3 - Sort (Ordenar)](https://patyfil.github.io/cs50-cc50-harvard/semana3/sort)  
 [ING - Lab 3: Sort](https://cs50.harvard.edu/x/2023/labs/3/) 
 
 
