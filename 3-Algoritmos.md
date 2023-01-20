@@ -3,7 +3,7 @@
 </p>
 
 # Week 3's (Módulo 3 - Algoritmos)  
-# <img src="assets/folderOpen.svg" width=30 heigth=25 /> [Anotações da Aula 3](semana3/aula3.md)  
+# <img src="assets/folderOpen.svg" width=25 /> [Anotações da Aula 3](semana3/aula3.md)  
 
 ### <img src="assets/baixar.svg" width=25 /> [BAIXAR OS ARQUIVOS DESSA AULA](semana3/src3.zip)  
 ### <img src="assets/baixar.svg" width=25 /> [BAIXAR O SLIDE DESSA AULA](semana3/Algoritmo(2022).pdf)  
@@ -35,7 +35,7 @@
 
 # Descritivo do Laboratório 3
 
-## <img src="assets/folderOpen.svg" width=30 heigth=50 /> [PORT - Laboratório 3 - Sort (Ordenar)](https://patyfil.github.io/cs50-cc50-harvard/semana3/sort)  
+## <img src="assets/folderOpen.svg" width=30 /> [PORT - Laboratório 3 - Sort (Ordenar)](https://patyfil.github.io/cs50-cc50-harvard/semana3/sort)  
 [ING - Lab 3: Sort](https://cs50.harvard.edu/x/2023/labs/3/) 
 
 
