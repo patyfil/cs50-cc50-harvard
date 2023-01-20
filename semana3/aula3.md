@@ -5,7 +5,9 @@
    <a href="https://patyfil.github.io/cs50-cc50-harvard/3-Algoritmos.html">Voltar ao Índice da Semana 3</a>
 </p>
 
-# Anotações da Aula 3
+# Anotações da Aula 3  
+[BAIXE AQUI OS ARQUIVOS DESSA AULA](src3.zip)
+[BAIXE AQUI O SLIDE DESSA AULA](módulo-3-algoritmos-(2022).pdf)
 
 # Índice  
 
