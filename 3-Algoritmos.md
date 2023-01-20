@@ -3,10 +3,10 @@
 </p>
 
 # Week 3's (Módulo 3 - Algoritmos)  
-# <img src="assets/folderOpen.svg" width=25 /> [Anotações da Aula 3](semana3/aula3.md)  
+# <img src="assets/folderOpe.svg" width=25 /> [Anotações da Aula 3](semana3/aula3.md)  
 
-### <img src="assets/baixa.svg" width=25 /> [BAIXAR OS ARQUIVOS DESSA AULA](semana3/src3.zip)  
-### <img src="assets/baixa.svg" width=25 /> [BAIXAR O SLIDE DESSA AULA](semana3/Algoritmo(2022).pdf)  
+### <img src="assets/baixar.svg" width=25 /> [BAIXAR OS ARQUIVOS DESSA AULA](semana3/src3.zip)  
+### <img src="assets/baixar.svg" width=25 /> [BAIXAR O SLIDE DESSA AULA](semana3/Algoritmo(2022).pdf)  
 
 
 # Videoaulas - Algoritmos  
