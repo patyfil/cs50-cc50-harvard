@@ -4,8 +4,9 @@
 
 # Week 3's (Módulo 3 - Algoritmos)  
 # [Anotações da Aula 3](semana3/aula3.md)  
-[BAIXE AQUI OS ARQUIVOS DESSA AULA](src3.zip)  
-[BAIXE AQUI O SLIDE DESSA AULA](Algoritmo(2022).pdf)  
+
+<img src="assets/baixar.svg" width=20 /> [BAIXE AQUI OS ARQUIVOS DESSA AULA](src3.zip)  
+<img src="assets/baixar.svg" width=20 /> [BAIXE AQUI O SLIDE DESSA AULA](Algoritmo(2022).pdf)  
 
 
 # Videoaulas - Algoritmos  
