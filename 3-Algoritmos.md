@@ -3,7 +3,7 @@
 </p>
 
 # Week 3's (Módulo 3 - Algoritmos)  
-# <img src="assets/folderOpen.svg" width=25 fill=#F0CF6F /> [Anotações da Aula 3](semana3/aula3.md)  
+# <img src="assets/folderOpen.svg" width=25 stylecolor=red fill=red /> [Anotações da Aula 3](semana3/aula3.md)  
 
 ### <img src="assets/baixar.svg" width=25 /> [BAIXAR OS ARQUIVOS DESSA AULA](semana3/src3.zip)  
 ### <img src="assets/baixar.svg" width=25 /> [BAIXAR O SLIDE DESSA AULA](semana3/Algoritmo(2022).pdf)  
