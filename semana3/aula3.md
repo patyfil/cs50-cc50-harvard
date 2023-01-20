@@ -433,7 +433,7 @@ Com uma lista classificada, podemos usar a pesquisa binária para eficiência, m
 [Voltar ao Índice](#índice)
 
 ## Selection Sort
-### Ordenação de Seleção  
+### Classificação por Seleção  
 
 Brian está nos bastidores com um conjunto de números em uma prateleira, em ordem não classificada:
 
@@ -496,6 +496,7 @@ O(n²)
 [Voltar ao Índice](#índice)
 
 ## Bubble sort
+### Classificação por Bolha  
 
 Podemos tentar um algoritmo diferente, em que trocamos pares de números repetidamente, chamado de **bubble sort**.  
 
@@ -659,7 +660,7 @@ Com essa ideia em mente, podemos escrever uma função recursiva para desenhar u
 [Voltar ao Índice](#índice)
 
 ## Merge sort  
-### (Mesclar Ordenar)  
+### (Classificação por Mesclagem)  
 
 Podemos levar a ideia de recursão para classificação, com outro algoritmo chamado merge sort . O pseudocódigo pode ser semelhante a:
 
