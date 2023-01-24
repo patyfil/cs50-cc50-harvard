@@ -14,17 +14,17 @@
 
 # Introdução ao Exercício  
 
-Imagine que você viaja no tempo até a década de 1970, quando a linguagem de programação `C` foi criada. Você foi contratado como programador para criar uma maneira de converter strings em ints. (Você deve se lembrar de ter usado uma função como esta na Semana 2, chamada atoi).  
+Imagine que você viaja no tempo até a década de 1970, quando a linguagem de programação `C` foi criada. Você foi contratado como programador para criar uma maneira de converter `strings` em `int`s. (Você deve se lembrar de ter usado uma função como esta na Semana 2, chamada `atoi`).  
 Você quer ser meticuloso em seu processo de desenvolvimento e planeja tentar várias abordagens antes de decidir pela mais eficiente.  
 
-Neste problema, você começará com uma implementação simples de atoi que lida com ints positivos usando loops. Você deseja retrabalhar isso em uma implementação que usa recursão. As funções recusivas podem consumir muita memória e nem sempre são a melhor solução, mas existem alguns problemas nos quais o uso da recursão pode fornecer uma solução mais simples e elegante.
+Neste problema, você começará com uma implementação simples de `atoi` que lida com `int`s positivos usando loops. Você deseja retrabalhar isso em uma implementação que usa recursão. As funções recusivas podem consumir muita memória e nem sempre são a melhor solução, mas existem alguns problemas nos quais o uso da recursão pode fornecer uma solução mais simples e elegante.
 
-(Role até o final desta página para ver como uma implementação de atoi pode realmente parecer.  
+(Role até o final desta página para ver como uma implementação de `atoi` pode realmente parecer.  
 
 ## dicas
-* Comece obtendo o índice do último charna string (o charantes do \0).  
-* Converta isso charem seu valor numérico. Você pode subtrair alguns charpara fazer isso?  
-* Remova o último charda string movendo o terminador nulo uma posição para a esquerda.  
+* Comece obtendo o índice do último `char` na string (o `char` antes do `\0`).  
+* Converta isso `char` em seu valor numérico. Você pode subtrair alguns `char` para fazer isso?  
+* Remova o último `char` da string movendo o terminador nulo uma posição para a esquerda.  
 * Retorne esse valor mais 10 vezes o valor inteiro da nova string abreviada.  
 * Lembre-se de que você precisa de um caso base ao criar uma função recursiva.  
 
