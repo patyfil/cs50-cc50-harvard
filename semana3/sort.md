@@ -10,8 +10,9 @@
 Analise três programas de classificação para determinar quais algoritmos eles usam.  
 
 Obs: Caso ocorra o erro: Permission denied
-<img src="erroPermissionDeniedSolution.jpg" />
-A solução é dar permissão para o usuário digitando: chmod 700 sort(nr)
+<img src="erroPermissionDeniedSolution.jpg" />  
+A solução é dar permissão para o usuário digitando:  
+`chmod 700 sort(nr)`
 
 # Começando  
 
