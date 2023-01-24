@@ -28,11 +28,10 @@ Neste problema, você começará com uma implementação simples de atoi que lid
 * Retorne esse valor mais 10 vezes o valor inteiro da nova string abreviada.  
 * Lembre-se de que você precisa de um caso base ao criar uma função recursiva.  
 
-Demonstração
+# Demonstração  
 
-<img src="1demo.jpg" width=30 />
-<img src="2demo.jpg" width=30 />
-
+<img src="1demo.jpg" width=30 />  
+<img src="2demo.jpg" width=30 />  
 
 # Começando  
 
