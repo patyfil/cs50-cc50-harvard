@@ -5,7 +5,7 @@
    <a href="https://patyfil.github.io/cs50-cc50-harvard/3-Algoritmos.html">Voltar ao Índice da Semana 3</a>
 </p>
 
-# [recursivoatoi](https://cs50.harvard.edu/x/2023/problems/3/atoi/)  
+# [Recursivo atoi](https://cs50.harvard.edu/x/2023/problems/3/atoi/)  
 
 ## Metas de aprendizagem  
 
@@ -123,7 +123,8 @@ int main(void)
 }
 ```
 
-De `techiedelight.com/implement-atoi-function-c-iterative-recursive`.
+De [Implemente a função atoi() em C | Iterativo e Recursivo](https://www.techiedelight.com/implement-atoi-function-c-iterative-recursive/).  
+
 
 <p align="right">
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
