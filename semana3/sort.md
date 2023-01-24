@@ -40,9 +40,7 @@ Se você tiver algum problema, siga estas mesmas etapas novamente e veja se cons
 
 9 - Teste seu código: `check50 cs50/labs/2023/x/sort`;  
 
-10 - Avalie o estilo do seu código: `style50 sort.c`;  
-
-11 - Envie seu código: `submit50 cs50/labs/2023/x/sort` depois digite: `yes`  
+10 - Envie seu código: `submit50 cs50/labs/2023/x/sort` depois digite: `yes`  
 
 &nbsp;
 
