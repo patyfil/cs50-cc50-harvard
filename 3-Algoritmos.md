@@ -57,10 +57,10 @@
 
 Além do laboratório e do conjunto de problemas desta semana, você pode tentar qualquer um destes (opcional!) problemas práticos:
 
-* [Recursiveatoi](https://cs50.harvard.edu/x/2023/problems/3/atoi/), para praticar a criação de funções recursivas  
-* [Average Temperatures (Temperaturas médias)](https://cs50.harvard.edu/x/2023/problems/3/temps/), para praticar o trabalho com `struct`s e algoritmos de classificação  
-* [Max](https://cs50.harvard.edu/x/2023/problems/3/max/), para praticar passando arrays para funções e encontrando valores máximos  
-* [Snackbar](https://cs50.harvard.edu/x/2023/problems/3/snackbar/), para praticar usando `struct`s e escrevendo um algoritmo de busca linear  
+* [Recursiveatoi](https://patyfil.github.io/cs50-cc50-harvard/semana3/recursivoatoi), para praticar a criação de funções recursivas.  
+* [Average Temperatures (Temperaturas médias)](https://patyfil.github.io/cs50-cc50-harvard/semana3/temps), para praticar o trabalho com `struct`s e algoritmos de classificação.  
+* [Max](https://patyfil.github.io/cs50-cc50-harvard/semana3/max), para praticar passando arrays para funções e encontrando valores máximos  
+* [Snackbar](https://patyfil.github.io/cs50-cc50-harvard/semana3/snackbar), para praticar usando `struct`s e escrevendo um algoritmo de busca linear  
 
 &nbsp;
 
