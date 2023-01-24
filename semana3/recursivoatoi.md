@@ -128,7 +128,7 @@ int main(void)
 }
 ```
 
-De [Implemente a função atoi() em C | Iterativo e Recursivo](https://www.techiedelight.com/implement-atoi-function-c-iterative-recursive/).  
+De [Implemente a função atoi() em C - Iterativo e Recursivo](https://www.techiedelight.com/implement-atoi-function-c-iterative-recursive/).  
 
 
 <p align="right">
