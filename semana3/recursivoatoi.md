@@ -30,8 +30,8 @@ Neste problema, você começará com uma implementação simples de `atoi` que l
 
 # Demonstração  
 
-<img src="1demo.jpg" width=30 />  
-<img src="2demo.jpg" width=30 />  
+<img src="1demo.jpg" />  
+<img src="2demo.jpg" />  
 
 # Começando  
 
