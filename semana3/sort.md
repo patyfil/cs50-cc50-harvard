@@ -9,7 +9,7 @@
 
 Analise três programas de classificação para determinar quais algoritmos eles usam.  
 
-Obs: Caso ocorra o erro: Permission denied  
+Obs: Caso ocorra o erro: **Permission denied**  
 
 <img src="erroPermissionDeniedSolution.jpg" />  
 
