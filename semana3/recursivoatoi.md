@@ -9,7 +9,7 @@
 
 ## Metas de aprendizagem  
 
-* Aprofunde a compreensão das cordas
+* Aprofunde a compreensão de uma String (um vetor de caracteres / textos)
 * Pratique a criação de funções recursivas
 
 # Introdução ao Exercício  
