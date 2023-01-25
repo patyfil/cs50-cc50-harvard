@@ -130,7 +130,7 @@ Para avaliar o estilo do seu código, digite `$` no prompt.
 
 Não há necessidade de enviar! Este é um problema prático opcional.
 
-# SOLUÇÃO 
+# SOLUÇÃO
 
 ``` 
 // Practice using structs
