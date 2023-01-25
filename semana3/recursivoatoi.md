@@ -23,7 +23,7 @@ Neste problema, você começará com uma implementação simples de `atoi` que l
 
 ## dicas
 * Comece obtendo o índice do último `char` na string (o `char` antes do `\0`).  
-* Converta isso `char` em seu valor numérico. Você pode subtrair alguns `char` para fazer isso?  
+* Converta esse `char` em seu valor numérico. Você pode subtrair alguns `char` para fazer isso?  
 * Remova o último `char` da string movendo o terminador nulo uma posição para a esquerda.  
 * Retorne esse valor mais 10 vezes o valor inteiro da nova string abreviada.  
 * Lembre-se de que você precisa de um caso base ao criar uma função recursiva.  
