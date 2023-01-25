@@ -130,7 +130,7 @@ int main(void)
 
 De [Implemente a função atoi() em C - Iterativo e Recursivo](https://www.techiedelight.com/implement-atoi-function-c-iterative-recursive/).  
 
-# SOLUÇÃO  
+# SOLUÇÃO 1 
 
 ```
 #include <cs50.h>
@@ -171,6 +171,63 @@ int convert(string input)
   input[length - 1] = '\0';
 
   return num + 10 * convert(input);
+}
+```
+
+# SOLUÇÃO 2
+
+```
+#include <cs50.h>
+#include <ctype.h>
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+
+int convert(string input);
+
+int main(void)
+{
+    string input = get_string("Enter a positive integer: ");
+
+    for (int i = 0, n = strlen(input); i < n; i++)
+    {
+        if (!isdigit(input[i]))
+        {
+            printf("Invalid Input!\n");
+            return 1;
+        }
+    }
+// Convert string to int
+    printf("%i\n", convert(input));
+}
+
+int number = 0;
+int convert(string input)
+{
+    int count = strlen(input);
+    int tempInt = 0;
+
+    if (count == 0)
+    {
+        return number;
+    }
+
+    for (int i = count - 1; i >= 0; i--)
+    {
+        if (count > 0)
+        {
+            tempInt = input[i] - '0';
+            input[i] = '\0';
+            convert(input);
+            number = number * 10 + tempInt;
+            return number;
+            // ASCII '0' = 48
+            // '9' = 57
+            // 789
+            // '9' - '0' = 57 - 48 = 9
+        }
+    }
+    return number;
 }
 ```
 
