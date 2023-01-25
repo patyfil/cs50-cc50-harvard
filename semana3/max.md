@@ -61,18 +61,38 @@ $
 
 # Detalhes da Implementação  
 
-
+A `main` função inicializa a matriz, pede ao usuário para inserir valores e, em seguida, passa a matriz e o número de itens para a `max` função. Conclua a `max` função iterando em todos os elementos da matriz e retorne o valor máximo.
 
 # Pergunta para reflexão  
 
-Por que você precisa de um caso base sempre que cria uma função recursiva?
+* Que tipos de programas você pode imaginar que podem se beneficiar de uma `max` função auxiliar?
 
 # Como testar seu código  
 
 Seu programa deve se comportar de acordo com os exemplos abaixo.
 
+```
+max/ $ ./max
+Number of elements: 3
+Element 0: 2
+Element 1: 10
+Element 2: -1
+The max value is 10.
+```
 
-Não use `check50` para este!
+```
+max/ $ ./max
+Number of elements: 4
+Element 0: -100
+Element 1: -200
+Element 2: -3
+Element 3: -5000
+The max value is -3.
+```
+
+Você pode verificar seu código usando `check50`, um programa que o CS50 usará para testar seu código quando você enviar, digitando o seguinte no `$` prompt. Mas certifique-se de testar você também!  
+
+`check50 cs50/labs/2023/x/max`  
 
 Para avaliar o estilo do seu código, digite `$` no prompt.  
 
@@ -82,7 +102,7 @@ Para avaliar o estilo do seu código, digite `$` no prompt.
 
 Não há necessidade de enviar! Este é um problema prático opcional.
 
-# Uma implementação mais completa  
+# SOLUÇÃO
 
 
 
