@@ -30,8 +30,24 @@ Neste problema, você começará com uma implementação simples de `atoi` que l
 
 # Demonstração  
 
-<img src="1demo.jpg" />  
-<img src="2demo.jpg" />  
+```
+$ ./atoi
+Enter a positive integer: 1000
+1000
+$ ./atoi
+Enter a positive integer: 50
+50
+$ ./atoi
+Enter a positive integer: 110
+110
+$ ./atoi
+Enter a positive integer: 980
+980
+$ ./atoi
+Enter a positive integer: -3
+Invalid Input!
+$
+```
 
 # Começando  
 
