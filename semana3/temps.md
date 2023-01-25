@@ -68,9 +68,7 @@ A `main` função inicializa o `temps` array, chama a `sort_cities` função e i
 Seu programa deve se comportar de acordo com os exemplos abaixo.
 
 ```
-temps/ $ ./temps
-
-Average July Temperatures by City
+$ ./temps
 
 Phoenix: 107
 Las Vegas: 105
@@ -82,7 +80,7 @@ New York: 85
 Boston: 82
 Los Angeles: 82
 San Francisco: 66
-temps/ $ 
+$ 
 ```
 
 Não use `check50` para este!
