@@ -95,10 +95,6 @@ Para avaliar o estilo do seu código, digite `$` no prompt.
 
 Não há necessidade de enviar! Este é um problema prático opcional.
 
-# Uma implementação mais completa  
-
-
-
 <p align="right">
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
 </p>
