@@ -71,7 +71,7 @@ int main(void)
 
 7 - Avalie o estilo do seu código: `style50 population.c`;  
 
-8 - Envie seu código: `submit50 cs50/problems/2022/x/population` depois digite: `yes`  
+8 - Envie seu código: `submit50 cs50/labs/2023/x/population` depois digite: `yes`  
 
 [Ver o progresso no Curso](https://cs50.me/cs50x)
 
