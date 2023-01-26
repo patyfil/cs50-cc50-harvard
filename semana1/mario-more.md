@@ -56,7 +56,7 @@ A execução `code mario.c` deve abrir o arquivo onde você digitará seu códig
 
 10 - Avalie o estilo do seu código: `style50 mario.c`;  
 
-11 - Envie seu código: `submit50 cs50/problems/2023/x/mario/less` depois digite: `yes`  
+11 - Envie seu código: `submit50 cs50/problems/2023/x/mario/more` depois digite: `yes`  
 
 &nbsp;
 
