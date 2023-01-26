@@ -7,7 +7,7 @@
 
 # Lab 1: População (Opcional)  
 
-## [Laboratório 1: Crescimento Populacional]((https://cs50.harvard.edu/x/2021/labs/1/population/))  
+## [Laboratório 1: Crescimento Populacional](https://cs50.harvard.edu/x/2021/labs/1/population/)  
 
 <br>
 
@@ -67,7 +67,7 @@ int main(void)
 }
 ```  
 
-6 - Teste seu código: `check50 cs50/labs/2022/x/population`;  
+6 - Teste seu código: `check50 cs50/labs/2023/x/population`;  
 
 7 - Avalie o estilo do seu código: `style50 population.c`;  
 
