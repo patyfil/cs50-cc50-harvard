@@ -78,7 +78,7 @@ A linha `#define MAX 9` é alguma sintaxe usada aqui para significar que `MAX` �
 
 O arquivo então define uma `struct` chamada `candidate`. Cada um `candidate` tem dois campos: uma `string` chamada `name` que representa o nome do candidato e um `int` chamado `votes` que representa o número de votos que o candidato possui. Em seguida, o arquivo define um array global de `candidates`, onde cada elemento é um `candidate`.
 
-Agora, dê uma olhada na função `main`. Veja se você consegue descobrir onde o programa define uma variável global `candidate_count` que representa o número de candidatos na eleição, copia os argumentos da linha de comando no array `candidatese` e pede ao usuário para digitar o número de eleitores. Em seguida, o programa permite que cada eleitor digite um voto (entendeu como?), chamando a função `vote`  em cada candidato votado. Por fim, `main` faz uma chamada à função `print_winner` para imprimir o vencedor (ou vencedores) da eleição.  
+Agora, dê uma olhada na função `main`. Veja se você consegue descobrir onde o programa define uma variável global `candidate_count` que representa o número de candidatos na eleição, copia os argumentos da linha de comando no array `candidates` e pede ao usuário para digitar o número de eleitores. Em seguida, o programa permite que cada eleitor digite um voto (entendeu como?), chamando a função `vote`  em cada candidato votado. Por fim, `main` faz uma chamada à função `print_winner` para imprimir o vencedor (ou vencedores) da eleição.  
 
 Porém, se você olhar mais abaixo no arquivo, notará que as funções `vote` e `print_winner` foram deixadas em branco. Esta parte depende de você para concluir!
 
