@@ -58,7 +58,7 @@ A execução `code plurality.c` deve abrir o arquivo onde você digitará seu c�
 
 8 - Leia as instruções logo abaixo;
 
-9 - Teste seu código: `check50 cs50/labs/2023/x/plurality`;  
+9 - Teste seu código: `check50 cs50/problems/2023/x/plurality`;  
 
 10 - Avalie o estilo do seu código: `style50 plurality.c`;  
 
@@ -148,6 +148,16 @@ Certifique-se de testar seu código para ter certeza de que ele lida com as segu
 * Votos inválidos para candidatos que não constam na cédula;  
 * Imprimindo o vencedor da eleição se houver apenas um;  
 * Imprimindo o vencedor da eleição se houver vários vencedores;  
+
+# PSEUDOCÓDIGO
+
+1 - Pegar o nome que foi digitado;  
+2 - Comparar com os nomes dos candidatos (precisa corresponder a pelo menos um candidato);  
+3 - Se corresponder a algum nome de candidato, retorne TRUE e adicione 1 voto;  
+4 - Se não corresponder a nenhum candidato, retorne FALSE;  
+5 - Descobrir quem teve mais votos;  
+6 - Imprima quem tiver mais votos;  
+7 - 
 
 <p align="right">
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
