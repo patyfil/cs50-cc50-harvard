@@ -62,7 +62,7 @@ A execução `code plurality.c` deve abrir o arquivo onde você digitará seu c�
 
 10 - Avalie o estilo do seu código: `style50 plurality.c`;  
 
-11 - Envie seu código: `submit50 cs50/labs/2023/x/plurality` depois digite: `yes`  
+11 - Envie seu código: `submit50 cs50/problems/2023/x/plurality` depois digite: `yes`  
 
 &nbsp;
 
