@@ -119,11 +119,11 @@ A execução `code tideman.c` deve abrir o arquivo onde você digitará seu cód
 
 8 - Leia as instruções logo abaixo;
 
-9 - Teste seu código: `check50 cs50/labs/2023/x/tideman`;  
+9 - Teste seu código: `check50 cs50/problems/2023/x/tideman`;  
 
 10 - Avalie o estilo do seu código: `style50 tideman.c`;  
 
-11 - Envie seu código: `submit50 cs50/labs/2023/x/tideman` depois digite: `yes`  
+11 - Envie seu código: `submit50 cs50/problems/2023/x/tideman` depois digite: `yes`  
 
 &nbsp;
 

@@ -100,11 +100,11 @@ A execução `code runoff.c` deve abrir o arquivo onde você digitará seu códi
 
 8 - Leia as instruções logo abaixo;
 
-9 - Teste seu código: `check50 cs50/labs/2023/x/runoff`;  
+9 - Teste seu código: `check50 cs50/problems/2023/x/runoff`;  
 
 10 - Avalie o estilo do seu código: `style50 runoff.c`;  
 
-11 - Envie seu código: `submit50 cs50/labs/2023/x/runoff` depois digite: `yes`  
+11 - Envie seu código: `submit50 cs50/problems/2023/x/runoff` depois digite: `yes`  
 
 &nbsp;
 
