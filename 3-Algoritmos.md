@@ -42,10 +42,10 @@
 # Descritivo dos Exercícios: 
 [ING - Problem Set 3 (ALL)](https://cs50.harvard.edu/x/2023/psets/3/)  
 
-## <img src="assets/folderOpen2.svg" width=30 /> [PORT - Exercício 1: Pluralidade](https://patyfil.github.io/cs50-cc50-harvard/semana3/plurality)  
+## <img src="assets/folderOpen2.svg" width=30 /> [PORT - Exercício 1: Eleição de Pluralidade](https://patyfil.github.io/cs50-cc50-harvard/semana3/plurality)  
 [ING - pset3 exercise 1 - Plurality](https://cs50.harvard.edu/x/2023/psets/3/plurality/)  
 
-## <img src="assets/folderOpen2.svg" width=30 /> [PORT - Exercício 2: Runoff (Eleição com turnos)](https://patyfil.github.io/cs50-cc50-harvard/semana3/runoff)  
+## <img src="assets/folderOpen2.svg" width=30 /> [PORT - Exercício 2: Runoff (Eleição com Turnos)](https://patyfil.github.io/cs50-cc50-harvard/semana3/runoff)  
 [ING - pset3 exercise 2 - Runoff](https://cs50.harvard.edu/x/2023/psets/3/runoff/)  
 
 ## <img src="assets/folderOpen2.svg" width=30 /> [PORT - Exercício 3: Tideman](https://patyfil.github.io/cs50-cc50-harvard/semana3/tideman)  

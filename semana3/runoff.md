@@ -132,7 +132,7 @@ Se você olhar um pouco mais abaixo no arquivo, verá que essas funções — `v
 
 # Especificação
 
-Conclua a implementação de `runoff.c` de forma que simule uma eleição de turnos. Você deve concluir as implementações das funções `vote`, `tabulate`, `print_winner`, `find_min`, `is_tie` e `eliminate` e não deve modificar mais nada `runoff.c`(e a inclusão de arquivos de cabeçalho adicionais, se desejar).  
+Conclua a implementação de `runoff.c` de forma que simule uma eleição de turnos. Você deve concluir as implementações das funções `vote`, `tabulate`, `print_winner`, `find_min`, `is_tie` e `eliminate` e não deve modificar mais nada `runoff.c`(além da inclusão de arquivos de cabeçalho adicionais, se desejar).  
 
 ## `vote`
 
