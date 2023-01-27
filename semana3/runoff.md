@@ -35,6 +35,10 @@ Rank 3: Bob
 Alice
 ```
 
+## Exemplo:  
+<img src="../assets/runoff.jpg" />
+
+
 # Introdução ao Exercício  
 
 Você já conhece as eleições pluralistas, que seguem um algoritmo muito simples para determinar o vencedor de uma eleição: cada eleitor recebe um voto, e o candidato com mais votos vence.  
@@ -58,7 +62,7 @@ A votação por escolha classificada também pode resolver outra desvantagem pot
 
 Quem deve ganhar esta eleição? Em uma votação de pluralidade em que cada eleitor escolhe apenas sua primeira preferência, Charlie vence esta eleição com quatro votos em comparação com apenas três para Bob e dois para Alice. Mas a maioria dos eleitores (5 de 9) ficaria mais feliz com Alice ou Bob em vez de Charlie. Ao considerar as preferências classificadas, um sistema de votação pode escolher um vencedor que reflita melhor as preferências dos eleitores.
 
-Um desses sistemas de votação por escolha classificada é o sistema de runoff instantâneo (ou uma eleição com turnos). Em uma eleição de segundo turno instantânea, os eleitores podem classificar quantos candidatos desejarem. Se algum candidato obtiver a maioria (mais de 50%) dos primeiros votos preferenciais, esse candidato é declarado vencedor da eleição.
+Um desses sistemas de votação por escolha classificada é o sistema de runoff instantâneo (ou uma eleição com turnos). Em uma eleição de segundo turno instantânea, os eleitores podem classificar quantos candidatos desejarem. ***Se algum candidato obtiver a maioria (mais de 50%) dos primeiros votos preferenciais, esse candidato é declarado vencedor da eleição***.
 
 Se nenhum candidato tiver mais de 50% dos votos, ocorre um “segundo turno instantâneo”. O candidato que recebeu o menor número de votos é eliminado da eleição, e quem originalmente escolheu esse candidato como sua primeira preferência agora tem sua segunda preferência considerada. Por que fazer desta forma? Efetivamente, isso simula o que teria acontecido se o candidato menos popular não estivesse na eleição para começar.
 
@@ -132,7 +136,7 @@ Se você olhar um pouco mais abaixo no arquivo, verá que essas funções — `v
 
 # Especificação
 
-Conclua a implementação de `runoff.c` de forma que simule uma eleição de turnos. Você deve concluir as implementações das funções `vote`, `tabulate`, `print_winner`, `find_min`, `is_tie` e `eliminate` e não deve modificar mais nada `runoff.c`(além da inclusão de arquivos de cabeçalho adicionais, se desejar).  
+Conclua a implementação de `runoff.c` de forma que simule uma eleição de turnos. Você deve concluir as implementações das funções `vote`, `tabulate`, `print_winner`, `find_min`, `is_tie` e `eliminate` e não deve modificar mais nada em `runoff.c`(além da inclusão de arquivos de cabeçalho adicionais, se desejar).  
 
 ## `vote`
 

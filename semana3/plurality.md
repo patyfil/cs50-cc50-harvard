@@ -157,7 +157,7 @@ Certifique-se de testar seu código para ter certeza de que ele lida com as segu
 4 - Se não corresponder a nenhum candidato, retorne FALSE;  
 5 - Descobrir quem teve mais votos;  
 6 - Imprima quem tiver mais votos;  
-7 - 
+
 
 <p align="right">
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
