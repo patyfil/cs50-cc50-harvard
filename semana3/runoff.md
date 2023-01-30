@@ -35,6 +35,8 @@ Rank 3: Bob
 Alice
 ```
 
+<img src="../assets/aula3/runoff/runoff.jpg>  
+
 # Introdução ao Exercício  
 
 Você já conhece as eleições pluralistas, que seguem um algoritmo muito simples para determinar o vencedor de uma eleição: cada eleitor recebe um voto, e o candidato com mais votos vence.  
@@ -128,7 +130,7 @@ Em seguida, estão as preferências de uma matriz bidimensional `preferences`. O
 // "preferences[i][j]" é a jª preferência do eleitor i
 int preferences[MAX_VOTERS][MAX_CANDIDATES];
 ```
-# <img src="../assets/aula3/runoff/preferences.jpg" />  
+<img src="../assets/aula3/runoff/preferences.jpg" />  
 
 <img src="../assets/aula3/runoff/matrizPref.jpg" />  
 
