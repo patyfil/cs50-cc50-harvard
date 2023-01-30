@@ -165,16 +165,16 @@ Agora em `main`. Observe que depois de determinar o número de candidatos e o n�
 
 ```
     // LOOP PRINCIPAL 
-    // Continue consultando votos até alcançar o número total de eleitores
+    // Para cada eleitor até alcançar o número total de eleitor
     for (int i = 0; i < voter_count; i++)
     {
 
-        // Consulta para cada classificação
+        // Para cada candidato até alcançar o número total de candidatos
         for (int j = 0; j < candidate_count; j++)
         {
             string name = get_string("Rank %i: ", j + 1);
 
-            // Voto recorde, a menos que seja inválido
+            // Se não for um voto válido, encerre o programa
             if (!vote(i, j, name))
             {
                 printf("Invalid vote.\n");
