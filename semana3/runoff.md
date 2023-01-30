@@ -120,7 +120,18 @@ A execução `code runoff.c` deve abrir o arquivo onde você digitará seu códi
 
 Vamos dar uma olhada no que já está no arquivo `runoff.c`. Estamos definindo duas constantes: `MAX_CANDIDATES` para o número máximo de candidatos na eleição e `MAX_VOTERS` para o número máximo de eleitores na eleição.
 
-Em seguida, estão as preferências de uma matriz bidimensional `preferences`. O matriz `preferences[i]` representará todas as preferências por número de eleitor `i` e o inteiro `preferences[i][j]` aqui armazenará o índice do candidato que é a `j` enésima preferência por eleitor `i`.
+```
+// Máximo de eleitores e candidatos
+#define MAX_VOTERS 100
+#define MAX_CANDIDATES 9
+```
+
+Em seguida, estão as preferências de uma matriz bidimensional `preferences`. A matriz `preferences[i]` representará todas as preferências para o eleitor número `i` e as preferências de inteiros `preferences[i][j]` aqui armazenarão o índice do candidato que é a `j` enésima preferência por eleitor `i`.
+
+```
+// preferences[i][j] é a jª preferência do eleitor i
+int preferences[MAX_VOTERS][MAX_CANDIDATES];
+```
 
 O próximo é um `struct` chamado `candidate`. Cada `candidate` um tem um campo de `string` para seu `name` e `int` representa o número de `votes` que possui atualmente, e um valor `bool` chamado `eliminated` que indica se o candidato foi eliminado da eleição. A matriz `candidates` manterá o controle de todos os candidatos na eleição.
 
