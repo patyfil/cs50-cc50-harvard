@@ -35,7 +35,7 @@ Rank 3: Bob
 Alice
 ```
 
-<img src="../assets/aula3/runoff/runoff.jpg>  
+<img src="../assets/aula3/runoff/runoff.jpg />  
 
 # Introdução ao Exercício  
 
