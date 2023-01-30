@@ -138,7 +138,16 @@ int preferences[MAX_VOTERS][MAX_CANDIDATES];
 
 2ª Turno = Bob é *ELIMINADO* e como Charlie já tinha sido eliminado no 1º Turno, então Alice *VENCE*.  
 
-O próximo é um `struct` chamado `candidate`. Cada `candidate` tem um campo de `string` para seu `name` e `int` representa o número de `votes` que possui atualmente, e um valor `bool` chamado `eliminated` que indica se o candidato foi eliminado da eleição. A matriz `candidates` manterá o controle de todos os candidatos na eleição.
+A próxima parte do código é um `struct` chamado `candidate`. Cada `candidate` tem um campo de `string` para seu `name` e `int` representa o número de `votes` que possui atualmente, e um valor `bool` chamado `eliminated` que indica se o candidato foi eliminado da eleição. A matriz `candidates` manterá o controle de todos os candidatos na eleição.  
+
+```
+// Os candidatos têm nome, contagem de votos e status eliminado
+typedef struct {
+  string name;
+  int votes;
+  bool eliminated;
+} candidate;
+```
 
 <img src="../assets/aula3/runoff/structCandidate.jpg" />  
 
