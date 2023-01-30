@@ -192,7 +192,7 @@ Agora em `main`. Observe que depois de determinar o número de candidatos e o n�
 Uma vez que todos os votos foram alcançados, outro loop começa: este vai continuar repetindo o processo de verificação de um vencedor e eliminando o candidato do último lugar até que haja um vencedor.  
 
 ```
-    // Continue esperando votos até que o vencedor exista
+    // Continue solicitando votos até que o vencedor exista
     while (true)
     {
         // Calcular os votos dados aos candidatos restantes
@@ -222,7 +222,7 @@ Uma vez que todos os votos foram alcançados, outro loop começa: este vai conti
             break;
         }
 
-        // Elimine qualquer um com número mínimo de votos
+        // Elimine qualquer um com menor número de votos
         eliminate(min);
 
         // Redefinir contagem de votos de volta a zero
