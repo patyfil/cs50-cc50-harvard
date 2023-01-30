@@ -36,7 +36,7 @@ Alice
 ```
 
 ## Exemplo:  
-<img src="../assets/runoff.jpg" />
+<img src="../assets/runoff/" />
 
 
 # Introdução ao Exercício  
@@ -126,16 +126,27 @@ Vamos dar uma olhada no que já está no arquivo `runoff.c`. Estamos definindo d
 #define MAX_CANDIDATES 9
 ```
 
-Em seguida, estão as preferências de uma matriz bidimensional `preferences`. A matriz `preferences[i]` representará todas as preferências para o eleitor número `i` e as preferências de inteiros `preferences[i][j]` aqui armazenarão o índice do candidato que é a `j` enésima preferência por eleitor `i`.
+Em seguida, estão as preferências de uma matriz bidimensional `preferences`. O vetor `preferences[i]` representará todas as preferências para o eleitor número `i` e o vetor `preferences[j]` armazenara o índice do candidato `j` que é preferência do eleitor `i`.
 
 ```
-// preferences[i][j] é a jª preferência do eleitor i
+// "preferences[i][j]" é a jª preferência do eleitor i
 int preferences[MAX_VOTERS][MAX_CANDIDATES];
 ```
+<img src="../assets/runoff/preferences.jpg" />  
 
-O próximo é um `struct` chamado `candidate`. Cada `candidate` um tem um campo de `string` para seu `name` e `int` representa o número de `votes` que possui atualmente, e um valor `bool` chamado `eliminated` que indica se o candidato foi eliminado da eleição. A matriz `candidates` manterá o controle de todos os candidatos na eleição.
+<img src="../assets/runoff/matrizPref.jpg" />  
 
-O programa também possui duas variáveis ​​globais: `voter_count` e `candidate_count`.
+O próximo é um `struct` chamado `candidate`. Cada `candidate` tem um campo de `string` para seu `name` e `int` representa o número de `votes` que possui atualmente, e um valor `bool` chamado `eliminated` que indica se o candidato foi eliminado da eleição. A matriz `candidates` manterá o controle de todos os candidatos na eleição.
+
+<img src="../assets/runoff/structCandidate.jpg" />  
+
+O programa também possui duas variáveis ​​globais: `voter_count` e `candidate_count`.  
+
+```
+// Número de eleitores e candidatos
+int voter_count;
+int candidate_count;
+```
 
 Agora em `main`. Observe que depois de determinar o número de candidatos e o número de eleitores, o loop principal de votação começa, dando a cada eleitor a chance de votar. À medida que o eleitor insere suas preferências, a função `vote` é chamada para acompanhar todas as preferências. Se, a qualquer momento, a cédula for considerada inválida, o programa será encerrado.  
 
