@@ -144,7 +144,7 @@ Conclua a função `vote`.
 
 * A função recebe os argumentos `voter`, `rank` e `name`. Se `name` for uma correspondência para o nome de um candidato válido, você deve atualizar a matriz de preferências globais para indicar que o eleitor `voter` tem esse candidato como sua preferência de `rank` (onde `0` é a primeira preferência, `1` é a segunda preferência, etc.).  
 * Se a preferência for registrada com sucesso, a função deve retornar `true`; caso contrário a função deve retornar `false` (se, por exemplo, `name` não for o nome de um dos candidatos).
-* Você pode presumir que não haverá dois candidatos com o mesmo nome.
+* Você pode considerar que não haverá dois candidatos com o mesmo nome.
 
 ### Dicas
 
