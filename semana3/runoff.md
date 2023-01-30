@@ -165,11 +165,11 @@ Agora em `main`. Observe que depois de determinar o número de candidatos e o n�
 
 ```
     // LOOP PRINCIPAL 
-    // Para cada eleitor até alcançar o número total de eleitor
+    // Para cada eleitor i até alcançar o número total de eleitor
     for (int i = 0; i < voter_count; i++)
     {
 
-        // Para cada candidato até alcançar o número total de candidatos
+        // Para cada candidato j até alcançar o número total de candidatos
         for (int j = 0; j < candidate_count; j++)
         {
             string name = get_string("Rank %i: ", j + 1);
