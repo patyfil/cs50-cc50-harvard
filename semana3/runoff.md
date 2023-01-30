@@ -35,10 +35,6 @@ Rank 3: Bob
 Alice
 ```
 
-## Exemplo:  
-<img src="../assets/runoff/" />
-
-
 # Introdução ao Exercício  
 
 Você já conhece as eleições pluralistas, que seguem um algoritmo muito simples para determinar o vencedor de uma eleição: cada eleitor recebe um voto, e o candidato com mais votos vence.  
