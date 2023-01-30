@@ -128,13 +128,13 @@ Em seguida, estão as preferências de uma matriz bidimensional `preferences`. O
 // "preferences[i][j]" é a jª preferência do eleitor i
 int preferences[MAX_VOTERS][MAX_CANDIDATES];
 ```
-<img src="../assets/runoff/preferences.jpg" />  
+<img src="../assets/aula3/runoff/preferences.jpg" />  
 
-<img src="../assets/runoff/matrizPref.jpg" />  
+<img src="../assets/aula3/runoff/matrizPref.jpg" />  
 
 O próximo é um `struct` chamado `candidate`. Cada `candidate` tem um campo de `string` para seu `name` e `int` representa o número de `votes` que possui atualmente, e um valor `bool` chamado `eliminated` que indica se o candidato foi eliminado da eleição. A matriz `candidates` manterá o controle de todos os candidatos na eleição.
 
-<img src="../assets/runoff/structCandidate.jpg" />  
+<img src="../assets/aula3/runoff/structCandidate.jpg" />  
 
 O programa também possui duas variáveis ​​globais: `voter_count` e `candidate_count`.  
 
