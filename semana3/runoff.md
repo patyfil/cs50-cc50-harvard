@@ -236,15 +236,102 @@ Uma vez que todos os votos foram alcançados, outro loop começa: este vai conti
 
 &nbsp;
 
-A primeira chamada aqui é para uma função chamada `tabulate`, que deve examinar todas as preferências dos eleitores e calcular os totais de votos atuais, observando o candidato mais escolhido de cada eleitor que ainda não foi eliminado. Em seguida, a função `print_winner` deve imprimir o vencedor, caso aplicavel; se houver, o programa acabou. Caso contrário, o programa precisa determinar o menor número de votos que alguém ainda na eleição recebeu (por meio de uma chamada para `find_min`). Se todos na eleição estiverem empatados com o mesmo número de votos (conforme determinado pela função `is_tie`), a eleição é declarada empatada; caso contrário, o candidato (ou candidatos) em último lugar é eliminado da eleição por meio de uma chamada para a função `eliminate`.  
+```
+// Protótipos de funções
+bool vote(int voter, int rank, string name);
+void tabulate(void); // Calcula os totais de votos atuais
+bool print_winner(void);
+int find_min(void); // menor número de votos que alguém na eleição recebeu
+bool is_tie(int min);   // Todos que empataram
+void eliminate(int min);    // Último lugar eliminado
+```
+
+&nbsp;
+
+A primeira chamada aqui é para uma função chamada `tabulate`, que deve examinar todas as preferências dos eleitores e calcular os totais de votos atuais, observando o candidato mais escolhido de cada eleitor que ainda não foi eliminado.  
+
+```
+// Tabelar votos para candidatos não eliminados
+void tabulate(void)
+{
+    // TODO
+    return;
+}
+```
+
+&nbsp;
+
+Em seguida, a função `print_winner` deve imprimir o vencedor, caso aplicavel; se houver, o programa acabou.  
+
+```
+// Imprima o vencedor da eleição, se houver
+bool print_winner(void)
+{
+    // TODO
+    return false;
+}
+```
+
+&nbsp;
+
+Caso contrário, o programa precisa determinar o menor número de votos que alguém na eleição recebeu (por meio de uma chamada para `find_min`).  
+
+```
+// Retorne o menor número de votos que qualquer candidato restante possui
+int find_min(void)
+{
+    // TODO
+    return 0;
+}
+```
+
+&nbsp;
+
+Se todos na eleição estiverem empatados com o mesmo número de votos (conforme determinado pela função `is_tie`), a eleição é declarada empatada; 
+
+```
+// Retorna verdadeiro se a eleição estiver empatada entre todos os candidatos, falso caso contrário.
+bool is_tie(int min)
+{
+    // TODO
+    return false;
+}
+```
+
+&nbsp;
+
+caso contrário, o candidato (ou candidatos) em último lugar é eliminado da eleição por meio de uma chamada para a função `eliminate`.  
+
+```
+// Eliminar o candidato (ou candidatos) em último lugar
+void eliminate(int min)
+{
+    // TODO
+    return;
+}
+```
+
+&nbsp;
 
 Se você olhar um pouco mais abaixo no arquivo, verá que essas funções — `vote`, `tabulate`, `print_winner`, `find_min`, `is_tie` e `eliminate` — são todas deixadas para você concluir!  
+
+&nbsp;
 
 # Especificação
 
 Conclua a implementação de `runoff.c` de forma que simule uma eleição de turnos. Você deve concluir as implementações das funções `vote`, `tabulate`, `print_winner`, `find_min`, `is_tie` e `eliminate` e não deve modificar mais nada em `runoff.c`(além da inclusão de arquivos de cabeçalho adicionais, se desejar).  
 
 ## `vote`
+
+```
+// Registre a preferência se o voto for válido
+
+bool vote(int voter, int rank, string name)
+{
+    // TODO
+    return false;
+}
+```
 
 Conclua a função `vote`.
 
@@ -259,6 +346,15 @@ Conclua a função `vote`.
 * Lembre-se que `preferences[i][j]` armazena o índice do candidato que é a `j` ésima preferência classificada para o `i` ésimo eleitor.  
 
 ## `tabulate`
+
+```
+// Tabelar votos para candidatos não eliminados
+void tabulate(void)
+{
+    // TODO
+    return;
+}
+```
 
 Conclua a função `tabulate`.
 
@@ -275,6 +371,15 @@ Conclua a função `tabulate`.
 
 ## `print_winner`
 
+```
+// Imprima o vencedor da eleição, se houver
+bool print_winner(void)
+{
+    // TODO
+    return false;
+}
+```
+
 Conclua a função `print_winner`.
 
 * Caso algum candidato tenha mais da metade dos votos, seu nome deverá ser impresso em `stdout` e a função deverá retornar `true`.
@@ -286,6 +391,15 @@ Conclua a função `print_winner`.
 
 ## `find_min`
 
+```
+// Retorne o menor número de votos que qualquer candidato restante possui
+int find_min(void)
+{
+    // TODO
+    return 0;
+}
+```
+
 Conclua a função `find_min`.
 
 * A função deve retornar o total mínimo de votos para qualquer candidato que ainda esteja na eleição.
@@ -295,6 +409,15 @@ Conclua a função `find_min`.
 * Você provavelmente desejará percorrer os candidatos para encontrar aquele que ainda está na eleição e tem o menor número de votos. Quais informações você deve acompanhar enquanto percorre os candidatos?
 
 ## `is_tie`
+
+```
+// Retorna verdadeiro se a eleição estiver empatada entre todos os candidatos, falso caso contrário.
+bool is_tie(int min)
+{
+    // TODO
+    return false;
+}
+```
 
 Conclua a função `is_tie`.
 
@@ -306,6 +429,15 @@ Conclua a função `is_tie`.
 * Lembre-se que o empate acontece se todos os candidatos ainda na eleição tiverem o mesmo número de votos. Observe também que a função `is_tie` aceita um argumento `min`, que é o menor número de votos que qualquer candidato possui atualmente. Como você pode usar essa informação para determinar se a eleição é um empate (ou, inversamente, não é um empate)?
 
 ## `eliminate`
+
+```
+// Eliminar o candidato (ou candidatos) em último lugar
+void eliminate(int min)
+{
+    // TODO
+    return;
+}
+```
 
 Conclua a função `eliminate`.
 
