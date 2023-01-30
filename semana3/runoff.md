@@ -159,9 +159,82 @@ int voter_count;
 int candidate_count;
 ```
 
-Agora em `main`. Observe que depois de determinar o número de candidatos e o número de eleitores, o loop principal de votação começa, dando a cada eleitor a chance de votar. À medida que o eleitor insere suas preferências, a função `vote` é chamada para acompanhar todas as preferências. Se, a qualquer momento, a cédula for considerada inválida, o programa será encerrado.  
+Agora em `main`. Observe que depois de determinar o número de candidatos e o número de eleitores, o loop principal de votação começa, dando a cada eleitor a chance de votar.  
+
+À medida que o eleitor insere suas preferências, a função `vote` é chamada para acompanhar todas as preferências. Se, a qualquer momento, a cédula for considerada inválida, o programa será encerrado.  
+
+```
+    // LOOP PRINCIPAL 
+    // Continue consultando votos até alcançar o número total de eleitores
+    for (int i = 0; i < voter_count; i++)
+    {
+
+        // Consulta para cada classificação
+        for (int j = 0; j < candidate_count; j++)
+        {
+            string name = get_string("Rank %i: ", j + 1);
+
+            // Voto recorde, a menos que seja inválido
+            if (!vote(i, j, name))
+            {
+                printf("Invalid vote.\n");
+                return 4;
+            }
+        }
+
+        printf("\n");
+    }
+```
+
+&nbsp;
+
 
 Uma vez que todos os votos foram alcançados, outro loop começa: este vai continuar repetindo o processo de verificação de um vencedor e eliminando o candidato do último lugar até que haja um vencedor.  
+
+```
+    // Continue esperando votos até que o vencedor exista
+    while (true)
+    {
+        // Calcular os votos dados aos candidatos restantes
+        tabulate();
+
+        // Verifique se a eleição foi vencida
+        bool won = print_winner();
+        if (won)
+        {
+            break;
+        }
+
+        // Elimine os últimos candidatos
+        int min = find_min();
+        bool tie = is_tie(min);
+
+        // Se empatar, todos ganham
+        if (tie)
+        {
+            for (int i = 0; i < candidate_count; i++)
+            {
+                if (!candidates[i].eliminated)
+                {
+                    printf("%s\n", candidates[i].name);
+                }
+            }
+            break;
+        }
+
+        // Elimine qualquer um com número mínimo de votos
+        eliminate(min);
+
+        // Redefinir contagem de votos de volta a zero
+        for (int i = 0; i < candidate_count; i++)
+        {
+            candidates[i].votes = 0;
+        }
+    }
+    return 0;
+```
+
+&nbsp;
 
 A primeira chamada aqui é para uma função chamada `tabulate`, que deve examinar todas as preferências dos eleitores e calcular os totais de votos atuais, observando o candidato mais escolhido de cada eleitor que ainda não foi eliminado. Em seguida, a função `print_winner` deve imprimir o vencedor, caso aplicavel; se houver, o programa acabou. Caso contrário, o programa precisa determinar o menor número de votos que alguém ainda na eleição recebeu (por meio de uma chamada para `find_min`). Se todos na eleição estiverem empatados com o mesmo número de votos (conforme determinado pela função `is_tie`), a eleição é declarada empatada; caso contrário, o candidato (ou candidatos) em último lugar é eliminado da eleição por meio de uma chamada para a função `eliminate`.  
 
