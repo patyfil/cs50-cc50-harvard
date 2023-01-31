@@ -3,7 +3,6 @@
 </p>
 
 # Semana 0 (Módulo 0 - Scratch) 
-## [Descritivo versão 2023 em Inglês](https://cs50.harvard.edu/x/2023/psets/0/scratch/)  
 
 ### <img src="assets/baixar.svg" width=25 /> [BAIXAR OS ARQUIVOS DESSA AULA](./assets/ArquivosZips/semana0/src0.zip)  
 ### <img src="assets/baixar.svg" width=25 /> [BAIXAR O SLIDE DESSA AULA](./assets/slides/0-Scratch.pdf)  
@@ -19,6 +18,7 @@
 <br>
 
 ## Exercício 1  * Para enviar  
+[Descritivo versão 2023 em Inglês](https://cs50.harvard.edu/x/2023/psets/0/scratch/)  
 ### **Descritivo do Exercício**:
 
 <br>
