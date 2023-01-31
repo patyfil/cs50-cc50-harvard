@@ -18,11 +18,16 @@
 
 <br>
 
-## Exercício 1 (2023) - [Scratch](https://cs50.harvard.edu/x/2023/psets/0/scratch/) ( Para enviar )
+## Exercício 1 (2023)  
+
+* Para enviar  
+
 <br>
 
 ### **Descritivo do Exercício**:
+
 <br>
+
 É hora de escolher sua própria aventura! Sua tarefa, é implementar no Scratch, em [scratch.mit.edu](https://scratch.mit.edu/), qualquer projeto de sua escolha, seja uma história interativa, jogo, animação ou qualquer outra coisa, sujeito apenas aos seguintes requisitos:  
 
 •	Seu projeto deve ter pelo menos dois sprites, pelo menos um dos quais não deve ser um gato.
