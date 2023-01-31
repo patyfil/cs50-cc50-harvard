@@ -224,8 +224,58 @@ Em seguida, o programa percorre todos os votantes e coleta suas preferências em
 
 Assim que todos os votos forem recebidos, os pares de candidatos são adicionados à `pairs` matriz por meio de uma chamada para `add_pairs`, classificados por meio de uma chamada para `sort_pairs` e bloqueados no gráfico por meio de uma chamada para `lock_pairs`. Por fim, `print_winner` é chamado a imprimir o nome do vencedor da eleição!  
 
-Mais abaixo no arquivo, você verá que as funções `vote`, `record_preference`, `add_pairs`, `sort_pairs`, `lock_pairs` e `print_winner` são deixadas em branco. Isso é contigo!  
+```
+    add_pairs();
+    sort_pairs();
+    lock_pairs();
+    print_winner();
+```
 
+Mais abaixo no arquivo, você verá que as funções `vote`, `record_preference`, `add_pairs`, `sort_pairs`, `lock_pairs` e `print_winner` são deixadas em branco. Isso é com você!  
+
+```
+// Atualizar ranks com novo voto
+bool vote(int rank, string name, int ranks[])
+{
+    // TODO
+    return false;
+}
+
+// Atualize as preferências dadas as classificações de um eleitor
+void record_preferences(int ranks[])
+{
+    // TODO
+    return;
+}
+
+// Pares de registro de candidatos onde um é preferido sobre o outro
+void add_pairs(void)
+{
+    // TODO
+    return;
+}
+
+// Ordene os pares em ordem decrescente de força de vitória
+void sort_pairs(void)
+{
+    // TODO
+    return;
+}
+
+// Trave os pares no gráfico 'candidato' em ordem, sem criar ciclos
+void lock_pairs(void)
+{
+    // TODO
+    return;
+}
+
+// Imprima o vencedor da eleição
+void print_winner(void)
+{
+    // TODO
+    return;
+}
+```
 
 # ESPECIFICAÇÃO
 
