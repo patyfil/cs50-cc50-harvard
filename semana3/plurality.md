@@ -45,7 +45,7 @@ OBS: Caso a pasta possua espaço, por exemplo: *Semana 3*
 Será necessário colocar aspas para entrar na pasta: `cd 'Semana 3'` 
 
 3 - No terminal digite o comando: `wget https://cdn.cs50.net/2022/fall/psets/3/plurality.zip`  
-seguido de *ENTER* para baixar o arquivo zipado [plurality.zip](src="../assets/ArquivosZips/semana3/plurality.zip") que contem a pasta *plurality* com seus arquivos.  
+seguido de *ENTER* para baixar o arquivo zipado [plurality.zip](../assets/ArquivosZips/semana3/plurality.zip) que contem a pasta *plurality* com seus arquivos.  
 
 4 - Execute o unzip: `unzip plurality.zip` para extrair a pasta *plurality* dentro da pasta *pset3*.  
 
