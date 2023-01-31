@@ -21,7 +21,8 @@ Será necessário colocar aspas para entrar na pasta: `cd 'Semana 1'`
 Seu prompt do terminal agora deve se parecer com o código: `hello/ $`
 
 6 - Crie o arquivo *hello.c*: `code hello.c`  
-OBS: Deve abrir automaticamente no editor de texto do seu espaço de código.   Assim que você salvar o arquivo com command-S (no macOS) ou control-S (no Windows), ele também deve aparecer no explorador do seu codespace.  
+OBS: Deve abrir automaticamente no editor de texto do seu espaço de código.   
+Assim que você salvar o arquivo com command-S (no macOS) ou control-S (no Windows), ele também deve aparecer no explorador do seu codespace.  
 
 7 - No arquivo *hello.c* escreva seu primeiro programa digitando precisamente estas linhas em hello.c:  
 
