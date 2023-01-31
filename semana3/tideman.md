@@ -79,7 +79,7 @@ Entre Alice e Bob, Alice é preferida a Bob por uma margem de 7-2. Entre Bob e C
 
 Para lidar com isso, o algoritmo Tideman deve ter cuidado para evitar a criação de ciclos no gráfico candidato. Como ele faz isso? O algoritmo bloqueia as arestas mais fortes primeiro, já que essas são indiscutivelmente as mais significativas. Em particular, o algoritmo Tideman especifica que as arestas de cada "duelo" devem ser “travadas” no gráfico uma de cada vez, com base na “força” da vitória (quanto mais pessoas preferirem um candidato ao invés de seu oponente, mais forte será a vitória). . Desde que a aresta possa ser bloqueada no gráfico sem criar um ciclo, a aresta é adicionada; caso contrário, a aresta é ignorada.
 
-Como isso funcionaria no caso dos votos acima? Bem, a maior margem de vitória para um par é Alice vencendo Bob, já que 7 eleitores preferem Alice a Bob (nenhum outro confronto direto tem um vencedor preferido por mais de 7 votantes). Portanto, a seta de Alice-Bob é bloqueada primeiro no gráfico. A próxima maior margem de vitória é a vitória de Charlie por 6-3 sobre Alice, de modo que a flecha é a próxima.
+Como isso funcionaria no caso dos votos acima? Bem, a maior margem de vitória para um par é Alice vencendo Bob, já que 7 eleitores preferem Alice a Bob (nenhum outro confronto direto tem um vencedor preferido por mais de 7 eleitores). Portanto, a seta de Alice-Bob é bloqueada no gráfico primeiro. A próxima maior margem de vitória é a vitória de Charlie por 6-3 sobre Alice, de modo que a flecha é a próxima.
 
 A seguir, a vitória de Bob por 5 a 4 sobre Charlie. Mas observe: se fôssemos adicionar uma flecha de Bob para Charlie agora, criaríamos um ciclo! Como o gráfico não pode permitir ciclos, devemos pular essa aresta e não adicioná-la ao gráfico. Se houvesse mais setas a serem consideradas, olharíamos para as próximas, mas essa era a última seta, então o gráfico está completo.
 
@@ -91,9 +91,9 @@ Com base no gráfico resultante, Charlie é a fonte (não há seta apontando par
 
 Em termos mais formais, o método de votação do Tideman consiste em três partes:
 
-*  **Contagem** : Uma vez que todos os eleitores tenham indicado todas as suas preferências, determine, para cada par de candidatos, quem é o candidato preferido e por qual margem eles são os preferidos.  
-*  **Sort** : Classifica os pares de candidatos em ordem decrescente de força de vitória, onde força de vitória é definida como o número de eleitores que preferem o candidato preferido.  
-*  **Lock** : Começando com o par mais forte, percorra os pares de candidatos em ordem e “trave” cada par no grafo candidato, desde que o travamento desse par não crie um ciclo no grafo.  
+*  **Contagem/Tally** : Uma vez que todos os eleitores tenham indicado todas as suas preferências, determine, para cada par de candidatos, quem é o candidato preferido e por qual margem eles são os preferidos.  
+*  **Classificação/Ordenação/Sort** : Classifica os pares de candidatos em ordem decrescente de força de vitória, onde força de vitória é definida como o número de eleitores que preferem o candidato preferido.  
+*  **Decisão/Lock** : Começando com o par mais forte, percorra os pares de candidatos em ordem e “trave” cada par no grafo candidato, desde que o travamento desse par não crie um ciclo no grafo.  
 
 Assim que o gráfico estiver completo, a fonte do gráfico (aquele sem arestas apontando para ele) é o vencedor!  
 
