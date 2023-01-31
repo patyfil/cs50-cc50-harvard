@@ -5,8 +5,8 @@
 # Week 3's (Módulo 3 - Algoritmos)  
 # <img src="assets/folderOpen2.svg" width=30 /> [Anotações da Aula 3](semana3/aula3.md)  
 
-### <img src="assets/baixar.svg" width=25 /> [BAIXAR OS ARQUIVOS DESSA AULA](semana3/src3.zip)  
-### <img src="assets/baixar.svg" width=25 /> [BAIXAR O SLIDE DESSA AULA](semana3/Algoritmo(2022).pdf)  
+### <img src="assets/baixar.svg" width=25 /> [BAIXAR OS ARQUIVOS DESSA AULA](./assets/ArquivosZips/semana3/src3.zip)  
+### <img src="assets/baixar.svg" width=25 /> [BAIXAR O SLIDE DESSA AULA](./assets/aula3/Algoritmo(2022).pdf)  
 
 
 # Videoaulas - Algoritmos  
