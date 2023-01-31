@@ -57,9 +57,9 @@
 
 Além do laboratório e do conjunto de problemas desta semana, você pode tentar qualquer um destes (opcional!) problemas práticos:
 
-* [Hours](https://patyfil.github.io/cs50-cc50-harvard/semana2/hours.md) [em inglês](https://cs50.harvard.edu/x/2023/problems/2/hours/), para praticar com arrays, passando arrays como parâmetros para uma função, divisão de inteiro e conversão de tipo  
-* [N0 V0w3ls](https://patyfil.github.io/cs50-cc50-harvard/semana2/no-vowels.md) [em inglês](https://cs50.harvard.edu/x/2023/problems/2/no-vowels/), para praticar com strings, argumentos de linha de comando e escrever um programa inteiro do zero  
-* [Password](https://patyfil.github.io/cs50-cc50-harvard/semana2/password.md) [em inglês](https://cs50.harvard.edu/x/2023/problems/2/password/), para praticar a iteração por meio de uma string, usando a `ctype` biblioteca e usando variáveis ​​booleanas  
+* [Hours](https://patyfil.github.io/cs50-cc50-harvard/semana2/hours.md), para praticar com arrays, passando arrays como parâmetros para uma função, divisão de inteiro e conversão de tipo  
+* [N0 V0w3ls](https://patyfil.github.io/cs50-cc50-harvard/semana2/no-vowels.md), para praticar com strings, argumentos de linha de comando e escrever um programa inteiro do zero  
+* [Password](https://patyfil.github.io/cs50-cc50-harvard/semana2/password.md), para praticar a iteração por meio de uma string, usando a `ctype` biblioteca e usando variáveis ​​booleanas  
 
 &nbsp;
 
