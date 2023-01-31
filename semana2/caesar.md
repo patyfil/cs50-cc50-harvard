@@ -26,8 +26,8 @@ Abra o [VS Code](https://code.cs50.io/)
 OBS: Caso a pasta possua espaço, por exemplo: *Semana 2*  
 Será necessário colocar aspas para entrar na pasta: `cd 'Semana 2'` 
 
-3 - No terminal digite o comando: `wget https://cdn.cs50.net/2023/fall/psets/2/caesar.zip`  
-seguido de *ENTER* para baixar o zip *caesar.zip* que contem a pasta *caesar* com o arquivo em C.  
+3 - No terminal digite o comando: `wget https://cdn.cs50.net/2022/fall/psets/2/caesar.zip`  
+seguido de *ENTER* para baixar o zip [caesar.zip](../assets/ArquivosZips/semana2/caesar.zip) que contem a pasta *caesar* com o arquivo em C.  
 
 4 - Execute o unzip: `unzip caesar.zip` para extrair a pasta *caesar* dentro da pasta *pset2*.  
 
@@ -145,6 +145,7 @@ dentro [desta sandbox](https://bit.ly/2Vwi8n0) , substituindo um inteiro válido
 
 
 ## Especificação
+
 Projete e implemente um programa, caesar, que criptografa mensagens usando a cifra de César.
 
 * Implemente seu programa em um arquivo chamado `caesar.c` em um diretório chamado `caesar`.  
