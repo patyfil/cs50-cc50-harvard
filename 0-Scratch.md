@@ -2,7 +2,7 @@
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
 </p>
 
-# Semana 0 (Módulo 0 - Scratch) 
+# Semana 0 - Scratch 
 
 ### <img src="assets/baixar.svg" width=25 /> [BAIXAR OS ARQUIVOS DESSA AULA](./assets/ArquivosZips/semana0/src0.zip)  
 ### <img src="assets/baixar.svg" width=25 /> [BAIXAR O SLIDE DESSA AULA](./assets/slides/0-Scratch.pdf)  
