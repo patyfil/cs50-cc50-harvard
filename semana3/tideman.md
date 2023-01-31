@@ -179,6 +179,12 @@ pair pairs[MAX * (MAX - 1) / 2];
 
 O programa também possui duas variáveis ​​globais: `pair_count` e `candidate_count`, representando o número de pares e número de candidatos nas matrizes `pairs` e `candidates`, respectivamente.  
 
+```
+// Variáveis globais
+int pair_count;
+int candidate_count;
+```
+
 Agora em `main`. Observe que depois de determinar o número de candidatos, o programa percorre o lockedgráfico e inicialmente define todos os valores como `false`, o que significa que nosso gráfico inicial não terá arestas.  
 
 Em seguida, o programa percorre todos os votantes e coleta suas preferências em um array chamado `ranks`(por meio de uma chamada para `vote`), onde `ranks[i]` é o índice do candidato que é a `i` ésima preferência do eleitor. Essas classificações são passadas para a `record_preference` função, cujo trabalho é obter essas classificações e atualizar a `preferences` variável global.  
