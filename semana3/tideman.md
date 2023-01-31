@@ -7,7 +7,7 @@
 
 # [Exercício 3 - Tideman](https://cs50.harvard.edu/x/2023/psets/3/tideman/)  
 
-Para este programa, você implementará um programa que executa uma eleição do Tideman, conforme abaixo.
+Para este programa, você implementará um programa que executa uma eleição Tideman (ou eleição de pares ranqueados), conforme abaixo.
 
 ```
 $ ./tideman Alice Bob Charlie
