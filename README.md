@@ -14,7 +14,7 @@ CS50 é um curso presencial e online de ciência da computação da Universidade
 </p>
 
 
-### 12 semanas - 6 a 18 horas por semana  
+### 12 semanas - 6 a 18 horas por semana (216 horas)  
 **Instituição:** HarvardX  
 **Assunto:** Ciência da Computação   
 **Nível:** Introdutório  
