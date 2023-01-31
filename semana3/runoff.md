@@ -252,6 +252,7 @@ A primeira chamada aqui é para uma função chamada `tabulate`, que deve examin
 
 ```
 // Tabelar votos para candidatos não eliminados
+// Se o candidato não foi eliminado, então add voto.
 void tabulate(void)
 {
     // TODO
