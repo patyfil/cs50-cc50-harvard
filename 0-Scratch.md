@@ -16,8 +16,6 @@
 
 ## <img src="assets/youtube.svg" width=20 /> [CS50 2022 - Lecture 0 - Scratch](https://www.youtube.com/watch?v=4MIBGO9YnCg&t=224s)
 
-## <img src="assets/github-roxo.svg" width=20 /> [Exercícios feito durante a aula](https://github.com/patyfil/cs50-cc50-harvard/tree/main/semana0)  
-
 <br>
 
 ## Exercício 1 (2023) - [Scratch](https://cs50.harvard.edu/x/2023/psets/0/scratch/) ( Para enviar )
