@@ -108,7 +108,7 @@ OBS: Caso a pasta possua espaço, por exemplo: *Semana 3*
 Será necessário colocar aspas para entrar na pasta: `cd 'Semana 3'` 
 
 3 - No terminal digite o comando: `wget https://cdn.cs50.net/2022/fall/psets/3/tideman.zip`  
-seguido de *ENTER* para baixar o arquivo zipado [tideman.zip](src="../assets/ArquivosZips/semana3/tideman.zip") que contem a pasta *tideman* com seus arquivos.  
+seguido de *ENTER* para baixar o arquivo zipado [tideman.zip](../assets/ArquivosZips/semana3/tideman.zip) que contem a pasta *tideman* com seus arquivos.  
 
 4 - Execute o unzip: `unzip tideman.zip` para extrair a pasta *tideman* dentro da pasta *pset3*.  
 
