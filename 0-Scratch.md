@@ -18,7 +18,7 @@
 <br>
 
 ## Exercício 1  * Para enviar  
-[Descritivo versão 2023 em Inglês](https://cs50.harvard.edu/x/2023/psets/0/scratch/)  
+[Descritivo versão 2023 (em Inglês)](https://cs50.harvard.edu/x/2023/psets/0/scratch/)  
 ### **Descritivo do Exercício**:
 
 <br>
