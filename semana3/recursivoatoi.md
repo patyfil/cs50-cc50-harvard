@@ -55,7 +55,7 @@ $
 
 2 - Clique dentro da janela do terminal e execute `cd`.  
 
-3 - Execute `wget https://cdn.cs50.net/2022/fall/labs/3/atoi.zip` seguido de Enter para baixar um zip chamado [atoi.zip](https://patyfil.github.io/cs50-cc50-harvard/semana3/atoi.zip) em seu codespace. Tome cuidado para não ignorar o espaço entre `wget` e o seguinte URL ou qualquer outro caractere!  
+3 - Execute `wget https://cdn.cs50.net/2022/fall/labs/3/atoi.zip` seguido de Enter para baixar um zip chamado [atoi.zip](src="../assets/ArquivosZips/semana3/atoi.zip") em seu codespace. Tome cuidado para não ignorar o espaço entre `wget` e o seguinte URL ou qualquer outro caractere!  
 
 4 - Agora execute `unzip atoi.zip` para criar uma pasta chamada `atoi`.  
 

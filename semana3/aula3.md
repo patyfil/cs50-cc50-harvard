@@ -7,8 +7,8 @@
 
 # Anotações da Aula 3  
 
-### <img src="../assets/baixar.svg" width=25 /> [BAIXAR OS ARQUIVOS DESSA AULA](src3.zip)  
-### <img src="../assets/baixar.svg" width=25 /> [BAIXAR O SLIDE DESSA AULA](Algoritmo(2022).pdf)  
+### <img src="../assets/baixar.svg" width=25 /> [BAIXAR OS ARQUIVOS DESSA AULA](../assets/ArquivosZips/semana3/src3.zip)  
+### <img src="../assets/baixar.svg" width=25 /> [BAIXAR O SLIDE DESSA AULA](../assets/aula3/Algoritmo(2022).pdf)  
 
 # Índice  
 
@@ -111,7 +111,7 @@ Observe, olhando para essa aproximação de código, você quase pode imaginar c
 ### 1. Notação Grande Oh (O) - limite superior:  
 
 É definido como limite superior e limite superior em um algoritmo é a maior quantidade de tempo necessária (o desempenho do pior caso).
-A notação oh grande é usada para descrever o limite superior assintótico. 
+A notação oh grande é usada para descrever o limite superior assintótico.  
 
 n = usado para fornecer limite superior a uma função.  
 Se uma função for O(n) , ela também será automaticamente O(n-quadrado).  

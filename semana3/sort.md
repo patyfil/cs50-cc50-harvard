@@ -11,7 +11,7 @@ Analise três programas de classificação para determinar quais algoritmos eles
 
 Obs: Caso ocorra o erro: **Permission denied**  
 
-<img src="erroPermissionDeniedSolution.jpg" />  
+<img src="../assets/aula3/erroPermissionDeniedSolution.jpg" />  
 
 A solução é dar permissão para o usuário digitando:  
 
@@ -28,7 +28,7 @@ OBS: Caso a pasta possua espaço, por exemplo: *Semana 3*
 Será necessário colocar aspas para entrar na pasta: `cd 'Semana 3'` 
 
 3 - No terminal digite o comando: `wget https://cdn.cs50.net/2022/fall/labs/3/sort.zip`  
-seguido de *ENTER* para baixar o arquivo zipado [sort.zip](https://patyfil.github.io/cs50-cc50-harvard/semana3/sort.zip) que contem a pasta *sort* com seus arquivos.  
+seguido de *ENTER* para baixar o arquivo zipado [sort.zip](../assets/ArquivosZips/semana3/sort.zip) que contem a pasta *sort* com seus arquivos.  
 
 4 - Execute o unzip: `unzip sort.zip` para extrair a pasta *sort* dentro da pasta *pset3*.  
 
