@@ -57,7 +57,7 @@ Portanto, validar números de cartão de crédito não é difícil, mas se torna
 
 ![credit](https://user-images.githubusercontent.com/41968938/206553676-7df57ee1-4b98-4071-b9fc-f1bc1ba9203d.jpg)
 
-[Baixe a planilha](../assets/ex4credit)
+[Baixe a planilha](../assets/ex4credit.xlsx)
 
 OBS: Assim como sabemos que o número é par se for divisível por 2 e o resto for zero, podemos saber qual o último dígito do conjunto de números, dividindo o mesmo por 10, o resto dessa ***divisão inteira*** será o último número.  
 Por exemplo:  
