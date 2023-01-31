@@ -159,6 +159,16 @@ bool locked[MAX][MAX];
 
 O próximo é `struct` chamado `pair`, usado para representar um par de candidatos: cada par inclui o `winner` índice de candidato de e o `loser` índice de candidato de.  
 
+```
+// Cada par tem um vencedor, perdedor
+typedef struct
+{
+    int winner;
+    int loser;
+}
+pair;
+```
+
 Os próprios candidatos são armazenados no array `candidates`, que é um array de `string`s representando os nomes de cada um dos candidatos. Há também uma matriz de `pairs`, que representará todos os pares de candidatos (para os quais um é preferido em detrimento do outro) na eleição.  
 
 O programa também possui duas variáveis ​​globais: `pair_count` e `candidate_count`, representando o número de pares e número de candidatos nas matrizes `pairs` e `candidates`, respectivamente.  
