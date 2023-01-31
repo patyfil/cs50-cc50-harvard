@@ -69,7 +69,7 @@ De um modo geral, o método Tideman funciona construindo um “gráfico” de ca
 
 A seta de Alice para Bob significa que mais eleitores preferem Alice a Bob (5 preferem Alice, 4 preferem Bob). Da mesma forma, as outras setas significam que mais eleitores preferem Alice a Charlie e mais eleitores preferem Charlie a Bob.
 
-Olhando para este gráfico, o método Tideman diz que o vencedor da eleição deve ser a “fonte” do gráfico (ou seja, o candidato que não tem seta apontando para ele). Nesse caso, a fonte é Alice — Alice é a única que não tem nenhuma seta apontando para ela, o que significa que ninguém tem preferência frente a frente com Alice. Alice é assim declarada a vencedora da eleição.
+Olhando para este gráfico, ***o método Tideman diz que o vencedor da eleição deve ser a “fonte” do gráfico (ou seja, o candidato que não tem seta apontando para ele). Nesse caso, a fonte é Alice — Alice é a única que não tem nenhuma seta apontando para ela, o que significa que ninguém tem preferência frente a frente com Alice. Alice é assim declarada a vencedora da eleição.***
 
 É possível, porém, que quando as flechas forem sorteadas, não haja um vencedor Condorcet. Considere as cédulas abaixo.
 
