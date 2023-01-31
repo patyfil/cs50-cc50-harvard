@@ -147,7 +147,9 @@ int preferences[MAX][MAX];
 <img src="../assets/aula3/tideman/tideman.jpg" />  
 
 
-O arquivo também define outro array bidimensional, chamado `locked`, que representará o grafo candidato. `locked` é um array booleano, portanto `locked[i][j]` sendo `true` representa a existência de uma aresta apontando de candidato `i` a candidato `j`; `false` significa que não há borda. (Se curioso, essa representação de um grafo é conhecida como “matriz de adjacência”).  
+O arquivo também define outro array bidimensional, chamado `locked`, que representará o grafo candidato. `locked` é um array booleano, portanto `locked[i][j]` sendo `true` representa a existência de uma borda apontando de candidato `i` a candidato `j`; `false` significa que não há borda. (Se curioso, essa representação de um grafo é conhecida como “matriz de adjacência”).  
+
+* A matriz de adjacências de um grafo é uma matriz booleana com colunas e linhas indexadas pelos vértices.
 
 O próximo é `struct` chamado `pair`, usado para representar um par de candidatos: cada par inclui o `winner` índice de candidato de e o `loser` índice de candidato de.  
 
