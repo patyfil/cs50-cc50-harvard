@@ -199,6 +199,29 @@ Agora em `main`. Observe que depois de determinar o número de candidatos, o pro
 
 Em seguida, o programa percorre todos os votantes e coleta suas preferências em um array chamado `ranks`(por meio de uma chamada para `vote`), onde `ranks[i]` é o índice do candidato que é a `i` ésima preferência do eleitor. Essas classificações são passadas para a `record_preference` função, cujo trabalho é obter essas classificações e atualizar a `preferences` variável global.  
 
+```
+    // Consulta de votos
+    for (int i = 0; i < voter_count; i++)
+    {
+      // ranks[i] é a ith(i-ésima) preferência do eleitor
+      int ranks[candidate_count];
+
+      // Consulta para cada rank
+      for (int j = 0; j < candidate_count; j++) {
+        string name = get_string("Rank %i: ", j + 1);
+
+        if (!vote(j, name, ranks)) {
+          printf("Invalid vote.\n");
+          return 3;
+        }
+        }
+
+        record_preferences(ranks);
+
+        printf("\n");
+    }
+```
+
 Assim que todos os votos forem recebidos, os pares de candidatos são adicionados à `pairs` matriz por meio de uma chamada para `add_pairs`, classificados por meio de uma chamada para `sort_pairs` e bloqueados no gráfico por meio de uma chamada para `lock_pairs`. Por fim, `print_winner` é chamado a imprimir o nome do vencedor da eleição!  
 
 Mais abaixo no arquivo, você verá que as funções `vote`, `record_preference`, `add_pairs`, `sort_pairs`, `lock_pairs` e `print_winner` são deixadas em branco. Isso é contigo!  
