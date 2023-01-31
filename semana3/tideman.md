@@ -45,19 +45,21 @@ Mas o voto de pluralidade tem algumas desvantagens. O que acontece, por exemplo,
 
 Uma votação de pluralidade aqui declararia um empate entre Alice e Bob, já que cada um tem dois votos. Mas esse é o resultado certo?
 
-Há outro tipo de sistema de votação, conhecido como sistema de votação por classificação. Em um sistema de escolha ranqueada, os eleitores podem votar em mais de um candidato. Em vez de apenas votar na primeira escolha, eles podem classificar os candidatos em ordem de preferência. As cédulas resultantes podem, portanto, parecer como abaixo.
+Há outro tipo de sistema de votação, conhecido como sistema de votação por classificação/ranqueado. Em um sistema de escolha ranqueada, os eleitores podem votar em mais de um candidato. Em vez de apenas votar na primeira escolha, eles podem classificar os candidatos em ordem de preferência. As cédulas resultantes podem, portanto, parecer como abaixo.
 
 <img width="831" alt="2tideman" src="https://user-images.githubusercontent.com/41968938/211432495-3e2c573c-a07b-4124-80ad-4125550f159c.png">
 
 Aqui, cada eleitor, além de especificar seu candidato de primeira preferência, também indicou sua segunda e terceira opções. E agora, o que antes era uma eleição empatada agora pode ter um vencedor. A corrida foi originalmente empatada entre Alice e Bob. Mas o eleitor que escolheu Charlie preferiu Alice a Bob, então Alice poderia ser declarada a vencedora.
 
-A votação por escolha classificada também pode resolver outra desvantagem potencial da votação por pluralidade. Confira as votações a seguir.
+A votação por escolha ranqueada/classificada também pode resolver outra desvantagem potencial da votação por pluralidade. Confira as votações a seguir.
 
 <img width="831" alt="3tideman" src="https://user-images.githubusercontent.com/41968938/211432500-52a6f78e-6264-4401-894c-3dda342cfba3.png">
 
 Quem deve ganhar esta eleição? Em uma votação de pluralidade em que cada eleitor escolhe apenas sua primeira preferência, Charlie vence esta eleição com quatro votos em comparação com apenas três para Bob e dois para Alice. (Observe que, se você estiver familiarizado com o sistema de votação de segundo turno instantâneo, Charlie também vence aqui nesse sistema). Alice, no entanto, poderia razoavelmente argumentar que ela deveria ser a vencedora da eleição em vez de Charlie: afinal, dos nove eleitores, a maioria (cinco deles) preferia Alice a Charlie, então a maioria das pessoas ficaria mais feliz com Alice. como o vencedor em vez de Charlie.
 
-Alice é, nesta eleição, a chamada “vencedora de Condorcet” da eleição: aquela que teria vencido qualquer confronto direto contra outro candidato. Se a eleição tivesse sido apenas Alice e Bob, ou apenas Alice e Charlie, Alice teria vencido.
+Alice é, nesta eleição, a chamada “vencedora de Condorcet” da eleição: aquela que teria vencido qualquer confronto direto contra outro candidato. Se a eleição tivesse sido apenas Alice e Bob, ou apenas Alice e Charlie, Alice teria vencido.  
+
+* O vencedor de Condorcet, quando existe, é o candidato que venceria cada um dos outros candidatos numa eleição separada só com os dois. Nos exemplos modernos, os eleitores classificarão os candidatos em ordem de preferência.
 
 O método de votação Tideman (também conhecido como “pares classificados”) é um método de votação de escolha classificada que garante a produção do Condorcet vencedor da eleição, se houver.
 
