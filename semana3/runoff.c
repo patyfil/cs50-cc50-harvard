@@ -117,6 +117,7 @@ bool vote(int voter, int rank, string name) {
 }
 
 // Tabelar votos para candidatos não eliminados
+// Se o candidato não foi eliminado, então add voto.
 void tabulate(void) {
   // TODO
   return;
