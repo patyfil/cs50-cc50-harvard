@@ -140,7 +140,6 @@ Vamos dar uma olhada `tideman.c`.
 Primeiro, observe a matriz bidimensional `preferences`. O inteiro `preferences[i][j]` representará o número de eleitores que preferem candidato `i` a candidato `j`.
 
 ```
-// preferences[i][j] é o número de eleitores que preferem candidato i a candidato j.
 int preferences[MAX][MAX];
 ```
 
