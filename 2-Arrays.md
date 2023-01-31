@@ -3,6 +3,11 @@
 </p>
 
 # Week 2's (Módulo 2 - Array)  
+
+### <img src="assets/baixar.svg" width=25 /> [BAIXAR OS ARQUIVOS DESSA AULA](./assets/ArquivosZips/semana2/src2.zip)  
+### <img src="assets/baixar.svg" width=25 /> [BAIXAR O SLIDE DESSA AULA](./assets/slides/2-Array.pdf)  
+
+
 # Videoaulas - Array  
 
 <p>OBS: Habilitar legendas</p>
