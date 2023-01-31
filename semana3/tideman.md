@@ -157,7 +157,7 @@ O arquivo também define outro array bidimensional, chamado `locked`, que repres
 bool locked[MAX][MAX];
 ```
 
-O próximo é `struct` chamado `pair`, usado para representar um par de candidatos: cada par inclui o `winner` índice de candidato de e o `loser` índice de candidato de.  
+O próximo é `struct` chamado `pair`, usado para representar um par de candidatos: cada par inclui o índice de candidato vencedor `winner` e do candidato perdedor `loser`.  
 
 ```
 // Cada par tem um vencedor, perdedor
