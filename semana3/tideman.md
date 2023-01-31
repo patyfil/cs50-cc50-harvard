@@ -151,6 +151,13 @@ O arquivo também define outro array bidimensional, chamado `locked`, que repres
 
 * A matriz de adjacências de um grafo é uma matriz booleana com colunas e linhas indexadas pelos vértices.
 
+```
+// locked[i][j] 
+// true: significa que existe uma ligação de i apontando para j
+// false: significa que não existe borda de ligação
+bool locked[MAX][MAX];
+```
+
 O próximo é `struct` chamado `pair`, usado para representar um par de candidatos: cada par inclui o `winner` índice de candidato de e o `loser` índice de candidato de.  
 
 Os próprios candidatos são armazenados no array `candidates`, que é um array de `string`s representando os nomes de cada um dos candidatos. Há também uma matriz de `pairs`, que representará todos os pares de candidatos (para os quais um é preferido em detrimento do outro) na eleição.  
