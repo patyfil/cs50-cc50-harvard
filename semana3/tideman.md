@@ -311,7 +311,7 @@ Uma excelente aula para você!
 
 &nbsp;
 
-Uso
+# Uso
 Seu programa deve se comportar conforme o exemplo abaixo:
 
 ```
