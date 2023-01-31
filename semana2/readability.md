@@ -28,8 +28,8 @@ Abra o [VS Code](https://code.cs50.io/)
 OBS: Caso a pasta possua outro nome com espaço, por exemplo: *Semana 2*  
 Será necessário colocar aspas para entrar na pasta: `cd 'Semana 2'` 
 
-3 - No terminal digite o comando: `wget https://cdn.cs50.net/2023/fall/psets/2/readability.zip`  
-seguido de *ENTER* para baixar o zip *readability.zip* que contem a pasta *readability* com o arquivo em C.  
+3 - No terminal digite o comando: `wget https://cdn.cs50.net/2022/fall/psets/2/readability.zip`  
+seguido de *ENTER* para baixar o zip [readability.zip](../assets/ArquivosZips/semana2/readability.zip) que contem a pasta *readability* com o arquivo em C.  
 
 4 - Execute o unzip: `unzip readability.zip` para extrair a pasta *readability* dentro da pasta *pset2*.  
 
