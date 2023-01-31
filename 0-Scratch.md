@@ -18,9 +18,7 @@
 
 <br>
 
-## Exercício 1 (2023)  
-
-* Para enviar  
+## Exercício 1 (2023)  * Para enviar  
 
 <br>
 
