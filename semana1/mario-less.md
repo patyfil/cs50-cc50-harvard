@@ -37,7 +37,7 @@ OBS: Caso a pasta possua espaço, por exemplo: *Semana 1*
 Será necessário colocar aspas para entrar na pasta: `cd 'Semana 1'`  
 
 3 - No terminal digite o comando: `wget https://cdn.cs50.net/2023/fall/psets/1/mario-less.zip`  
-seguido de *ENTER* para baixar o zip *mario-less* que contem a pasta *mario-less* com o arquivo em C.  
+seguido de *ENTER* para baixar o zip [mario-less](../assets/ArquivosZips/semana1/mario-less.zip) que contem a pasta *mario-less* com o arquivo em C.  
 
 4 - Execute o unzip: `unzip mario-less.zip` para extrair a pasta *mario-less* dentro da pasta *pset1*.  
 
