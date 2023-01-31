@@ -48,7 +48,7 @@ Será necessário colocar aspas para entrar na pasta: `cd 'Lab 1'`
 4 - Crie o arquivo *'population.c'*: `code population.c`  
 obs: deve abrir o arquivo onde você digitará seu código para este conjunto de problemas. Se não, refaça seus passos e veja se consegue determinar onde errou!  
 
-5 - Copie o “código de distribuição” [(ou seja, código inicial)](cdn.cs50.net/2020/fall/labs/1/population.c) a seguir em um novo arquivo em seu IDE chamado ***population.c*** .
+5 - Copie o “código de distribuição” [(ou seja, código inicial)](https://cdn.cs50.net/2020/fall/labs/1/population.c) a seguir em um novo arquivo em seu IDE chamado ***population.c*** .
 
 ```c
 #include  
