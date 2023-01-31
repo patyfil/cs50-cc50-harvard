@@ -9,7 +9,7 @@ int calculate_nickels(int cents);
 int calculate_pennies(int cents);
 
 // Quanto de cents ainda deve ao cliente;
-// Quantas moedas você usou ate agora ao passar por esse algoritmo
+// Quantas moedas voce usou ate agora ao passar por esse algoritmo
 
 int main(void)
 {
