@@ -185,7 +185,17 @@ int pair_count;
 int candidate_count;
 ```
 
-Agora em `main`. Observe que depois de determinar o número de candidatos, o programa percorre o lockedgráfico e inicialmente define todos os valores como `false`, o que significa que nosso gráfico inicial não terá arestas.  
+Agora em `main`. Observe que depois de determinar o número de candidatos, o programa percorre o locked gráfico e inicialmente define todos os valores como `false`, o que significa que nosso gráfico inicial não terá arestas.  
+
+```
+    for (int i = 0; i < candidate_count; i++)
+    {
+        for (int j = 0; j < candidate_count; j++)
+        {
+            locked[i][j] = false;
+        }
+    }
+```
 
 Em seguida, o programa percorre todos os votantes e coleta suas preferências em um array chamado `ranks`(por meio de uma chamada para `vote`), onde `ranks[i]` é o índice do candidato que é a `i` ésima preferência do eleitor. Essas classificações são passadas para a `record_preference` função, cujo trabalho é obter essas classificações e atualizar a `preferences` variável global.  
 
