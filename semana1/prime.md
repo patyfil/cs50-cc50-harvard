@@ -7,13 +7,12 @@
 
 # [Prime (Primo)](https://cs50.harvard.edu/x/2023/problems/1/prime/)  
 
-<img src="../assets/prime-numbers.jpg" />  
-
 # Metas de aprendizagem
 * Pratique usando `for` loops  
 * Usando módulo  
 * Criando uma função booleana  
 
+<img src="../assets/prime-numbers.jpg" />  
 
 # Fundo
 [Números primos](https://pt.wikipedia.org/wiki/N%C3%BAmero_primo) são definidos como números inteiros maiores que 1, cujos únicos divisores são 1 e ele mesmo. Portanto, 3 é primo porque seus únicos divisores são 1 e 3, enquanto 4 é composto e não primo, porque é o produto de 2 × 2. Neste laboratório, você escreverá um algoritmo para gerar todos os números primos em um intervalo especificado pelo usuário.
