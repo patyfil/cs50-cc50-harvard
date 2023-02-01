@@ -51,6 +51,10 @@
 ## <img src="assets/folderOpen2.svg" width=30 /> [PORT - Exercício 4: Bulbs](https://patyfil.github.io/cs50-cc50-harvard/semana2/bulbs)  
 [ING - pset2 exercise 3](https://cs50.harvard.edu/x/2023/psets/2/bulbs/)  
 
+## <img src="assets/folderOpen2.svg" width=30 /> [PORT - Exercício 5: Wordle50](https://patyfil.github.io/cs50-cc50-harvard/semana2/wordle50)  
+[ING - pset2 exercise 3](https://cs50.harvard.edu/x/2023/psets/2/wordle50/)  
+
+
 <br>
 
 ## [Decimal ASCII Chart](https://asciichart.com/)
