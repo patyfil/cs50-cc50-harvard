@@ -20,7 +20,7 @@ Existem dois tipos de erros que podem ocorrer ao escrever um programa. Os primei
 
 Na ciência da computação, a sintaxe é importante para um computador entender o que você está dizendo para fazer. Cada linguagem de programação tem suas próprias regras sintáticas, que incluem a combinação de palavras e pontuação.  
 
-Este laboratório começa com o código de distribuição que contém vários erros sintáticos. A ideia é tentar compilar (`make`) o programa, aprender a interpretar as mensagens de erro bastante enigmáticas enviadas pelo compilador e **depurar** o programa.  
+Este exercício começa com o código de distribuição que contém vários erros sintáticos. A ideia é tentar compilar (`make`) o programa, aprender a interpretar as mensagens de erro bastante enigmáticas enviadas pelo compilador e **depurar** o programa.  
 
 ## dicas
 * Você provavelmente verá que o primeiro erro após tentar compilar `debug.c` será `debug.c:9:5: error: use of undeclared identifier 'name'`. O `9` depois `debug.c`:significa que há um problema na linha 9. Por que você acha que diz `undeclared identifier`?  
@@ -37,7 +37,7 @@ Este laboratório começa com o código de distribuição que contém vários er
 2 - Clique dentro da janela do terminal e execute `cd`.  
 3 - No `$`prompt, digite `mkdir debug`  
 4 - Agora execute `cd debug`  
-5 - Em seguida, copie e cole `wget https://cdn.cs50.net/2022/fall/labs/1/debug.c` em seu terminal para baixar o código de distribuição deste laboratório.  
+5 - Em seguida, copie e cole `wget https://cdn.cs50.net/2022/fall/labs/1/debug.c` em seu terminal para baixar o código de distribuição deste exercício.  
 6 - Agora tente compilar este programa, digitando `make debug` e veja o que acontece!  
 7 - Você provavelmente verá um erro que diz:`debug.c:9:5: error: use of undeclared identifier 'name'`  
 8 - Isso significa que há um erro que tem algo a ver com um “identificador não declarado”, na linha 9. Corrija esse bug e tente compilar novamente. Tenha em mente que a depuração é um processo iterativo. Você pode precisar corrigir um erro, compilar e, em seguida, corrigir outro erro, compilar novamente várias vezes!  
