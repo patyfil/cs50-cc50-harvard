@@ -24,7 +24,7 @@
 * Os números divisíveis por vários números são chamados compostos.  
 
 <p align="center">
-<img width= 200 src="../assets/divisao.svg">
+<img width= 500 src="../assets/divisao.svg">
 </p>
 
 # Demonstração
