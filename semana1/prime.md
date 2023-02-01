@@ -31,7 +31,11 @@
 5 é primo, pois também só é divisível por 1 e por ele mesmo.
 12 não é primo, pois é divisível por 1, 2, 3, 4, 6 e 12. É um número composto.
 
-Ao fazer a divisão, um número é primo se: o resto da divisão for diferente de zero e o quociente for menor que o divisor.
+Veja mais sobre "Como reconhecer os números primos" em: https://brasilescola.uol.com.br/matematica/como-reconhecer-os-numeros-primos.htm
+
+"Para identificar um número primo devemos dividi-lo sucessivamente por números primos como: 2, 3, 5. . . e verificar se a divisão é exata (em que o resto é zero) ou não exata (onde o resto é diferente de zero)."
+
+Um número é primo se: o resto da divisão for diferente de zero e o quociente for menor que o divisor.
 Vamos testar o número 17:
 17 / 2 = 8, resta 1;
 17 / 3 = 5, restam 2;
