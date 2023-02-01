@@ -23,7 +23,7 @@
 * Existe apenas um número primo par, 2. Como "dois" é o único número primo par, o termo "primo ímpar" refere-se a todo primo maior do que dois.
 * Os números divisíveis por vários números são chamados compostos.  
 
-<img width= 70 src="../assets/divisao.svg">
+<img width= 200 src="../assets/divisao.svg">
 
 # Demonstração
 
