@@ -9,15 +9,17 @@
 
 # Metas de aprendizagem
 * Trabalhe com diferentes tipos de dados  
-* Fundição de tipo de prática  
+* Fixe com este tipo de prática  
 * Usar operações matemáticas  
 * Crie uma função com parâmetros de entrada e valor de retorno  
 
 # Fundo
-Suponha que você esteja comendo em um restaurante com um amigo e queira dividir a conta igualmente. Você pode querer antecipar o valor que deve antes que a conta chegue com o imposto adicionado. Neste problema, você completará uma função para calcular o valor que cada um de vocês deve com base no valor da conta, do imposto e da gorjeta.  
+Suponha que você esteja comendo em um restaurante com um amigo e queira dividir a conta igualmente.  
+Você pode querer antecipar o valor que deve antes que a conta chegue com o imposto adicionado.  
+Neste problema, você completará uma função para calcular o valor que cada um de vocês deve com base no valor da conta, do imposto e da gorjeta.  
 
 ## dicas
-* Observe que o imposto e a gorjeta são inseridos como porcentagens. Você pode querer alterá-los para valores decimais antes de calcular o total.  
+* Observe que o imposto e a gorjeta são inseridos como **porcentagens**. Você pode querer ***alterá-los para valores decimais*** antes de calcular o total.  
 * Como a gorjeta é inserida como um `int`, lembre-se de que, se você dividir um `int` por um `int`, obterá um `int`!  
 * A ordem das operações aqui é exatamente a mesma da álgebra, onde a multiplicação e a divisão são realizadas antes da adição e da subtração.  
 
