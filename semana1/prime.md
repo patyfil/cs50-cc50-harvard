@@ -22,9 +22,9 @@
 * Por definição, 1 não é um número primo, pois ele não tem dois divisores. Somente é divisível por ele mesmo.
 * Existe apenas um número primo par, 2. Como "dois" é o único número primo par, o termo "primo ímpar" refere-se a todo primo maior do que dois.
 * Os números divisíveis por vários números são chamados compostos.  
-
+<br>
 <p align="center">
-<img width= 500 src="../assets/divisao.svg">
+<img width= 400 src="../assets/divisao.svg">
 </p>
 
 # Demonstração
