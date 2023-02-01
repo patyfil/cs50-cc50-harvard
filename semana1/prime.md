@@ -38,6 +38,7 @@ Vamos testar o número 17:
 17 / 2 = 8, resta 1;  
 17 / 3 = 5, restam 2;  
 17 / 5 = 3, restam 2.  
+
 O número 17 é primo porque nenhum dos divisores primos testados (2, 3, 5) produziu resto 0 e o quociente (8, 5, 3) não era menor que o divisor.  
 
 `Podemos concluir que qualquer número divisível por 2 (maior que 2) não será primo.`  
