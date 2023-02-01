@@ -5,7 +5,7 @@
    <a href="https://patyfil.github.io/cs50-cc50-harvard/1-C.html">Voltar ao Índice da Semana 1</a>
 </p>
 
-# [Prime (Melhor)](https://cs50.harvard.edu/x/2023/problems/1/prime/)  
+# [Prime (Primo)](https://cs50.harvard.edu/x/2023/problems/1/prime/)  
 
 
 # Metas de aprendizagem
@@ -15,12 +15,15 @@
 
 
 # Fundo
-[Números primos](https://en.wikipedia.org/wiki/Prime_number) são definidos como números inteiros maiores que 1, cujos únicos fatores são 1 e ele mesmo. Portanto, 3 é primo porque seus únicos fatores são 1 e 3, enquanto 4 é composto e não primo, porque é o produto de 2 × 2. Neste laboratório, você escreverá um algoritmo para gerar todos os números primos em um intervalo especificado pelo do utilizador.
+[Números primos](https://pt.wikipedia.org/wiki/N%C3%BAmero_primo) são definidos como números inteiros maiores que 1, cujos únicos divisores são 1 e ele mesmo. Portanto, 3 é primo porque seus únicos divisores são 1 e 3, enquanto 4 é composto e não primo, porque é o produto de 2 × 2. Neste laboratório, você escreverá um algoritmo para gerar todos os números primos em um intervalo especificado pelo usuário.
 
 ## dicas
-* O módulo pode ser útil, pois produz o resto ao dividir dois números inteiros.
-* Por definição, 1 não é um número primo.
-* Existe apenas um número primo par, 2.
+* O módulo (`%`) pode ser útil, pois produz o resto ao dividir dois números inteiros.
+* Por definição, 1 não é um número primo, pois ele não tem dois divisores. Somente é divisível por ele mesmo.
+* Existe apenas um número primo par, 2. Como "dois" é o único número primo par, o termo "primo ímpar" refere-se a todo primo maior do que dois.
+* Os números divisíveis por vários números são chamados compostos.  
+
+<img width= 70 src="../assets/divisao.svg">
 
 # Demonstração
 
