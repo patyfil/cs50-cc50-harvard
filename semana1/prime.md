@@ -19,9 +19,26 @@
 
 ## dicas
 * O módulo (`%`) pode ser útil, pois produz o **resto** ao dividir dois números inteiros.
+* Um número é divisível por outro quando o resto da divisão entre os dois é igual a zero.  
 * Por definição, 1 não é um número primo, pois ele não tem dois divisores. Somente é divisível por ele mesmo.
-* Existe apenas um número primo par, 2. Como "dois" é o único número primo par, o termo "primo ímpar" refere-se a todo primo maior do que dois.
+* Existe apenas um número primo par, 2. Como "dois" é o único número primo par, o termo "primo ímpar" refere-se a todo primo maior do que dois. Por tanto sempre que o dividendo for PAR (maior que 2) não será primo, pois todos os demais números pares possuem ao menos 3 divisores, dentre eles o número 1, o próprio número e o número 2.  
+* Um número é divisível por 2 se ele é par, ou seja, termina em 0,2,4,6,8;  
+* O número 5 é o único número primo terminado em 5;  
+* Os demais números primos são ímpares e terminam com os algarismos 1, 3, 7 e 9;  
 * Os números divisíveis por vários números são chamados compostos.  
+* Exemplos de números primos:  
+2 é um número primo, pois só é divisível por 1 e por ele mesmo.
+5 é primo, pois também só é divisível por 1 e por ele mesmo.
+12 não é primo, pois é divisível por 1, 2, 3, 4, 6 e 12. É um número composto.
+
+Ao fazer a divisão, um número é primo se: o resto da divisão for diferente de zero e o quociente for menor que o divisor.
+Vamos testar o número 17:
+17 / 2 = 8, resta 1;
+17 / 3 = 5, restam 2;
+17 / 5 = 3, restam 2.
+O número 17 é primo porque nenhum dos divisores primos testados (2, 3, 5) produziu resto 0 e o quociente (8, 5, 3) não era menor que o divisor.
+
+`Podemos concluir que qualquer número divisível por 2 (maior que 2) não será primo.`
 
 <br>
 
