@@ -23,46 +23,42 @@ Guess 3: since
 You won!    // Você ganhou!
 ```
 
-# Começando
-    
-Abra o VS Code .
+# Começando  
 
-Comece clicando dentro da janela do seu terminal e, em seguida, execute cd-o sozinho. Você deve descobrir que seu “prompt” se parece com o abaixo.
+Abra o [VS Code](https://code.cs50.io/)
 
-`$`  
+1 - Entre no *Terminal* do VsCode: `Ctrl`+`'`  
 
-Clique dentro dessa janela de terminal e execute
+2 - Entrar nessa pasta: `cd pset2`  
+OBS: Caso a pasta possua espaço, por exemplo: *Semana 2*  
+Será necessário colocar aspas para entrar na pasta: `cd 'Semana 2'` 
 
-`wget https://cdn.cs50.net/2022/fall/psets/2/wordle.zip`  
+3 - No terminal digite o comando: `wget https://cdn.cs50.net/2022/fall/psets/2/wordle.zip`  
+seguido de *ENTER* para baixar o zip [wordle.zip](../assets/ArquivosZips/semana2/wordle.zip) que contem a pasta *wordle* com o arquivo em C.  
 
-seguido de Enter para baixar um ZIP chamado wordle.zipem seu codespace. Tome cuidado para não ignorar o espaço entre wgete o seguinte URL ou qualquer outro caractere!
+4 - Execute o unzip: `unzip wordle.zip` para extrair a pasta *wordle* dentro da pasta *pset2*.  
 
-Agora execute:
+5 - Você não precisa mais do arquivo ZIP, então você pode executar o comando para excluir: `rm bulbs.zip`  
 
-`unzip wordle.zip`  
+6 - Agora entre na pasta: `cd wordle`  
 
-para criar uma pasta chamada wordle. Você não precisa mais do arquivo ZIP, então você pode executar  
+7 - Se tudo foi bem sucedido, você deve executar o comando `ls` que listará os arquivos dentro dessa pasta, nesse caso deverá ter o arquivo `wordle.c`  bem como os arquivos `5.txt`, `6.txt`.  
 
-`rm wordle.zip`  
-
-e responda com “y” seguido de Enter no prompt para remover o arquivo ZIP que você baixou.  
-
-Agora digite:
-
-`cd wordle`  
-
-seguido de Enter para entrar (ou seja, abrir) nesse diretório. Seu prompt agora deve se parecer com o abaixo.  
-
-`wordle/ $`  
-
-Se tudo foi bem sucedido, você deve executar  
-
-`ls`
-e veja um arquivo chamado , bem wordle.ccomo 5.txt, 6.txte . A execução deve abrir o arquivo onde você digitará seu código para este conjunto de problemas. Se não, refaça seus passos e veja se consegue determinar onde errou! Se você tentar compilar o jogo agora, ele o fará sem erros, mas ao tentar executá-lo, você verá este erro:7.txt8.txtcode wordle.c
+A execução `code wordle.c` deve abrir o arquivo onde você digitará seu código para este conjunto de problemas. Se não, refaça seus passos e veja se consegue determinar onde errou!  
+* Se você tentar compilar o jogo agora, ele o fará sem erros, mas ao tentar executá-lo, você verá este erro:`7.txt` `8.txt` `code wordle.c`  
 
 `Error opening file 0.txt.`  
 
 É normal, porém, como você ainda não implementou parte do código, precisamos fazer com que essa mensagem de erro desapareça!
+
+8 - No arquivo *wordle.c* faça o exercício proposto;
+
+9 - Teste seu código: `check50 cs50/problems/2023/x/wordle`;  
+
+10 - Avalie o estilo do seu código: `style50 wordle.c`;  
+
+11 - Envie seu código: `submit50 cs50/problems/2023/x/wordle` depois digite: `yes`  
+
 
 # Fundo
 As probabilidades são, se você é um usuário do Facebook, pelo menos um de seus amigos postou algo parecido com isto, especialmente no início de 2022, quando estava na moda:
