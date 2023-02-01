@@ -23,7 +23,15 @@ Neste problema, você completará uma função para calcular o valor que cada um
 * Como a gorjeta é inserida como um `int`, lembre-se de que, se você dividir um `int` por um `int`, obterá um `int`!  
 * A ordem das operações aqui é exatamente a mesma da álgebra, onde a multiplicação e a divisão são realizadas antes da adição e da subtração.  
 
-# Demonstração
+# Demonstração  
+
+```
+half/ $ ./half
+Conta antes do imposto e gorjeta: 12.50
+Porcentagem do imposto sobre a venda: 8.875
+Dica de porcentagem: 20
+Você vai dever $8.17 (cada)!
+```
 
 <img src="../assets/halfDemo.gif" />
 
