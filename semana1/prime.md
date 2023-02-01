@@ -18,7 +18,7 @@
 [Números primos](https://pt.wikipedia.org/wiki/N%C3%BAmero_primo) são definidos como números inteiros maiores que 1, cujos únicos divisores são 1 e ele mesmo. Portanto, 3 é primo porque seus únicos divisores são 1 e 3, enquanto 4 é composto e não primo, porque é o produto de 2 × 2. Neste laboratório, você escreverá um algoritmo para gerar todos os números primos em um intervalo especificado pelo usuário.
 
 ## dicas
-* O módulo (`%`) pode ser útil, pois produz o resto ao dividir dois números inteiros.
+* O módulo (`%`) pode ser útil, pois produz o **resto** ao dividir dois números inteiros.
 * Por definição, 1 não é um número primo, pois ele não tem dois divisores. Somente é divisível por ele mesmo.
 * Existe apenas um número primo par, 2. Como "dois" é o único número primo par, o termo "primo ímpar" refere-se a todo primo maior do que dois.
 * Os números divisíveis por vários números são chamados compostos.  
