@@ -29,7 +29,7 @@ Neste problema, você completará uma função para calcular o valor que cada um
 half/ $ ./half
 Conta antes do imposto e gorjeta: 12.50
 Porcentagem do imposto sobre a venda: 8.875
-Dica de porcentagem: 20
+Porcentagem da gorjeta: 20
 Você vai dever $8.17 (cada)!
 ```
 
