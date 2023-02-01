@@ -29,20 +29,18 @@
 * Exemplos de números primos:  
 2 é um número primo, pois só é divisível por 1 e por ele mesmo.
 5 é primo, pois também só é divisível por 1 e por ele mesmo.
-12 não é primo, pois é divisível por 1, 2, 3, 4, 6 e 12. É um número composto.
+12 não é primo, pois é divisível por 1, 2, 3, 4, 6 e 12. É um número composto.  
 
-Veja mais sobre "Como reconhecer os números primos" em: https://brasilescola.uol.com.br/matematica/como-reconhecer-os-numeros-primos.htm
-
-"Para identificar um número primo devemos dividi-lo sucessivamente por números primos como: 2, 3, 5. . . e verificar se a divisão é exata (em que o resto é zero) ou não exata (onde o resto é diferente de zero)."
+"Para identificar um número primo devemos dividi-lo sucessivamente por números primos como: 2, 3, 5. . . e verificar se a divisão é exata (em que o resto é zero) ou não exata (onde o resto é diferente de zero)."  
 
 Um número é primo se: o resto da divisão for diferente de zero e o quociente for menor que o divisor.
-Vamos testar o número 17:
-17 / 2 = 8, resta 1;
-17 / 3 = 5, restam 2;
-17 / 5 = 3, restam 2.
-O número 17 é primo porque nenhum dos divisores primos testados (2, 3, 5) produziu resto 0 e o quociente (8, 5, 3) não era menor que o divisor.
+Vamos testar o número 17:  
+17 / 2 = 8, resta 1;  
+17 / 3 = 5, restam 2;  
+17 / 5 = 3, restam 2.  
+O número 17 é primo porque nenhum dos divisores primos testados (2, 3, 5) produziu resto 0 e o quociente (8, 5, 3) não era menor que o divisor.  
 
-`Podemos concluir que qualquer número divisível por 2 (maior que 2) não será primo.`
+`Podemos concluir que qualquer número divisível por 2 (maior que 2) não será primo.`  
 
 <br>
 
