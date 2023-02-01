@@ -7,6 +7,7 @@
 
 # [Prime (Primo)](https://cs50.harvard.edu/x/2023/problems/1/prime/)  
 
+<img src="../assets/prime-numbers.jpg" />  
 
 # Metas de aprendizagem
 * Pratique usando `for` loops  
@@ -112,11 +113,11 @@ Você pode verificar seu código usando `check50`, um programa que o CS50 usará
 
 `check50 cs50/labs/2023/x/prime`  
 
-Smilies verdes significam que seu programa passou no teste! Franzidas vermelhas indicarão que seu programa produz algo inesperado. Visite a URL que `check50` gera a saída para ver a entrada `check50` entregue ao seu programa, qual saída ela esperava e qual saída seu programa realmente deu.
+Smilies verdes significam que seu programa passou no teste! Franzidas vermelhas indicarão que seu programa produz algo inesperado. Visite a URL que `check50` gera na saída para ver a entrada `check50` entregue ao seu programa, qual saída ela esperava e qual saída seu programa realmente deu.
 
 Para avaliar se o estilo do seu código (recuos e espaçamento) está correto, digite o seguinte no `$`prompt.
 
-` style50 prime.c`  
+`style50 prime.c`  
 
 # Como enviar
 
