@@ -48,7 +48,7 @@
 ## <img src="assets/folderOpen2.svg" width=30 /> [PORT - Exercício 3: Substitution](https://patyfil.github.io/cs50-cc50-harvard/semana2/substitution)  
 [ING - pset2 exercise 3](https://cs50.harvard.edu/x/2023/psets/2/substitution/)  
 
-## <img src="assets/folderOpen2.svg" width=30 /> [PORT - Exercício 4: Bulbs](https://patyfil.github.io/cs50-cc50-harvard/semana2/substitution)  
+## <img src="assets/folderOpen2.svg" width=30 /> [PORT - Exercício 4: Bulbs](https://patyfil.github.io/cs50-cc50-harvard/semana2/bulbs)  
 [ING - pset2 exercise 3](https://cs50.harvard.edu/x/2023/psets/2/bulbs/)  
 
 <br>
