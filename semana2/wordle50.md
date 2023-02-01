@@ -8,19 +8,19 @@
 # [Exercício 5 - Wordle50](https://cs50.harvard.edu/x/2023/psets/2/wordle50/)  
 
 
-Para esse problema, você implementará um programa que se comporta de maneira semelhante ao popular jogo de palavras diário Wordle .
+Para esse problema, você implementará um programa que se comporta de maneira semelhante ao popular jogo de adivinhação de palavras "Wordle".
 
 ```
 $ ./wordle 5
 This is WORDLE50
-You have 6 tries to guess the 5-letter word I'm thinking of
-Input a 5-letter word: crash
+You have 6 tries to guess the 5-letter word I'm thinking of // Você tem 6 tentativas para adivinhar a palavra de 5 letras que estou pensando
+Input a 5-letter word: crash    // Digite uma palavra de 5 letras: crash
 Guess 1: crash
 Input a 5-letter word: scone
 Guess 2: scone
 Input a 5-letter word: since
 Guess 3: since
-You won!
+You won!    // Você ganhou!
 ```
 
 # Começando
