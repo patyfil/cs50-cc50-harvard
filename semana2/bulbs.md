@@ -118,7 +118,7 @@ Message: HI MOM
 ⚫🟡⚫⚫🟡🟡⚫🟡
 ```
 
-Observe que todos os caracteres estão incluídos nas instruções da lâmpada, incluindo caracteres não alfabéticos como espaços (`00100000`).  
+Observe que todos os caracteres estão incluídos nas instruções da lâmpada, incluindo caracteres não alfabéticos como espaços = decimal 32 (`00100000`).  
 
 # Especificação
 Projete e implemente um programa, `bulbs`, que converta texto em instruções para a faixa de lâmpadas no palco do CS50 da seguinte forma:  
