@@ -85,7 +85,7 @@ Vamos escrever um programa chamado `bulbs` que pega uma mensagem e a converte em
 
 Por fim, interpretaremos esses números binários como instruções para as lâmpadas no palco; 0 está desligado, 1 está ligado. (Você descobrirá que `bulbs.c` inclui uma `print_bulb` função que foi implementada para você, que recebe um `0`ou `1` e emite emojis que representam lâmpadas.)  
 
-Aqui está um exemplo de como o programa concluído pode funcionar. Ao contrário do estágio Sanders, imprimiremos um byte por linha para maior clareza.  
+Aqui está um exemplo de como o programa concluído pode funcionar. Ao contrário do palco Sanders (Theatre, na Universidade Harvard), imprimiremos um byte por linha para maior clareza.  
 
 ```
 # ./bulbs
