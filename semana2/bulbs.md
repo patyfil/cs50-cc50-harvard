@@ -63,11 +63,13 @@ acima para um número diferente. Por exemplo, se você escreveu `123` na base 4,
 
 Os computadores, no entanto, usam base-2 ou *binário*. Em binário, escrever `123` seria um erro, já que os números binários só podem ter `0`s e `1`s. Mas o processo de descobrir exatamente qual número decimal um número binário representa é exatamente o mesmo. Por exemplo, o número `10101` na base-2 representa **1.2⁴ + 0.2³ + 1.2² + 0.2¹ + 1.2°**, que é igual ao número decimal **21**.  
 
-Sistema Unário B = 1;  
+Sistema Unário B = 1 (1);  
 Sistema Binário B = 2 (0 e 1);  
 Sistema Decimal B = 10 (0 a 9);  
 Sistema Hexadecimal B = 16 (0 a 9, A a F);  
-Sistema Octal B = 8 (0 a 8) 
+Sistema Octal B = 8 (0 a 8)  
+
+<img src="../assets/basesNumericas.jpg">  
 
 
 ## Codificando uma mensagem
