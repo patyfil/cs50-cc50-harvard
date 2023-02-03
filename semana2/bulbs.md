@@ -128,9 +128,8 @@ Projete e implemente um programa, `bulbs`, que converta texto em instruções pa
 * Seu programa deve então converter o dado `string` em uma série de números binários de 8 bits, um para cada caractere da string.  
 * Você pode usar a `print_bulb` função fornecida para imprimir uma série de `0`s e `1`s como uma série de emojis amarelos e pretos, que representam lâmpadas acesas e apagadas.  
 * Cada “byte” de 8 símbolos deve ser impresso em sua própria linha quando gerado; deve haver um `\n` após o último “byte” de 8 símbolos também.  
-Dicas para Decimal para Binário.  
 
-## Dicas para Decimal para Binário
+## Dicas de Decimal para Binário
 Vamos ver um exemplo com o número 4. Como você converteria 4 em binário? Comece considerando o bit mais à direita, aquele que — se ativado — adiciona 1 ao número que estamos representando. Você precisa deste bit para estar ligado? Divida 4 por 2 para descobrir:
 
 **4/2 = 2**
