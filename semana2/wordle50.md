@@ -65,25 +65,34 @@ As probabilidades são, se você é um usuário do Facebook, pelo menos um de se
 
 <img src="../assets/wordle.png" />  
 
-Se sim, seu amigo jogou Wordle e está compartilhando os resultados desse dia! A cada dia, uma nova “palavra secreta” é escolhida (a mesma para todos) e o objetivo é adivinhar qual é a palavra secreta em seis tentativas. Felizmente, como existem mais de seis palavras de cinco letras no idioma inglês, você pode obter algumas pistas ao longo do caminho, e a imagem acima mostra a progressão de seu amigo por meio de suas suposições, usando essas pistas para tentar se concentrar no palavra correta. Usando um esquema semelhante ao do jogo Mastermind , se depois de adivinhar aquela letra ficar verde, significa que não só aquela letra está na palavra secreta daquele dia, mas também está na posição correta. Se ficar amarelo, significa que a letra adivinhada aparece em algum lugarna palavra, mas não naquele ponto. As letras que ficam cinzas não estão na palavra e podem ser omitidas de suposições futuras.  
+Se sim, seu amigo jogou Wordle e está compartilhando os resultados desse dia! A cada dia, uma nova “palavra secreta” é escolhida (a mesma para todos) e o objetivo é adivinhar qual é a palavra secreta em seis tentativas. Felizmente, como existem mais de seis palavras de cinco letras no idioma inglês, você pode obter algumas pistas ao longo do caminho, e a imagem acima mostra a progressão de seu amigo por meio de suas suposições, usando essas pistas para tentar se concentrar no palavra correta. 
 
-Vamos terminar de escrever um programa chamado wordleque nos permite recriar este jogo e jogá-lo em nosso terminal. Faremos algumas pequenas alterações no jogo (por exemplo, a maneira como ele lida com uma letra que aparece duas vezes em uma palavra não é a mesma que o jogo real, mas, para simplificar, vamos errar no lado da facilidade de compreensão em vez de uma interpretação perfeitamente fiel), e usaremos texto vermelho em vez de cinza para indicar letras que não estão na palavra. No momento em que o usuário executa o programa, ele deve decidir, fornecendo um argumento de linha de comando, qual é o comprimento da palavra que deseja adivinhar, entre 5 e 8 letras.
+Usando um esquema semelhante ao do jogo Mastermind, se depois de adivinhar aquela **letra ficar verde, significa que não só aquela letra está na palavra secreta daquele dia, mas também está na posição correta**. 
 
-Aqui estão alguns exemplos de como o programa deve funcionar. Por exemplo, se o usuário omitir totalmente um argumento de linha de comando:
+**Se ficar amarelo, significa que a letra adivinhada aparece em algum lugar na palavra, mas não naquele ponto**. 
+
+**As letras que ficam cinzas não estão na palavra e podem ser omitidas de suposições futuras**.  
+
+Vamos terminar de escrever um programa chamado wordle que nos permite recriar este jogo e jogá-lo em nosso terminal. Faremos algumas pequenas alterações no jogo (por exemplo, a maneira como ele lida com uma letra que aparece duas vezes em uma palavra não é a mesma que o jogo real, mas, para simplificar, vamos errar para facilidade de compreensão em vez de uma interpretação perfeitamente fiel), e **usaremos texto vermelho em vez de cinza para indicar letras que não estão na palavra**. 
+
+No momento em que o usuário executa o programa, ele deve decidir, fornecendo um argumento de linha de comando, **qual é o comprimento da palavra que deseja adivinhar, entre 5 e 8 letras**.
+
+Aqui estão alguns exemplos de como o programa deve funcionar. Por exemplo, 
+**se o usuário omitir totalmente um argumento de linha de comando**:
 
 ```
 $ ./wordle
 Usage: ./wordle wordsize
 ```
 
-Se o usuário fornecer um argumento de linha de comando, mas não estiver no intervalo correto:
+**Se o usuário fornecer um argumento de linha de comando, mas não estiver no intervalo correto**:
 
 ```
 $ ./wordle 4
 Error: wordsize must be either 5, 6, 7, or 8
 ```
 
-Veja como o programa pode funcionar se o usuário fornecer uma chave de 5:
+Veja como o programa pode funcionar **se o usuário fornecer uma chave de 5**:
 
 ```
 $ ./wordle 5
@@ -106,7 +115,9 @@ Guess 1: games
 Input a 5-letter word:
 ```
 
-Observe que nem contamos nenhuma dessas tentativas inválidas como palpites. Mas assim que eles fizeram uma tentativa legítima, contamos como um palpite e informamos sobre o status da palavra. Parece que o usuário tem algumas pistas agora; eles sabem que a palavra contém um ae um eem algum lugar, mas não nos locais exatos em que aparecem na palavra games. E eles sabem que g, me snão aparecem na palavra, então suposições futuras podem omiti-los. Talvez eles possam tentar, digamos, a heartseguir! ❤️
+Observe que nem contamos nenhuma dessas tentativas inválidas como palpites. Mas assim que eles fizeram uma tentativa legítima, contamos como um palpite e informamos sobre o status da palavra.  
+
+Parece que o usuário tem algumas pistas agora; eles sabem que a palavra contém um `a` e um `e` em algum lugar, mas não nos locais exatos em que aparecem na palavra `games`. E eles sabem que `g`, `m` e `s` não aparecem na palavra, então suposições futuras podem omiti-las. Talvez eles possam tentar, digamos, a `heart` seguir! ❤️
 
 # Especificação
 
