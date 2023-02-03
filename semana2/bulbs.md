@@ -95,7 +95,7 @@ Message: HI!
 ⚫⚫🟡⚫⚫⚫⚫🟡
 ```
 
-Para verificar nosso trabalho, podemos ler uma lâmpada acesa (🟡) como a `1` e uma lâmpada apagada (⚫) como `0`. Então `HI!` se tornou
+Para verificar nosso trabalho, podemos ler uma lâmpada acesa (🟡) como `1` e uma lâmpada apagada (⚫) como `0`. Então `HI!` se tornou
 
 ```
 01001000
