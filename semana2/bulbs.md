@@ -157,9 +157,11 @@ Vamos continuar ainda mais. Depois de dividir 2 por 2, ficamos com 1. Dividir 1 
 100
 ```
 
-E agora que dividimos nosso número até 0, não precisamos de mais bits para representá-lo. Observe que descobrimos que os bits representam 4 na ordem oposta em que precisamos imprimi-los: provavelmente precisaremos de uma estrutura que nos permita armazenar esses bits, para que possamos imprimi-los adiante mais tarde. E, claro, em seu código real, você estará trabalhando com `char`s de 8 bits, então você vai querer preceder qualquer 0 necessário.
+E agora que dividimos nosso número até 0, não precisamos de mais bits para representá-lo. Observe que descobrimos que os bits representam 4 na ordem oposta em que precisamos imprimi-los: provavelmente precisaremos de uma estrutura que nos permita armazenar esses bits, para que possamos imprimi-los adiante mais tarde. 
 
-Ao verificar os restos, o operador módulo (`%`) pode ser útil! `4 % 2`, por exemplo, retorna 0, o que significa que 2 se divide em 4 com um resto de 0.
+E, claro, em seu código real, você estará trabalhando com `char`s de `8 bits`, então você vai querer preceder qualquer 0 necessário.
+
+Ao verificar os restos, o operador módulo (`%`) pode ser útil! `4 % 2`, por exemplo, retorna 0, o que significa que 4 se divide em 2 com um resto de 0.
 
 <p align="right">
    <a href="https://patyfil.github.io/cs50-cc50-harvard/">Voltar ao README</a>
