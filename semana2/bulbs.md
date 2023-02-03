@@ -133,11 +133,11 @@ Projete e implemente um programa, `bulbs`, que converta texto em instruções pa
 
 <img src="../assets/decBin.png">  
 
-<img src="../assets/dec4.png">  
-
 Vamos ver um exemplo com o número 4. Como você converteria 4 em binário? Comece considerando o bit mais à direita, aquele que — se ativado — adiciona 1 ao número que estamos representando. Você precisa deste bit para estar ligado? Divida 4 por 2 para descobrir:
 
 **4/2 = 2**
+
+<img src="../assets/dec4.png">  
 
 2 divide igualmente em 4, o que nos diz que não há resto de 1 para se preocupar. Podemos deixar esse bit mais à direita com segurança, então:
 
