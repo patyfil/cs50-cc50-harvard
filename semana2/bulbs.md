@@ -79,6 +79,8 @@ Vamos escrever um programa chamado `bulbs` que pega uma mensagem e a converte em
 
 * O primeiro passo consiste em transformar o texto em números decimais. Digamos que queremos codificar a mensagem `HI!`. Felizmente, já temos uma convenção sobre como fazer isso, [ASCII](https://asciichart.com/). Observe que `H` é representado pelo número decimal `72`, `I` é representado por `73` e `!` é representado por `33`.  
 
+<img src="../assets/decimal-ascii.jpg">  
+
 * A próxima etapa envolve pegar nossos números decimais (como `72`, `73` e `33`) e convertê-los em números binários equivalentes, que usam apenas 0s e 1s. Para ter um número consistente de bits em cada um de nossos números binários, suponha que cada decimal seja representado com 8 bits. `72` é `01001000`, `73` é `01001001` e `33` é `00100001`.  
 
 Por fim, interpretaremos esses números binários como instruções para as lâmpadas no palco; 0 está desligado, 1 está ligado. (Você descobrirá que `bulbs.c` inclui uma `print_bulb` função que foi implementada para você, que recebe um `0`ou `1` e emite emojis que representam lâmpadas.)  
