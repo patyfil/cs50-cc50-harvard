@@ -7,20 +7,47 @@
 
 # [Exercício 5 - Wordle50](https://cs50.harvard.edu/x/2023/psets/2/wordle50/)  
 
-
 Para esse problema, você implementará um programa que se comporta de maneira semelhante ao popular jogo de adivinhação de palavras "Wordle".
+
+
+<style type="text/css" rel="stylesheet">
+.wrong {
+  background-color: red
+}
+
+.right {
+  background-color: green;
+}
+
+.close {
+  background-color: yellow;
+}
+</style>
+
+<pre><code>
+$ ./wordle 5
+<span class="right">This is WORDLE50</span>
+You have 6 tries to guess the 5-letter word I'm thinking of
+Input a 5-letter word: crash
+Guess 1: <span class="close">c</span><span class="wrong">ra</span><span class="close">s</span><span class="wrong">h</span>
+Input a 5-letter word: scone
+Guess 2: <span class="right">s</span><span class="close">c</span><span class="wrong">o</span><span class="close">n</span><span class="right">e</span>
+Input a 5-letter word: since
+Guess 3: <span class="right">since</span>
+You won!
+</code></pre>
 
 ```
 $ ./wordle 5
 This is WORDLE50
-You have 6 tries to guess the 5-letter word I'm thinking of // Você tem 6 tentativas para adivinhar a palavra de 5 letras que estou pensando
-Input a 5-letter word: crash    // Digite uma palavra de 5 letras: crash
+Você tem 6 tentativas para adivinhar a palavra de 5 letras que estou pensando
+Digite uma palavra de 5 letras: crash   
 Guess 1: crash
-Input a 5-letter word: scone
+Digite uma palavra de 5 letras: scone
 Guess 2: scone
-Input a 5-letter word: since
+Digite uma palavra de 5 letras: since
 Guess 3: since
-You won!    // Você ganhou!
+Você ganhou!
 ```
 
 # Começando  
