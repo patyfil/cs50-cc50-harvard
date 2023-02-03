@@ -34,18 +34,18 @@ OBS: Caso a pasta possua espaço, por exemplo: *Semana 2*
 Será necessário colocar aspas para entrar na pasta: `cd 'Semana 2'` 
 
 3 - No terminal digite o comando: `wget https://cdn.cs50.net/2022/fall/psets/2/wordle.zip`  
-seguido de *ENTER* para baixar o zip [wordle.zip](../assets/ArquivosZips/semana2/wordle.zip) que contem a pasta *wordle* com o arquivo em C.  
+seguido de *ENTER* para baixar o zip [wordle.zip](../assets/ArquivosZips/semana2/wordle.zip) que contem a pasta *wordle* com os arquivos em txt e em C.  
 
 4 - Execute o unzip: `unzip wordle.zip` para extrair a pasta *wordle* dentro da pasta *pset2*.  
 
-5 - Você não precisa mais do arquivo ZIP, então você pode executar o comando para excluir: `rm bulbs.zip`  
+5 - Você não precisa mais do arquivo ZIP, então você pode executar o comando para excluir: `rm wordle.zip`  
 
 6 - Agora entre na pasta: `cd wordle`  
 
-7 - Se tudo foi bem sucedido, você deve executar o comando `ls` que listará os arquivos dentro dessa pasta, nesse caso deverá ter o arquivo `wordle.c`  bem como os arquivos `5.txt`, `6.txt`.  
+7 - Se tudo foi bem sucedido, você deve executar o comando `ls` que listará os arquivos dentro dessa pasta, nesse caso deverá ter o arquivo `wordle.c`  bem como os arquivos `5.txt`, `6.txt`, `7.txt` e `8.txt`.  
 
 A execução `code wordle.c` deve abrir o arquivo onde você digitará seu código para este conjunto de problemas. Se não, refaça seus passos e veja se consegue determinar onde errou!  
-* Se você tentar compilar o jogo agora, ele o fará sem erros, mas ao tentar executá-lo, você verá este erro:`7.txt` `8.txt` `code wordle.c`  
+* Se você tentar compilar o jogo agora, ele o fará sem erros, mas ao tentar executá-lo, você verá este erro:  
 
 `Error opening file 0.txt.`  
 
