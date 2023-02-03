@@ -130,6 +130,19 @@ Input a 5-letter word:
 
 Nesse ponto, o usuário deve digitar uma palavra de 5 letras. Obviamente, o usuário pode ser teimoso e devemos garantir que ele siga as regras:
 
+<pre><code>
+$ ./wordle 5
+<span class="right">This is WORDLE50</span>
+You have 6 tries to guess the 5-letter word I'm thinking of
+Input a 5-letter word: wordle
+Input a 5-letter word: computer
+Input a 5-letter word: okay
+Input a 5-letter word: games
+Guess 1: <span class="wrong">g</span><span class="close">a</span><span class="wrong">m</span><span class="close">e</span><span class="wrong">s</span>
+Input a 5-letter word:
+</code></pre>
+
+
 ```
 $ ./wordle 5
 This is WORDLE50
@@ -183,6 +196,16 @@ Isso é normal, no entanto! A implementação `print_word` é o `TODO` número 6
 `printf(GREEN"This is WORDLE50"RESET"\n");`  
 
 É claro que, ao contrário do nosso exemplo, você provavelmente não deseja imprimir uma nova linha após cada caractere da palavra (em vez disso, deseja apenas uma nova linha no final, também redefinindo a cor da fonte!), para que não fique parecido com o abaixo de:
+
+<pre><code>
+Input a 5-letter word: games
+Guess 1: <span class="wrong">g</span>
+<span class="close">a</span>
+<span class="wrong">m</span>
+<span class="close">e</span>
+<span class="wrong">s</span>
+Input a 5-letter word:
+</code></pre>
 
 ```
 Input a 5-letter word: games
