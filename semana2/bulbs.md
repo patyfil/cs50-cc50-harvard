@@ -7,12 +7,15 @@
 
 # [Exercício 4 - Bulbs (Lâmpadas)](https://cs50.harvard.edu/x/2023/psets/2/bulbs/)  
 
-Lâmpadas não tão quebradas
+Lâmpadas não estão quebradas  
+
 Na palestra, você deve ter notado o que parecia ser um “bug” na frente do palco, em que algumas das lâmpadas parecem estar sempre apagadas:
 
 <img src="../assets/binary_bulbs.jpg" />  
 
-Cada sequência de lâmpadas, no entanto, codifica uma mensagem em binário , a linguagem que os computadores “falam”. Vamos escrever um programa para fazer suas próprias mensagens secretas, talvez até possamos colocá-las no palco!  
+Cada sequência de lâmpadas, no entanto, codifica uma mensagem em binário, a linguagem que os computadores “falam”.  
+
+Vamos escrever um programa para fazer suas próprias mensagens secretas, talvez até possamos colocá-las no palco!  
 
 # Começando  
 
@@ -53,13 +56,19 @@ Para escrever nosso programa, primeiro precisamos pensar em **bases**.
 
 A *base* mais simples é a base-1, ou *unária*; para escrever um número, *N* , na base-1, simplesmente escreveríamos *N* s consecutivos `1`. Portanto, o número `4` na base 1 seria escrito como `1111`, e o número `12` como `111111111111`. Pense nisso como contar nos dedos ou marcar uma pontuação com marcas em um quadro.  
 
-Você pode ver porque a base-1 não é muito usada hoje em dia. (Os números ficam bastante longos!) Em vez disso, uma convenção comum é a base 10, ou *decimal*. Na base 10, cada *dígito* é multiplicado por alguma potência de 10, para representar números maiores. Por exemplo, **123** é curto para **123 = 1.10² + 2.10^1 + 3.10^0**  
-.
+Você pode ver porque a base-1 não é muito usada hoje em dia. (Os números ficam bastante longos!) Em vez disso, uma convenção comum é a base 10, ou *decimal*. Na base 10, cada *dígito* é multiplicado por alguma potência de 10, para representar números maiores. Por exemplo, **123** é curto para **123 = 1.10² + 2.10¹ + 3.10°**.  
 
 Mudar de base é tão simples como mudar o **10**  
-acima para um número diferente. Por exemplo, se você escreveu `123` na base 4, o número que você realmente escreveria é **123 = 1.4² + 2.4^1 + 3.4^0**, que é igual ao número decimal **27**.  
+acima para um número diferente. Por exemplo, se você escreveu `123` na base 4, o número que você realmente escreveria é **123 = 1.4² + 2.4¹ + 3.4°**, que é igual ao número decimal **27**.  
 
-Os computadores, no entanto, usam base-2 ou *binário*. Em binário, escrever `123` seria um erro, já que os números binários só podem ter `0`s e `1`s. Mas o processo de descobrir exatamente qual número decimal um número binário representa é exatamente o mesmo. Por exemplo, o número `10101` na base-2 representa **1.2^4 + 0.2^3 + 1.2² + 0.2^1 + 1.2^0**, que é igual ao número decimal **21**.
+Os computadores, no entanto, usam base-2 ou *binário*. Em binário, escrever `123` seria um erro, já que os números binários só podem ter `0`s e `1`s. Mas o processo de descobrir exatamente qual número decimal um número binário representa é exatamente o mesmo. Por exemplo, o número `10101` na base-2 representa **1.2⁴ + 0.2³ + 1.2² + 0.2¹ + 1.2°**, que é igual ao número decimal **21**.  
+
+Sistema Unário B = 1;  
+Sistema Binário B = 2 (0 e 1);  
+Sistema Decimal B = 10 (0 a 9);  
+Sistema Hexadecimal B = 16 (0 a 9, A a F);  
+Sistema Octal B = 8 (0 a 8) 
+
 
 ## Codificando uma mensagem
 As lâmpadas só podem estar acesas ou apagadas. Em outras palavras, as lâmpadas representam dois estados possíveis; ou a lâmpada está acesa ou apagada, assim como os números binários são 1 ou 0. Teremos que encontrar uma maneira de codificar o texto como uma sequência de números binários.  
