@@ -157,7 +157,7 @@ Input a 5-letter word:
 
 Observe que nem contamos nenhuma dessas tentativas inválidas como palpites. Mas assim que eles fizeram uma tentativa legítima, contamos como um palpite e informamos sobre o status da palavra.  
 
-Parece que o usuário tem algumas pistas agora; eles sabem que a palavra contém um `a` e um `e` em algum lugar, mas não nos locais exatos em que aparecem na palavra `games`. E eles sabem que `g`, `m` e `s` não aparecem na palavra, então suposições futuras podem omiti-las. Talvez eles possam tentar, digamos, a `heart` seguir! ❤️
+Parece que o usuário tem algumas pistas agora; eles sabem que a palavra contém um `a` e um `e` em algum lugar, mas não nos locais exatos em que aparecem na palavra `games`. E eles sabem que `g`, `m` e `s` não aparecem na palavra, então suposições futuras podem omiti-las. Talvez eles possam tentar, digamos, segue o `coração`! ❤️
 
 # Especificação
 
