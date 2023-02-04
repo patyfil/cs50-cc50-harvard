@@ -30,7 +30,7 @@ Suponha que você esteja fazendo o CS50 (se estiver lendo isso, provavelmente es
 Faça login em [code.cs50.io](https://code.cs50.io/) usando sua conta do GitHub.  
 Clique dentro da janela do terminal e execute `cd`.  
 No $prompt, digite `mkdir hours`  
-Agora executecd `hours`  
+Agora execute `cd hours`  
 Em seguida, copie e cole `wget https://cdn.cs50.net/2022/fall/labs/2/hours.c` em seu terminal para baixar o código de distribuição deste laboratório.  
 
 # Detalhes da Implementação
