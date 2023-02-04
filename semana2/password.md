@@ -25,7 +25,7 @@ Neste laboratório, o usuário é solicitado a fornecer uma senha, que será val
 
 # Demonstração
 
-<img src="../assets/passwordDemo.gif.crdownload" />  
+<img src="../assets/passwordDemo.gif" />  
 
 # Começando
 Faça login em [code.cs50.io](https://code.cs50.io/) usando sua conta do GitHub.  
