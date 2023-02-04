@@ -165,7 +165,17 @@ Projete e implemente um programa, `wordle`, que completa a implementação de no
 
 1 - No primeiro `TODO`, você deve garantir que o programa aceite um único argumento de linha de comando. vamos chamá-lo ***k*** para fins de discussão. Se o programa não foi executado com um único argumento de linha de comando, você deve imprimir a mensagem de erro conforme demonstramos acima e retornar `1`, encerrando o programa.  
 
+```
+$ ./wordle
+Usage: ./wordle wordsize
+```
+
 2 - No segundo `TODO`, você deve se certificar de que ***k*** é um dos valores aceitáveis ​​(5, 6, 7 ou 8) e armazene esse valor em `wordsize`; precisaremos fazer uso disso mais tarde. Se o valor de ***k*** não for um desses quatro valores exatamente, você deve imprimir a mensagem de erro conforme demonstramos acima e retornar `1`, finalizando o programa.  
+
+```
+$ ./wordle 4
+Error: wordsize must be either 5, 6, 7, or 8
+```
 
 Depois disso, a equipe já escreveu algum código que irá percorrer e abrir a lista de palavras para o tamanho da palavra que o usuário deseja adivinhar e selecionar aleatoriamente uma das 1000 opções disponíveis. Não se preocupe em necessariamente entender todo esse código, não é importante para os propósitos desta tarefa. Veremos algo semelhante em uma tarefa posterior, e então fará muito mais sentido! Este é um bom lugar para parar e testar, antes de prosseguir para o próximo `TODO`, se seu código se comporta conforme o esperado. É sempre mais fácil depurar programas se você fizer isso metodicamente!  
 
