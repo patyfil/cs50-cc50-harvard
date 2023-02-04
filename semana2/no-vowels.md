@@ -42,7 +42,7 @@ Até agora, você frequentemente escreveu programas para os quais recebeu códig
 * Esta função irá mudar as seguintes vogais para números: `a` torna-se `6`, etorna -se `3`, itorna -se `1`, `o` torna -se `0` e `u` não muda.
 * O parâmetro de entrada para a `replace` função será `argv[1]` e o valor de retorno é a palavra convertida.
 * A função principal imprimirá a palavra convertida, seguida por `\n`.
-* Você pode tentar usar a [switch](https://cs50.readthedocs.io/style/c/#switches) instrução em sua `replace` função.
+* Você pode tentar usar a instrução [switch](https://cs50.readthedocs.io/style/c/#switches) em sua `replace` função.
 
 # Pergunta para reflexão
 Por que você deseja usar argumentos de linha de comando em vez de `get_string`, `get_int`, etc?
