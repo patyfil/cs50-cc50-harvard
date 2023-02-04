@@ -28,11 +28,11 @@ Até agora, você frequentemente escreveu programas para os quais recebeu códig
 <img src="../assets/no-vowelsDemo.gif" />  
 
 # Começando
-Faça login em [code.cs50.io](https://code.cs50.io/) usando sua conta do GitHub.  
-Clique dentro da janela do terminal e execute `cd`.  
-No `$`prompt, digite `mkdir no-vowels`  
-Agora execute `cd no-vowels`  
-Em seguida, copie e cole `wget https://cdn.cs50.net/2022/fall/labs/2/no-vowels.c` em seu terminal para baixar o código de distribuição deste laboratório.  
+1 - Faça login em [code.cs50.io](https://code.cs50.io/) usando sua conta do GitHub.  
+2 - Clique dentro da janela do terminal e execute `cd`.  
+3 - No `$`prompt, digite `mkdir no-vowels`  
+4 - Agora execute `cd no-vowels`  
+5 - Em seguida, copie e cole `wget https://cdn.cs50.net/2022/fall/labs/2/no-vowels.c` em seu terminal para baixar o código de distribuição deste laboratório.  
 
 # Detalhes da Implementação
 * Implemente seu programa em um arquivo chamado `no-vowels.c` em um diretório chamado `no-vowels`.

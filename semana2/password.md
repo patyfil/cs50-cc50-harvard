@@ -28,11 +28,11 @@ Neste laboratório, o usuário é solicitado a fornecer uma senha, que será val
 <img src="../assets/passwordDemo.gif" />  
 
 # Começando
-Faça login em [code.cs50.io](https://code.cs50.io/) usando sua conta do GitHub.  
-Clique dentro da janela do terminal e execute `cd`.  
-No $prompt, digite `mkdir password`  
-Agora executecd `password`  
-Em seguida, copie e cole `wget https://cdn.cs50.net/2022/fall/labs/2/password.c` em seu terminal para baixar o código de distribuição deste laboratório.
+1 - Faça login em [code.cs50.io](https://code.cs50.io/) usando sua conta do GitHub.  
+2 - Clique dentro da janela do terminal e execute `cd`.  
+3 - No `$`prompt, digite `mkdir password`  
+4 - Agora executecd `password`  
+5 - Em seguida, copie e cole `wget https://cdn.cs50.net/2022/fall/labs/2/password.c` em seu terminal para baixar o código de distribuição deste laboratório.
 Você deve concluir a função, check, que retorna truese a senha passar em todos os critérios e `false` se não passar.
 
 # Detalhes da Implementação

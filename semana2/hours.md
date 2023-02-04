@@ -27,11 +27,11 @@ Suponha que você esteja fazendo o CS50 (se estiver lendo isso, provavelmente es
 <img src="../assets/hoursDemo.gif" />  
 
 # Começando
-Faça login em [code.cs50.io](https://code.cs50.io/) usando sua conta do GitHub.  
-Clique dentro da janela do terminal e execute `cd`.  
-No $prompt, digite `mkdir hours`  
-Agora execute `cd hours`  
-Em seguida, copie e cole `wget https://cdn.cs50.net/2022/fall/labs/2/hours.c` em seu terminal para baixar o código de distribuição deste laboratório.  
+1 - Faça login em [code.cs50.io](https://code.cs50.io/) usando sua conta do GitHub.  
+2 - Clique dentro da janela do terminal e execute `cd`.  
+3 - No `$`prompt, digite `mkdir hours`  
+4 - Agora execute `cd hours`  
+5 - Em seguida, copie e cole `wget https://cdn.cs50.net/2022/fall/labs/2/hours.c` em seu terminal para baixar o código de distribuição deste laboratório.  
 
 # Detalhes da Implementação
 A função `main` solicita ao usuário o número de semanas que um usuário está tomando CS50 e, em seguida, cria uma matriz com tantos elementos. Observe que, após recuperar alguns dados, o programa solicita que o usuário digite “T” ou “A” — “T” deve (mas ainda não!) imprimir o número total de horas que o usuário inseriu, enquanto “A ” deve (mas ainda não!) imprimir as horas médias que o usuário inseriu. Observe que o `do while` loop usa `toupper` para colocar em maiúscula a letra inserida antes de ser salva na variável `output`. Em seguida, a `printf` função chama `calc_hours`. Observe a sintaxe envolvida ao passar um array para uma função.  
