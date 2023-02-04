@@ -12,7 +12,7 @@
 * Pratique usando argumentos de linha de comando  
 * Escreva um programa inteiramente do zero  
 
-<img src="../assets/hours.jpeg" />  
+<img src="../assets/leetspeak-t.jpeg" />  
 
 Fundo
 Se você já esteve na internet, deve ter visto [“leetspeak”](https://en.wikipedia.org/wiki/Leet) (ou “l33tsp36k” para nossos propósitos!), que envolve a substituição de símbolos por caracteres alfabéticos, onde esses símbolos lembram um pouco suas contrapartes alfabéticas. Neste laboratório, você escreverá um programa para substituir certas vogais por dígitos!
