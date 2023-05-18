@@ -1,7 +1,7 @@
 # Debug com Pato de Borracha
 
 Na engenharia de software, a depuração com pato de borracha é um método de depuração de código.  
-O nome é uma referência a uma história do livro ***O Programador Pragmático*** em que um programador explica seu problema para um pato de borracha, 
+O nome é uma referência a uma história do livro ***[O Programador Pragmático](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/)*** em que um programador explica seu problema para um pato de borracha, 
 descrevendo linha a linha o código que já foi escrito.  
 
 Muitos outros termos existem para essa técnica, muitas vezes envolvendo diferentes objetos inanimados ou até animais de estimação, como um cachorro ou um gato.  
